@@ -1,6 +1,7 @@
 /**
  * Videos: the introduction video and the catalog shown on the Videos page.
- * The homepage features three catalog entries by `id` (content/home.ts).
+ * The catalog is ordered by importance: the homepage shows its first three
+ * entries, so moving a video up or down changes both pages.
  *
  * No real videos exist yet: every `source` is `null`, so cards show a
  * "coming soon" state without play controls. To publish a video, set

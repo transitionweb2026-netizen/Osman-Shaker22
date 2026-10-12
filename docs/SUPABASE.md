@@ -47,14 +47,20 @@ environment variables are missing or a request fails. Then switch the `source`
 constant. Components stay unchanged, because they only receive localized,
 resolved values (`getSite(locale)`, `getHome(locale)`, `getAbout(locale)`, …).
 
-Featured selections are references, not copies: the homepage and About page
-store ids (`serviceIds`, `videoIds`, `reviewIds`, `faqIds`) that `lib/content.ts`
-resolves against the catalogs. Keep that model in the database (a sort-ordered
-`featured_items` table, or `featured_on_home` / `featured_on_about` columns).
+Homepage cards are the same records as the full pages, never copies, so one
+edit updates both:
+
+- **Videos and reviews** are ordered by importance. The homepage shows the first
+  three videos and the first six reviews (`order by sort_order limit 3` / `6` on
+  published rows), so editors decide what the homepage shows by reordering.
+- **Services and FAQs** are picked by id (`serviceIds`, `faqIds`), which
+  `lib/content.ts` resolves against the catalogs. Keep that model in the
+  database (a sort-ordered `featured_items` table, or `featured_on_home` /
+  `featured_on_about` columns).
 
 Validate fetched data before using it (e.g. with `zod`), so a bad edit fails
 the build instead of publishing a broken page. Keep the "exactly five
-specialties / five treatments / three videos / four reviews" rules in that
+specialties / five treatments / at least three videos / at least six reviews" rules in that
 validation, or relax the tuple types in `content/types.ts` if the design should
 accept other counts.
 

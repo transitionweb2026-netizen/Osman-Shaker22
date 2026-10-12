@@ -4,7 +4,6 @@ import { FaqAccordion } from "@/components/media/FaqAccordion";
 import { RouteButton } from "@/components/ui/Button";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 import type { Home, Site } from "@/lib/content";
-import { cx } from "@/lib/cx";
 import type { Locale } from "@/lib/i18n";
 import styles from "./ReviewsFaq.module.css";
 
@@ -15,38 +14,48 @@ type ReviewsFaqProps = {
   ui: Site["ui"];
 };
 
-/** Patient reviews and FAQs side by side; the grid follows the reading direction in Arabic. */
+/**
+ * Patient reviews and FAQs as two equal columns whose headings and content
+ * line up (the grid follows the reading direction in Arabic), with one button
+ * to the Reviews & FAQs page centered beneath both.
+ */
 export function ReviewsFaq({ locale, reviews, faq, ui }: ReviewsFaqProps) {
   return (
     <div className="section">
-      <div className={cx("container", styles.layout)}>
-        <section id="reviews" className={styles.column} aria-labelledby="reviews-title">
-          <SectionHeading
-            id="reviews-title"
-            eyebrow={reviews.eyebrow}
-            title={reviews.title}
-            description={reviews.description}
-          />
-          <ul className={styles.reviews}>
-            {reviews.items.map((review, index) => (
-              <li key={review.id} data-reveal style={{ "--reveal-delay": index * 100 } as CSSProperties}>
-                <ReviewCard review={review} locale={locale} ui={ui} />
-              </li>
-            ))}
-          </ul>
-        </section>
+      <div className="container">
+        <div className={styles.layout}>
+          <section id="reviews" className={styles.column} aria-labelledby="reviews-title">
+            <SectionHeading
+              id="reviews-title"
+              eyebrow={reviews.eyebrow}
+              title={reviews.title}
+              description={reviews.description}
+            />
+            {/* Phones: a swipeable row; larger screens: a 2 × 3 grid */}
+            <div className={styles.rail} role="region" aria-label={`${reviews.title} — ${ui.scrollHint}`} tabIndex={0}>
+              <ul className={styles.reviews}>
+                {reviews.items.map((review, index) => (
+                  <li key={review.id} data-reveal style={{ "--reveal-delay": (index % 2) * 100 } as CSSProperties}>
+                    <ReviewCard review={review} locale={locale} ui={ui} compact />
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </section>
 
-        <section id="faq" className={styles.column} aria-labelledby="faq-title">
-          <SectionHeading id="faq-title" eyebrow={faq.eyebrow} title={faq.title} description={faq.description} />
-          <div data-reveal>
-            <FaqAccordion items={faq.items} />
-          </div>
-          <div className={styles.more} data-reveal>
-            <RouteButton route={faq.cta.route} locale={locale} soonLabel={ui.comingSoon}>
-              {faq.cta.label}
-            </RouteButton>
-          </div>
-        </section>
+          <section id="faq" className={styles.column} aria-labelledby="faq-title">
+            <SectionHeading id="faq-title" eyebrow={faq.eyebrow} title={faq.title} description={faq.description} />
+            <div data-reveal>
+              <FaqAccordion items={faq.items} />
+            </div>
+          </section>
+        </div>
+
+        <div className={styles.more} data-reveal>
+          <RouteButton route={reviews.cta.route} locale={locale} soonLabel={ui.comingSoon}>
+            {reviews.cta.label}
+          </RouteButton>
+        </div>
       </div>
     </div>
   );

@@ -68,6 +68,21 @@ function pick<T extends { id: string }>(catalog: T[], ids: readonly string[], ki
   });
 }
 
+/** How many entries of the importance-ordered catalogs the homepage shows. */
+const HOME_VIDEO_COUNT = 3;
+const HOME_REVIEW_COUNT = 6;
+
+/**
+ * The most important entries of a catalog: its first `count` items, as
+ * catalogs are ordered by importance. Too short a catalog fails the build.
+ */
+function mostImportant<T>(catalog: T[], count: number, kind: string): T[] {
+  if (catalog.length < count) {
+    throw new Error(`The homepage needs ${count} ${kind} entries; the catalog has ${catalog.length}`);
+  }
+  return catalog.slice(0, count);
+}
+
 type FeaturedSection = SectionIntro & { items: Service[]; cta: RouteCta };
 
 function resolveFeatured(featured: FeaturedServices, catalog: Service[]): FeaturedSection {
@@ -89,8 +104,8 @@ type HomeDocument = Omit<HomePageContent, "specialties" | "treatments" | "videos
   specialties: FeaturedSection;
   treatments: FeaturedSection;
   videos: SectionIntro & { items: Video[]; cta: RouteCta };
-  reviews: SectionIntro & { items: Review[] };
-  faq: SectionIntro & { items: FaqItem[]; cta: RouteCta };
+  reviews: SectionIntro & { items: Review[]; cta: RouteCta };
+  faq: SectionIntro & { items: FaqItem[] };
 };
 
 type AboutDocument = Omit<AboutPageContent, "specialties"> & { specialties: FeaturedSection };
@@ -131,15 +146,14 @@ export const getHome = cache(async (locale: Locale): Promise<Home> => {
     reviewsDocument(),
     faqCatalog(),
   ]);
-  const { videoIds, ...videoSection } = home.videos;
-  const { reviewIds, ...reviewSection } = home.reviews;
   const { faqIds, ...faqSection } = home.faq;
   const document: HomeDocument = {
     ...home,
     specialties: resolveFeatured(home.specialties, services),
     treatments: resolveFeatured(home.treatments, services),
-    videos: { ...videoSection, items: pick(videos.items, videoIds, "video") },
-    reviews: { ...reviewSection, items: pick(reviews.items, reviewIds, "review") },
+    // Same records as the Videos and Reviews & FAQs pages, so an edit updates both
+    videos: { ...home.videos, items: mostImportant(videos.items, HOME_VIDEO_COUNT, "video") },
+    reviews: { ...home.reviews, items: mostImportant(reviews.items, HOME_REVIEW_COUNT, "review") },
     faq: { ...faqSection, items: pick(faq, faqIds, "FAQ") },
   };
   return localize(document, locale);

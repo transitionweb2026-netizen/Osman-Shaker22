@@ -1,12 +1,22 @@
 .grid {
+  --gap: clamp(16px, 2vw, 24px);
   display: grid;
-  gap: clamp(16px, 2vw, 24px);
+  gap: var(--gap);
   margin-block-start: clamp(32px, 4vw, 56px);
 }
 
 @media (min-width: 680px) {
   .grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+/* Two columns: an odd last card sits centered under the others */
+@media (min-width: 680px) and (max-width: 1079px) {
+  .grid > li:last-child:nth-child(odd) {
+    grid-column: 1 / -1;
+    justify-self: center;
+    inline-size: calc((100% - var(--gap)) / 2);
   }
 }
 

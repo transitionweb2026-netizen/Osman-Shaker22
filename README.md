@@ -89,10 +89,14 @@ Components never contain copy; `lib/content.ts` resolves the right language
 before rendering. Items marked `isPlaceholder: true` must be replaced or
 approved before launch.
 
-**One source per item.** The homepage and About page show *featured* entries by
-id (`serviceIds`, `videoIds`, `reviewIds`, `faqIds`); the text comes from the
-catalogs, so editing a service, video or question in its catalog updates it
-everywhere. An unknown id fails the build.
+**One source per item.** Homepage cards are the same records as the cards on
+the full pages, so editing one updates it everywhere:
+
+- **Videos and reviews:** each catalog is ordered by importance. The homepage
+  shows the first three videos and the first six reviews, so moving an entry
+  up or down decides whether it appears there.
+- **Services and FAQs** are grouped, so the homepage and About page pick them by
+  id (`serviceIds`, `faqIds`). An unknown id fails the build.
 
 **Star ratings.** Every review card shows five stars. A real review must carry
 the rating the patient gave (`rating: 1`–`5`), or the build fails; placeholder

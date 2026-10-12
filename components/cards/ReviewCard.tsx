@@ -12,6 +12,8 @@ type ReviewCardProps = {
   review: Resolved<Review>;
   locale: Locale;
   ui: Site["ui"];
+  /** Tighter spacing for narrow grids (homepage). */
+  compact?: boolean;
 };
 
 /**
@@ -19,7 +21,7 @@ type ReviewCardProps = {
  * author gave; placeholder entries are plain statements (not quotations) with
  * empty stars marked "rating pending".
  */
-export function ReviewCard({ review, locale, ui }: ReviewCardProps) {
+export function ReviewCard({ review, locale, ui, compact = false }: ReviewCardProps) {
   const placeholder = Boolean(review.isPlaceholder);
   const ratingLabel =
     review.rating === null
@@ -27,7 +29,7 @@ export function ReviewCard({ review, locale, ui }: ReviewCardProps) {
       : ui.ratingLabel.replace("{rating}", formatNumber(review.rating, locale));
 
   return (
-    <GlassPanel as="article" ink="blue" className={styles.review}>
+    <GlassPanel as="article" ink="blue" className={cx(styles.review, compact && styles.compact)}>
       <div className={styles.top}>
         <StarRating rating={review.rating} label={ratingLabel} pendingLabel={ui.ratingPending} />
         {!placeholder && <Icon name="quote" size={28} className={styles.mark} />}

@@ -292,12 +292,15 @@ export type HomePageContent = {
       image: MediaAsset;
       caption: Localized;
     };
-  /** Three entries of the videos catalog (content/videos.ts). */
-  videos: SectionIntro & { videoIds: [string, string, string]; cta: RouteCta };
-  /** Four entries of the reviews catalog (content/reviews.ts). */
-  reviews: SectionIntro & { reviewIds: [string, string, string, string] };
-  /** Questions from the FAQ catalog (content/faq.ts), linking to the full list. */
-  faq: SectionIntro & { faqIds: string[]; cta: RouteCta };
+  /** Shows the three most important videos: the first entries of the catalog (content/videos.ts). */
+  videos: SectionIntro & { cta: RouteCta };
+  /**
+   * Shows the six most important reviews: the first entries of the catalog
+   * (content/reviews.ts). `cta` is the button centered under the reviews and FAQ columns.
+   */
+  reviews: SectionIntro & { cta: RouteCta };
+  /** Questions from the FAQ catalog (content/faq.ts). */
+  faq: SectionIntro & { faqIds: string[] };
 };
 
 export type AboutPageContent = {
@@ -321,6 +324,7 @@ export type VideosPageContent = {
   hero: PageHeroContent;
   /** Heading of the video list (visually hidden). */
   listTitle: Localized;
+  /** Ordered by importance: the homepage shows the first three. */
   items: Video[];
 };
 
@@ -328,6 +332,7 @@ export type ReviewsPageContent = {
   seo: PageSeo;
   hero: PageHeroContent;
   reviewsIntro: SectionIntro;
+  /** Ordered by importance: the homepage shows the first six. */
   items: Review[];
   faq: SectionIntro & {
     categories: FaqCategory[];

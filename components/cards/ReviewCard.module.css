@@ -52,6 +52,28 @@ html[lang="ar"] .reviewer {
   letter-spacing: 0;
 }
 
+/* Compact (homepage grid): tighter spacing, reviewer label on one line */
+.compact {
+  gap: 0.8rem;
+  padding: clamp(18px, 1.8vw, 22px);
+}
+
+.compact .text {
+  font-size: 0.96rem;
+  line-height: 1.6;
+}
+
+.compact .reviewer {
+  padding-block-start: 0.7rem;
+  font-size: 0.72rem;
+  letter-spacing: 0.08em;
+}
+
+html[lang="ar"] .compact .reviewer {
+  font-size: 0.84rem;
+  letter-spacing: 0;
+}
+
 @media (hover: hover) {
   .review:hover {
     transform: translateY(-4px);

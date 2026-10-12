@@ -1,4 +1,5 @@
 .layout {
+  --row-gap: clamp(32px, 4vw, 48px);
   display: grid;
   gap: clamp(64px, 8vw, 96px);
   align-items: start;
@@ -6,32 +7,71 @@
 
 .column {
   display: grid;
-  gap: clamp(32px, 4vw, 48px);
+  gap: var(--row-gap);
+}
+
+/* Phones: swipeable row of reviews */
+.rail {
+  margin-inline: calc(var(--gutter) * -1);
+  padding: 4px var(--gutter) 16px;
+  overflow-x: auto;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x mandatory;
+  scroll-padding-inline: var(--gutter);
+  scrollbar-width: thin;
+  scrollbar-color: rgb(233 132 53 / 0.45) transparent;
+}
+
+.rail:focus-visible {
+  outline-offset: -4px;
+  border-radius: var(--radius-lg);
 }
 
 .reviews {
   display: grid;
-  gap: clamp(14px, 1.6vw, 20px);
+  grid-auto-flow: column;
+  grid-auto-columns: min(82vw, 320px);
+  gap: 14px;
 }
 
-/* Link to the full FAQ, tucked under the accordion */
+.reviews > li {
+  scroll-snap-align: start;
+}
+
+/* One button to the Reviews & FAQs page, centered beneath both groups */
 .more {
-  margin-block-start: calc(clamp(32px, 4vw, 48px) * -0.5);
+  display: flex;
+  justify-content: center;
+  margin-block-start: clamp(40px, 5vw, 64px);
 }
 
+/* Tablets and up: the six reviews in an even 2 × 3 grid, without offsets */
 @media (min-width: 640px) {
-  .reviews {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    padding-block-end: 28px;
+  .rail {
+    margin-inline: 0;
+    padding: 0;
+    overflow: visible;
   }
 
-  .reviews > li:nth-child(even) {
-    translate: 0 28px;
+  .reviews {
+    grid-auto-flow: row;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: clamp(14px, 1.6vw, 20px);
   }
 }
 
+/* Large screens: two equal columns. Their headings share the first row
+   (subgrid), so both groups start at the same height. */
 @media (min-width: 1100px) {
   .layout {
-    grid-template-columns: minmax(0, 1.12fr) minmax(0, 0.88fr);
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-rows: auto auto;
+    column-gap: clamp(40px, 5vw, 72px);
+    row-gap: var(--row-gap);
+  }
+
+  .column {
+    grid-row: span 2;
+    grid-template-rows: subgrid;
   }
 }

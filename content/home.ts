@@ -263,8 +263,7 @@ export const homeContent: HomePageContent = {
       en: "Educational videos to help patients and families feel more prepared.",
       ar: "فيديوهات توعوية تساعد المرضى وعائلاتهم على الاستعداد بثقة أكبر.",
     },
-    // Entries of the videos catalog (content/videos.ts)
-    videoIds: ["first-visit", "medications", "pathology"],
+    // The cards are the first three videos of the catalog (content/videos.ts), which is ordered by importance
     cta: { label: { en: "View all videos", ar: "عرض جميع الفيديوهات" }, route: "videos" },
   },
 
@@ -275,8 +274,9 @@ export const homeContent: HomePageContent = {
       en: "Reviews are published only with each patient’s permission.",
       ar: "تُنشر الآراء فقط بإذن أصحابها.",
     },
-    // Entries of the reviews catalog (content/reviews.ts)
-    reviewIds: ["review-1", "review-2", "review-3", "review-4"],
+    // The cards are the first six reviews of the catalog (content/reviews.ts), which is ordered by importance.
+    // The button sits centered under both the reviews and the FAQ.
+    cta: { label: { en: "Reviews & FAQs", ar: "الآراء والأسئلة الشائعة" }, route: "reviews" },
   },
 
   faq: {
@@ -288,6 +288,5 @@ export const homeContent: HomePageContent = {
     },
     // Questions from the FAQ catalog (content/faq.ts); the full list is on the Reviews & FAQs page
     faqIds: ["bring", "companion", "plan", "second-opinion", "side-effects", "advice", "booking"],
-    cta: { label: { en: "See all questions", ar: "عرض جميع الأسئلة" }, route: "reviewsFaq" },
   },
 };

@@ -1,7 +1,8 @@
 /**
  * Patient reviews catalog and Reviews & FAQs page content (the FAQ catalog
- * itself is in content/faq.ts). The homepage features four reviews by `id`
- * (content/home.ts).
+ * itself is in content/faq.ts). The catalog is ordered by importance: the
+ * homepage shows its first six reviews, so moving a review up or down changes
+ * both pages.
  *
  * PLACEHOLDERS — no testimonials have been provided. These cards describe the
  * review policy instead of inventing patient experiences, and their stars stay
@@ -70,6 +71,36 @@ const reviews: Review[] = [
     text: {
       en: "Would you like to share your experience? You are welcome to contact the clinic at any time.",
       ar: "هل تودّ مشاركة تجربتك؟ يسعدنا تواصلك مع العيادة في أي وقت.",
+    },
+    reviewer: pendingLabel,
+    rating: null,
+    isPlaceholder: true,
+  },
+  {
+    id: "review-7",
+    text: {
+      en: "This card will show a patient’s own words once a review is approved for publication.",
+      ar: "ستعرض هذه البطاقة كلمات أحد المرضى بعد اعتماد رأيه للنشر.",
+    },
+    reviewer: pendingLabel,
+    rating: null,
+    isPlaceholder: true,
+  },
+  {
+    id: "review-8",
+    text: {
+      en: "Experiences shared by family members are welcome too, published with their permission.",
+      ar: "تجارب أفراد العائلة مرحّب بها أيضًا، وتُنشر بإذن أصحابها.",
+    },
+    reviewer: pendingLabel,
+    rating: null,
+    isPlaceholder: true,
+  },
+  {
+    id: "review-9",
+    text: {
+      en: "Star ratings will appear exactly as each patient gives them.",
+      ar: "ستظهر التقييمات بالنجوم كما يمنحها كل مريض تمامًا.",
     },
     reviewer: pendingLabel,
     rating: null,

@@ -16,7 +16,6 @@ export type RouteKey =
   | "servicesTreatments"
   | "videos"
   | "reviews"
-  | "reviewsFaq"
   | "articles"
   | "contact";
 
@@ -37,8 +36,6 @@ export const routes: Record<RouteKey, RouteDefinition> = {
   servicesTreatments: { path: "services/#treatments", live: true },
   videos: { path: "videos/", live: true },
   reviews: { path: "reviews/", live: true },
-  // FAQ section of the Reviews & FAQs page
-  reviewsFaq: { path: "reviews/#faq", live: true },
   articles: { path: "articles/", live: true },
   contact: { path: "contact/", live: true },
 };

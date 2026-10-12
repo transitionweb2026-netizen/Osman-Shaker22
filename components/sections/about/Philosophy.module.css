@@ -1,0 +1,23 @@
+/* The fanned portrait cards must never widen the page */
+.section {
+  overflow-x: clip;
+}
+
+.split {
+  display: grid;
+  gap: clamp(40px, 6vw, 96px);
+  align-items: center;
+}
+
+/* Phones and tablets: the portrait leads, the quotation follows */
+@media (max-width: 959px) {
+  .visual {
+    order: -1;
+  }
+}
+
+@media (min-width: 960px) {
+  .split {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  }
+}

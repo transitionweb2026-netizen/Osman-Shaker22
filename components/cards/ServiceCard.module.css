@@ -1,0 +1,201 @@
+/* ---- Shared card behaviour ---- */
+
+.card {
+  block-size: 100%;
+  transition:
+    transform 700ms var(--ease-out),
+    box-shadow 700ms var(--ease-out);
+}
+
+.card img {
+  inline-size: 100%;
+  block-size: 100%;
+  object-fit: cover;
+  transition: scale 1400ms var(--ease-out);
+}
+
+.cardTitle {
+  font-size: 1.2rem;
+  line-height: 1.25;
+}
+
+html[lang="en"] .cardTitle {
+  font-size: 1.32rem;
+}
+
+.cardText {
+  font-size: 0.93rem;
+  line-height: 1.6;
+  color: var(--text-muted);
+}
+
+.index {
+  position: absolute;
+  z-index: 2;
+  inset-block-start: 12px;
+  inset-inline-start: 12px;
+  padding: 0.3rem 0.65rem;
+  border-radius: var(--radius-pill);
+  font-family: var(--font-latin);
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.14em;
+  color: var(--amber-200);
+  --glass-tint: rgb(4 13 31 / 0.45);
+}
+
+html[lang="ar"] .index {
+  font-family: var(--font-body);
+  font-size: 0.85rem;
+  letter-spacing: 0;
+}
+
+@media (hover: hover) {
+  .card:hover {
+    transform: translateY(-8px);
+    box-shadow:
+      inset 0 1px 0 rgb(255 255 255 / 0.28),
+      0 0 0 1px rgb(233 132 53 / 0.35),
+      0 34px 60px -26px rgb(1 6 18 / 0.95),
+      0 18px 44px -20px rgb(233 132 53 / 0.45);
+  }
+
+  .card:hover img {
+    scale: 1.07;
+  }
+}
+
+/* ---- Framed (specialties): photo set inside a thick glass bezel ---- */
+
+.framed {
+  display: grid;
+  grid-template-rows: auto 1fr;
+  padding: 10px;
+  border-radius: 26px;
+}
+
+.framedMedia {
+  position: relative;
+  aspect-ratio: 4 / 4.4;
+  border-radius: 18px;
+  overflow: hidden;
+  box-shadow: 0 0 0 1px rgb(255 255 255 / 0.12);
+}
+
+.framedMedia::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(180deg, transparent 45%, rgb(4 13 31 / 0.55)),
+    linear-gradient(150deg, rgb(12 68 132 / 0.35), transparent 55%, rgb(233 132 53 / 0.18));
+  pointer-events: none;
+}
+
+.framedBody {
+  display: grid;
+  align-content: start;
+  gap: 0.55rem;
+  padding: 1.1rem 0.6rem 0.6rem;
+}
+
+/* ---- Immersive: full-bleed photo with a glass caption ---- */
+
+/* The caption stays in the flow at the bottom, so a long text makes the card taller instead of being cut off */
+.immersive {
+  position: relative;
+  isolation: isolate;
+  display: grid;
+  align-content: end;
+  min-block-size: 420px;
+  padding: 10px;
+  border-radius: 26px;
+  overflow: hidden;
+  background: var(--navy-850);
+  box-shadow:
+    inset 0 0 0 1px rgb(255 255 255 / 0.14),
+    var(--shadow-md);
+}
+
+.immersive img {
+  position: absolute;
+  inset: 0;
+  z-index: -2;
+}
+
+.immersiveShade {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background:
+    linear-gradient(180deg, rgb(4 13 31 / 0.05) 0%, rgb(4 13 31 / 0.2) 38%, rgb(4 13 31 / 0.92) 100%),
+    linear-gradient(140deg, rgb(12 68 132 / 0.4), transparent 50%, rgb(233 132 53 / 0.22));
+}
+
+.immersiveCaption {
+  display: grid;
+  gap: 0.5rem;
+  padding: 1.1rem 1.1rem 1.2rem;
+  border-radius: 18px;
+  --glass-tint: rgb(6 21 47 / 0.62);
+}
+
+@media (min-width: 1200px) {
+  .immersive {
+    min-block-size: 460px;
+  }
+}
+
+/* ---- Interactive cards (Services page) ---- */
+
+.interactive:focus-within {
+  outline: 2px solid var(--amber-300);
+  outline-offset: 4px;
+}
+
+/* Transparent button over the whole card; its label is visually hidden */
+.trigger {
+  position: absolute;
+  inset: 0;
+  z-index: 4;
+  padding: 0;
+  border: 0;
+  border-radius: inherit;
+  background: transparent;
+  cursor: pointer;
+}
+
+.trigger:focus-visible {
+  outline: none;
+}
+
+/* Visual "View details" cue */
+.action {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  margin-block-start: 0.35rem;
+  color: var(--amber-300);
+  font-size: 0.86rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
+.action svg {
+  transition: translate var(--dur) var(--ease-out);
+}
+
+@media (hover: hover) {
+  .interactive:hover .action svg {
+    translate: calc(4px * var(--dir)) 0;
+  }
+}
+
+/* ---- Compact catalog cards (Services page): landscape ----
+   The height follows the card's width via container units, so the card stays
+   wider than tall in every column count. Its list item must be a size
+   container (`container-type: inline-size`, see ServiceGroups). */
+
+.compact.immersive {
+  min-block-size: max(320px, 88cqi);
+}

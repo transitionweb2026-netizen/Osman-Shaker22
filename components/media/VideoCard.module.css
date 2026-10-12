@@ -1,0 +1,76 @@
+/* Portrait (9:16) video card in a glass bezel */
+
+.card {
+  padding: 8px;
+  border-radius: 30px;
+  transition:
+    transform 700ms var(--ease-out),
+    box-shadow 700ms var(--ease-out);
+}
+
+.screen {
+  --play-size: 74px;
+  position: relative;
+  aspect-ratio: 9 / 16;
+  border-radius: 23px;
+  overflow: hidden;
+  box-shadow: 0 0 0 1px rgb(255 255 255 / 0.12);
+}
+
+/* Device-like notch for the smartphone feel */
+.screen::before {
+  content: "";
+  position: absolute;
+  z-index: 3;
+  inset-block-start: 10px;
+  inset-inline-start: 50%;
+  inline-size: 64px;
+  block-size: 5px;
+  border-radius: 5px;
+  background: rgb(255 255 255 / 0.28);
+  translate: -50% 0;
+  pointer-events: none;
+}
+
+[dir="rtl"] .screen::before {
+  translate: 50% 0;
+}
+
+.meta {
+  position: absolute;
+  z-index: 3;
+  inset-inline: 10px;
+  inset-block-end: 10px;
+  display: grid;
+  gap: 0.35rem;
+  padding: 0.95rem 1rem 1.05rem;
+  border-radius: 16px;
+  --glass-tint: rgb(6 21 47 / 0.55);
+  pointer-events: none;
+}
+
+.title {
+  font-size: 1.05rem;
+  line-height: 1.35;
+}
+
+html[lang="en"] .title {
+  font-size: 1.18rem;
+}
+
+.duration {
+  font-family: var(--font-latin);
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+
+@media (hover: hover) {
+  .card:hover {
+    transform: translateY(-8px);
+    box-shadow:
+      inset 0 1px 0 rgb(255 255 255 / 0.28),
+      0 0 0 1px rgb(233 132 53 / 0.35),
+      0 40px 70px -30px rgb(1 6 18 / 0.95),
+      0 20px 50px -24px rgb(233 132 53 / 0.45);
+  }
+}

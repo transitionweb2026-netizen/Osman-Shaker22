@@ -1,0 +1,190 @@
+.form {
+  display: grid;
+  gap: 1.35rem;
+}
+
+.row {
+  display: grid;
+  gap: 1.35rem;
+}
+
+@media (min-width: 720px) {
+  .row {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+.field {
+  display: grid;
+  align-content: start;
+  gap: 0.45rem;
+}
+
+.field > label {
+  font-size: 0.92rem;
+  font-weight: 700;
+  color: var(--text-strong);
+}
+
+.required {
+  color: var(--amber-400);
+}
+
+.field input:not([type="checkbox"]),
+.field textarea,
+.field select {
+  inline-size: 100%;
+  min-block-size: 52px;
+  padding: 0.85rem 1rem;
+  border: 0;
+  border-radius: 14px;
+  font: inherit;
+  color: var(--text-strong);
+  background: rgb(3 10 24 / 0.55);
+  box-shadow:
+    inset 0 0 0 1px rgb(255 255 255 / 0.14),
+    inset 0 2px 10px rgb(1 6 18 / 0.5);
+  transition: box-shadow var(--dur) var(--ease-out);
+}
+
+.field textarea {
+  resize: vertical;
+  min-block-size: 140px;
+  line-height: 1.6;
+}
+
+/* Phone and email are typed left to right; align them with the field's start in Arabic */
+[dir="rtl"] .field input[dir="ltr"] {
+  text-align: right;
+}
+
+.field input:focus-visible,
+.field textarea:focus-visible,
+.field select:focus-visible {
+  outline: none;
+  box-shadow:
+    inset 0 0 0 1.5px var(--amber-400),
+    0 0 0 4px rgb(233 132 53 / 0.18);
+}
+
+.field [aria-invalid="true"] {
+  box-shadow:
+    inset 0 0 0 1.5px #ff8a7a,
+    inset 0 2px 10px rgb(1 6 18 / 0.5) !important;
+}
+
+.select {
+  position: relative;
+}
+
+.select select {
+  appearance: none;
+  padding-inline-end: 2.75rem;
+  cursor: pointer;
+}
+
+.select option {
+  background: var(--navy-900);
+  color: var(--text-strong);
+}
+
+/* Chevron pointing down in both directions (the icon itself mirrors in RTL) */
+.selectIcon {
+  position: absolute;
+  inset-inline-end: 1rem;
+  inset-block-start: 50%;
+  translate: 0 -50%;
+  rotate: 90deg;
+  color: var(--amber-400);
+  pointer-events: none;
+}
+
+[dir="rtl"] .selectIcon {
+  rotate: -90deg;
+}
+
+.hint {
+  font-size: 0.82rem;
+  color: var(--text-subtle);
+}
+
+.error {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #ffb0a5;
+}
+
+.consent {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  font-size: 0.95rem;
+  color: var(--text);
+  cursor: pointer;
+}
+
+.consent input {
+  flex-shrink: 0;
+  inline-size: 20px;
+  block-size: 20px;
+  margin-block-start: 0.15rem;
+  accent-color: var(--amber-500);
+}
+
+.trap {
+  position: absolute;
+  inline-size: 1px;
+  block-size: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+}
+
+.summary:not(:empty) {
+  padding: 0.85rem 1rem;
+  border-radius: 14px;
+  background: rgb(255 120 100 / 0.1);
+  box-shadow: inset 0 0 0 1px rgb(255 138 122 / 0.45);
+  color: #ffc4bb;
+  font-weight: 600;
+}
+
+.submitRow {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1rem 1.25rem;
+}
+
+.modeNote {
+  font-size: 0.88rem;
+  color: var(--text-subtle);
+}
+
+.success {
+  padding: 1rem 1.1rem;
+  border-radius: 14px;
+  background: rgb(80 200 140 / 0.1);
+  box-shadow: inset 0 0 0 1px rgb(120 220 170 / 0.4);
+  color: #c9f5de;
+}
+
+.success a {
+  color: var(--amber-300);
+  font-weight: 700;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.failure {
+  padding: 1rem 1.1rem;
+  border-radius: 14px;
+  background: rgb(255 120 100 / 0.1);
+  box-shadow: inset 0 0 0 1px rgb(255 138 122 / 0.45);
+  color: #ffc4bb;
+}
+
+@media (max-width: 639px) {
+  .submitRow > button {
+    inline-size: 100%;
+  }
+}

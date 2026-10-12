@@ -1,0 +1,70 @@
+.switcher {
+  --active: 0;
+  position: relative;
+  isolation: isolate;
+  display: inline-grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 4px;
+  border-radius: var(--radius-pill);
+  background:
+    linear-gradient(150deg, rgb(255 255 255 / 0.14), rgb(255 255 255 / 0.03) 60%, rgb(233 132 53 / 0.1)),
+    rgb(8 29 64 / 0.55);
+  box-shadow:
+    inset 0 1px 0 rgb(255 255 255 / 0.22),
+    inset 0 0 0 1px rgb(255 255 255 / 0.12),
+    0 10px 24px -14px rgb(1 6 18 / 0.9);
+  -webkit-backdrop-filter: blur(12px) saturate(140%);
+  backdrop-filter: blur(12px) saturate(140%);
+}
+
+/* Liquid amber thumb that slides to the active language */
+.thumb {
+  position: absolute;
+  z-index: -1;
+  inset-block: 4px;
+  inset-inline-start: 4px;
+  inline-size: calc(50% - 4px);
+  border-radius: var(--radius-pill);
+  background: radial-gradient(120% 160% at 30% 0%, #ffd9b4 0%, #f4a463 30%, var(--amber-500) 60%, #c4621d 100%);
+  box-shadow:
+    inset 0 1px 0 rgb(255 255 255 / 0.6),
+    0 6px 16px -6px rgb(233 132 53 / 0.75);
+  transform: translateX(calc(var(--active) * 100% * var(--dir)));
+  transition: transform 520ms var(--ease-out);
+}
+
+.option {
+  display: grid;
+  place-items: center;
+  min-inline-size: 46px;
+  min-block-size: 36px;
+  padding-inline: 0.7rem;
+  border-radius: var(--radius-pill);
+  font-family: var(--font-latin);
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.14em;
+  color: var(--text-muted);
+  transition: color var(--dur) var(--ease-out);
+}
+
+.option[aria-current="true"] {
+  color: var(--text-on-amber);
+}
+
+@media (hover: hover) {
+  .option:not([aria-current="true"]):hover {
+    color: var(--text-strong);
+  }
+}
+
+.option:focus-visible {
+  outline-offset: 2px;
+}
+
+@media (max-width: 420px) {
+  .option {
+    min-inline-size: 40px;
+    padding-inline: 0.5rem;
+  }
+}

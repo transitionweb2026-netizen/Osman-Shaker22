@@ -1,0 +1,187 @@
+/* Playing-card portrait stack: main photo card over fanned glass cards */
+
+.stage {
+  --tilt-x: 0deg;
+  --tilt-y: 0deg;
+  --glare-x: 30%;
+  --glare-y: 0%;
+  position: relative;
+  isolation: isolate;
+  inline-size: min(100%, 540px);
+  margin-inline: auto;
+  padding: 7% 11% 9%;
+  perspective: 1500px;
+}
+
+.stage::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background:
+    radial-gradient(50% 45% at 50% 45%, rgb(36 104 184 / 0.45), transparent 70%),
+    radial-gradient(35% 30% at 70% 80%, rgb(233 132 53 / 0.3), transparent 70%);
+}
+
+.deck {
+  position: relative;
+  /* Upright playing-card proportions (a poker card is 63 × 88 mm) */
+  aspect-ratio: 5 / 7;
+  transform-style: preserve-3d;
+  transform: rotateX(var(--tilt-x)) rotateY(var(--tilt-y));
+  transition: transform 700ms var(--ease-out);
+}
+
+.deck .card {
+  position: absolute;
+  inset: 0;
+  border-radius: 28px;
+  transition: transform 900ms var(--ease-out);
+}
+
+.back1 {
+  transform: translate3d(calc(10% * var(--dir)), -5%, -40px) rotate(calc(6deg * var(--dir)));
+}
+
+.back2 {
+  transform: translate3d(calc(-11% * var(--dir)), 4%, -80px) rotate(calc(-7deg * var(--dir)));
+}
+
+.back3 {
+  transform: translate3d(calc(17% * var(--dir)), 10%, -120px) rotate(calc(13deg * var(--dir))) scale(0.93);
+}
+
+@media (hover: hover) {
+  .stage:hover .back1 {
+    transform: translate3d(calc(15% * var(--dir)), -7%, -40px) rotate(calc(9deg * var(--dir)));
+  }
+
+  .stage:hover .back2 {
+    transform: translate3d(calc(-16% * var(--dir)), 5%, -80px) rotate(calc(-10deg * var(--dir)));
+  }
+
+  .stage:hover .back3 {
+    transform: translate3d(calc(23% * var(--dir)), 12%, -120px) rotate(calc(17deg * var(--dir))) scale(0.93);
+  }
+}
+
+/* Corner indices, like a playing card */
+.pip {
+  position: absolute;
+  inline-size: 18px;
+  aspect-ratio: 1;
+  border: 2px solid rgb(219 232 248 / 0.7);
+  border-radius: 50%;
+}
+
+.pip::after {
+  content: "";
+  position: absolute;
+  inset-block-start: -6px;
+  inset-inline-end: -6px;
+  inline-size: 7px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background: var(--amber-400);
+  box-shadow: 0 0 8px rgb(233 132 53 / 0.8);
+}
+
+.pipStart {
+  inset-block-start: 18px;
+  inset-inline-start: 18px;
+}
+
+.pipEnd {
+  inset-block-end: 18px;
+  inset-inline-end: 18px;
+  rotate: 180deg;
+}
+
+.main {
+  overflow: hidden;
+  background: var(--navy-850);
+  box-shadow:
+    0 0 0 1px rgb(255 255 255 / 0.18),
+    var(--shadow-lg);
+  transform: translateZ(0);
+}
+
+.photo {
+  inline-size: 100%;
+  block-size: 100%;
+  object-fit: cover;
+}
+
+/* Inner frame, colour grade and depth */
+.main::before {
+  content: "";
+  position: absolute;
+  inset: 10px;
+  z-index: 1;
+  border-radius: 20px;
+  box-shadow: inset 0 0 0 1px rgb(255 255 255 / 0.22);
+  pointer-events: none;
+}
+
+.main::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(180deg, rgb(12 68 132 / 0.12), transparent 40%, rgb(4 13 31 / 0.85) 100%),
+    linear-gradient(120deg, rgb(12 68 132 / 0.3), transparent 50%, rgb(233 132 53 / 0.2));
+  pointer-events: none;
+}
+
+.glare {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  background: radial-gradient(55% 45% at var(--glare-x) var(--glare-y), rgb(255 255 255 / 0.22), transparent 65%);
+  opacity: 0.8;
+  pointer-events: none;
+  transition: background-position 300ms linear;
+}
+
+.caption {
+  position: absolute;
+  z-index: 2;
+  inset-inline: 18px;
+  inset-block-end: 18px;
+  display: grid;
+  gap: 0.15rem;
+  padding: 0.9rem 1.1rem;
+  border-radius: 18px;
+  --glass-tint: rgb(8 29 64 / 0.5);
+}
+
+.captionName {
+  font-family: var(--font-display);
+  font-size: 1.3rem;
+  line-height: 1.2;
+  color: var(--text-strong);
+}
+
+html[lang="ar"] .captionName {
+  font-weight: 600;
+}
+
+.captionRole {
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--amber-300);
+}
+
+html[lang="ar"] .captionRole {
+  font-size: 0.82rem;
+  letter-spacing: 0;
+}
+
+/* Phones: wider side margins so the rotated back cards stay on screen */
+@media (max-width: 639px) {
+  .stage {
+    padding: 9% 15% 11%;
+  }
+}

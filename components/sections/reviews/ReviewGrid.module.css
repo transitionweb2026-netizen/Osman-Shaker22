@@ -1,0 +1,23 @@
+.grid {
+  display: grid;
+  gap: clamp(16px, 2vw, 24px);
+  margin-block-start: clamp(32px, 4vw, 56px);
+}
+
+@media (min-width: 680px) {
+  .grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 1080px) {
+  .grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    padding-block-end: 32px;
+  }
+
+  /* Gentle stagger of the middle column for rhythm */
+  .grid > li:nth-child(3n + 2) {
+    translate: 0 32px;
+  }
+}

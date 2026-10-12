@@ -1,0 +1,40 @@
+/* The fanned cards must never widen the page */
+.section {
+  overflow-x: clip;
+}
+
+.layout {
+  display: grid;
+  align-items: center;
+  gap: clamp(56px, 8vw, 120px);
+}
+
+.text {
+  display: grid;
+  justify-items: start;
+  gap: 1.75rem;
+}
+
+.paragraphs {
+  display: grid;
+  gap: 1.1rem;
+  max-inline-size: 36rem;
+  font-size: var(--fs-lead);
+  color: var(--text-muted);
+}
+
+.paragraphs p:first-child {
+  color: var(--text);
+}
+
+@media (max-width: 959px) {
+  .visual {
+    order: -1;
+  }
+}
+
+@media (min-width: 960px) {
+  .layout {
+    grid-template-columns: minmax(0, 1.05fr) minmax(0, 0.95fr);
+  }
+}

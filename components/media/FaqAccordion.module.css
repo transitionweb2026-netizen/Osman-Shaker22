@@ -1,0 +1,99 @@
+.list {
+  display: grid;
+  padding: 6px clamp(14px, 2vw, 26px);
+  border-radius: var(--radius-lg);
+}
+
+.item + .item {
+  border-block-start: 1px solid var(--line);
+}
+
+.heading {
+  font-family: var(--font-body);
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.45;
+}
+
+.trigger {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  inline-size: 100%;
+  min-block-size: 64px;
+  padding-block: 1rem;
+  border: 0;
+  background: none;
+  color: var(--text-strong);
+  font: inherit;
+  text-align: start;
+  cursor: pointer;
+  border-radius: var(--radius-sm);
+}
+
+.trigger:focus-visible {
+  outline-offset: 2px;
+}
+
+.toggle {
+  position: relative;
+  flex-shrink: 0;
+  display: grid;
+  place-items: center;
+  inline-size: 34px;
+  block-size: 34px;
+  border-radius: 50%;
+  color: var(--amber-300);
+  box-shadow: inset 0 0 0 1px rgb(233 132 53 / 0.4);
+  transition:
+    background-color var(--dur) var(--ease-out),
+    color var(--dur) var(--ease-out),
+    rotate 450ms var(--ease-out);
+}
+
+.open .toggle {
+  rotate: 45deg;
+  background: var(--amber-500);
+  color: var(--text-on-amber);
+}
+
+@media (hover: hover) {
+  .trigger:hover .toggle {
+    background: rgb(233 132 53 / 0.15);
+  }
+
+  .open .trigger:hover .toggle {
+    background: var(--amber-400);
+  }
+}
+
+/* Height animates via grid rows, so answers of any length are supported */
+.panel {
+  display: grid;
+  grid-template-rows: 0fr;
+  visibility: hidden;
+  transition:
+    grid-template-rows 450ms var(--ease-out),
+    visibility 0s linear 450ms;
+}
+
+.open .panel {
+  grid-template-rows: 1fr;
+  visibility: visible;
+  transition:
+    grid-template-rows 450ms var(--ease-out),
+    visibility 0s;
+}
+
+.panelInner {
+  min-block-size: 0;
+  overflow: hidden;
+}
+
+.answer {
+  padding-block-end: 1.25rem;
+  padding-inline-end: 3rem;
+  font-size: 0.97rem;
+  color: var(--text-muted);
+}

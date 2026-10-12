@@ -1,0 +1,81 @@
+.panel {
+  display: inline-flex;
+  max-inline-size: 100%;
+  padding: 6px;
+  border-radius: var(--radius-pill);
+  --glass-tint: rgb(8 29 64 / 0.42);
+}
+
+.list {
+  display: flex;
+  align-items: center;
+}
+
+/* Clear visual dividers between items */
+.list > li + li {
+  border-inline-start: 1px solid rgb(255 255 255 / 0.14);
+}
+
+.icon,
+.phone {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem;
+  min-block-size: 46px;
+  min-inline-size: 50px;
+  border-radius: var(--radius-pill);
+  color: var(--text-strong);
+  transition:
+    color var(--dur) var(--ease-out),
+    background-color var(--dur) var(--ease-out);
+}
+
+.phone {
+  padding-inline: 0.9rem 1.1rem;
+  font-size: 0.92rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+}
+
+.phone svg {
+  color: var(--amber-400);
+}
+
+@media (hover: hover) {
+  .icon:hover,
+  .phone:hover {
+    color: var(--amber-300);
+    background: rgb(255 255 255 / 0.07);
+  }
+}
+
+@media (max-width: 420px) {
+  .icon {
+    min-inline-size: 40px;
+  }
+
+  .phone {
+    gap: 0.45rem;
+    padding-inline: 0.6rem 0.75rem;
+    font-size: 0.84rem;
+  }
+}
+
+/* Very small phones: the number stays available to screen readers and in the CTA/footer */
+@media (max-width: 359px) {
+  .number {
+    position: absolute;
+    inline-size: 1px;
+    block-size: 1px;
+    overflow: hidden;
+    clip-path: inset(50%);
+    white-space: nowrap;
+  }
+
+  .phone {
+    min-inline-size: 44px;
+    padding-inline: 0;
+  }
+}

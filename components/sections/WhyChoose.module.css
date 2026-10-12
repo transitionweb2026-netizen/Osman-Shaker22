@@ -1,0 +1,190 @@
+.section {
+  overflow: clip;
+}
+
+/* Warm amber atmosphere behind the composition */
+.section::before {
+  content: "";
+  position: absolute;
+  inset: 10% -10% 0;
+  z-index: -1;
+  background:
+    radial-gradient(40% 50% at 78% 45%, rgb(233 132 53 / 0.18), transparent 70%),
+    radial-gradient(45% 55% at 15% 60%, rgb(12 68 132 / 0.5), transparent 70%);
+  pointer-events: none;
+}
+
+[dir="rtl"] .section::before {
+  transform: scaleX(-1);
+}
+
+.layout {
+  display: grid;
+  gap: clamp(56px, 7vw, 96px);
+  align-items: center;
+}
+
+.principles {
+  display: grid;
+  gap: 0;
+  margin-block-start: clamp(36px, 4vw, 56px);
+  counter-reset: principle;
+}
+
+.principle {
+  display: grid;
+  /* fixed number column keeps every title on the same line */
+  grid-template-columns: 2.6rem 1fr;
+  column-gap: 1.25rem;
+  padding-block: 1.4rem;
+  border-block-start: 1px solid transparent;
+  border-image: linear-gradient(90deg, rgb(233 132 53 / 0.55), rgb(141 182 234 / 0.25) 45%, transparent) 1;
+}
+
+[dir="rtl"] .principle {
+  border-image: linear-gradient(-90deg, rgb(233 132 53 / 0.55), rgb(141 182 234 / 0.25) 45%, transparent) 1;
+}
+
+.principleNumber {
+  font-family: var(--font-display);
+  font-size: 2.1rem;
+  line-height: 1;
+  color: var(--amber-400);
+  font-variant-numeric: tabular-nums;
+}
+
+.principleBody {
+  display: grid;
+  gap: 0.4rem;
+}
+
+.principleText {
+  font-size: 0.96rem;
+  color: var(--text-muted);
+}
+
+/* Photograph in a deep glass frame, with an overlapping caption */
+.visual {
+  position: relative;
+  inline-size: min(100%, 520px);
+  margin-inline: auto;
+}
+
+/* Decorative orbit; wide screens only, where it stays inside the viewport */
+.ring {
+  display: none;
+  position: absolute;
+  inset-block-start: -7%;
+  inset-inline-end: -9%;
+  inline-size: 46%;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  border: 1px solid rgb(233 132 53 / 0.35);
+  box-shadow:
+    0 0 40px rgb(233 132 53 / 0.15),
+    inset 0 0 30px rgb(233 132 53 / 0.1);
+  animation: orbit 30s linear infinite;
+}
+
+.ring::after {
+  content: "";
+  position: absolute;
+  inset-block-start: 14%;
+  inset-inline-start: 12%;
+  inline-size: 10px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background: var(--amber-400);
+  box-shadow: 0 0 14px rgb(233 132 53 / 0.9);
+}
+
+.frame {
+  padding: 12px;
+  border-radius: var(--radius-xl);
+  box-shadow:
+    inset 0 1px 0 rgb(255 255 255 / 0.24),
+    var(--shadow-lg);
+}
+
+.photo {
+  position: relative;
+  aspect-ratio: 4 / 5;
+  border-radius: calc(var(--radius-xl) - 10px);
+  overflow: hidden;
+}
+
+.photo img {
+  inline-size: 100%;
+  block-size: 100%;
+  object-fit: cover;
+}
+
+.photo::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(180deg, rgb(12 68 132 / 0.15), transparent 40%, rgb(4 13 31 / 0.6)),
+    linear-gradient(130deg, rgb(12 68 132 / 0.35), transparent 55%, rgb(233 132 53 / 0.2));
+}
+
+.caption {
+  position: absolute;
+  z-index: 2;
+  inset-block-end: clamp(-36px, -3vw, -20px);
+  inset-inline-start: clamp(-48px, -4vw, -12px);
+  display: grid;
+  gap: 0.75rem;
+  max-inline-size: 78%;
+  padding: 1.3rem 1.4rem;
+  border-radius: 22px;
+  --glass-tint: rgb(8 29 64 / 0.62);
+  box-shadow:
+    inset 0 1px 0 rgb(255 255 255 / 0.26),
+    var(--shadow-lg);
+}
+
+.captionMark {
+  inline-size: 40px;
+  block-size: 2px;
+  border-radius: 2px;
+  background: linear-gradient(90deg, var(--amber-400), var(--blue-300));
+  box-shadow: 0 0 12px rgb(233 132 53 / 0.7);
+}
+
+.captionText {
+  font-family: var(--font-display);
+  font-size: clamp(1.15rem, 1rem + 0.6vw, 1.45rem);
+  line-height: 1.3;
+  color: var(--text-strong);
+}
+
+html[lang="ar"] .captionText {
+  font-weight: 600;
+  line-height: 1.6;
+}
+
+@keyframes orbit {
+  to {
+    rotate: 1turn;
+  }
+}
+
+@media (min-width: 720px) {
+  .principles {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    column-gap: clamp(24px, 3vw, 44px);
+  }
+}
+
+@media (min-width: 1024px) {
+  .layout {
+    grid-template-columns: minmax(0, 7fr) minmax(0, 5fr);
+  }
+}
+
+@media (min-width: 1200px) {
+  .ring {
+    display: block;
+  }
+}

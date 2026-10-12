@@ -1,0 +1,47 @@
+.rail {
+  margin-block-start: clamp(36px, 5vw, 64px);
+  margin-inline: calc(var(--gutter) * -1);
+  padding: 36px var(--gutter) 28px;
+  overflow-x: auto;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x mandatory;
+  scroll-padding-inline: var(--gutter);
+  scrollbar-width: thin;
+  scrollbar-color: rgb(233 132 53 / 0.45) transparent;
+}
+
+.track {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: min(72vw, 300px);
+  gap: clamp(16px, 2.4vw, 32px);
+}
+
+.track > li {
+  scroll-snap-align: center;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  margin-block-start: clamp(16px, 2vw, 28px);
+}
+
+@media (min-width: 760px) {
+  .rail {
+    margin-inline: 0;
+    padding-inline: 0;
+    overflow: visible;
+  }
+
+  .track {
+    grid-auto-flow: row;
+    grid-template-columns: repeat(3, minmax(0, 300px));
+    justify-content: center;
+  }
+
+  /* Raised centre card for a balanced composition */
+  .track > li:nth-child(2) {
+    translate: 0 -32px;
+  }
+}

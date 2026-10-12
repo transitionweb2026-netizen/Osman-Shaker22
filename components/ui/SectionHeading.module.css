@@ -1,0 +1,25 @@
+.heading {
+  display: grid;
+  gap: 1.1rem;
+  max-inline-size: 46rem;
+}
+
+.center {
+  margin-inline: auto;
+  justify-items: center;
+  text-align: center;
+}
+
+.center .description {
+  margin-inline: auto;
+}
+
+.title {
+  font-size: var(--fs-h2);
+}
+
+.description {
+  max-inline-size: 38rem;
+  font-size: var(--fs-lead);
+  color: var(--text-muted);
+}

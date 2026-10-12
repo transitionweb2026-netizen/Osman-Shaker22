@@ -1,0 +1,76 @@
+/* Shorter variant of the homepage hero (variables read by Hero.module.css) */
+.page {
+  --hero-min-height: clamp(560px, 74svh, 760px);
+  --hero-min-height-mobile: max(560px, 82svh);
+  --hero-pad-end: clamp(48px, 7vh, 88px);
+}
+
+.title {
+  font-size: clamp(2.4rem, 1.5rem + 3.4vw, 4.6rem);
+}
+
+html[lang="ar"] .title {
+  font-size: clamp(2.1rem, 1.35rem + 2.9vw, 4rem);
+}
+
+.breadcrumb ol {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--text-muted);
+}
+
+html[lang="ar"] .breadcrumb ol {
+  font-size: 0.92rem;
+}
+
+.breadcrumb a {
+  border-radius: var(--radius-sm);
+  transition: color var(--dur) var(--ease-out);
+}
+
+.breadcrumb a:hover {
+  color: var(--amber-300);
+}
+
+.breadcrumb [aria-current="page"] {
+  color: var(--text-strong);
+}
+
+.separator {
+  display: inline-flex;
+  color: var(--amber-400);
+}
+
+/* Optional in-page links under the description (e.g. service groups) */
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+}
+
+.chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  min-block-size: 44px;
+  padding-inline: 1.1rem;
+  border-radius: var(--radius-pill);
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: var(--text-strong);
+  --glass-tint: rgb(8 29 64 / 0.45);
+  transition: color var(--dur) var(--ease-out);
+}
+
+.chip:hover {
+  color: var(--amber-300);
+}
+
+.chip svg {
+  color: var(--amber-400);
+  rotate: 180deg;
+}

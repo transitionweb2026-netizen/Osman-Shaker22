@@ -1,0 +1,63 @@
+/* ---- Rail: swipeable on small screens, five in a row on wide screens ---- */
+
+.rail {
+  margin-block-start: clamp(36px, 5vw, 64px);
+  margin-inline: calc(var(--gutter) * -1);
+  padding: 20px var(--gutter) 28px;
+  overflow-x: auto;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x mandatory;
+  scroll-padding-inline: var(--gutter);
+  scrollbar-width: thin;
+  scrollbar-color: rgb(233 132 53 / 0.45) transparent;
+}
+
+.rail:focus-visible {
+  outline-offset: -4px;
+  border-radius: var(--radius-lg);
+}
+
+.track {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: min(78vw, 300px);
+  gap: clamp(14px, 1.6vw, 22px);
+}
+
+.track > li {
+  scroll-snap-align: start;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  margin-block-start: clamp(24px, 3vw, 40px);
+}
+
+@media (min-width: 640px) {
+  .track {
+    grid-auto-columns: min(44vw, 310px);
+  }
+}
+
+@media (min-width: 1200px) {
+  .rail {
+    margin-inline: 0;
+    padding-inline: 0;
+    overflow: visible;
+  }
+
+  .track {
+    grid-auto-flow: row;
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+  }
+
+  /* Staggered rhythm; `translate` keeps card heights equal and leaves `transform` to the reveal */
+  .immersiveTrack {
+    padding-block-end: 44px;
+  }
+
+  .immersiveTrack > li:nth-child(even) {
+    translate: 0 44px;
+  }
+}

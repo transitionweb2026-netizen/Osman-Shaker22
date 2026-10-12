@@ -1,0 +1,246 @@
+/* ---- Featured article: large horizontal glass card ---- */
+
+.featuredSection {
+  padding-block-end: 0;
+}
+
+.featured {
+  display: grid;
+  overflow: hidden;
+  border-radius: clamp(26px, 3vw, 38px);
+  --glass-tint: rgb(8 29 64 / 0.66);
+  box-shadow:
+    inset 0 1px 0 rgb(255 255 255 / 0.26),
+    inset 0 -1px 0 rgb(233 132 53 / 0.24),
+    var(--shadow-lg);
+}
+
+.featuredMedia {
+  position: relative;
+  aspect-ratio: 16 / 10;
+  overflow: hidden;
+}
+
+.featuredMedia img {
+  inline-size: 100%;
+  block-size: 100%;
+  object-fit: cover;
+  transition: scale 1400ms var(--ease-out);
+}
+
+.featuredMedia::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(130deg, rgb(12 68 132 / 0.3), transparent 55%, rgb(233 132 53 / 0.2));
+}
+
+.featuredBody {
+  display: grid;
+  align-content: center;
+  justify-items: start;
+  gap: 1rem;
+  padding: clamp(26px, 4vw, 56px);
+}
+
+.featuredTitle {
+  font-size: clamp(1.9rem, 1.4rem + 1.8vw, 2.9rem);
+  line-height: 1.12;
+}
+
+html[lang="ar"] .featuredTitle {
+  line-height: 1.45;
+}
+
+.featuredExcerpt {
+  max-inline-size: 34rem;
+  font-size: var(--fs-lead);
+  color: var(--text-muted);
+}
+
+@media (hover: hover) {
+  .featured:hover .featuredMedia img {
+    scale: 1.04;
+  }
+}
+
+@media (min-width: 1000px) {
+  .featured {
+    grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr);
+  }
+
+  .featuredMedia {
+    aspect-ratio: auto;
+    min-block-size: 440px;
+  }
+
+  .featuredMedia img {
+    position: absolute;
+    inset: 0;
+  }
+}
+
+/* ---- Article cards ---- */
+
+.grid {
+  display: grid;
+  gap: clamp(18px, 2.2vw, 28px);
+  margin-block-start: clamp(32px, 4vw, 52px);
+}
+
+@media (min-width: 680px) {
+  .grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 1100px) {
+  .grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+.grid > li {
+  display: flex;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  inline-size: 100%;
+  padding: 10px;
+  border-radius: 26px;
+  cursor: pointer;
+  transition:
+    transform 700ms var(--ease-out),
+    box-shadow 700ms var(--ease-out);
+}
+
+.card:focus-within {
+  outline: 2px solid var(--amber-300);
+  outline-offset: 4px;
+}
+
+.cardMedia {
+  aspect-ratio: 16 / 10;
+  border-radius: 18px;
+  overflow: hidden;
+  box-shadow: 0 0 0 1px rgb(255 255 255 / 0.12);
+}
+
+.cardMedia img {
+  inline-size: 100%;
+  block-size: 100%;
+  object-fit: cover;
+  transition: scale 1400ms var(--ease-out);
+}
+
+.cardBody {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.6rem;
+  padding: 1.1rem 0.7rem 0.7rem;
+}
+
+.category {
+  padding: 0.25rem 0.7rem;
+  border-radius: var(--radius-pill);
+  background: rgb(233 132 53 / 0.14);
+  box-shadow: inset 0 0 0 1px rgb(233 132 53 / 0.28);
+  color: var(--amber-200);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+}
+
+html[lang="ar"] .category {
+  font-size: 0.84rem;
+  letter-spacing: 0;
+}
+
+.cardTitle {
+  font-size: 1.3rem;
+  line-height: 1.25;
+}
+
+html[lang="ar"] .cardTitle {
+  font-size: 1.15rem;
+  line-height: 1.55;
+}
+
+.excerpt {
+  font-size: 0.95rem;
+  color: var(--text-muted);
+}
+
+.cue {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  margin-block-start: auto;
+  padding-block-start: 0.4rem;
+  color: var(--amber-300);
+  font-size: 0.88rem;
+  font-weight: 700;
+}
+
+.cue svg {
+  transition: translate var(--dur) var(--ease-out);
+}
+
+.trigger {
+  position: absolute;
+  inset: 0;
+  z-index: 4;
+  padding: 0;
+  border: 0;
+  border-radius: inherit;
+  background: transparent;
+  cursor: pointer;
+}
+
+.trigger:focus-visible {
+  outline: none;
+}
+
+@media (hover: hover) {
+  .card:hover {
+    transform: translateY(-6px);
+    box-shadow:
+      inset 0 1px 0 rgb(255 255 255 / 0.28),
+      0 0 0 1px rgb(233 132 53 / 0.35),
+      0 34px 60px -26px rgb(1 6 18 / 0.95),
+      0 18px 44px -20px rgb(233 132 53 / 0.4);
+  }
+
+  .card:hover .cardMedia img {
+    scale: 1.06;
+  }
+
+  .card:hover .cue svg {
+    translate: calc(4px * var(--dir)) 0;
+  }
+}
+
+/* ---- Reading popup ---- */
+
+.lead {
+  font-size: 1.15rem;
+  line-height: 1.75;
+  color: var(--text-strong);
+}
+
+.reviewed {
+  font-size: 0.9rem;
+  color: var(--blue-300);
+}
+
+.disclaimer {
+  margin-block-start: 0.75rem;
+  padding-block-start: 1.25rem;
+  border-block-start: 1px solid var(--line);
+  font-size: 0.88rem;
+  color: var(--text-subtle);
+}

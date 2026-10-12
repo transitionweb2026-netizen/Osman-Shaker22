@@ -1,0 +1,182 @@
+.gallery {
+  display: grid;
+  gap: clamp(18px, 2.4vw, 28px);
+  margin-block-start: clamp(36px, 5vw, 56px);
+}
+
+.track {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: min(80vw, 380px);
+  gap: clamp(16px, 2vw, 24px);
+  margin-inline: calc(var(--gutter) * -1);
+  padding: 12px var(--gutter) 18px;
+  overflow-x: auto;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x mandatory;
+  scroll-padding-inline: var(--gutter);
+  scrollbar-width: none;
+}
+
+.track::-webkit-scrollbar {
+  display: none;
+}
+
+.track:focus-visible {
+  outline: 2px solid var(--amber-300);
+  outline-offset: -2px;
+  border-radius: var(--radius-lg);
+}
+
+.slide {
+  scroll-snap-align: start;
+}
+
+.card {
+  padding: 12px;
+  border-radius: var(--radius-lg);
+  transition: transform 600ms var(--ease-out);
+}
+
+@media (hover: hover) {
+  .card:hover {
+    transform: translateY(-6px);
+  }
+}
+
+/* Dark mat: certificates keep their proportions (contain, never cropped) */
+.mat {
+  position: relative;
+  display: grid;
+  place-items: center;
+  aspect-ratio: 4 / 3;
+  border-radius: 14px;
+  overflow: hidden;
+  background:
+    radial-gradient(80% 70% at 50% 40%, rgb(20 83 153 / 0.35), transparent 70%),
+    rgb(3 10 24 / 0.7);
+  box-shadow: inset 0 0 0 1px rgb(255 255 255 / 0.1);
+}
+
+.mat img {
+  inline-size: 100%;
+  block-size: 100%;
+  object-fit: contain;
+}
+
+.enlarge {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: end;
+  padding: 12px;
+  border: 0;
+  background: transparent;
+  color: var(--text-strong);
+  cursor: zoom-in;
+}
+
+.enlarge svg {
+  box-sizing: content-box;
+  padding: 9px;
+  border-radius: 50%;
+  background: rgb(4 13 31 / 0.65);
+  box-shadow: inset 0 0 0 1px rgb(255 255 255 / 0.2);
+}
+
+/* Neutral frame shown until a real certificate scan is provided */
+.placeholder {
+  display: grid;
+  justify-items: center;
+  gap: 0.8rem;
+  padding: 1.5rem;
+  text-align: center;
+  color: var(--text-subtle);
+  font-size: 0.88rem;
+  font-weight: 600;
+}
+
+.placeholder svg {
+  color: var(--amber-400);
+  opacity: 0.85;
+}
+
+.placeholder::before {
+  content: "";
+  position: absolute;
+  inset: 14px;
+  border: 1px dashed rgb(233 132 53 / 0.35);
+  border-radius: 10px;
+  pointer-events: none;
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  gap: 0.75rem;
+}
+
+.control {
+  display: grid;
+  place-items: center;
+  inline-size: 52px;
+  block-size: 52px;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  cursor: pointer;
+  color: var(--text-strong);
+  background:
+    linear-gradient(150deg, rgb(255 255 255 / 0.18), rgb(255 255 255 / 0.03)),
+    rgb(12 68 132 / 0.4);
+  box-shadow:
+    inset 0 1px 0 rgb(255 255 255 / 0.26),
+    inset 0 0 0 1px rgb(255 255 255 / 0.14),
+    0 12px 26px -14px rgb(1 6 18 / 0.9);
+  transition:
+    background-color var(--dur) var(--ease-out),
+    color var(--dur) var(--ease-out),
+    opacity var(--dur) var(--ease-out);
+}
+
+.control:not(:disabled):hover {
+  color: var(--text-on-amber);
+  background: var(--amber-500);
+}
+
+.control:disabled {
+  cursor: default;
+  opacity: 0.4;
+}
+
+/* "Previous" points toward the reading start in both directions */
+.previousIcon {
+  rotate: 180deg;
+}
+
+.lightbox {
+  display: grid;
+  gap: 1rem;
+  padding: clamp(16px, 3vw, 32px);
+}
+
+.lightbox img {
+  inline-size: 100%;
+  block-size: auto;
+  max-block-size: calc(100dvh - 160px);
+  object-fit: contain;
+  border-radius: 12px;
+}
+
+.lightboxCaption {
+  text-align: center;
+  color: var(--text-muted);
+}
+
+@media (min-width: 1024px) {
+  .track {
+    margin-inline: 0;
+    padding-inline: 0;
+    grid-auto-columns: calc((100% - 2 * clamp(16px, 2vw, 24px)) / 3);
+  }
+}

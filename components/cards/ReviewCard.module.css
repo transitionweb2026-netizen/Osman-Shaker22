@@ -1,0 +1,59 @@
+/* Patient review card */
+
+.review {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+  block-size: 100%;
+  padding: clamp(20px, 2.2vw, 28px);
+  border-radius: var(--radius-lg);
+  transition: transform 700ms var(--ease-out);
+}
+
+/* Stars on the reading-start side, quotation mark (real reviews) on the end side */
+.top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  align-self: stretch;
+}
+
+.mark {
+  flex-shrink: 0;
+  color: var(--amber-400);
+}
+
+.text {
+  font-size: 1.02rem;
+  line-height: 1.7;
+  color: var(--text);
+}
+
+.placeholderText {
+  color: var(--text-muted);
+}
+
+.reviewer {
+  align-self: stretch;
+  margin-block-start: auto;
+  padding-block-start: 0.85rem;
+  border-block-start: 1px solid var(--line);
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--amber-300);
+}
+
+html[lang="ar"] .reviewer {
+  font-size: 0.88rem;
+  letter-spacing: 0;
+}
+
+@media (hover: hover) {
+  .review:hover {
+    transform: translateY(-4px);
+  }
+}

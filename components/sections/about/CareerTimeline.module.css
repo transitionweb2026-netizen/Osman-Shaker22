@@ -1,0 +1,136 @@
+.timeline {
+  --node: 56px;
+  position: relative;
+  display: grid;
+  gap: clamp(22px, 3vw, 36px);
+  max-inline-size: 1040px;
+  margin: clamp(44px, 6vw, 72px) auto 0;
+}
+
+/* Glowing spine, drawn from top to bottom when the timeline is revealed */
+.timeline::before {
+  content: "";
+  position: absolute;
+  inset-block: 8px;
+  inset-inline-start: calc(var(--node) / 2 - 1px);
+  inline-size: 2px;
+  border-radius: 2px;
+  background: linear-gradient(180deg, transparent, var(--blue-400) 8%, var(--amber-500) 55%, var(--blue-400) 92%, transparent);
+  box-shadow: 0 0 16px rgb(233 132 53 / 0.45);
+  transform-origin: top;
+  transition: scale 1600ms var(--ease-out);
+}
+
+:global(html.reveal-ready) .timeline:not(:global(.is-revealed))::before {
+  scale: 1 0;
+}
+
+.item {
+  position: relative;
+  display: grid;
+  grid-template-columns: var(--node) minmax(0, 1fr);
+  column-gap: clamp(16px, 2.5vw, 28px);
+  align-items: start;
+}
+
+.node {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  place-items: center;
+  inline-size: var(--node);
+  aspect-ratio: 1;
+  border-radius: 50%;
+  font-family: var(--font-latin);
+  font-size: 0.9rem;
+  font-weight: 800;
+  color: var(--amber-300);
+  --glass-tint: rgb(8 29 64 / 0.92);
+  box-shadow:
+    inset 0 1px 0 rgb(255 255 255 / 0.26),
+    0 0 0 6px var(--navy-900),
+    0 0 26px rgb(233 132 53 / 0.35);
+}
+
+html[lang="ar"] .node {
+  font-family: var(--font-body);
+  font-size: 1.05rem;
+}
+
+.card {
+  display: grid;
+  gap: 0.45rem;
+  padding: clamp(20px, 2.4vw, 30px);
+  border-radius: var(--radius-lg);
+}
+
+/* Milestone period, e.g. "2012 – 2016" or "To be confirmed" */
+.period {
+  justify-self: start;
+  padding: 0.3rem 0.75rem;
+  border-radius: var(--radius-pill);
+  background: rgb(233 132 53 / 0.14);
+  box-shadow: inset 0 0 0 1px rgb(233 132 53 / 0.3);
+  color: var(--amber-200);
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+}
+
+html[lang="ar"] .period {
+  font-size: 0.86rem;
+  letter-spacing: 0;
+}
+
+.title {
+  margin-block-start: 0.35rem;
+  font-size: clamp(1.25rem, 1.1rem + 0.5vw, 1.5rem);
+}
+
+.organization {
+  font-weight: 600;
+  color: var(--blue-300);
+}
+
+.description {
+  font-size: 0.95rem;
+  color: var(--text-muted);
+}
+
+/* Wide screens: centred spine, cards alternate sides */
+@media (min-width: 960px) {
+  .timeline {
+    --node: 64px;
+  }
+
+  .timeline::before {
+    inset-inline-start: calc(50% - 1px);
+  }
+
+  .item {
+    grid-template-columns: minmax(0, 1fr) var(--node) minmax(0, 1fr);
+  }
+
+  .node {
+    grid-column: 2;
+    grid-row: 1;
+    margin-block-start: 12px;
+  }
+
+  .card {
+    grid-row: 1;
+  }
+
+  .item:nth-child(odd) .card {
+    grid-column: 1;
+  }
+
+  .item:nth-child(even) .card {
+    grid-column: 3;
+  }
+
+  /* Overlap the rows slightly for a staggered rhythm */
+  .item + .item {
+    margin-block-start: -24px;
+  }
+}

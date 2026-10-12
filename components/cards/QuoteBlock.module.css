@@ -1,0 +1,69 @@
+.quote {
+  display: grid;
+  align-content: center;
+  gap: 1.25rem;
+  margin: 0;
+  padding: clamp(28px, 4vw, 52px);
+  border-radius: var(--radius-xl);
+  --glass-tint: rgb(8 29 64 / 0.6);
+  box-shadow:
+    inset 0 1px 0 rgb(255 255 255 / 0.24),
+    inset 0 -1px 0 rgb(233 132 53 / 0.2),
+    var(--shadow-lg);
+}
+
+/* Large amber quotation mark (mirrored in Arabic) */
+.mark {
+  display: inline-flex;
+  color: var(--amber-400);
+  filter: drop-shadow(0 6px 18px rgb(233 132 53 / 0.45));
+}
+
+.text {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: clamp(1.45rem, 1.05rem + 1.4vw, 2.1rem);
+  font-style: italic;
+  line-height: 1.32;
+  color: var(--text-strong);
+  text-wrap: balance;
+}
+
+html[lang="ar"] .text {
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.75;
+}
+
+.feature .text {
+  font-size: clamp(1.6rem, 1.1rem + 1.9vw, 2.65rem);
+}
+
+/* Bare: no panel, so no inner padding or shadow */
+.bare {
+  padding: 0;
+  box-shadow: none;
+}
+
+.attribution {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--amber-300);
+}
+
+.attribution::before {
+  content: "— ";
+}
+
+/* Thin blue → amber rule closing the composition */
+.rule {
+  inline-size: 72px;
+  block-size: 2px;
+  border-radius: 2px;
+  background: linear-gradient(90deg, var(--amber-400), var(--blue-400));
+  box-shadow: 0 0 12px rgb(233 132 53 / 0.6);
+}
+
+[dir="rtl"] .rule {
+  background: linear-gradient(-90deg, var(--amber-400), var(--blue-400));
+}

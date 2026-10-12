@@ -1,0 +1,78 @@
+.blocks {
+  display: grid;
+  gap: 1rem;
+  color: var(--text-muted);
+  font-size: 1rem;
+  line-height: 1.75;
+}
+
+.blocks h3 {
+  margin-block-start: 0.75rem;
+  font-size: 1.28rem;
+  color: var(--text-strong);
+}
+
+html[lang="ar"] .blocks h3 {
+  font-size: 1.16rem;
+}
+
+.blocks p {
+  color: var(--text);
+}
+
+.list {
+  display: grid;
+  gap: 0.6rem;
+}
+
+.list li {
+  position: relative;
+  padding-inline-start: 1.6rem;
+}
+
+/* Amber light points instead of bullets */
+.list li::before {
+  content: "";
+  position: absolute;
+  inset-inline-start: 0.3rem;
+  inset-block-start: 0.72em;
+  inline-size: 7px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background: var(--amber-400);
+  box-shadow: 0 0 10px rgb(233 132 53 / 0.75);
+}
+
+html[lang="ar"] .list li::before {
+  inset-block-start: 0.85em;
+}
+
+.note {
+  margin-block-start: 0.5rem;
+  padding: 1rem 1.2rem;
+  border-radius: var(--radius-md);
+  border-inline-start: 3px solid var(--amber-500);
+  background: linear-gradient(90deg, rgb(233 132 53 / 0.12), rgb(12 68 132 / 0.12));
+  color: var(--text);
+  font-size: 0.95rem;
+}
+
+[dir="rtl"] .note {
+  background: linear-gradient(-90deg, rgb(233 132 53 / 0.12), rgb(12 68 132 / 0.12));
+}
+
+/* Articles: comfortable long-form reading */
+.reading {
+  gap: 1.15rem;
+  font-size: 1.06rem;
+  line-height: 1.85;
+}
+
+html[lang="ar"] .reading {
+  line-height: 2;
+}
+
+.reading h3 {
+  margin-block-start: 1.1rem;
+  font-size: 1.45rem;
+}

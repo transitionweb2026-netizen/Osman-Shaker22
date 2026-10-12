@@ -1,0 +1,65 @@
+.gate {
+  position: relative;
+  isolation: isolate;
+  display: grid;
+  place-items: center;
+  min-block-size: 100svh;
+  padding: 48px var(--gutter);
+  overflow: hidden;
+  text-align: center;
+  background:
+    radial-gradient(40rem 30rem at 80% 10%, rgb(233 132 53 / 0.18), transparent 70%),
+    radial-gradient(46rem 36rem at 10% 90%, rgb(12 68 132 / 0.65), transparent 70%),
+    var(--navy-950);
+}
+
+.card {
+  display: grid;
+  justify-items: center;
+  gap: 1.5rem;
+  inline-size: min(100%, 560px);
+  padding: clamp(32px, 6vw, 56px);
+  border-radius: var(--radius-xl);
+  --glass-tint: rgb(8 29 64 / 0.6);
+}
+
+.names {
+  display: grid;
+  gap: 0.35rem;
+}
+
+.nameEn {
+  font-family: var(--font-display);
+  font-size: clamp(2rem, 1.5rem + 2vw, 2.8rem);
+  line-height: 1.1;
+  color: var(--text-strong);
+}
+
+.nameAr {
+  font-family: var(--font-messiri), var(--font-plex-arabic), serif;
+  font-size: clamp(1.6rem, 1.3rem + 1.4vw, 2.2rem);
+  font-weight: 600;
+  line-height: 1.4;
+  color: var(--text-strong);
+}
+
+.message {
+  display: grid;
+  gap: 0.25rem;
+  color: var(--text-muted);
+}
+
+.message [lang="ar"] {
+  font-family: var(--font-plex-arabic), sans-serif;
+}
+
+.choices {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.85rem;
+}
+
+.choices [lang="ar"] {
+  font-family: var(--font-plex-arabic), sans-serif;
+}

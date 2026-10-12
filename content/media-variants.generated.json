@@ -1,0 +1,440 @@
+{
+  "article-family": {
+    "width": 1400,
+    "height": 933,
+    "widths": [
+      320,
+      480,
+      640,
+      960,
+      1280,
+      1400
+    ],
+    "color": "#181818"
+  },
+  "article-fatigue": {
+    "width": 1400,
+    "height": 1628,
+    "widths": [
+      320,
+      480,
+      640,
+      960,
+      1280,
+      1400
+    ],
+    "color": "#282828"
+  },
+  "article-first-consultation": {
+    "width": 1600,
+    "height": 1067,
+    "widths": [
+      320,
+      480,
+      640,
+      960,
+      1280,
+      1600
+    ],
+    "color": "#f8f8f8"
+  },
+  "article-immunotherapy": {
+    "width": 1400,
+    "height": 933,
+    "widths": [
+      320,
+      480,
+      640,
+      960,
+      1280,
+      1400
+    ],
+    "color": "#282828"
+  },
+  "article-nutrition": {
+    "width": 1400,
+    "height": 933,
+    "widths": [
+      320,
+      480,
+      640,
+      960,
+      1280,
+      1400
+    ],
+    "color": "#989898"
+  },
+  "article-pathology": {
+    "width": 1400,
+    "height": 1766,
+    "widths": [
+      320,
+      480,
+      640,
+      960,
+      1280,
+      1400
+    ],
+    "color": "#b8b8b8"
+  },
+  "article-questions": {
+    "width": 1400,
+    "height": 932,
+    "widths": [
+      320,
+      480,
+      640,
+      960,
+      1280,
+      1400
+    ],
+    "color": "#d8c8b8"
+  },
+  "cta-consultation": {
+    "width": 1920,
+    "height": 1310,
+    "widths": [
+      320,
+      480,
+      640,
+      960,
+      1280,
+      1600,
+      1920
+    ],
+    "color": "#080808"
+  },
+  "doctor-portrait": {
+    "width": 1600,
+    "height": 1067,
+    "widths": [
+      320,
+      480,
+      640,
+      960,
+      1280,
+      1600
+    ],
+    "color": "#c8c8c8"
+  },
+  "hero-doctor": {
+    "width": 2560,
+    "height": 1707,
+    "widths": [
+      320,
+      480,
+      640,
+      960,
+      1280,
+      1600,
+      1920,
+      2560
+    ],
+    "color": "#c8c8c8"
+  },
+  "intro-video-poster": {
+    "width": 2200,
+    "height": 1467,
+    "widths": [
+      320,
+      480,
+      640,
+      960,
+      1280,
+      1600,
+      1920,
+      2200
+    ],
+    "color": "#b8b8b8"
+  },
+  "page-articles": {
+    "width": 2400,
+    "height": 1600,
+    "widths": [
+      320,
+      480,
+      640,
+      960,
+      1280,
+      1600,
+      1920,
+      2400
+    ],
+    "color": "#685848"
+  },
+  "page-contact": {
+    "width": 2400,
+    "height": 1617,
+    "widths": [
+      320,
+      480,
+      640,
+      960,
+      1280,
+      1600,
+      1920,
+      2400
+    ],
+    "color": "#c8c8c8"
+  },
+  "page-reviews": {
+    "width": 2400,
+    "height": 1600,
+    "widths": [
+      320,
+      480,
+      640,
+      960,
+      1280,
+      1600,
+      1920,
+      2400
+    ],
+    "color": "#283838"
+  },
+  "page-services": {
+    "width": 2400,
+    "height": 1600,
+    "widths": [
+      320,
+      480,
+      640,
+      960,
+      1280,
+      1600,
+      1920,
+      2400
+    ],
+    "color": "#c8c8c8"
+  },
+  "specialty-breast": {
+    "width": 1400,
+    "height": 1120,
+    "widths": [
+      320,
+      480,
+      640,
+      960,
+      1280,
+      1400
+    ],
+    "color": "#f8f8f8"
+  },
+  "specialty-gastrointestinal": {
+    "width": 1400,
+    "height": 933,
+    "widths": [
+      320,
+      480,
+      640,
+      960,
+      1280,
+      1400
+    ],
+    "color": "#c8c8c8"
+  },
+  "specialty-gynecologic": {
+    "width": 1400,
+    "height": 926,
+    "widths": [
+      320,
+      480,
+      640,
+      960,
+      1280,
+      1400
+    ],
+    "color": "#a8a8b8"
+  },
+  "specialty-hematologic": {
+    "width": 1400,
+    "height": 933,
+    "widths": [
+      320,
+      480,
+      640,
+      960,
+      1280,
+      1400
+    ],
+    "color": "#d8d8a8"
+  },
+  "specialty-thoracic": {
+    "width": 1400,
+    "height": 1641,
+    "widths": [
+      320,
+      480,
+      640,
+      960,
+      1280,
+      1400
+    ],
+    "color": "#080808"
+  },
+  "treatment-chemotherapy": {
+    "width": 1400,
+    "height": 933,
+    "widths": [
+      320,
+      480,
+      640,
+      960,
+      1280,
+      1400
+    ],
+    "color": "#486868"
+  },
+  "treatment-hormonal": {
+    "width": 1400,
+    "height": 935,
+    "widths": [
+      320,
+      480,
+      640,
+      960,
+      1280,
+      1400
+    ],
+    "color": "#f8a858"
+  },
+  "treatment-immunotherapy": {
+    "width": 1400,
+    "height": 1400,
+    "widths": [
+      320,
+      480,
+      640,
+      960,
+      1280,
+      1400
+    ],
+    "color": "#080808"
+  },
+  "treatment-supportive": {
+    "width": 1400,
+    "height": 933,
+    "widths": [
+      320,
+      480,
+      640,
+      960,
+      1280,
+      1400
+    ],
+    "color": "#785838"
+  },
+  "treatment-targeted": {
+    "width": 1400,
+    "height": 788,
+    "widths": [
+      320,
+      480,
+      640,
+      960,
+      1280,
+      1400
+    ],
+    "color": "#283858"
+  },
+  "video-family": {
+    "width": 1400,
+    "height": 788,
+    "widths": [
+      320,
+      480,
+      640,
+      960,
+      1280,
+      1400
+    ],
+    "color": "#d8c8b8"
+  },
+  "video-first-visit": {
+    "width": 1200,
+    "height": 1806,
+    "widths": [
+      320,
+      480,
+      640,
+      960,
+      1200
+    ],
+    "color": "#b89868"
+  },
+  "video-medications": {
+    "width": 1200,
+    "height": 1800,
+    "widths": [
+      320,
+      480,
+      640,
+      960,
+      1200
+    ],
+    "color": "#d8d8d8"
+  },
+  "video-nutrition": {
+    "width": 1200,
+    "height": 1200,
+    "widths": [
+      320,
+      480,
+      640,
+      960,
+      1200
+    ],
+    "color": "#e8e8e8"
+  },
+  "video-pathology": {
+    "width": 1200,
+    "height": 1800,
+    "widths": [
+      320,
+      480,
+      640,
+      960,
+      1200
+    ],
+    "color": "#b8b8a8"
+  },
+  "video-second-opinion": {
+    "width": 1400,
+    "height": 788,
+    "widths": [
+      320,
+      480,
+      640,
+      960,
+      1280,
+      1400
+    ],
+    "color": "#c8c8c8"
+  },
+  "video-side-effects": {
+    "width": 1200,
+    "height": 1800,
+    "widths": [
+      320,
+      480,
+      640,
+      960,
+      1200
+    ],
+    "color": "#e8f8f8"
+  },
+  "why-choose": {
+    "width": 1920,
+    "height": 1280,
+    "widths": [
+      320,
+      480,
+      640,
+      960,
+      1280,
+      1600,
+      1920
+    ],
+    "color": "#d8d8d8"
+  }
+}

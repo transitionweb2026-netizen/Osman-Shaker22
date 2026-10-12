@@ -1,0 +1,41 @@
+.rating {
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.4rem 0.7rem;
+}
+
+.stars {
+  display: inline-flex;
+  gap: 3px;
+}
+
+.star {
+  inline-size: 18px;
+  block-size: 18px;
+  fill: transparent;
+  stroke: rgb(246 183 127 / 0.6);
+  stroke-width: 1.5;
+  stroke-linejoin: round;
+}
+
+/* Genuine rating: warm amber with a soft glow */
+.filled {
+  fill: var(--amber-400);
+  stroke: var(--amber-300);
+  filter: drop-shadow(0 0 6px rgb(233 132 53 / 0.45));
+}
+
+/* No rating yet: outlines only (nothing filled reads as a score), with a "pending" note */
+.note {
+  font-size: 0.76rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+}
+
+html[lang="ar"] .note {
+  font-size: 0.84rem;
+  letter-spacing: 0;
+}

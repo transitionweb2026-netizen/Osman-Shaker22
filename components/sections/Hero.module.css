@@ -1,0 +1,231 @@
+.hero {
+  position: relative;
+  isolation: isolate;
+  display: grid;
+  align-items: end;
+  /* internal pages (PageHero) shorten the hero through these variables */
+  min-block-size: var(--hero-min-height, max(660px, 100svh));
+  padding-block: calc(var(--header-height) + 48px) var(--hero-pad-end, clamp(56px, 9vh, 104px));
+  overflow: hidden;
+}
+
+/* Full-bleed photograph */
+.media {
+  position: absolute;
+  inset: 0;
+  z-index: -4;
+  background: var(--navy-900);
+}
+
+.image {
+  inline-size: 100%;
+  block-size: 100%;
+  object-fit: cover;
+  animation: settle 2600ms var(--ease-out) both;
+}
+
+/* Brand grade: pulls the photograph into the blue-amber palette */
+.grade {
+  position: absolute;
+  inset: 0;
+  z-index: -3;
+  background:
+    radial-gradient(60% 70% at 78% 30%, rgb(233 132 53 / 0.5), transparent 60%),
+    linear-gradient(115deg, rgb(12 68 132 / 0.95) 10%, rgb(20 83 153 / 0.6) 55%, rgb(233 132 53 / 0.55) 100%);
+  mix-blend-mode: soft-light;
+}
+
+/* Tints the neutral studio backdrop toward deep blue, warming to amber at the edge */
+.tint {
+  position: absolute;
+  inset: 0;
+  z-index: -3;
+  background: linear-gradient(110deg, var(--brand-blue) 0%, var(--brand-blue) 58%, #9a5422 100%);
+  mix-blend-mode: color;
+  opacity: 0.38;
+}
+
+[dir="rtl"] .tint {
+  background: linear-gradient(-110deg, var(--brand-blue) 0%, var(--brand-blue) 58%, #9a5422 100%);
+}
+
+/* Readability: deep navy behind the text, fading into the next section */
+.scrim {
+  position: absolute;
+  inset: 0;
+  z-index: -2;
+  background:
+    linear-gradient(180deg, rgb(4 13 31 / 0.65) 0%, rgb(4 13 31 / 0) 22%, rgb(4 13 31 / 0) 58%, var(--navy-950) 100%),
+    radial-gradient(90% 85% at 68% 38%, transparent 35%, rgb(4 13 31 / 0.55) 100%),
+    linear-gradient(90deg, rgb(4 13 31 / 0.94) 0%, rgb(4 13 31 / 0.82) 30%, rgb(6 21 47 / 0.35) 58%, rgb(6 21 47 / 0.12) 100%);
+}
+
+[dir="rtl"] .scrim {
+  transform: scaleX(-1);
+}
+
+/* Amber light field and blue haze */
+.light {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background:
+    linear-gradient(180deg, transparent 80%, var(--navy-950) 100%),
+    radial-gradient(38rem 26rem at 70% 18%, rgb(233 132 53 / 0.2), transparent 70%),
+    radial-gradient(40rem 24rem at 6% 70%, rgb(12 68 132 / 0.5), transparent 70%);
+}
+
+[dir="rtl"] .light {
+  transform: scaleX(-1);
+}
+
+.content {
+  display: grid;
+  justify-items: start;
+  gap: clamp(1.25rem, 2.4vw, 1.75rem);
+  max-inline-size: 41rem;
+}
+
+.content > * {
+  animation: rise 1100ms var(--ease-out) both;
+}
+
+.content > :nth-child(1) {
+  animation-delay: 150ms;
+}
+.content > :nth-child(2) {
+  animation-delay: 280ms;
+}
+.content > :nth-child(3) {
+  animation-delay: 440ms;
+}
+.content > :nth-child(4) {
+  animation-delay: 580ms;
+}
+.content > :nth-child(5) {
+  animation-delay: 720ms;
+}
+
+.eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.5rem 1rem 0.5rem 0.75rem;
+  border-radius: var(--radius-pill);
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--amber-200);
+  --glass-tint: rgb(8 29 64 / 0.4);
+}
+
+html[lang="ar"] .eyebrow {
+  padding: 0.45rem 0.8rem 0.45rem 1rem;
+  font-size: 0.92rem;
+  font-weight: 600;
+  letter-spacing: 0;
+  text-transform: none;
+}
+
+.pulse {
+  inline-size: 8px;
+  block-size: 8px;
+  border-radius: 50%;
+  background: var(--amber-400);
+  box-shadow: 0 0 0 0 rgb(233 132 53 / 0.6);
+  animation: pulse 2.8s var(--ease-out) infinite;
+}
+
+.title {
+  font-size: var(--fs-display);
+  line-height: var(--lh-tight);
+  text-shadow: 0 2px 30px rgb(1 6 18 / 0.45);
+}
+
+.accent {
+  display: block;
+  /* room for the italic overhang, which background-clip would otherwise cut */
+  padding-inline-end: 0.1em;
+  font-style: italic;
+}
+
+html[lang="ar"] .accent {
+  font-style: normal;
+}
+
+.description {
+  max-inline-size: 34rem;
+  font-size: var(--fs-lead);
+  color: rgb(232 238 247 / 0.86);
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.85rem;
+}
+
+@keyframes settle {
+  from {
+    scale: 1.08;
+    opacity: 0.4;
+  }
+  to {
+    scale: 1;
+    opacity: 1;
+  }
+}
+
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 26px, 0);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 rgb(233 132 53 / 0.6);
+  }
+  70%,
+  100% {
+    box-shadow: 0 0 0 10px rgb(233 132 53 / 0);
+  }
+}
+
+/* Portrait screens: the subject sits above, text at the bottom */
+@media (max-width: 767px) {
+  .hero {
+    min-block-size: var(--hero-min-height-mobile, max(640px, 100svh));
+  }
+
+  .scrim {
+    background:
+      linear-gradient(
+        180deg,
+        rgb(4 13 31 / 0.55) 0%,
+        rgb(4 13 31 / 0.05) 22%,
+        rgb(4 13 31 / 0.35) 44%,
+        rgb(4 13 31 / 0.92) 66%,
+        var(--navy-950) 100%
+      );
+  }
+
+  [dir="rtl"] .scrim {
+    transform: none;
+  }
+
+  .actions {
+    inline-size: 100%;
+  }
+
+  .actions > * {
+    flex: 1 1 100%;
+  }
+}

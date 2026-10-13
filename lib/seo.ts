@@ -1,7 +1,11 @@
 import type { Metadata } from "next";
 import { ogImages } from "@/content/media";
+import type { MediaAsset } from "@/content/types";
 import { localeSettings, locales, type Locale } from "./i18n";
+import type { Resolved } from "./localize";
+import { shareImageUrl } from "./media";
 import { localeHref } from "./routes";
+import { allowIndexing } from "./site-url";
 
 type PageMetadataInput = {
   locale: Locale;
@@ -10,15 +14,33 @@ type PageMetadataInput = {
   title: string;
   description: string;
   siteName: string;
+  /** Fallback sharing image (defaults to the site's generated one). */
   image?: { url: string; alt: string };
+  /** Sharing image chosen in the content; takes precedence over `image`. */
+  shareImage?: Resolved<MediaAsset> | null;
+  /** Page-level "do not index" (the site-wide launch setting still applies on top). */
+  noindex?: boolean;
 };
 
 /** Localized metadata with canonical URL, hreflang alternates and Open Graph / Twitter cards. */
-export function pageMetadata({ locale, path, title, description, siteName, image }: PageMetadataInput): Metadata {
-  const ogImage = image ?? { url: ogImages[locale], alt: siteName };
+export function pageMetadata({
+  locale,
+  path,
+  title,
+  description,
+  siteName,
+  image,
+  shareImage,
+  noindex,
+}: PageMetadataInput): Metadata {
+  const ogImage = shareImage
+    ? { url: shareImageUrl(shareImage.src), alt: shareImage.alt }
+    : (image ?? { url: ogImages[locale], alt: siteName });
   return {
     title,
     description,
+    // Without a page-level value the layout's site-wide setting applies.
+    ...(noindex ? { robots: { index: false, follow: allowIndexing } } : {}),
     alternates: {
       canonical: localeHref(locale, path),
       languages: {

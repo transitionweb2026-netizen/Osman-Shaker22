@@ -59,6 +59,12 @@ export const siteContent: SiteContent = {
     { route: "contact", label: { en: "Contact", ar: "تواصل معنا" } },
   ],
 
+  quickActions: {
+    headerBookButton: true,
+    floatingWhatsapp: true,
+    floatingPhone: true,
+  },
+
   footer: {
     navigationHeading: { en: "Explore", ar: "استكشف" },
     contactHeading: { en: "Contact", ar: "التواصل" },

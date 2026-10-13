@@ -119,6 +119,8 @@ export const reviewsPage: ReviewsPageContent = {
       ar: "تجارب المرضى المنشورة بإذنهم، وإجابات عن الأسئلة الشائعة حول الاستشارة والتشخيص والعلاج والمتابعة.",
     },
   },
+  // Order and visibility of the sections below the hero
+  layout: { sections: [{ id: "reviews" }, { id: "faq" }] },
   hero: {
     eyebrow: { en: "Reviews & FAQs", ar: "الآراء والأسئلة الشائعة" },
     title: {

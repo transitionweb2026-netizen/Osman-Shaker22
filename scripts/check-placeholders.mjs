@@ -10,6 +10,10 @@
  *                           anything remains, so placeholder phone numbers, photos or
  *                           texts cannot be published by mistake. A preview build only
  *                           prints a one-line reminder.
+ *
+ * After `npm run cms:sync`, the placeholders found in the published CMS content are
+ * checked instead of the files. Every build also stops if a secret Supabase key sits
+ * in a NEXT_PUBLIC_ variable.
  */
 import { readdir, readFile } from "node:fs/promises";
 import path from "node:path";
@@ -22,6 +26,31 @@ const buildMode = process.argv.includes("--build");
 
 // Same files and precedence as `next build`: .env.production.local, .env.local, .env.production, .env
 nextEnv.loadEnvConfig(root, false, { info() {}, error: console.error });
+
+// NEXT_PUBLIC_ variables are embedded in the website: a secret Supabase key there must never be built.
+function jwtRole(token) {
+  const parts = String(token).split(".");
+  if (parts.length !== 3) return null;
+  try {
+    return JSON.parse(Buffer.from(parts[1], "base64url").toString("utf8")).role ?? null;
+  } catch {
+    return null;
+  }
+}
+const leaked = Object.entries(process.env)
+  .filter(([name]) => name.startsWith("NEXT_PUBLIC_"))
+  .filter(([name, value]) => /SERVICE_ROLE|SECRET/i.test(name) || value?.trim().startsWith("sb_secret_") || jwtRole(value?.trim()) === "service_role")
+  .map(([name]) => name);
+if (leaked.length) {
+  console.error(
+    `Build stopped: ${leaked.join(", ")} holds a secret Supabase key. Variables starting with NEXT_PUBLIC_ are\n` +
+      "published inside the website. Use the publishable key (Project Settings → API keys) and rotate the secret key.",
+  );
+  process.exit(1);
+}
+
+// Content published from the CMS (`npm run cms:sync`) replaces the bundled files it covers
+const snapshot = JSON.parse(await readFile(path.join(contentDir, "cms-snapshot.json"), "utf8").catch(() => '{"enabled":false}'));
 
 const indent = (line) => line.match(/^\s*/)[0].length;
 const isComment = (line) => /^\s*(\*|\/\/|\/\*)/.test(line);
@@ -62,12 +91,16 @@ function describe(lines, index) {
 }
 
 const findings = [];
-for (const file of (await readdir(contentDir)).filter((f) => f.endsWith(".ts"))) {
-  const lines = (await readFile(path.join(contentDir, file), "utf8")).split(/\r?\n/);
-  lines.forEach((line, index) => {
-    if (isComment(line) || !/isPlaceholder:\s*true/.test(line)) return;
-    findings.push(`content/${file}:${index + 1}  ${describe(lines, index)}`);
-  });
+if (snapshot.enabled) {
+  for (const item of snapshot.placeholders ?? []) findings.push(`CMS (published): ${item}`);
+} else {
+  for (const file of (await readdir(contentDir)).filter((f) => f.endsWith(".ts"))) {
+    const lines = (await readFile(path.join(contentDir, file), "utf8")).split(/\r?\n/);
+    lines.forEach((line, index) => {
+      if (isComment(line) || !/isPlaceholder:\s*true/.test(line)) return;
+      findings.push(`content/${file}:${index + 1}  ${describe(lines, index)}`);
+    });
+  }
 }
 
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "";
@@ -92,6 +125,12 @@ if (buildMode && !launch) {
 if (findings.length) {
   console.log(`${findings.length} placeholder item(s) to replace or approve before publication:\n`);
   findings.forEach((finding) => console.log(`  - ${finding}`));
+}
+if (snapshot.enabled) {
+  console.log(
+    `\nChecked the CMS content synced ${snapshot.syncedAt ?? ""}. Sections never published in the CMS still use the\n` +
+      "bundled files in content/: publish every section (CMS → Publishing) so this check covers them.",
+  );
 }
 if (settings.length) {
   console.log("\nLaunch settings:");

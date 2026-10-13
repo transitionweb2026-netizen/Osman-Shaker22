@@ -1,0 +1,127 @@
+.manager {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 1rem;
+  min-inline-size: 0;
+}
+
+.orderHelp {
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+  color: var(--cms-faint);
+  font-size: 0.85rem;
+}
+
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.6rem 0.75rem;
+}
+
+.count {
+  margin-inline-start: auto;
+  color: var(--cms-faint);
+  font-size: 0.82rem;
+}
+
+.list {
+  display: grid;
+  gap: 0.5rem;
+  list-style: none;
+}
+
+.list[aria-busy="true"] {
+  opacity: 0.75;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr) auto;
+  grid-template-areas:
+    "position main controls"
+    "position badges badges";
+  align-items: center;
+  gap: 0.4rem 0.85rem;
+  padding: 0.7rem 0.6rem 0.7rem 0.85rem;
+  border: 1px solid var(--cms-border);
+  border-radius: var(--cms-radius);
+  background: var(--cms-surface);
+}
+
+@media (min-width: 900px) {
+  .row {
+    grid-template-columns: auto minmax(0, 1fr) auto auto;
+    grid-template-areas: "position main badges controls";
+  }
+}
+
+.row:hover {
+  border-color: var(--cms-border-strong);
+}
+
+.position {
+  grid-area: position;
+  display: grid;
+  place-items: center;
+  inline-size: 30px;
+  block-size: 30px;
+  border-radius: 9px;
+  background: var(--cms-surface-2);
+  color: var(--cms-muted);
+  font-size: 0.8rem;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+}
+
+.main {
+  grid-area: main;
+  display: grid;
+  gap: 0.2rem;
+  min-inline-size: 0;
+}
+
+.title {
+  overflow: hidden;
+  color: var(--cms-text);
+  font-weight: 650;
+  text-decoration: none;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.title:hover {
+  color: var(--cms-orange-bright);
+}
+
+.meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.15rem 0.85rem;
+  color: var(--cms-faint);
+  font-size: 0.78rem;
+}
+
+.meta code {
+  color: var(--cms-muted);
+}
+
+.badges {
+  grid-area: badges;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+}
+
+.controls {
+  grid-area: controls;
+  display: flex;
+  align-items: center;
+  gap: 0.1rem;
+}
+
+.createForm {
+  display: grid;
+  gap: 1rem;
+}

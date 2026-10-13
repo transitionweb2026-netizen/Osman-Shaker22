@@ -1,0 +1,40 @@
+.pane {
+  display: grid;
+  align-content: start;
+  gap: 0.6rem;
+  min-inline-size: 0;
+}
+
+.toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+
+.note {
+  color: var(--cms-faint);
+  font-size: 0.8rem;
+}
+
+.viewport {
+  position: relative;
+  border: 1px solid var(--cms-border);
+  border-radius: var(--cms-radius);
+  background: #040d1f;
+  overflow: hidden;
+}
+
+/* A real screen size, scaled down (the global media reset would cap it at the pane width) */
+.frame {
+  position: absolute;
+  inset-block-start: 0;
+  max-inline-size: none;
+  max-block-size: none;
+  border: 0;
+  transform-origin: top left;
+}
+
+[dir="rtl"] .frame {
+  transform-origin: top right;
+}

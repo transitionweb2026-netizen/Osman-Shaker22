@@ -1,6 +1,6 @@
 import type { CSSProperties } from "react";
 import { ServiceCard } from "@/components/cards/ServiceCard";
-import { RouteButton } from "@/components/ui/Button";
+import { CtaButton } from "@/components/ui/CtaButton";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 import type { Home, Site } from "@/lib/content";
 import { cx } from "@/lib/cx";
@@ -38,11 +38,11 @@ export function FeatureShowcase({ id, locale, content, site, variant }: FeatureS
           </ul>
         </div>
 
-        <div className={styles.footer} data-reveal>
-          <RouteButton route={content.cta.route} locale={locale} soonLabel={site.ui.comingSoon}>
-            {content.cta.label}
-          </RouteButton>
-        </div>
+        {!content.cta.hidden && (
+          <div className={styles.footer} data-reveal>
+            <CtaButton cta={content.cta} locale={locale} site={site} />
+          </div>
+        )}
       </div>
     </section>
   );

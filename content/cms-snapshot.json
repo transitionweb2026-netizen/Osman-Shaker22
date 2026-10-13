@@ -1,0 +1,3937 @@
+{
+  "enabled": true,
+  "syncedAt": "2026-10-13T09:45:26.103Z",
+  "version": "2026-10-13T09:43:45.506352+00:00",
+  "documents": {
+    "home.faq": {
+      "title": {
+        "ar": "الأسئلة الشائعة",
+        "en": "Frequently asked questions"
+      },
+      "faqIds": [
+        "bring",
+        "companion",
+        "plan",
+        "second-opinion",
+        "side-effects",
+        "advice",
+        "booking"
+      ],
+      "eyebrow": {
+        "ar": "أسئلة وأجوبة",
+        "en": "Questions & answers"
+      },
+      "description": {
+        "ar": "معلومات عامة تساعدك على الاستعداد، وللحصول على نصيحة تخص حالتك يُرجى حجز استشارة.",
+        "en": "General information to help you prepare. For advice about your own situation, please book a consultation."
+      }
+    },
+    "home.seo": {
+      "title": {
+        "ar": "د. عثمان شاكر — رعاية مرضى الأورام",
+        "en": "Dr. Othman Shaker — Oncology Care"
+      },
+      "ogImage": {
+        "ar": "/og/og-ar.jpg",
+        "en": "/og/og-en.jpg"
+      },
+      "ogImageAlt": {
+        "ar": "د. عثمان شاكر — رعاية مرضى الأورام",
+        "en": "Dr. Othman Shaker — Oncology care"
+      },
+      "description": {
+        "ar": "رعاية متخصصة لمرضى الأورام تقوم على التواصل الواضح والتخطيط العلاجي الفردي. تعرّف على التخصصات والعلاجات وما يمكنك توقعه.",
+        "en": "Thoughtful oncology care with clear communication and individualized treatment planning. Learn about specialties, treatments and what to expect."
+      }
+    },
+    "about.seo": {
+      "title": {
+        "ar": "عن د. عثمان شاكر — طب الأورام",
+        "en": "About Dr. Othman Shaker — Oncology"
+      },
+      "description": {
+        "ar": "تعرّف على نهج د. عثمان شاكر في رعاية مرضى الأورام، ومجالات اهتمامه، ومسيرته المهنية، وفلسفته في الرعاية.",
+        "en": "Dr. Othman Shaker's approach to oncology care, areas of focus, professional journey and philosophy of care."
+      }
+    },
+    "home.hero": {
+      "image": {
+        "alt": {
+          "ar": "طبيب يرتدي معطفًا أبيض وسماعة طبية، يقف عاقدًا ذراعيه",
+          "en": "Doctor in a white coat with a stethoscope, standing with arms crossed"
+        },
+        "src": "/media/hero-doctor",
+        "credit": "Unsplash — https://images.unsplash.com/photo-1612349317150-e413f6a5b16d",
+        "assetId": "9e9f30f2-db2f-4f5f-8e92-96438f821932",
+        "position": "62% 22%",
+        "mirrorInRtl": true,
+        "isPlaceholder": true,
+        "positionMobile": "40% 18%"
+      },
+      "title": {
+        "ar": "رعاية متخصصة لمرضى الأورام",
+        "en": "Expert cancer care"
+      },
+      "eyebrow": {
+        "ar": "طب الأورام · رعاية شخصية",
+        "en": "Oncology · Personalized care"
+      },
+      "primaryCta": {
+        "label": {
+          "ar": "احجز استشارة",
+          "en": "Book a consultation"
+        },
+        "action": {
+          "kind": "whatsapp"
+        }
+      },
+      "description": {
+        "ar": "شرح واضح، وتخطيط مدروس، ودعم متواصل في كل مرحلة من مراحل رحلتك العلاجية.",
+        "en": "Clear explanations, thoughtful planning and steady support at every stage of your care."
+      },
+      "titleAccent": {
+        "ar": "تبدأ بالإصغاء إليك.",
+        "en": "that begins with listening."
+      },
+      "secondaryCta": {
+        "label": {
+          "ar": "تعرّف على التخصصات",
+          "en": "Explore specialties"
+        },
+        "action": {
+          "kind": "section",
+          "anchor": "specialties"
+        }
+      }
+    },
+    "about.hero": {
+      "image": {
+        "alt": {
+          "ar": "طبيب يرتدي معطفًا أبيض وسماعة طبية، يقف عاقدًا ذراعيه",
+          "en": "Doctor in a white coat with a stethoscope, standing with arms crossed"
+        },
+        "src": "/media/hero-doctor",
+        "credit": "Unsplash — https://images.unsplash.com/photo-1612349317150-e413f6a5b16d",
+        "assetId": "9e9f30f2-db2f-4f5f-8e92-96438f821932",
+        "position": "62% 22%",
+        "mirrorInRtl": true,
+        "isPlaceholder": true,
+        "positionMobile": "40% 18%"
+      },
+      "title": {
+        "ar": "وضوح ورحمة",
+        "en": "Clarity and compassion"
+      },
+      "eyebrow": {
+        "ar": "عن د. عثمان شاكر",
+        "en": "About Dr. Othman Shaker"
+      },
+      "primaryCta": {
+        "label": {
+          "ar": "احجز استشارة",
+          "en": "Book a consultation"
+        },
+        "action": {
+          "kind": "whatsapp"
+        }
+      },
+      "description": {
+        "ar": "تعرّف على نهج د. عثمان شاكر في الرعاية، ومجالات اهتمامه، ومسيرته المهنية.",
+        "en": "Learn about Dr. Othman Shaker's approach to care, his areas of focus and his professional journey."
+      },
+      "titleAccent": {
+        "ar": "في كل خطوة من رعاية الأورام.",
+        "en": "at every step of cancer care."
+      },
+      "secondaryCta": {
+        "label": {
+          "ar": "المسيرة المهنية",
+          "en": "Professional journey"
+        },
+        "action": {
+          "kind": "section",
+          "anchor": "career"
+        }
+      }
+    },
+    "home.about": {
+      "cta": {
+        "label": {
+          "ar": "المزيد عن د. عثمان",
+          "en": "More about Dr. Othman"
+        },
+        "action": {
+          "kind": "page",
+          "route": "about"
+        }
+      },
+      "title": {
+        "ar": "نهج هادئ ومدروس في رعاية مرضى الأورام",
+        "en": "A calm, considered approach to cancer care"
+      },
+      "eyebrow": {
+        "ar": "عن الطبيب",
+        "en": "About the doctor"
+      },
+      "portrait": {
+        "alt": {
+          "ar": "صورة شخصية لطبيب يرتدي نظارة ومعطفًا أبيض",
+          "en": "Portrait of a doctor wearing glasses and a white coat"
+        },
+        "src": "/media/doctor-portrait",
+        "credit": "Unsplash — https://images.unsplash.com/photo-1612531386530-97286d97c2d2",
+        "assetId": "cfa4e5f8-8682-4070-8556-ad67ad5104d1",
+        "position": "50% 18%",
+        "isPlaceholder": true
+      },
+      "paragraphs": {
+        "ar": [
+          "يحمل تشخيص السرطان معه أسئلة صعبة، ويؤمن د. عثمان شاكر بأن كل مريض يستحق الوقت الكافي، وإجابات واضحة، وخطة علاجية يفهمها جيدًا.",
+          "تركّز كل استشارة على حالتك وأولوياتك وأسئلتك، لتُتخذ القرارات المتعلقة برعايتك معك ومع عائلتك، خطوة بخطوة."
+        ],
+        "en": [
+          "A cancer diagnosis brings difficult questions. Dr. Othman Shaker believes every patient deserves time, clear answers and a plan they truly understand.",
+          "Each consultation focuses on your diagnosis, your priorities and your questions — so that decisions about your care are made together, with you and your family."
+        ]
+      },
+      "isPlaceholder": true
+    },
+    "shared.cta": {
+      "image": {
+        "alt": {
+          "ar": "أخصائية تقيس ضغط الدم لمريضة خلال زيارتها",
+          "en": "A clinician measuring a patient's blood pressure during a visit"
+        },
+        "src": "/media/cta-consultation",
+        "credit": "Unsplash — https://images.unsplash.com/photo-1631815589968-fdb09a223b1e",
+        "assetId": "abcd87d6-5b17-4537-9561-a7d97d010da1",
+        "position": "40% 35%",
+        "isPlaceholder": true
+      },
+      "title": {
+        "ar": "خطوتك التالية، بوضوح ودعم",
+        "en": "Take the next step with clarity and support"
+      },
+      "eyebrow": {
+        "ar": "احجز استشارتك",
+        "en": "Book a consultation"
+      },
+      "callLabel": {
+        "ar": "اتصل بالعيادة",
+        "en": "Call the clinic"
+      },
+      "description": {
+        "ar": "تواصل معنا لترتيب موعد استشارتك، واحمل معك أسئلتك.",
+        "en": "Reach out to arrange a consultation — and bring your questions with you."
+      },
+      "whatsappLabel": {
+        "ar": "راسلنا عبر واتساب",
+        "en": "Message on WhatsApp"
+      }
+    },
+    "videos.seo": {
+      "title": {
+        "ar": "فيديوهات توعوية — د. عثمان شاكر",
+        "en": "Educational Videos — Dr. Othman Shaker"
+      },
+      "description": {
+        "ar": "فيديوهات قصيرة وواضحة عن رعاية الأورام والعلاجات والحياة اليومية، للمرضى وعائلاتهم.",
+        "en": "Short, clear videos about cancer care, treatments and everyday wellbeing, for patients and families."
+      }
+    },
+    "about.intro": {
+      "quote": {
+        "text": {
+          "ar": "تبدأ رعاية الأورام الجيدة بالفهم: فهم التشخيص، وفهم الخيارات، وفهم الإنسان الذي يواجهها.",
+          "en": "Good cancer care begins with understanding — of the diagnosis, of the options, and of the person facing them."
+        },
+        "attribution": null,
+        "isPlaceholder": true
+      },
+      "eyebrow": {
+        "ar": "نهج الرعاية",
+        "en": "Approach to care"
+      }
+    },
+    "contact.seo": {
+      "title": {
+        "ar": "تواصل معنا — د. عثمان شاكر",
+        "en": "Contact — Dr. Othman Shaker"
+      },
+      "description": {
+        "ar": "تواصل مع عيادة د. عثمان شاكر برسالة أو عبر واتساب أو الهاتف لترتيب موعد استشارة.",
+        "en": "Contact the clinic of Dr. Othman Shaker by message, WhatsApp or phone to arrange a consultation."
+      }
+    },
+    "home.layout": {
+      "sections": [
+        {
+          "id": "introVideo"
+        },
+        {
+          "id": "about"
+        },
+        {
+          "id": "statistics"
+        },
+        {
+          "id": "specialties"
+        },
+        {
+          "id": "treatments"
+        },
+        {
+          "id": "journey"
+        },
+        {
+          "id": "whyChoose"
+        },
+        {
+          "id": "videos"
+        },
+        {
+          "id": "reviewsFaq"
+        },
+        {
+          "id": "cta"
+        }
+      ]
+    },
+    "home.videos": {
+      "cta": {
+        "label": {
+          "ar": "عرض جميع الفيديوهات",
+          "en": "View all videos"
+        },
+        "action": {
+          "kind": "page",
+          "route": "videos"
+        }
+      },
+      "title": {
+        "ar": "إجابات قصيرة وواضحة عن الأسئلة الشائعة",
+        "en": "Short, clear answers to common questions"
+      },
+      "eyebrow": {
+        "ar": "فيديوهات مختارة",
+        "en": "Featured videos"
+      },
+      "description": {
+        "ar": "فيديوهات توعوية تساعد المرضى وعائلاتهم على الاستعداد بثقة أكبر.",
+        "en": "Educational videos to help patients and families feel more prepared."
+      }
+    },
+    "reviews.faq": {
+      "title": {
+        "ar": "الأسئلة الشائعة",
+        "en": "Frequently asked questions"
+      },
+      "contact": {
+        "text": {
+          "ar": "أرسله إلى العيادة، ويسعد الفريق بمساعدتك.",
+          "en": "Send it to the clinic — the team will be glad to help."
+        },
+        "title": {
+          "ar": "لديك سؤال آخر؟",
+          "en": "Still have a question?"
+        },
+        "contactLabel": {
+          "ar": "صفحة التواصل",
+          "en": "Go to the contact page"
+        },
+        "whatsappMessage": {
+          "ar": "مرحبًا، لديّ سؤال لعيادة د. عثمان شاكر.",
+          "en": "Hello, I have a question for Dr. Othman Shaker’s clinic."
+        }
+      },
+      "eyebrow": {
+        "ar": "أسئلة وأجوبة",
+        "en": "Questions & answers"
+      },
+      "description": {
+        "ar": "معلومات عامة تساعدك على الاستعداد، وللحصول على نصيحة تخص حالتك يُرجى حجز استشارة.",
+        "en": "General information to help you prepare. For advice about your own situation, please book a consultation."
+      }
+    },
+    "reviews.seo": {
+      "title": {
+        "ar": "الآراء والأسئلة الشائعة — د. عثمان شاكر",
+        "en": "Reviews & FAQs — Dr. Othman Shaker"
+      },
+      "description": {
+        "ar": "تجارب المرضى المنشورة بإذنهم، وإجابات عن الأسئلة الشائعة حول الاستشارة والتشخيص والعلاج والمتابعة.",
+        "en": "Patient experiences, published only with permission, and answers to common questions about consultations, diagnosis, treatment and follow-up."
+      }
+    },
+    "settings.ui": {
+      "next": {
+        "ar": "التالي",
+        "en": "Next"
+      },
+      "close": {
+        "ar": "إغلاق",
+        "en": "Close"
+      },
+      "phone": {
+        "ar": "الهاتف",
+        "en": "Phone"
+      },
+      "enlarge": {
+        "ar": "عرض بحجم أكبر",
+        "en": "View larger"
+      },
+      "homeLink": {
+        "ar": "د. عثمان شاكر — الصفحة الرئيسية",
+        "en": "Dr. Othman Shaker — home"
+      },
+      "openMenu": {
+        "ar": "فتح القائمة",
+        "en": "Open menu"
+      },
+      "previous": {
+        "ar": "السابق",
+        "en": "Previous"
+      },
+      "whatsapp": {
+        "ar": "واتساب",
+        "en": "WhatsApp"
+      },
+      "backToTop": {
+        "ar": "العودة إلى الأعلى",
+        "en": "Back to top"
+      },
+      "closeMenu": {
+        "ar": "إغلاق القائمة",
+        "en": "Close menu"
+      },
+      "faqTopics": {
+        "ar": "الموضوعات",
+        "en": "Topics"
+      },
+      "playVideo": {
+        "ar": "تشغيل الفيديو",
+        "en": "Play video"
+      },
+      "breadcrumb": {
+        "ar": "مسار التنقل",
+        "en": "Breadcrumb"
+      },
+      "callClinic": {
+        "ar": "اتصل بالعيادة",
+        "en": "Call the clinic"
+      },
+      "comingSoon": {
+        "ar": "قريبًا",
+        "en": "Soon"
+      },
+      "reviewedBy": {
+        "ar": "مراجعة طبية: {name}",
+        "en": "Medically reviewed by {name}"
+      },
+      "scrollHint": {
+        "ar": "مرّر أفقيًا لعرض المزيد",
+        "en": "scroll sideways to see more"
+      },
+      "ratingLabel": {
+        "ar": "التقييم {rating} من ٥",
+        "en": "Rated {rating} out of 5"
+      },
+      "readArticle": {
+        "ar": "اقرأ المقال",
+        "en": "Read article"
+      },
+      "viewDetails": {
+        "ar": "عرض التفاصيل",
+        "en": "View details"
+      },
+      "contactPanel": {
+        "ar": "وسائل التواصل",
+        "en": "Contact and social media"
+      },
+      "quickContact": {
+        "ar": "تواصل سريع",
+        "en": "Quick contact"
+      },
+      "opensInNewTab": {
+        "ar": "(يفتح في علامة تبويب جديدة)",
+        "en": "(opens in a new tab)"
+      },
+      "ratingPending": {
+        "ar": "بانتظار التقييم",
+        "en": "Rating pending"
+      },
+      "skipToContent": {
+        "ar": "انتقل إلى المحتوى الرئيسي",
+        "en": "Skip to main content"
+      },
+      "chatOnWhatsapp": {
+        "ar": "تواصل عبر واتساب",
+        "en": "Chat on WhatsApp"
+      },
+      "chooseLanguage": {
+        "ar": "اختر اللغة",
+        "en": "Choose language"
+      },
+      "mainNavigation": {
+        "ar": "التنقل الرئيسي",
+        "en": "Main navigation"
+      },
+      "askAboutService": {
+        "ar": "استفسر عبر واتساب",
+        "en": "Ask about this on WhatsApp"
+      },
+      "videoComingSoon": {
+        "ar": "الفيديو قريبًا",
+        "en": "Video coming soon"
+      },
+      "bookConsultation": {
+        "ar": "احجز استشارة",
+        "en": "Book a consultation"
+      },
+      "footerNavigation": {
+        "ar": "روابط التذييل",
+        "en": "Footer navigation"
+      },
+      "articleDisclaimer": {
+        "ar": "يقدّم هذا المقال معلومات عامة، ولا يُغني عن الاستشارة الطبية الشخصية.",
+        "en": "This article provides general information and is not a substitute for personal medical advice."
+      },
+      "certificatePending": {
+        "ar": "صورة الشهادة قريبًا",
+        "en": "Certificate image coming soon"
+      },
+      "askAboutServiceMessage": {
+        "ar": "مرحبًا، أودّ الاستفسار عن: {service}",
+        "en": "Hello, I would like to ask about: {service}"
+      }
+    },
+    "videos.hero": {
+      "image": {
+        "alt": {
+          "ar": "طبيبة تشرح صورة أشعة مقطعية معروضة على شاشة الحاسوب",
+          "en": "A doctor explaining a CT scan displayed on a computer screen"
+        },
+        "src": "/media/intro-video-poster",
+        "credit": "Unsplash — https://images.unsplash.com/photo-1666214280557-f1b5022eb634",
+        "assetId": "8e45b362-0d4b-4529-868e-7ac410c441a9",
+        "position": "60% 40%",
+        "isPlaceholder": true,
+        "positionMobile": "68% 35%"
+      },
+      "title": {
+        "ar": "إجابات قصيرة وواضحة عن الأسئلة الشائعة",
+        "en": "Short, clear answers to common questions"
+      },
+      "eyebrow": {
+        "ar": "الفيديوهات",
+        "en": "Videos"
+      },
+      "description": {
+        "ar": "فيديوهات توعوية تساعد المرضى وعائلاتهم على الاستعداد بثقة أكبر في كل مرحلة من مراحل الرعاية.",
+        "en": "Educational videos to help patients and families feel more prepared at every stage of care."
+      }
+    },
+    "videos.list": {
+      "listTitle": {
+        "ar": "جميع الفيديوهات",
+        "en": "All videos"
+      }
+    },
+    "about.career": {
+      "title": {
+        "ar": "التأهيل والخبرة السريرية",
+        "en": "Training and clinical experience"
+      },
+      "eyebrow": {
+        "ar": "المسيرة المهنية",
+        "en": "Professional journey"
+      },
+      "description": {
+        "ar": "أبرز محطات التعليم والمسيرة السريرية للدكتور عثمان شاكر.",
+        "en": "Key stages of Dr. Othman Shaker's education and clinical career."
+      }
+    },
+    "about.layout": {
+      "sections": [
+        {
+          "id": "intro"
+        },
+        {
+          "id": "specialties"
+        },
+        {
+          "id": "career"
+        },
+        {
+          "id": "certificates"
+        },
+        {
+          "id": "philosophy"
+        },
+        {
+          "id": "cta"
+        }
+      ]
+    },
+    "articles.seo": {
+      "title": {
+        "ar": "مقالات — د. عثمان شاكر",
+        "en": "Articles — Dr. Othman Shaker"
+      },
+      "description": {
+        "ar": "مقالات واضحة وعملية عن رعاية الأورام والعلاجات والحياة اليومية، للمرضى وعائلاتهم.",
+        "en": "Clear, practical articles about cancer care, treatments and everyday wellbeing, for patients and families."
+      }
+    },
+    "contact.form": {
+      "title": {
+        "ar": "أرسل رسالة",
+        "en": "Send a message"
+      },
+      "errors": {
+        "email": {
+          "ar": "يُرجى إدخال بريد إلكتروني صحيح.",
+          "en": "Please enter a valid email address."
+        },
+        "phone": {
+          "ar": "يُرجى إدخال رقم هاتف صحيح.",
+          "en": "Please enter a valid phone number."
+        },
+        "failed": {
+          "ar": "تعذّر إرسال رسالتك. يُرجى المحاولة مرة أخرى، أو التواصل مع العيادة عبر واتساب أو الهاتف.",
+          "en": "Your message could not be sent. Please try again, or contact the clinic by WhatsApp or phone."
+        },
+        "consent": {
+          "ar": "يُرجى الموافقة على التواصل معك.",
+          "en": "Please confirm that we may contact you."
+        },
+        "summary": {
+          "ar": "يُرجى تصحيح الحقول المحددة.",
+          "en": "Please correct the highlighted fields."
+        },
+        "required": {
+          "ar": "هذا الحقل مطلوب.",
+          "en": "This field is required."
+        }
+      },
+      "fields": {
+        "name": {
+          "ar": "الاسم الكامل",
+          "en": "Full name"
+        },
+        "email": {
+          "ar": "البريد الإلكتروني (اختياري)",
+          "en": "Email (optional)"
+        },
+        "phone": {
+          "ar": "رقم الهاتف",
+          "en": "Phone number"
+        },
+        "topic": {
+          "ar": "موضوع الرسالة",
+          "en": "Topic"
+        },
+        "consent": {
+          "ar": "أوافق على التواصل معي بخصوص استفساري.",
+          "en": "I agree to be contacted about my enquiry."
+        },
+        "message": {
+          "ar": "الرسالة",
+          "en": "Message"
+        },
+        "required": {
+          "ar": "مطلوب",
+          "en": "required"
+        },
+        "phoneHint": {
+          "ar": "مع رمز الدولة، مثل ‎+20…",
+          "en": "Including country code, e.g. +20…"
+        },
+        "messageHint": {
+          "ar": "يُرجى عدم إرفاق تفاصيل السجل الطبي هنا.",
+          "en": "Please do not include detailed medical records here."
+        }
+      },
+      "topics": {
+        "other": {
+          "ar": "أخرى",
+          "en": "Other"
+        },
+        "question": {
+          "ar": "استفسار عام",
+          "en": "General question"
+        },
+        "consultation": {
+          "ar": "حجز استشارة",
+          "en": "Book a consultation"
+        },
+        "secondOpinion": {
+          "ar": "رأي طبي ثانٍ",
+          "en": "Second opinion"
+        }
+      },
+      "description": {
+        "ar": "شاركنا بعض التفاصيل عن استفسارك، ويُرجى الاختصار في المعلومات الطبية، فمكانها الأنسب هو الاستشارة.",
+        "en": "Share a few details about your enquiry. Please keep medical information brief — it is best discussed during your consultation."
+      },
+      "endpointMode": {
+        "note": {
+          "ar": "تُرسل رسالتك بأمان إلى العيادة.",
+          "en": "Your message is sent securely to the clinic."
+        },
+        "submit": {
+          "ar": "إرسال الرسالة",
+          "en": "Send message"
+        },
+        "sending": {
+          "ar": "جارٍ الإرسال…",
+          "en": "Sending…"
+        },
+        "success": {
+          "ar": "شكرًا لك، تم إرسال رسالتك وستتواصل معك العيادة قريبًا.",
+          "en": "Thank you — your message has been sent. The clinic will contact you soon."
+        }
+      },
+      "whatsappMode": {
+        "note": {
+          "ar": "ستُفتح رسالتك في واتساب جاهزةً للإرسال.",
+          "en": "Your message will open in WhatsApp, ready for you to send."
+        },
+        "submit": {
+          "ar": "المتابعة عبر واتساب",
+          "en": "Continue in WhatsApp"
+        },
+        "heading": {
+          "ar": "استفسار جديد من الموقع",
+          "en": "New enquiry from the website"
+        },
+        "success": {
+          "ar": "فُتح واتساب ومعه رسالتك. اضغط «إرسال» في واتساب لإيصالها.",
+          "en": "WhatsApp has opened with your message. Press send in WhatsApp to deliver it."
+        }
+      }
+    },
+    "contact.hero": {
+      "image": {
+        "alt": {
+          "ar": "منطقة انتظار مضيئة وحديثة في عيادة تزينها النباتات",
+          "en": "A bright, modern clinic waiting area with plants"
+        },
+        "src": "/media/page-contact",
+        "credit": "Unsplash — https://images.unsplash.com/photo-1631248055158-edec7a3c072b",
+        "assetId": "319572cb-cbd9-4cd3-9ebc-1af57bbe09ce",
+        "position": "60% 55%",
+        "isPlaceholder": true,
+        "positionMobile": "65% 55%"
+      },
+      "title": {
+        "ar": "تواصل مع العيادة",
+        "en": "Get in touch with the clinic"
+      },
+      "eyebrow": {
+        "ar": "تواصل معنا",
+        "en": "Contact"
+      },
+      "description": {
+        "ar": "أرسل رسالة، أو تواصل عبر واتساب، أو اتصل بنا لترتيب استشارة أو طرح سؤال.",
+        "en": "Send a message, chat on WhatsApp or call to arrange a consultation or ask a question."
+      }
+    },
+    "home.journey": {
+      "cta": {
+        "label": {
+          "ar": "تعرّف على العلاجات",
+          "en": "Learn about treatments"
+        },
+        "action": {
+          "kind": "page",
+          "route": "servicesTreatments"
+        }
+      },
+      "note": {
+        "ar": "هذه المراحل توضيحية، فلكل مريض مسار رعاية مختلف.",
+        "en": "These stages are illustrative — every patient’s care is different."
+      },
+      "steps": [
+        {
+          "id": "consultation",
+          "icon": "consultation",
+          "title": {
+            "ar": "الاستشارة الأولى",
+            "en": "Initial consultation"
+          },
+          "description": {
+            "ar": "لقاء أول للتعرّف على تاريخك المرضي وتقاريرك ومخاوفك.",
+            "en": "A first conversation to understand your history, reports and concerns."
+          }
+        },
+        {
+          "id": "evaluation",
+          "icon": "evaluation",
+          "title": {
+            "ar": "التقييم السريري",
+            "en": "Clinical evaluation"
+          },
+          "description": {
+            "ar": "مراجعة دقيقة للفحوص ونتائج الأشعة والتحاليل النسيجية.",
+            "en": "A careful review of examinations, imaging and pathology results."
+          }
+        },
+        {
+          "id": "discussion",
+          "icon": "discussion",
+          "title": {
+            "ar": "مناقشة الخطوات التالية",
+            "en": "Discussing next steps"
+          },
+          "description": {
+            "ar": "نقاش صريح حول الخيارات المناسبة، بلغة واضحة وسهلة الفهم.",
+            "en": "An open discussion of suitable options, in language that is easy to follow."
+          }
+        },
+        {
+          "id": "plan",
+          "icon": "plan",
+          "title": {
+            "ar": "خطة رعاية فردية",
+            "en": "Individualized care plan"
+          },
+          "description": {
+            "ar": "خطة تُبنى حول تشخيصك وحالتك الصحية وأولوياتك الشخصية.",
+            "en": "A plan built around your diagnosis, your health and your personal priorities."
+          }
+        },
+        {
+          "id": "follow-up",
+          "icon": "followUp",
+          "title": {
+            "ar": "المتابعة والدعم المستمر",
+            "en": "Follow-up & ongoing support"
+          },
+          "description": {
+            "ar": "متابعة منتظمة وتواصل واضح أثناء العلاج وبعده.",
+            "en": "Regular follow-up and clear communication during and after treatment."
+          }
+        }
+      ],
+      "title": {
+        "ar": "ما الذي تتوقعه، خطوة بخطوة",
+        "en": "What to expect, step by step"
+      },
+      "eyebrow": {
+        "ar": "رحلتك العلاجية",
+        "en": "Your patient journey"
+      },
+      "description": {
+        "ar": "تصوّر عام لكيفية سير الرعاية عادةً، بينما يُصمَّم مسارك الخاص وفق تشخيصك واحتياجاتك.",
+        "en": "A general outline of how care usually unfolds. Your own pathway is shaped around your diagnosis and needs."
+      }
+    },
+    "home.reviews": {
+      "cta": {
+        "label": {
+          "ar": "الآراء والأسئلة الشائعة",
+          "en": "Reviews & FAQs"
+        },
+        "action": {
+          "kind": "page",
+          "route": "reviews"
+        }
+      },
+      "title": {
+        "ar": "تجارب يشاركها المرضى",
+        "en": "Experiences shared by patients"
+      },
+      "eyebrow": {
+        "ar": "آراء المرضى",
+        "en": "Patient reviews"
+      },
+      "description": {
+        "ar": "تُنشر الآراء فقط بإذن أصحابها.",
+        "en": "Reviews are published only with each patient’s permission."
+      }
+    },
+    "reviews.hero": {
+      "image": {
+        "alt": {
+          "ar": "يدان تمتدان نحو بعضهما",
+          "en": "Two hands reaching toward each other"
+        },
+        "src": "/media/page-reviews",
+        "credit": "Unsplash — https://images.unsplash.com/photo-1544027993-37dbfe43562a",
+        "assetId": "1577dd17-c35a-4778-9029-d860e2b313a6",
+        "position": "50% 50%",
+        "isPlaceholder": true
+      },
+      "title": {
+        "ar": "تجارب المرضى وإجابات عن أسئلتكم",
+        "en": "Patient experiences and answers to your questions"
+      },
+      "eyebrow": {
+        "ar": "الآراء والأسئلة الشائعة",
+        "en": "Reviews & FAQs"
+      },
+      "description": {
+        "ar": "تُنشر الآراء فقط بإذن أصحابها، وتجد أسفلها إجابات عن أكثر الأسئلة التي يطرحها المرضى وعائلاتهم.",
+        "en": "Reviews are published only with each patient’s permission. Below them, you will find answers to the questions patients and families ask most often."
+      }
+    },
+    "services.seo": {
+      "title": {
+        "ar": "خدمات علاج الأورام — د. عثمان شاكر",
+        "en": "Oncology Services — Dr. Othman Shaker"
+      },
+      "description": {
+        "ar": "التخصصات الطبية وعلاجات الأورام والرعاية المستمرة بشرح واضح، من الاستشارة الأولى وحتى المتابعة طويلة المدى.",
+        "en": "Medical specialties, cancer treatments and ongoing care, explained clearly — from the first consultation to long-term follow-up."
+      }
+    },
+    "articles.hero": {
+      "image": {
+        "alt": {
+          "ar": "يدان تكتبان على حاسوب محمول بجوار سماعة طبية",
+          "en": "Hands typing on a laptop beside a stethoscope"
+        },
+        "src": "/media/page-articles",
+        "credit": "Unsplash — https://images.unsplash.com/photo-1576091160550-2173dba999ef",
+        "assetId": "28b54b3b-80e0-42e0-b350-b77526f91404",
+        "position": "60% 50%",
+        "isPlaceholder": true,
+        "positionMobile": "70% 50%"
+      },
+      "title": {
+        "ar": "فهم رعاية الأورام",
+        "en": "Understanding cancer care"
+      },
+      "eyebrow": {
+        "ar": "المقالات",
+        "en": "Articles"
+      },
+      "description": {
+        "ar": "مقالات عملية بلغة بسيطة تساعدك على الاستعداد للمواعيد وفهم العلاج والعناية بنفسك.",
+        "en": "Practical, plain-language articles to help you prepare for appointments, understand treatment and look after yourself."
+      }
+    },
+    "reviews.intro": {
+      "title": {
+        "ar": "تجارب يشاركها المرضى وعائلاتهم",
+        "en": "Experiences shared by patients and families"
+      },
+      "eyebrow": {
+        "ar": "آراء المرضى",
+        "en": "Patient reviews"
+      },
+      "description": {
+        "ar": "لا تظهر الأسماء إلا بموافقة صريحة، وكل تقييم بالنجوم يأتي من المريض نفسه.",
+        "en": "Names appear only with explicit consent, and every star rating comes from the patient."
+      }
+    },
+    "services.hero": {
+      "image": {
+        "alt": {
+          "ar": "طبيبان يراجعان صورًا طبية على شاشات الحاسوب",
+          "en": "Two doctors reviewing medical images on computer screens"
+        },
+        "src": "/media/page-services",
+        "credit": "Unsplash — https://images.unsplash.com/photo-1666214280391-8ff5bd3c0bf0",
+        "assetId": "a8cbbda9-720a-48db-9ee1-0e8ad399cbb6",
+        "position": "70% 35%",
+        "isPlaceholder": true,
+        "positionMobile": "75% 30%"
+      },
+      "title": {
+        "ar": "التخصصات والعلاجات والرعاية المستمرة",
+        "en": "Specialties, treatments and ongoing care"
+      },
+      "eyebrow": {
+        "ar": "الخدمات",
+        "en": "Services"
+      },
+      "description": {
+        "ar": "نظرة شاملة على أنواع الأورام التي نتعامل معها، والعلاجات التي قد يُوصى بها، والدعم المقدَّم في كل مرحلة. اختر أي بطاقة لمزيد من التفاصيل.",
+        "en": "An overview of the cancers treated, the treatments that may be recommended and the support offered along the way. Select any card for more detail."
+      }
+    },
+    "home.whyChoose": {
+      "image": {
+        "alt": {
+          "ar": "أطباء يراجعون صورًا طبية معًا في مكتب عيادة مضيء",
+          "en": "Doctors reviewing medical images together in a bright clinic office"
+        },
+        "src": "/media/why-choose",
+        "credit": "Unsplash — https://images.unsplash.com/photo-1666214277657-e60f05c40b04",
+        "assetId": "89cbb8d2-bf85-43ca-8694-7e098022dcdd",
+        "position": "72% 40%",
+        "isPlaceholder": true
+      },
+      "title": {
+        "ar": "رعاية تُبقيك على اطلاع، وشريكًا في القرار، ومحاطًا بالدعم",
+        "en": "Care that keeps you informed, involved and supported"
+      },
+      "caption": {
+        "ar": "كل سؤال يستحق إجابة يمكنك فهمها.",
+        "en": "Every question deserves an answer you can understand."
+      },
+      "eyebrow": {
+        "ar": "لماذا د. عثمان شاكر؟",
+        "en": "Why Dr. Othman Shaker?"
+      },
+      "principles": [
+        {
+          "id": "communication",
+          "title": {
+            "ar": "تواصل واضح",
+            "en": "Clear communication"
+          },
+          "description": {
+            "ar": "شرح التشخيص والنتائج والخيارات بلغة بسيطة، مع وقت كافٍ لكل سؤال.",
+            "en": "Diagnoses, results and options explained in plain language, with time for every question."
+          }
+        },
+        {
+          "id": "thoughtful",
+          "title": {
+            "ar": "رعاية مدروسة",
+            "en": "Thoughtful care"
+          },
+          "description": {
+            "ar": "توصيات تُدرس بعناية، توازن بين الفوائد والآثار الجانبية وما يهمك أنت.",
+            "en": "Recommendations weighed carefully — benefits, side effects and what matters to you."
+          }
+        },
+        {
+          "id": "individual",
+          "title": {
+            "ar": "اهتمام فردي",
+            "en": "Individual attention"
+          },
+          "description": {
+            "ar": "خطتك مصممة حولك أنت: تشخيصك وصحتك وحياتك.",
+            "en": "Your plan is shaped around you: your diagnosis, your health and your life."
+          }
+        },
+        {
+          "id": "continuity",
+          "title": {
+            "ar": "دعم متواصل",
+            "en": "Continuity of support"
+          },
+          "description": {
+            "ar": "متابعة منتظمة، لتعرف دائمًا خطوتك التالية.",
+            "en": "Consistent follow-up, so you always know the next step."
+          }
+        }
+      ],
+      "description": {
+        "ar": "مواجهة السرطان لا تقتصر على العلاج وحده، بل تشمل أن تفهم ما يحدث، وأن تثق بمن يرافقك، وأن تشعر بأن صوتك مسموع في كل زيارة.",
+        "en": "Facing cancer is about more than treatment. It is about understanding what is happening, trusting the people beside you and feeling heard at every visit."
+      },
+      "isPlaceholder": true
+    },
+    "reviews.layout": {
+      "sections": [
+        {
+          "id": "reviews"
+        },
+        {
+          "id": "faq"
+        }
+      ]
+    },
+    "contact.actions": {
+      "title": {
+        "ar": "راسل العيادة أو اتصل بها مباشرة",
+        "en": "Chat or call the clinic directly"
+      },
+      "eyebrow": {
+        "ar": "تفضّل التحدث الآن؟",
+        "en": "Prefer to talk now?"
+      },
+      "callLabel": {
+        "ar": "اتصل بالعيادة",
+        "en": "Call the clinic"
+      },
+      "whatsappLabel": {
+        "ar": "تواصل عبر واتساب",
+        "en": "Chat on WhatsApp"
+      }
+    },
+    "home.introVideo": {
+      "title": {
+        "ar": "تعرّف على د. عثمان شاكر",
+        "en": "Meet Dr. Othman Shaker"
+      },
+      "eyebrow": {
+        "ar": "تعريف",
+        "en": "Introduction"
+      },
+      "description": {
+        "ar": "مقدمة قصيرة عن نهج د. عثمان في الرعاية، وما يمكنك توقعه عند زيارتك للعيادة.",
+        "en": "A short introduction to Dr. Othman’s approach to care, and what you can expect when you visit the clinic."
+      }
+    },
+    "home.statistics": {
+      "items": [
+        {
+          "id": "experience",
+          "label": {
+            "ar": "عامًا من الخبرة السريرية",
+            "en": "Years of clinical experience"
+          },
+          "value": 15,
+          "suffix": "+",
+          "isPlaceholder": true
+        },
+        {
+          "id": "consultations",
+          "label": {
+            "ar": "استشارة طبية",
+            "en": "Patient consultations"
+          },
+          "value": 5000,
+          "suffix": "+",
+          "isPlaceholder": true
+        },
+        {
+          "id": "specialties",
+          "label": {
+            "ar": "مجالات تخصص",
+            "en": "Specialty areas"
+          },
+          "value": 5,
+          "isPlaceholder": true
+        },
+        {
+          "id": "treatments",
+          "label": {
+            "ar": "أساليب علاجية",
+            "en": "Treatment approaches"
+          },
+          "value": 5,
+          "isPlaceholder": true
+        }
+      ],
+      "title": {
+        "ar": "رعاية قوامها الخبرة والاهتمام",
+        "en": "Care built on experience and attention"
+      },
+      "eyebrow": {
+        "ar": "لمحة سريعة",
+        "en": "At a glance"
+      }
+    },
+    "home.treatments": {
+      "cta": {
+        "label": {
+          "ar": "استكشف العلاجات",
+          "en": "Explore treatments"
+        },
+        "action": {
+          "kind": "page",
+          "route": "servicesTreatments"
+        }
+      },
+      "title": {
+        "ar": "خيارات علاجية حديثة، بشرح واضح",
+        "en": "Modern treatment options, explained clearly"
+      },
+      "eyebrow": {
+        "ar": "العلاجات",
+        "en": "Treatments"
+      },
+      "serviceIds": [
+        "chemotherapy",
+        "immunotherapy",
+        "targeted",
+        "hormonal",
+        "supportive"
+      ],
+      "description": {
+        "ar": "تعتمد أي توصية علاجية على نوع الورم ومرحلته وحالتك الصحية العامة وتفضيلاتك، وتُناقش معك دائمًا قبل البدء.",
+        "en": "Any recommendation depends on the type and stage of cancer, your overall health and your preferences — and is always discussed with you first."
+      }
+    },
+    "services.layout": {
+      "sections": [
+        {
+          "id": "groups"
+        },
+        {
+          "id": "cta"
+        }
+      ]
+    },
+    "settings.footer": {
+      "copyright": {
+        "ar": "© {year} د. عثمان شاكر. جميع الحقوق محفوظة.",
+        "en": "© {year} Dr. Othman Shaker. All rights reserved."
+      },
+      "disclaimer": {
+        "ar": "المعلومات الواردة في هذا الموقع للتثقيف العام فقط، ولا تُغني عن الاستشارة الطبية الشخصية.",
+        "en": "The information on this website is for general education only and is not a substitute for a personal medical consultation."
+      },
+      "followHeading": {
+        "ar": "تابعنا",
+        "en": "Follow"
+      },
+      "contactHeading": {
+        "ar": "التواصل",
+        "en": "Contact"
+      },
+      "navigationHeading": {
+        "ar": "استكشف",
+        "en": "Explore"
+      }
+    },
+    "about.philosophy": {
+      "quote": {
+        "text": {
+          "ar": "يستحق كل مريض أن يفهم مرضه، وأن يكون شريكًا في كل قرار، وأن يشعر بالدعم لا بالعلاج وحده.",
+          "en": "Every patient deserves to understand their illness, to take part in every decision, and to feel supported — not only treated."
+        },
+        "attribution": null,
+        "isPlaceholder": true
+      },
+      "eyebrow": {
+        "ar": "فلسفة الرعاية",
+        "en": "Philosophy of care"
+      },
+      "portrait": {
+        "alt": {
+          "ar": "صورة شخصية لطبيب يرتدي نظارة ومعطفًا أبيض",
+          "en": "Portrait of a doctor wearing glasses and a white coat"
+        },
+        "src": "/media/doctor-portrait",
+        "credit": "Unsplash — https://images.unsplash.com/photo-1612531386530-97286d97c2d2",
+        "assetId": "cfa4e5f8-8682-4070-8556-ad67ad5104d1",
+        "position": "50% 18%",
+        "isPlaceholder": true
+      }
+    },
+    "home.specialties": {
+      "cta": {
+        "label": {
+          "ar": "عرض جميع التخصصات",
+          "en": "View all specialties"
+        },
+        "action": {
+          "kind": "page",
+          "route": "servicesSpecialties"
+        }
+      },
+      "title": {
+        "ar": "رعاية مركّزة لأنواع الأورام الشائعة",
+        "en": "Focused care across common cancers"
+      },
+      "eyebrow": {
+        "ar": "التخصصات الطبية",
+        "en": "Medical specialties"
+      },
+      "serviceIds": [
+        "breast",
+        "thoracic",
+        "gastrointestinal",
+        "gynecologic",
+        "hematologic"
+      ],
+      "description": {
+        "ar": "رعاية لأنواع متعددة من الأورام، مع خطة تُبنى حول التشخيص الدقيق والإنسان صاحب الحالة.",
+        "en": "Care for a range of cancer types, with every plan shaped around the specific diagnosis — and the person behind it."
+      }
+    },
+    "settings.contact": {
+      "phone": {
+        "e164": "+201000000000",
+        "display": "+20 100 000 0000",
+        "isPlaceholder": true
+      },
+      "whatsapp": {
+        "e164": "+201000000000",
+        "display": "+20 100 000 0000",
+        "isPlaceholder": true
+      },
+      "whatsappMessage": {
+        "ar": "مرحبًا، أودّ حجز استشارة مع د. عثمان شاكر.",
+        "en": "Hello, I would like to book a consultation with Dr. Othman Shaker."
+      }
+    },
+    "settings.socials": {
+      "items": [
+        {
+          "url": "https://www.facebook.com/",
+          "label": {
+            "ar": "فيسبوك",
+            "en": "Facebook"
+          },
+          "platform": "facebook",
+          "isPlaceholder": true
+        },
+        {
+          "url": "https://www.instagram.com/",
+          "label": {
+            "ar": "إنستغرام",
+            "en": "Instagram"
+          },
+          "platform": "instagram",
+          "isPlaceholder": true
+        },
+        {
+          "url": "https://www.youtube.com/",
+          "label": {
+            "ar": "يوتيوب",
+            "en": "YouTube"
+          },
+          "platform": "youtube",
+          "isPlaceholder": true
+        }
+      ]
+    },
+    "about.specialties": {
+      "cta": {
+        "label": {
+          "ar": "عرض جميع التخصصات الطبية",
+          "en": "View all medical specialties"
+        },
+        "action": {
+          "kind": "page",
+          "route": "servicesSpecialties"
+        }
+      },
+      "title": {
+        "ar": "أبرز التخصصات الطبية",
+        "en": "Featured medical specialties"
+      },
+      "eyebrow": {
+        "ar": "مجالات الاهتمام",
+        "en": "Areas of focus"
+      },
+      "serviceIds": [
+        "breast",
+        "thoracic",
+        "gastrointestinal",
+        "gynecologic",
+        "hematologic"
+      ],
+      "description": {
+        "ar": "خمسة مجالات في رعاية الأورام، وتجد القائمة الكاملة بالتفاصيل في صفحة الخدمات.",
+        "en": "Five areas of oncology care. The full catalog, with detailed information, is on the Services page."
+      }
+    },
+    "articles.settings": {
+      "moreTitle": {
+        "ar": "مقالات أخرى",
+        "en": "More articles"
+      },
+      "featuredId": "first-consultation",
+      "featuredLabel": {
+        "ar": "مقال مميز",
+        "en": "Featured article"
+      }
+    },
+    "settings.identity": {
+      "name": {
+        "ar": "د. عثمان شاكر",
+        "en": "Dr. Othman Shaker"
+      },
+      "specialty": {
+        "ar": "طب الأورام",
+        "en": "Oncology"
+      },
+      "description": {
+        "ar": "رعاية متخصصة في طب الأورام تقوم على الشرح الواضح والاهتمام الفردي والدعم المستمر، من الاستشارة الأولى وحتى المتابعة.",
+        "en": "Thoughtful oncology care built on clear explanations, individual attention and steady support — from the first consultation to follow-up."
+      }
+    },
+    "shared.introVideo": {
+      "id": "introduction",
+      "title": {
+        "ar": "تعريف بالدكتور عثمان شاكر",
+        "en": "Introduction to Dr. Othman Shaker"
+      },
+      "poster": {
+        "alt": {
+          "ar": "طبيبة تشرح صورة أشعة مقطعية معروضة على شاشة الحاسوب",
+          "en": "A doctor explaining a CT scan displayed on a computer screen"
+        },
+        "src": "/media/intro-video-poster",
+        "credit": "Unsplash — https://images.unsplash.com/photo-1666214280557-f1b5022eb634",
+        "assetId": "8e45b362-0d4b-4529-868e-7ac410c441a9",
+        "position": "55% 45%",
+        "isPlaceholder": true
+      },
+      "source": null,
+      "duration": null,
+      "isPlaceholder": true
+    },
+    "about.certificates": {
+      "title": {
+        "ar": "الشهادات",
+        "en": "Certificates"
+      },
+      "eyebrow": {
+        "ar": "الشهادات والمؤهلات",
+        "en": "Certificates & qualifications"
+      },
+      "description": {
+        "ar": "مختارات من الشهادات والمؤهلات المهنية.",
+        "en": "Selected certificates and professional qualifications."
+      }
+    },
+    "settings.navigation": {
+      "items": [
+        {
+          "label": {
+            "ar": "الرئيسية",
+            "en": "Home"
+          },
+          "route": "home"
+        },
+        {
+          "label": {
+            "ar": "عن الطبيب",
+            "en": "About the Doctor"
+          },
+          "route": "about"
+        },
+        {
+          "label": {
+            "ar": "الخدمات",
+            "en": "Services"
+          },
+          "route": "services"
+        },
+        {
+          "label": {
+            "ar": "الفيديوهات",
+            "en": "Videos"
+          },
+          "route": "videos"
+        },
+        {
+          "label": {
+            "ar": "الآراء والأسئلة الشائعة",
+            "en": "Reviews & FAQs"
+          },
+          "route": "reviews"
+        },
+        {
+          "label": {
+            "ar": "المقالات",
+            "en": "Articles"
+          },
+          "route": "articles"
+        },
+        {
+          "label": {
+            "ar": "تواصل معنا",
+            "en": "Contact"
+          },
+          "route": "contact"
+        }
+      ]
+    },
+    "settings.quickActions": {
+      "floatingPhone": true,
+      "floatingWhatsapp": true,
+      "headerBookButton": true
+    }
+  },
+  "catalogs": {
+    "serviceGroups": [
+      {
+        "slug": "medical-specialties",
+        "content": {
+          "title": {
+            "ar": "أنواع الأورام التي نعتني بها",
+            "en": "Cancers we care for"
+          },
+          "eyebrow": {
+            "ar": "التخصصات الطبية",
+            "en": "Medical specialties"
+          },
+          "description": {
+            "ar": "يختلف سلوك كل نوع من الأورام عن غيره، لذا تُصمَّم الرعاية وفق العضو المصاب والمرحلة والحالة الصحية العامة.",
+            "en": "Each type of cancer behaves differently. Care is shaped around the organ involved, the stage and the person's overall health."
+          }
+        }
+      },
+      {
+        "slug": "treatments",
+        "content": {
+          "title": {
+            "ar": "الخيارات العلاجية",
+            "en": "Treatment options"
+          },
+          "eyebrow": {
+            "ar": "العلاجات",
+            "en": "Treatments"
+          },
+          "description": {
+            "ar": "تعتمد التوصيات على نوع الورم ومرحلته والحالة الصحية العامة والتفضيلات الشخصية، وتُناقش معك دائمًا قبل البدء.",
+            "en": "Recommendations depend on the type and stage of cancer, overall health and personal preferences — and are always discussed with you first."
+          }
+        }
+      },
+      {
+        "slug": "consultation-care",
+        "content": {
+          "title": {
+            "ar": "من الزيارة الأولى إلى المتابعة",
+            "en": "From first visit to follow-up"
+          },
+          "eyebrow": {
+            "ar": "الاستشارة والرعاية المستمرة",
+            "en": "Consultation & ongoing care"
+          },
+          "description": {
+            "ar": "مراحل الرحلة العلاجية كخدمات قائمة بذاتها، ومنها الرأي الطبي الثاني المستقل.",
+            "en": "The stages of the patient journey, offered as services in their own right — including independent second opinions."
+          }
+        }
+      }
+    ],
+    "services": [
+      {
+        "slug": "breast",
+        "content": {
+          "image": {
+            "alt": {
+              "ar": "مريضة برفقة أخصائية الأشعة أثناء فحص الماموجرام",
+              "en": "A patient with a radiographer during a mammogram"
+            },
+            "src": "/media/specialty-breast",
+            "credit": "Unsplash — https://images.unsplash.com/photo-1579154341098-e4e158cc7f55",
+            "assetId": "34413557-e377-4f13-a469-4bad94f418ff",
+            "position": "58% 40%",
+            "isPlaceholder": true
+          },
+          "title": {
+            "ar": "أورام الثدي",
+            "en": "Breast cancer"
+          },
+          "details": [
+            {
+              "text": {
+                "ar": "تُخطَّط رعاية سرطان الثدي وفق نوع الورم ومرحلته ونتائج الفحوص، مثل مستقبلات الهرمونات وحالة HER2. وتساعد هذه التفاصيل في تحديد العلاجات الأنسب لكل حالة.",
+                "en": "Breast cancer care is planned around the specific type of tumor, its stage and test results such as hormone receptor and HER2 status. These details help guide which treatments are likely to be most suitable."
+              },
+              "type": "paragraph"
+            },
+            {
+              "text": {
+                "ar": "ما قد تشمله الرعاية",
+                "en": "What care may include"
+              },
+              "type": "heading"
+            },
+            {
+              "type": "list",
+              "items": {
+                "ar": [
+                  "مراجعة صور الأشعة ونتائج الخزعة والتحليل النسيجي",
+                  "مناقشة دور الجراحة والعلاج الإشعاعي والأدوية مع فريق الرعاية",
+                  "العلاجات الدوائية مثل العلاج الكيميائي أو الهرموني أو الموجّه عند الحاجة",
+                  "المتابعة والدعم على المدى الطويل بعد انتهاء العلاج"
+                ],
+                "en": [
+                  "Reviewing imaging, biopsy and pathology results",
+                  "Discussing the roles of surgery, radiotherapy and medicines with the wider care team",
+                  "Systemic treatments such as chemotherapy, hormonal therapy or targeted therapy, when appropriate",
+                  "Long-term follow-up and support after treatment"
+                ]
+              }
+            },
+            {
+              "text": {
+                "ar": "أسئلة قد ترغب في طرحها",
+                "en": "Questions you may want to ask"
+              },
+              "type": "heading"
+            },
+            {
+              "type": "list",
+              "items": {
+                "ar": [
+                  "ما نوع سرطان الثدي لديّ وما مرحلته؟",
+                  "ما الهدف من العلاج المقترح؟",
+                  "ما الآثار الجانبية التي ينبغي أن أنتبه لها؟"
+                ],
+                "en": [
+                  "What type and stage of breast cancer do I have?",
+                  "What is the goal of the recommended treatment?",
+                  "Which side effects should I watch for?"
+                ]
+              }
+            }
+          ],
+          "summary": {
+            "ar": "متابعة مدروسة عبر مراحل التشخيص وخيارات العلاج والمتابعة طويلة المدى.",
+            "en": "Thoughtful guidance through diagnosis, treatment options and long-term follow-up."
+          },
+          "isPlaceholder": true
+        },
+        "parent": "medical-specialties"
+      },
+      {
+        "slug": "thoracic",
+        "content": {
+          "image": {
+            "alt": {
+              "ar": "طبيب يفحص صور الأشعة على لوح الإضاءة",
+              "en": "A doctor examining scan images on a light box"
+            },
+            "src": "/media/specialty-thoracic",
+            "credit": "Unsplash — https://images.unsplash.com/photo-1581595219315-a187dd40c322",
+            "assetId": "6882b810-4069-487b-b2ab-3c4d4aee3756",
+            "position": "60% 35%",
+            "isPlaceholder": true
+          },
+          "title": {
+            "ar": "أورام الرئة والصدر",
+            "en": "Lung & thoracic cancers"
+          },
+          "details": [
+            {
+              "text": {
+                "ar": "تُقيَّم أورام الرئة والصدر بالاعتماد على صور الأشعة ونتائج الخزعة، ومن خلال الفحوص الجزيئية للورم بصورة متزايدة. وتساعد هذه المعطيات مجتمعةً في تحديد المرحلة وأساليب العلاج الملائمة.",
+                "en": "Cancers of the lung and chest are assessed using imaging, biopsy results and, increasingly, molecular tests on the tumor. Together these help determine the stage and which treatment approaches may be suitable."
+              },
+              "type": "paragraph"
+            },
+            {
+              "text": {
+                "ar": "ما قد تشمله الرعاية",
+                "en": "What care may include"
+              },
+              "type": "heading"
+            },
+            {
+              "type": "list",
+              "items": {
+                "ar": [
+                  "مراجعة دقيقة للأشعة المقطعية والمسح البوزيتروني وغيرها",
+                  "مناقشة الفحوص الجزيئية أو المؤشرات الحيوية عند الحاجة",
+                  "تخطيط علاجي قد يشمل الأدوية أو العلاج الإشعاعي أو الجراحة",
+                  "الاهتمام بالتنفس والسعال وغيرها من الأعراض"
+                ],
+                "en": [
+                  "Careful review of CT, PET and other imaging",
+                  "Discussing molecular or biomarker testing when relevant",
+                  "Treatment planning that may involve medicines, radiotherapy or surgery",
+                  "Attention to breathing, cough and other symptoms"
+                ]
+              }
+            },
+            {
+              "text": {
+                "ar": "الإقلاع عن التدخين مفيد في أي مرحلة من مراحل الرعاية، والدعم متاح إن رغبت فيه.",
+                "en": "Stopping smoking helps at any stage of care. Support is available if you would like it."
+              },
+              "type": "note"
+            }
+          ],
+          "summary": {
+            "ar": "مراجعة دقيقة لنتائج الأشعة والتحاليل النسيجية لتحديد الخطوات المناسبة.",
+            "en": "Careful review of imaging and pathology to plan the right next steps."
+          },
+          "isPlaceholder": true
+        },
+        "parent": "medical-specialties"
+      },
+      {
+        "slug": "gastrointestinal",
+        "content": {
+          "image": {
+            "alt": {
+              "ar": "طبيبان يناقشان صورًا طبية على الشاشة",
+              "en": "Two doctors discussing medical images on a monitor"
+            },
+            "src": "/media/specialty-gastrointestinal",
+            "credit": "Unsplash — https://images.unsplash.com/photo-1666214280391-8ff5bd3c0bf0",
+            "assetId": "525b44fb-2e95-4978-b369-d7f88d54b40e",
+            "position": "68% 40%",
+            "isPlaceholder": true
+          },
+          "title": {
+            "ar": "أورام الجهاز الهضمي",
+            "en": "Gastrointestinal cancers"
+          },
+          "details": [
+            {
+              "text": {
+                "ar": "تشمل أورام الجهاز الهضمي أورام المريء والمعدة والأمعاء والكبد والبنكرياس. ولكلٍّ منها سلوك مختلف، لذا تُصمَّم الرعاية وفق العضو المصاب والمرحلة والحالة الصحية العامة.",
+                "en": "Gastrointestinal cancers include tumors of the esophagus, stomach, bowel, liver and pancreas. Each behaves differently, so care is tailored to the organ involved, the stage and the person's overall health."
+              },
+              "type": "paragraph"
+            },
+            {
+              "text": {
+                "ar": "ما قد تشمله الرعاية",
+                "en": "What care may include"
+              },
+              "type": "heading"
+            },
+            {
+              "type": "list",
+              "items": {
+                "ar": [
+                  "مراجعة تقارير المناظير والأشعة والتحاليل النسيجية",
+                  "تخطيط العلاج الدوائي قبل الجراحة أو بعدها عند الحاجة",
+                  "التنسيق مع الجراحين وغيرهم من المتخصصين",
+                  "الاهتمام بالتغذية والهضم والوزن"
+                ],
+                "en": [
+                  "Reviewing endoscopy, imaging and pathology reports",
+                  "Planning medical treatment before or after surgery when appropriate",
+                  "Coordinating with surgeons and other specialists",
+                  "Attention to nutrition, digestion and weight"
+                ]
+              }
+            },
+            {
+              "text": {
+                "ar": "معلومة مفيدة",
+                "en": "Good to know"
+              },
+              "type": "heading"
+            },
+            {
+              "text": {
+                "ar": "قد تتأثر الشهية والتغذية بالمرض وبالعلاج معًا، والإبلاغ المبكر عن أي تغيّر في الشهية أو الوزن يساعد على التعامل معه في وقت أبكر.",
+                "en": "Eating can be affected by both the illness and its treatment. Mentioning changes in appetite or weight early helps them be addressed sooner."
+              },
+              "type": "paragraph"
+            }
+          ],
+          "summary": {
+            "ar": "رعاية لأورام المعدة والقولون والكبد والبنكرياس، مع اهتمام بجودة الحياة اليومية.",
+            "en": "Care for cancers of the stomach, colon, liver and pancreas, with attention to everyday wellbeing."
+          },
+          "isPlaceholder": true
+        },
+        "parent": "medical-specialties"
+      },
+      {
+        "slug": "gynecologic",
+        "content": {
+          "image": {
+            "alt": {
+              "ar": "طبيبة تعتني بسيدة خلال زيارة للعيادة",
+              "en": "A doctor caring for an older woman during a clinic visit"
+            },
+            "src": "/media/specialty-gynecologic",
+            "credit": "Unsplash — https://images.unsplash.com/photo-1576765608535-5f04d1e3f289",
+            "assetId": "3085586b-fc00-4125-88b2-50849ffe16ea",
+            "position": "72% 40%",
+            "isPlaceholder": true
+          },
+          "title": {
+            "ar": "أورام النساء",
+            "en": "Gynecologic cancers"
+          },
+          "details": [
+            {
+              "text": {
+                "ar": "تشمل أورام النساء سرطانات المبيض والرحم وعنق الرحم، وتُخطَّط رعايتها بما يراعي الخصوصية والأسئلة المتعلقة بالخصوبة وجودة الحياة.",
+                "en": "Gynecologic cancers include cancers of the ovary, uterus and cervix. Care is planned with sensitivity to privacy, questions about fertility and quality of life."
+              },
+              "type": "paragraph"
+            },
+            {
+              "text": {
+                "ar": "ما قد تشمله الرعاية",
+                "en": "What care may include"
+              },
+              "type": "heading"
+            },
+            {
+              "type": "list",
+              "items": {
+                "ar": [
+                  "مراجعة نتائج الأشعة والجراحة والتحليل النسيجي",
+                  "مناقشة العلاج الكيميائي وغيره من العلاجات الدوائية عند الحاجة",
+                  "التنسيق مع جراحي أورام النساء وفرق العلاج الإشعاعي",
+                  "زيارات المتابعة والدعم بعد انتهاء العلاج"
+                ],
+                "en": [
+                  "Reviewing imaging, surgical and pathology findings",
+                  "Discussing chemotherapy and other medical treatments when needed",
+                  "Coordinating with gynecologic surgeons and radiotherapy teams",
+                  "Follow-up visits and support after treatment"
+                ]
+              }
+            },
+            {
+              "text": {
+                "ar": "موضوعات تستحق الطرح",
+                "en": "Topics worth raising"
+              },
+              "type": "heading"
+            },
+            {
+              "type": "list",
+              "items": {
+                "ar": [
+                  "الأسئلة المتعلقة بالخصوبة أو انقطاع الطمث",
+                  "الآثار الجانبية التي تؤثر في الحياة اليومية",
+                  "الدعم النفسي لكِ ولأسرتكِ"
+                ],
+                "en": [
+                  "Questions about fertility or menopause",
+                  "Side effects that affect daily life",
+                  "Emotional support for you and your family"
+                ]
+              }
+            }
+          ],
+          "summary": {
+            "ar": "رعاية تراعي الخصوصية لأورام المبيض والرحم وعنق الرحم.",
+            "en": "Sensitive, private care for ovarian, uterine and cervical cancers."
+          },
+          "isPlaceholder": true
+        },
+        "parent": "medical-specialties"
+      },
+      {
+        "slug": "hematologic",
+        "content": {
+          "image": {
+            "alt": {
+              "ar": "أنابيب عينات دم في حامل داخل المختبر",
+              "en": "Blood sample tubes in a laboratory rack"
+            },
+            "src": "/media/specialty-hematologic",
+            "credit": "Unsplash — https://images.unsplash.com/photo-1581594693702-fbdc51b2763b",
+            "assetId": "16f41fde-34c5-49ce-92b0-e3d31fd3cec4",
+            "position": "40% 50%",
+            "isPlaceholder": true
+          },
+          "title": {
+            "ar": "أورام الدم والغدد الليمفاوية",
+            "en": "Blood cancers & lymphoma"
+          },
+          "details": [
+            {
+              "text": {
+                "ar": "تصيب الأورام الليمفاوية وسرطانات الدم والحالات المرتبطة بها الدمَ أو نخاع العظم أو الجهاز الليمفاوي، ويعتمد تشخيصها على تحاليل الدم والخزعات والدراسات المخبرية المتخصصة.",
+                "en": "Lymphomas, leukemias and related conditions affect the blood, bone marrow or lymphatic system. Diagnosis relies on blood tests, biopsies and specialized laboratory studies."
+              },
+              "type": "paragraph"
+            },
+            {
+              "text": {
+                "ar": "ما قد تشمله الرعاية",
+                "en": "What care may include"
+              },
+              "type": "heading"
+            },
+            {
+              "type": "list",
+              "items": {
+                "ar": [
+                  "شرح صورة الدم ونتائج التحاليل بوضوح",
+                  "مناقشة خيارات العلاج، وقد تشمل العلاج الكيميائي أو المناعي أو الأدوية الموجّهة",
+                  "المتابعة أثناء العلاج بتحاليل دم منتظمة",
+                  "الإحالة إلى العلاجات المتخصصة عند الحاجة"
+                ],
+                "en": [
+                  "Explaining blood counts and laboratory results clearly",
+                  "Discussing treatment options, which may include chemotherapy, immunotherapy or targeted medicines",
+                  "Monitoring during treatment with regular blood tests",
+                  "Referral for specialized treatments when needed"
+                ]
+              }
+            },
+            {
+              "text": {
+                "ar": "تُتابَع بعض أورام الدم عن كثب قبل البدء بأي علاج، عندما يكون ذلك هو النهج الأكثر أمانًا للمريض.",
+                "en": "Some blood cancers are monitored closely before any treatment begins, when this is the safest approach for the individual."
+              },
+              "type": "note"
+            }
+          ],
+          "summary": {
+            "ar": "شرح واضح لنتائج التحاليل ومسارات العلاج لأورام الغدد الليمفاوية وسرطان الدم.",
+            "en": "Clear explanations of test results and treatment pathways for lymphoma and leukemia."
+          },
+          "isPlaceholder": true
+        },
+        "parent": "medical-specialties"
+      },
+      {
+        "slug": "chemotherapy",
+        "content": {
+          "image": {
+            "alt": {
+              "ar": "حامل محاليل وريدية يحمل كيس العلاج",
+              "en": "An infusion stand holding an intravenous bag"
+            },
+            "src": "/media/treatment-chemotherapy",
+            "credit": "Unsplash — https://images.unsplash.com/photo-1516574187841-cb9cc2ca948b",
+            "assetId": "6b3f4dff-dc1d-4eb5-90cf-a76234da6c4c",
+            "position": "50% 50%",
+            "isPlaceholder": true
+          },
+          "title": {
+            "ar": "العلاج الكيميائي",
+            "en": "Chemotherapy"
+          },
+          "details": [
+            {
+              "text": {
+                "ar": "يعتمد العلاج الكيميائي على أدوية تؤثر في الخلايا سريعة الانقسام. وبحسب الحالة، قد يُعطى قبل الجراحة أو بعدها، أو مع العلاج الإشعاعي، أو كعلاج أساسي.",
+                "en": "Chemotherapy uses medicines that affect rapidly dividing cells. Depending on the situation, it may be given before or after surgery, together with radiotherapy, or as the main treatment."
+              },
+              "type": "paragraph"
+            },
+            {
+              "text": {
+                "ar": "كيف يُعطى",
+                "en": "How it is given"
+              },
+              "type": "heading"
+            },
+            {
+              "type": "list",
+              "items": {
+                "ar": [
+                  "عادةً على دورات تتخللها فترات راحة تتيح للجسم التعافي",
+                  "عن طريق الوريد أو على شكل أقراص بحسب نوع الدواء",
+                  "مع تحاليل دم وفحص طبي قبل كل دورة"
+                ],
+                "en": [
+                  "Usually in cycles, with rest periods that allow the body to recover",
+                  "Through a vein (infusion) or as tablets, depending on the medicine",
+                  "With blood tests and a check-up before each cycle"
+                ]
+              }
+            },
+            {
+              "text": {
+                "ar": "عن الآثار الجانبية",
+                "en": "About side effects"
+              },
+              "type": "heading"
+            },
+            {
+              "text": {
+                "ar": "تختلف الآثار الجانبية باختلاف الأدوية ومن شخص لآخر، وقد تشمل الإرهاق أو الغثيان أو ارتفاع خطر العدوى. ويمكن الوقاية من كثير منها أو تخفيفه، لذا من المهم الإبلاغ عنها.",
+                "en": "Side effects depend on the specific medicines and vary from person to person. They may include tiredness, nausea or a higher risk of infection. Many can be prevented or eased, so it is important to report them."
+              },
+              "type": "paragraph"
+            }
+          ],
+          "summary": {
+            "ar": "أدوية تستهدف الخلايا سريعة الانقسام، تُعطى على دورات تخضع لمتابعة دقيقة.",
+            "en": "Medicines that act on rapidly dividing cells, given in carefully monitored cycles."
+          },
+          "isPlaceholder": true
+        },
+        "parent": "treatments"
+      },
+      {
+        "slug": "immunotherapy",
+        "content": {
+          "image": {
+            "alt": {
+              "ar": "صورة مجهرية لخلايا ملوّنة بالأزرق والأرجواني",
+              "en": "Microscope image of cells stained blue and magenta"
+            },
+            "src": "/media/treatment-immunotherapy",
+            "credit": "Unsplash — https://images.unsplash.com/photo-1576086213369-97a306d36557",
+            "assetId": "7a76c5c8-c098-4bd5-94e0-534275fdc813",
+            "position": "50% 50%",
+            "isPlaceholder": true
+          },
+          "title": {
+            "ar": "العلاج المناعي",
+            "en": "Immunotherapy"
+          },
+          "details": [
+            {
+              "text": {
+                "ar": "يساعد العلاج المناعي جهاز المناعة في الجسم على التعرّف على الخلايا السرطانية ومهاجمتها، ويُستخدم لأنواع وحالات محددة من الأورام، وغالبًا ما تسترشد قراراته بفحوص الورم.",
+                "en": "Immunotherapy helps the body's own immune system recognize and attack cancer cells. It is used for certain cancer types and situations, often guided by tests on the tumor."
+              },
+              "type": "paragraph"
+            },
+            {
+              "text": {
+                "ar": "معلومات مهمة",
+                "en": "Good to know"
+              },
+              "type": "heading"
+            },
+            {
+              "type": "list",
+              "items": {
+                "ar": [
+                  "يعمل بطريقة مختلفة عن العلاج الكيميائي، لذا تختلف آثاره الجانبية أيضًا",
+                  "قد يؤثر الجهاز المناعي أحيانًا في أعضاء سليمة مثل الجلد أو الأمعاء أو الغدة الدرقية",
+                  "ينبغي الإبلاغ عن أي أعراض جديدة فورًا، حتى بعد أسابيع من الجرعة"
+                ],
+                "en": [
+                  "It works differently from chemotherapy, so its side effects are different too",
+                  "The immune system can sometimes affect healthy organs, such as the skin, bowel or thyroid",
+                  "New symptoms should be reported promptly, even weeks after a dose"
+                ]
+              }
+            }
+          ],
+          "summary": {
+            "ar": "علاجات تساعد الجهاز المناعي على التعرّف على الخلايا السرطانية والتصدي لها.",
+            "en": "Treatments that help the immune system recognize and respond to cancer cells."
+          },
+          "isPlaceholder": true
+        },
+        "parent": "treatments"
+      },
+      {
+        "slug": "targeted",
+        "content": {
+          "image": {
+            "alt": {
+              "ar": "رسم توضيحي للحمض النووي بشكله الحلزوني المزدوج",
+              "en": "Illustration of a DNA double helix"
+            },
+            "src": "/media/treatment-targeted",
+            "credit": "Unsplash — https://images.unsplash.com/photo-1628595351029-c2bf17511435",
+            "assetId": "f1247d05-4487-451f-8234-5b8c8a5ac0bb",
+            "position": "35% 50%",
+            "isPlaceholder": true
+          },
+          "title": {
+            "ar": "العلاج الموجّه",
+            "en": "Targeted therapy"
+          },
+          "details": [
+            {
+              "text": {
+                "ar": "تستهدف العلاجات الموجّهة تغيّرات محددة في الخلايا السرطانية، مثل جينات أو بروتينات بعينها، ويساعد فحص الورم على معرفة ما إذا كان هناك علاج موجّه مناسب.",
+                "en": "Targeted therapies act on specific changes in cancer cells, such as particular genes or proteins. Testing the tumor helps identify whether a suitable targeted treatment exists."
+              },
+              "type": "paragraph"
+            },
+            {
+              "text": {
+                "ar": "ما الذي يتضمنه",
+                "en": "What it involves"
+              },
+              "type": "heading"
+            },
+            {
+              "type": "list",
+              "items": {
+                "ar": [
+                  "فحوص جزيئية أو للمؤشرات الحيوية على نسيج الورم أو الدم",
+                  "أدوية تُعطى على شكل أقراص أو عن طريق الوريد",
+                  "متابعة منتظمة للاستجابة وللآثار الجانبية"
+                ],
+                "en": [
+                  "Molecular or biomarker testing of tumor tissue or blood",
+                  "Medicines given as tablets or infusions",
+                  "Regular monitoring of response and side effects"
+                ]
+              }
+            }
+          ],
+          "summary": {
+            "ar": "أدوية تُختار وفق خصائص محددة في الورم، وغالبًا ما تسترشد بنتائج الفحوص الجزيئية.",
+            "en": "Medicines chosen for specific features of a tumor, often guided by molecular testing."
+          },
+          "isPlaceholder": true
+        },
+        "parent": "treatments"
+      },
+      {
+        "slug": "hormonal",
+        "content": {
+          "image": {
+            "alt": {
+              "ar": "كبسولات دوائية بجوار عبوة دواء على خلفية برتقالية",
+              "en": "Capsules beside a medicine bottle on an orange background"
+            },
+            "src": "/media/treatment-hormonal",
+            "credit": "Unsplash — https://images.unsplash.com/photo-1587854692152-cbe660dbde88",
+            "assetId": "bd46c518-4e71-45d9-beab-845fba0338eb",
+            "position": "62% 50%",
+            "isPlaceholder": true
+          },
+          "title": {
+            "ar": "العلاج الهرموني",
+            "en": "Hormonal therapy"
+          },
+          "details": [
+            {
+              "text": {
+                "ar": "تنمو بعض الأورام، ومنها كثير من أورام الثدي والبروستاتا، استجابةً للهرمونات. ويعمل العلاج الهرموني على خفض مستوى الهرمونات أو منع تأثيرها في الخلايا السرطانية.",
+                "en": "Some cancers, including many breast and prostate cancers, grow in response to hormones. Hormonal therapy lowers hormone levels or blocks their effect on cancer cells."
+              },
+              "type": "paragraph"
+            },
+            {
+              "text": {
+                "ar": "معلومات مهمة",
+                "en": "Good to know"
+              },
+              "type": "heading"
+            },
+            {
+              "type": "list",
+              "items": {
+                "ar": [
+                  "يُؤخذ غالبًا على شكل أقراص يومية أو حقن منتظمة",
+                  "قد يستمر العلاج عدة سنوات",
+                  "قد تشمل آثاره الجانبية الهبّات الساخنة أو الإرهاق أو آلام المفاصل، ويمكن التعامل معها في كثير من الأحيان"
+                ],
+                "en": [
+                  "It is often taken as daily tablets or regular injections",
+                  "Treatment may continue for several years",
+                  "Side effects can include hot flushes, tiredness or joint aches, and can often be managed"
+                ]
+              }
+            }
+          ],
+          "summary": {
+            "ar": "علاج للأورام الحساسة للهرمونات، مثل بعض أنواع سرطان الثدي والبروستاتا.",
+            "en": "Treatment for hormone-sensitive cancers, such as some breast and prostate cancers."
+          },
+          "isPlaceholder": true
+        },
+        "parent": "treatments"
+      },
+      {
+        "slug": "supportive",
+        "content": {
+          "image": {
+            "alt": {
+              "ar": "شخصان يمسكان بأيدي بعضهما في لفتة دعم ومساندة",
+              "en": "Two people holding hands in support"
+            },
+            "src": "/media/treatment-supportive",
+            "credit": "Unsplash — https://images.unsplash.com/photo-1584515933487-779824d29309",
+            "assetId": "ecaf7f62-4452-472e-b4ed-9666b38bee58",
+            "position": "45% 50%",
+            "isPlaceholder": true
+          },
+          "title": {
+            "ar": "الرعاية الداعمة",
+            "en": "Supportive care"
+          },
+          "details": [
+            {
+              "text": {
+                "ar": "تركّز الرعاية الداعمة على الراحة وجودة الحياة في كل مرحلة: أثناء العلاج، وبعده، وجنبًا إلى جنب مع الرعاية الأخرى.",
+                "en": "Supportive care focuses on comfort and quality of life at every stage — during treatment, after it, and alongside other care."
+              },
+              "type": "paragraph"
+            },
+            {
+              "text": {
+                "ar": "قد تساعد في",
+                "en": "It may help with"
+              },
+              "type": "heading"
+            },
+            {
+              "type": "list",
+              "items": {
+                "ar": [
+                  "الألم والغثيان والإرهاق",
+                  "الشهية والتغذية",
+                  "النوم والحالة المزاجية والقلق",
+                  "الدعم العملي والنفسي للأسرة"
+                ],
+                "en": [
+                  "Pain, nausea and fatigue",
+                  "Appetite and nutrition",
+                  "Sleep, mood and anxiety",
+                  "Practical and emotional support for families"
+                ]
+              }
+            },
+            {
+              "text": {
+                "ar": "الرعاية الداعمة ليست مقتصرة على المراحل المتقدمة، بل يمكن أن تبدأ منذ التشخيص.",
+                "en": "Supportive care is not only for advanced illness; it can begin from the time of diagnosis."
+              },
+              "type": "note"
+            }
+          ],
+          "summary": {
+            "ar": "التعامل مع الأعراض والآثار الجانبية للحفاظ على الراحة وجودة الحياة.",
+            "en": "Managing symptoms and side effects to protect comfort and quality of life."
+          },
+          "isPlaceholder": true
+        },
+        "parent": "treatments"
+      },
+      {
+        "slug": "consultation",
+        "content": {
+          "image": {
+            "alt": {
+              "ar": "طبيب يقيس ضغط الدم لمريضة",
+              "en": "A doctor measuring a patient's blood pressure"
+            },
+            "src": "/media/video-first-visit",
+            "credit": "Unsplash — https://images.unsplash.com/photo-1631815588090-d4bfec5b1ccb",
+            "assetId": "e88aadc6-d69f-4a6d-8d6d-e883c28d97f9",
+            "position": "50% 35%",
+            "isPlaceholder": true
+          },
+          "title": {
+            "ar": "الاستشارة والرأي الطبي الثاني",
+            "en": "Consultation & second opinion"
+          },
+          "details": [
+            {
+              "text": {
+                "ar": "الاستشارة الأولى فرصة لمراجعة تاريخك المرضي وتقاريرك وصور الأشعة، ومناقشة أسئلتك. أما الرأي الطبي الثاني فيقدّم رؤية مستقلة لتشخيص أو خطة علاجية حصلت عليها بالفعل.",
+                "en": "The first consultation is a chance to review your medical history, reports and scans, and to talk through your questions. A second opinion offers an independent view of a diagnosis or treatment plan you have already received."
+              },
+              "type": "paragraph"
+            },
+            {
+              "text": {
+                "ar": "يُفضَّل إحضار",
+                "en": "Helpful to bring"
+              },
+              "type": "heading"
+            },
+            {
+              "type": "list",
+              "items": {
+                "ar": [
+                  "تقارير التحليل النسيجي والخزعة",
+                  "صور الأشعة وتقاريرها المكتوبة",
+                  "أحدث تحاليل الدم وقائمة بالأدوية الحالية",
+                  "أسئلتك مكتوبةً مسبقًا"
+                ],
+                "en": [
+                  "Pathology and biopsy reports",
+                  "Imaging scans and their written reports",
+                  "Recent blood tests and a list of current medicines",
+                  "Your questions, written down in advance"
+                ]
+              }
+            }
+          ],
+          "summary": {
+            "ar": "زيارة أولى دون استعجال، أو رأي مستقل في تشخيص أو خطة علاجية قائمة.",
+            "en": "An unhurried first visit, or an independent view of an existing diagnosis or plan."
+          },
+          "isPlaceholder": true
+        },
+        "parent": "consultation-care"
+      },
+      {
+        "slug": "evaluation",
+        "content": {
+          "image": {
+            "alt": {
+              "ar": "طبيبة تشرح صورة أشعة مقطعية معروضة على شاشة الحاسوب",
+              "en": "A doctor explaining a CT scan displayed on a computer screen"
+            },
+            "src": "/media/intro-video-poster",
+            "credit": "Unsplash — https://images.unsplash.com/photo-1666214280557-f1b5022eb634",
+            "assetId": "8e45b362-0d4b-4529-868e-7ac410c441a9",
+            "position": "45% 40%",
+            "isPlaceholder": true
+          },
+          "title": {
+            "ar": "مراجعة التقارير والأشعة",
+            "en": "Review of reports & imaging"
+          },
+          "details": [
+            {
+              "text": {
+                "ar": "فهم نتائج الفحوص أساس التخطيط للرعاية، لذا تُراجَع التقارير معًا وتُشرح خطوة بخطوة، بما في ذلك دلالتها ومدى الحاجة إلى فحوص إضافية.",
+                "en": "Understanding test results is central to planning care. Reports are reviewed together and explained step by step, including what they mean and whether further tests may be needed."
+              },
+              "type": "paragraph"
+            },
+            {
+              "text": {
+                "ar": "قد يشمل ذلك",
+                "en": "This may include"
+              },
+              "type": "heading"
+            },
+            {
+              "type": "list",
+              "items": {
+                "ar": [
+                  "تقارير التحليل النسيجي والفحوص الجزيئية",
+                  "الأشعة المقطعية والرنين المغناطيسي والمسح البوزيتروني وغيرها",
+                  "تحاليل الدم ودلالات الأورام عند الحاجة"
+                ],
+                "en": [
+                  "Pathology and molecular test reports",
+                  "CT, MRI, PET and other imaging",
+                  "Blood tests and tumor markers when relevant"
+                ]
+              }
+            }
+          ],
+          "summary": {
+            "ar": "مراجعة دقيقة لنتائج التحليل النسيجي والأشعة والتحاليل، مع شرحها بلغة واضحة.",
+            "en": "Careful review of pathology, imaging and laboratory results, explained in clear language."
+          },
+          "isPlaceholder": true
+        },
+        "parent": "consultation-care"
+      },
+      {
+        "slug": "planning",
+        "content": {
+          "image": {
+            "alt": {
+              "ar": "يد تكتب قائمة مهام في دفتر",
+              "en": "A hand writing a checklist in a notebook"
+            },
+            "src": "/media/article-questions",
+            "credit": "Unsplash — https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b",
+            "assetId": "62932fa0-526c-46e3-8d75-934153603bc0",
+            "position": "55% 50%",
+            "isPlaceholder": true
+          },
+          "title": {
+            "ar": "تخطيط علاجي فردي",
+            "en": "Individualized treatment planning"
+          },
+          "details": [
+            {
+              "text": {
+                "ar": "تجمع الخطة العلاجية بين تفاصيل التشخيص والأدلة الطبية الحالية وأولوياتك الشخصية، وتُناقش الخيارات بصراحة، بما في ذلك فوائدها المتوقعة وآثارها الجانبية المحتملة.",
+                "en": "A treatment plan brings together the details of the diagnosis, current medical evidence and your own priorities. Options are discussed openly, including their expected benefits and possible side effects."
+              },
+              "type": "paragraph"
+            },
+            {
+              "text": {
+                "ar": "تشمل الخطة عادةً",
+                "en": "A plan usually covers"
+              },
+              "type": "heading"
+            },
+            {
+              "type": "list",
+              "items": {
+                "ar": [
+                  "أهداف العلاج",
+                  "العلاجات الموصى بها وترتيبها",
+                  "كيفية متابعة الاستجابة والتقدم",
+                  "جهة التواصل عند وجود أسئلة أو مخاوف"
+                ],
+                "en": [
+                  "The goals of treatment",
+                  "Which treatments are recommended, and in what order",
+                  "How progress will be monitored",
+                  "Who to contact with questions or concerns"
+                ]
+              }
+            }
+          ],
+          "summary": {
+            "ar": "خطة تُبنى حول تشخيصك وصحتك وما يهمك أكثر.",
+            "en": "A plan built around your diagnosis, your health and what matters most to you."
+          },
+          "isPlaceholder": true
+        },
+        "parent": "consultation-care"
+      },
+      {
+        "slug": "follow-up",
+        "content": {
+          "image": {
+            "alt": {
+              "ar": "طبيبة تمسك سماعة طبية",
+              "en": "A doctor holding a stethoscope"
+            },
+            "src": "/media/video-side-effects",
+            "credit": "Unsplash — https://images.unsplash.com/photo-1638202993928-7267aad84c31",
+            "assetId": "856f56ad-6b4f-4a9c-8fae-4c5522a29f74",
+            "position": "45% 45%",
+            "isPlaceholder": true
+          },
+          "title": {
+            "ar": "المتابعة والرعاية بعد العلاج",
+            "en": "Follow-up & survivorship care"
+          },
+          "details": [
+            {
+              "text": {
+                "ar": "تستمر المتابعة بعد انتهاء العلاج الفعّال، إذ تهدف الزيارات إلى متابعة التعافي، ورصد أي علامات لعودة المرض، والتعامل مع الآثار طويلة المدى للعلاج.",
+                "en": "Follow-up continues after active treatment ends. Visits monitor recovery, look for any signs of the illness returning and address long-term effects of treatment."
+              },
+              "type": "paragraph"
+            },
+            {
+              "text": {
+                "ar": "قد تشمل المتابعة",
+                "en": "Follow-up may include"
+              },
+              "type": "heading"
+            },
+            {
+              "type": "list",
+              "items": {
+                "ar": [
+                  "فحوصات وتحاليل دورية حسب التوصيات",
+                  "التعامل مع الآثار الجانبية المستمرة",
+                  "إرشادات للعودة إلى الأنشطة اليومية",
+                  "جهة تواصل واضحة بين الزيارات"
+                ],
+                "en": [
+                  "Regular check-ups and tests, as recommended",
+                  "Managing lasting side effects",
+                  "Guidance on returning to daily activities",
+                  "A clear point of contact between visits"
+                ]
+              }
+            }
+          ],
+          "summary": {
+            "ar": "متابعة منتظمة أثناء العلاج وبعده، مع اهتمام بالصحة على المدى الطويل.",
+            "en": "Regular follow-up during and after treatment, with attention to long-term wellbeing."
+          },
+          "isPlaceholder": true
+        },
+        "parent": "consultation-care"
+      }
+    ],
+    "videos": [
+      {
+        "slug": "first-visit",
+        "content": {
+          "title": {
+            "ar": "ماذا تتوقع في زيارتك الأولى لطبيب الأورام",
+            "en": "What to expect at your first oncology visit"
+          },
+          "poster": {
+            "alt": {
+              "ar": "طبيب يقيس ضغط الدم لمريضة",
+              "en": "A doctor measuring a patient's blood pressure"
+            },
+            "src": "/media/video-first-visit",
+            "credit": "Unsplash — https://images.unsplash.com/photo-1631815588090-d4bfec5b1ccb",
+            "assetId": "e88aadc6-d69f-4a6d-8d6d-e883c28d97f9",
+            "position": "50% 40%",
+            "isPlaceholder": true
+          },
+          "source": null,
+          "duration": null,
+          "isPlaceholder": true
+        }
+      },
+      {
+        "slug": "medications",
+        "content": {
+          "title": {
+            "ar": "فهم أدويتك العلاجية",
+            "en": "Understanding your treatment medicines"
+          },
+          "poster": {
+            "alt": {
+              "ar": "صيدلي يراجع عبوة دواء",
+              "en": "A pharmacist reviewing a medicine bottle"
+            },
+            "src": "/media/video-medications",
+            "credit": "Unsplash — https://images.unsplash.com/photo-1580281658626-ee379f3cce93",
+            "assetId": "fd6ed902-819b-415b-a2ac-0ff28de0872c",
+            "position": "50% 30%",
+            "isPlaceholder": true
+          },
+          "source": null,
+          "duration": null,
+          "isPlaceholder": true
+        }
+      },
+      {
+        "slug": "pathology",
+        "content": {
+          "title": {
+            "ar": "كيف توجّه نتائج التحليل النسيجي خطة العلاج",
+            "en": "How pathology results guide treatment"
+          },
+          "poster": {
+            "alt": {
+              "ar": "باحثة تعمل على المجهر في المختبر",
+              "en": "A scientist working at a microscope in a laboratory"
+            },
+            "src": "/media/video-pathology",
+            "credit": "Unsplash — https://images.unsplash.com/photo-1582719471384-894fbb16e074",
+            "assetId": "ca65debe-3141-44ea-a923-69b44a5e1c4f",
+            "position": "55% 50%",
+            "isPlaceholder": true
+          },
+          "source": null,
+          "duration": null,
+          "isPlaceholder": true
+        }
+      },
+      {
+        "slug": "chemotherapy",
+        "content": {
+          "title": {
+            "ar": "الاستعداد لجلسة العلاج الكيميائي الأولى",
+            "en": "Preparing for your first chemotherapy session"
+          },
+          "poster": {
+            "alt": {
+              "ar": "حامل محاليل وريدية يحمل كيس العلاج",
+              "en": "An infusion stand holding an intravenous bag"
+            },
+            "src": "/media/treatment-chemotherapy",
+            "credit": "Unsplash — https://images.unsplash.com/photo-1516574187841-cb9cc2ca948b",
+            "assetId": "6b3f4dff-dc1d-4eb5-90cf-a76234da6c4c",
+            "position": "42% 50%",
+            "isPlaceholder": true
+          },
+          "source": null,
+          "duration": null,
+          "isPlaceholder": true
+        }
+      },
+      {
+        "slug": "immunotherapy",
+        "content": {
+          "title": {
+            "ar": "العلاج المناعي بشرح مبسّط",
+            "en": "Immunotherapy, explained simply"
+          },
+          "poster": {
+            "alt": {
+              "ar": "صورة مجهرية لخلايا ملوّنة بالأزرق والأرجواني",
+              "en": "Microscope image of cells stained blue and magenta"
+            },
+            "src": "/media/treatment-immunotherapy",
+            "credit": "Unsplash — https://images.unsplash.com/photo-1576086213369-97a306d36557",
+            "assetId": "7a76c5c8-c098-4bd5-94e0-534275fdc813",
+            "position": "50% 50%",
+            "isPlaceholder": true
+          },
+          "source": null,
+          "duration": null,
+          "isPlaceholder": true
+        }
+      },
+      {
+        "slug": "when-to-call",
+        "content": {
+          "title": {
+            "ar": "متى تتواصل مع فريق الرعاية",
+            "en": "When to contact your care team"
+          },
+          "poster": {
+            "alt": {
+              "ar": "طبيبة تمسك سماعة طبية",
+              "en": "A doctor holding a stethoscope"
+            },
+            "src": "/media/video-side-effects",
+            "credit": "Unsplash — https://images.unsplash.com/photo-1638202993928-7267aad84c31",
+            "assetId": "856f56ad-6b4f-4a9c-8fae-4c5522a29f74",
+            "position": "50% 35%",
+            "isPlaceholder": true
+          },
+          "source": null,
+          "duration": null,
+          "isPlaceholder": true
+        }
+      },
+      {
+        "slug": "nutrition",
+        "content": {
+          "title": {
+            "ar": "التغذية الجيدة أثناء العلاج",
+            "en": "Eating well during treatment"
+          },
+          "poster": {
+            "alt": {
+              "ar": "طبق من الخضروات والبيض والتوفو المشوي",
+              "en": "A bowl of vegetables, eggs and grilled tofu"
+            },
+            "src": "/media/video-nutrition",
+            "credit": "Unsplash — https://images.unsplash.com/photo-1546069901-ba9599a7e63c",
+            "assetId": "319d5dec-e502-4fd7-8d3c-25e737c55874",
+            "position": "50% 50%",
+            "isPlaceholder": true
+          },
+          "source": null,
+          "duration": null,
+          "isPlaceholder": true
+        }
+      },
+      {
+        "slug": "second-opinion",
+        "content": {
+          "title": {
+            "ar": "لماذا قد يفيدك الرأي الطبي الثاني",
+            "en": "Why a second opinion can help"
+          },
+          "poster": {
+            "alt": {
+              "ar": "طبيب عاقد ذراعيه يمسك سماعة طبية حمراء",
+              "en": "A doctor with arms crossed holding a red stethoscope"
+            },
+            "src": "/media/video-second-opinion",
+            "credit": "Unsplash — https://images.unsplash.com/photo-1532938911079-1b06ac7ceec7",
+            "assetId": "39c8e1fa-88e4-46a9-b726-5f6acb5d0220",
+            "position": "55% 50%",
+            "isPlaceholder": true
+          },
+          "source": null,
+          "duration": null,
+          "isPlaceholder": true
+        }
+      },
+      {
+        "slug": "family-support",
+        "content": {
+          "title": {
+            "ar": "دعم أحد أفراد الأسرة خلال العلاج",
+            "en": "Supporting a family member through treatment"
+          },
+          "poster": {
+            "alt": {
+              "ar": "مجموعة من الأشخاص يجلسون معًا متشابكي الأذرع",
+              "en": "A group of people sitting together, arms around each other"
+            },
+            "src": "/media/video-family",
+            "credit": "Unsplash — https://images.unsplash.com/photo-1529156069898-49953e39b3ac",
+            "assetId": "45f2586a-0781-4d90-8f33-63d97eea5c59",
+            "position": "45% 50%",
+            "isPlaceholder": true
+          },
+          "source": null,
+          "duration": null,
+          "isPlaceholder": true
+        }
+      }
+    ],
+    "reviews": [
+      {
+        "slug": "review-1",
+        "content": {
+          "text": {
+            "ar": "هذه المساحة مخصصة لرأي موثّق من أحد المرضى، يُنشر بإذنه.",
+            "en": "This space is reserved for a verified patient review, shared with the patient’s permission."
+          },
+          "rating": null,
+          "reviewer": {
+            "ar": "رأي مريض · قريبًا",
+            "en": "Patient review · coming soon"
+          },
+          "isPlaceholder": true
+        }
+      },
+      {
+        "slug": "review-2",
+        "content": {
+          "text": {
+            "ar": "ستظهر هنا تجارب حقيقية لمرضى وعائلاتهم بعد اعتمادها للنشر.",
+            "en": "Real experiences from patients and families will appear here once they are approved for publication."
+          },
+          "rating": null,
+          "reviewer": {
+            "ar": "رأي مريض · قريبًا",
+            "en": "Patient review · coming soon"
+          },
+          "isPlaceholder": true
+        }
+      },
+      {
+        "slug": "review-3",
+        "content": {
+          "text": {
+            "ar": "كل رأي في هذه الصفحة سيكون من مريض أو أحد أفراد عائلته مباشرة.",
+            "en": "Every review on this page will come directly from a patient or a family member."
+          },
+          "rating": null,
+          "reviewer": {
+            "ar": "رأي مريض · قريبًا",
+            "en": "Patient review · coming soon"
+          },
+          "isPlaceholder": true
+        }
+      },
+      {
+        "slug": "review-4",
+        "content": {
+          "text": {
+            "ar": "خصوصية المرضى أولًا؛ فلا تُعرض الأسماء إلا بموافقة صريحة.",
+            "en": "Patient privacy comes first — names are shown only with explicit consent."
+          },
+          "rating": null,
+          "reviewer": {
+            "ar": "رأي مريض · قريبًا",
+            "en": "Patient review · coming soon"
+          },
+          "isPlaceholder": true
+        }
+      },
+      {
+        "slug": "review-5",
+        "content": {
+          "text": {
+            "ar": "كل تجربة تُنشر هنا شخصية، فلكل مريض مسار رعاية مختلف.",
+            "en": "Each experience shared here is personal — every patient’s care is different."
+          },
+          "rating": null,
+          "reviewer": {
+            "ar": "رأي مريض · قريبًا",
+            "en": "Patient review · coming soon"
+          },
+          "isPlaceholder": true
+        }
+      },
+      {
+        "slug": "review-6",
+        "content": {
+          "text": {
+            "ar": "هل تودّ مشاركة تجربتك؟ يسعدنا تواصلك مع العيادة في أي وقت.",
+            "en": "Would you like to share your experience? You are welcome to contact the clinic at any time."
+          },
+          "rating": null,
+          "reviewer": {
+            "ar": "رأي مريض · قريبًا",
+            "en": "Patient review · coming soon"
+          },
+          "isPlaceholder": true
+        }
+      },
+      {
+        "slug": "review-7",
+        "content": {
+          "text": {
+            "ar": "ستعرض هذه البطاقة كلمات أحد المرضى بعد اعتماد رأيه للنشر.",
+            "en": "This card will show a patient’s own words once a review is approved for publication."
+          },
+          "rating": null,
+          "reviewer": {
+            "ar": "رأي مريض · قريبًا",
+            "en": "Patient review · coming soon"
+          },
+          "isPlaceholder": true
+        }
+      },
+      {
+        "slug": "review-8",
+        "content": {
+          "text": {
+            "ar": "تجارب أفراد العائلة مرحّب بها أيضًا، وتُنشر بإذن أصحابها.",
+            "en": "Experiences shared by family members are welcome too, published with their permission."
+          },
+          "rating": null,
+          "reviewer": {
+            "ar": "رأي مريض · قريبًا",
+            "en": "Patient review · coming soon"
+          },
+          "isPlaceholder": true
+        }
+      },
+      {
+        "slug": "review-9",
+        "content": {
+          "text": {
+            "ar": "ستظهر التقييمات بالنجوم كما يمنحها كل مريض تمامًا.",
+            "en": "Star ratings will appear exactly as each patient gives them."
+          },
+          "rating": null,
+          "reviewer": {
+            "ar": "رأي مريض · قريبًا",
+            "en": "Patient review · coming soon"
+          },
+          "isPlaceholder": true
+        }
+      }
+    ],
+    "faqCategories": [
+      {
+        "slug": "before-visit",
+        "content": {
+          "title": {
+            "ar": "قبل زيارتك الأولى",
+            "en": "Before your first visit"
+          },
+          "isPlaceholder": true
+        }
+      },
+      {
+        "slug": "diagnosis",
+        "content": {
+          "title": {
+            "ar": "التشخيص والرأي الطبي الثاني",
+            "en": "Diagnosis & second opinions"
+          },
+          "isPlaceholder": true
+        }
+      },
+      {
+        "slug": "treatment",
+        "content": {
+          "title": {
+            "ar": "العلاج",
+            "en": "Treatment"
+          },
+          "isPlaceholder": true
+        }
+      },
+      {
+        "slug": "follow-up",
+        "content": {
+          "title": {
+            "ar": "المتابعة والدعم",
+            "en": "Follow-up & support"
+          },
+          "isPlaceholder": true
+        }
+      },
+      {
+        "slug": "website",
+        "content": {
+          "title": {
+            "ar": "عن هذا الموقع",
+            "en": "About this website"
+          },
+          "isPlaceholder": true
+        }
+      }
+    ],
+    "faqs": [
+      {
+        "slug": "booking",
+        "content": {
+          "answer": {
+            "ar": "يمكنك التواصل مع العيادة عبر واتساب أو الاتصال الهاتفي من خلال الوسائل الموجودة في هذه الصفحة.",
+            "en": "You can contact the clinic by WhatsApp or by phone using the options on this page."
+          },
+          "question": {
+            "ar": "كيف يمكنني حجز موعد؟",
+            "en": "How can I book an appointment?"
+          }
+        },
+        "parent": "before-visit"
+      },
+      {
+        "slug": "bring",
+        "content": {
+          "answer": {
+            "ar": "يُفضّل إحضار ما لديك من تقارير طبية، مثل نتائج التحليل النسيجي، وصور الأشعة وتقاريرها، وأحدث تحاليل الدم، إضافة إلى قائمة بالأدوية التي تتناولها. كما يساعد تدوين أسئلتك مسبقًا على جعل الزيارة أيسر.",
+            "en": "It helps to bring any medical reports you have — such as pathology results, imaging scans and their reports, recent blood tests — and a list of the medicines you take. Writing your questions down beforehand can also make the visit easier."
+          },
+          "question": {
+            "ar": "ماذا أُحضر معي في الاستشارة الأولى؟",
+            "en": "What should I bring to my first consultation?"
+          }
+        },
+        "parent": "before-visit"
+      },
+      {
+        "slug": "companion",
+        "content": {
+          "answer": {
+            "ar": "يجد كثير من المرضى أن اصطحاب شخص يثقون به أمر مفيد؛ إذ يمكنه المساعدة في الإصغاء وتدوين الملاحظات وتذكّر الأسئلة التي تودّ طرحها.",
+            "en": "Many patients find it helpful to bring someone they trust. A companion can help you listen, take notes and remember the questions you want to ask."
+          },
+          "question": {
+            "ar": "هل يمكن أن يرافقني أحد أفراد عائلتي؟",
+            "en": "Can a family member come with me?"
+          }
+        },
+        "parent": "before-visit"
+      },
+      {
+        "slug": "prepare-questions",
+        "content": {
+          "answer": {
+            "ar": "دوّن أسئلتك مسبقًا وابدأ بأكثرها أهمية بالنسبة إليك. ويمكنك دائمًا طلب إعادة شرح أي أمر بكلمات أبسط، فكل سؤال يستحق أن يُطرح.",
+            "en": "Write your questions down beforehand and start with the ones that matter most to you. You can always ask for something to be explained again, in simpler words — every question is worth asking."
+          },
+          "question": {
+            "ar": "كيف أستفيد من الاستشارة على أفضل وجه؟",
+            "en": "How can I make the most of my consultation?"
+          }
+        },
+        "parent": "before-visit"
+      },
+      {
+        "slug": "reports-in-advance",
+        "content": {
+          "answer": {
+            "ar": "يُرجى السؤال عن ذلك عند الحجز؛ فإن أمكن الاطلاع على التقارير مسبقًا، ستوضح لك العيادة طريقة إرسالها. ولا ينبغي إرسال السجلات الطبية المفصلة عبر نموذج التواصل في الموقع.",
+            "en": "Please ask when you book. If reports can be reviewed in advance, the clinic will explain how to share them. Detailed medical records should not be sent through the website’s contact form."
+          },
+          "question": {
+            "ar": "هل يمكنني إرسال تقاريري قبل الزيارة؟",
+            "en": "Can I send my reports before the visit?"
+          }
+        },
+        "parent": "before-visit"
+      },
+      {
+        "slug": "second-opinion",
+        "content": {
+          "answer": {
+            "ar": "نعم، فطلب رأي طبي ثانٍ خطوة شائعة ومعقولة، خاصةً قبل اتخاذ قرار مهم يتعلق بالعلاج.",
+            "en": "Yes. Seeking a second opinion is a common and reasonable step, especially before an important decision about treatment."
+          },
+          "question": {
+            "ar": "هل من المناسب طلب رأي طبي ثانٍ؟",
+            "en": "Is it reasonable to ask for a second opinion?"
+          }
+        },
+        "parent": "diagnosis"
+      },
+      {
+        "slug": "second-opinion-records",
+        "content": {
+          "answer": {
+            "ar": "عادةً ما يلزم تقرير التحليل النسيجي، وصور الأشعة وتقاريرها، وأحدث نتائج الفحوص، وملخص لأي علاج تلقيته من قبل. ويمكن لطبيبك المعالج أو المستشفى مساعدتك في الحصول على نسخ منها.",
+            "en": "Usually the pathology report, imaging scans with their reports, recent test results and a summary of any treatment you have already received. Your treating doctor or hospital can help you obtain copies."
+          },
+          "question": {
+            "ar": "ما الذي أحتاجه للحصول على رأي طبي ثانٍ؟",
+            "en": "What is needed for a second opinion?"
+          }
+        },
+        "parent": "diagnosis"
+      },
+      {
+        "slug": "staging",
+        "content": {
+          "answer": {
+            "ar": "تصف المرحلة حجم الورم، وما إذا كان قد انتشر ومدى انتشاره. وتساعد، مع نتائج الفحوص الأخرى، في توجيه اختيار العلاج. وتختلف أنظمة تحديد المراحل بين أنواع الأورام، لذا اسأل الطبيب عمّا تعنيه مرحلتك بالنسبة إليك.",
+            "en": "The stage describes how large a tumor is and whether — and how far — it has spread. Together with other test results, it helps guide treatment choices. Staging systems differ between cancer types, so ask the doctor what your stage means for you."
+          },
+          "question": {
+            "ar": "ماذا تعني مرحلة الورم؟",
+            "en": "What does the stage of a cancer mean?"
+          }
+        },
+        "parent": "diagnosis"
+      },
+      {
+        "slug": "more-tests",
+        "content": {
+          "answer": {
+            "ar": "قد تُظهر الفحوص الإضافية ما إذا كان الورم قد انتشر، وتكشف خصائص فيه — مثل مستقبلات الهرمونات أو التغيرات الجينية — تساعد في تحديد العلاجات الأنسب.",
+            "en": "Further tests can show whether the cancer has spread and reveal features of the tumor — such as hormone receptors or genetic changes — that help decide which treatments are most suitable."
+          },
+          "question": {
+            "ar": "لماذا قد أحتاج إلى فحوص إضافية بعد التشخيص؟",
+            "en": "Why might more tests be needed after a diagnosis?"
+          }
+        },
+        "parent": "diagnosis"
+      },
+      {
+        "slug": "plan",
+        "content": {
+          "answer": {
+            "ar": "تعتمد خطة العلاج على عوامل عديدة، منها نوع الورم ومرحلته، ونتائج الفحوص، وحالتك الصحية العامة، وتفضيلاتك الشخصية. وتُناقش الخيارات معك حتى تُتخذ القرارات بشكل مشترك.",
+            "en": "Treatment plans depend on many factors, including the type and stage of cancer, test results, your overall health and your personal preferences. Options are discussed with you so that decisions are made together."
+          },
+          "question": {
+            "ar": "كيف تُحدَّد خطة العلاج؟",
+            "en": "How is a treatment plan decided?"
+          }
+        },
+        "parent": "treatment"
+      },
+      {
+        "slug": "same-treatment",
+        "content": {
+          "answer": {
+            "ar": "ليس بالضرورة؛ فقد يحتاج شخصان مصابان بالنوع نفسه من الأورام إلى علاجين مختلفين، تبعًا للمرحلة وخصائص الورم والحالة الصحية العامة وتفضيلات كلٍّ منهما.",
+            "en": "Not necessarily. Two people with the same type of cancer may need different treatments, depending on the stage, the tumor’s features, their overall health and their own preferences."
+          },
+          "question": {
+            "ar": "هل يتلقى كل المصابين بالنوع نفسه من الأورام العلاج ذاته؟",
+            "en": "Does everyone with the same type of cancer receive the same treatment?"
+          }
+        },
+        "parent": "treatment"
+      },
+      {
+        "slug": "side-effects",
+        "content": {
+          "answer": {
+            "ar": "تختلف الآثار الجانبية المحتملة باختلاف العلاج ومن شخص لآخر. وقبل بدء العلاج تُشرح الآثار الشائعة وطرق التعامل معها، ومتى ينبغي طلب المساعدة الطبية.",
+            "en": "Possible side effects vary between treatments and from person to person. Before treatment begins, common side effects and ways to manage them are explained, along with when to seek medical help."
+          },
+          "question": {
+            "ar": "هل سأعرف الآثار الجانبية المتوقعة؟",
+            "en": "Will I know which side effects to expect?"
+          }
+        },
+        "parent": "treatment"
+      },
+      {
+        "slug": "supplements",
+        "content": {
+          "answer": {
+            "ar": "نعم، فبعض الفيتامينات والمكملات والمنتجات العشبية قد تتداخل مع علاجات الأورام أو تؤثر في نتائج الفحوص؛ لذا أخبر فريق الرعاية بكل ما تتناوله، حتى لو بدا غير ضار.",
+            "en": "Yes. Some vitamins, supplements and herbal products can interact with cancer treatments or affect test results, so tell your care team about everything you take — even if it seems harmless."
+          },
+          "question": {
+            "ar": "هل ينبغي أن أذكر المكملات أو المنتجات العشبية التي أتناولها؟",
+            "en": "Should I mention supplements or herbal products I take?"
+          }
+        },
+        "parent": "treatment"
+      },
+      {
+        "slug": "daily-life",
+        "content": {
+          "answer": {
+            "ar": "يواصل كثيرون بعض أنشطتهم المعتادة أثناء العلاج، لكن ذلك يعتمد على نوع العلاج وعلى ما تشعر به. ناقش خططك مع فريق الرعاية ليساعدك على الاستعداد.",
+            "en": "Many people continue some of their usual activities during treatment, but it depends on the treatment and on how you feel. Discuss your plans with your care team so they can help you prepare."
+          },
+          "question": {
+            "ar": "هل يمكنني مواصلة العمل أو الدراسة أثناء العلاج؟",
+            "en": "Can I keep working or studying during treatment?"
+          }
+        },
+        "parent": "treatment"
+      },
+      {
+        "slug": "after-treatment",
+        "content": {
+          "answer": {
+            "ar": "تستمر زيارات المتابعة بعد انتهاء العلاج للاطمئنان على تعافيك، ورصد أي علامات لعودة الورم، والمساعدة في التعامل مع الآثار الجانبية طويلة المدى. ويعتمد تواترها على حالتك.",
+            "en": "Follow-up visits continue after treatment to check your recovery, look for any signs of the cancer returning and help with longer-term side effects. How often they take place depends on your situation."
+          },
+          "question": {
+            "ar": "ماذا يحدث بعد انتهاء العلاج؟",
+            "en": "What happens after treatment ends?"
+          }
+        },
+        "parent": "follow-up"
+      },
+      {
+        "slug": "between-visits",
+        "content": {
+          "answer": {
+            "ar": "اتبع التعليمات التي يقدمها لك فريق الرعاية بشأن علاجك. وفي الحالات الطارئة — مثل صعوبة التنفس أو ألم الصدر أو ارتفاع الحرارة أثناء العلاج — توجّه فورًا إلى أقرب قسم للطوارئ. أما الأسئلة غير العاجلة فيمكنك طرحها بالتواصل مع العيادة.",
+            "en": "Follow the instructions your care team gives you for your treatment. In an emergency — for example, difficulty breathing, chest pain or a high fever during treatment — go to the nearest emergency department straight away. For questions that are not urgent, contact the clinic."
+          },
+          "question": {
+            "ar": "ماذا أفعل إذا شعرت بتوعك بين الزيارات؟",
+            "en": "What should I do if I feel unwell between visits?"
+          }
+        },
+        "parent": "follow-up"
+      },
+      {
+        "slug": "emotional-support",
+        "content": {
+          "answer": {
+            "ar": "نعم، فالمشاعر القوية شائعة بعد تشخيص الورم وأثناء العلاج. ولست مضطرًا إلى مواجهتها وحدك؛ أخبر فريق الرعاية بما تشعر به ليتحدث معك عن مصادر الدعم المتاحة.",
+            "en": "Yes. Strong emotions are common after a cancer diagnosis and during treatment. You do not have to face them alone — tell your care team how you feel, so they can talk with you about sources of support."
+          },
+          "question": {
+            "ar": "هل من الطبيعي أن أشعر بالقلق أو الحزن؟",
+            "en": "Is it normal to feel anxious or low?"
+          }
+        },
+        "parent": "follow-up"
+      },
+      {
+        "slug": "family-questions",
+        "content": {
+          "answer": {
+            "ar": "نعم، يمكن لأفراد عائلتك المشاركة في النقاش وطرح أسئلتهم بإذنك، وأنت من يقرر ما يُشارَك من معلومات ومع من.",
+            "en": "Yes. With your permission, family members can join the discussion and ask their own questions. You decide how much is shared, and with whom."
+          },
+          "question": {
+            "ar": "هل يمكن لعائلتي طرح الأسئلة أيضًا؟",
+            "en": "Can my family ask questions too?"
+          }
+        },
+        "parent": "follow-up"
+      },
+      {
+        "slug": "advice",
+        "content": {
+          "answer": {
+            "ar": "لا، فالمحتوى هنا عام وتثقيفي، ولكل حالة ظروفها الخاصة؛ لذا يُرجى استشارة الطبيب للحصول على نصيحة تخص حالتك الصحية.",
+            "en": "No. The content here is general and educational. Every situation is different, so please consult a doctor for advice about your own health."
+          },
+          "question": {
+            "ar": "هل تُغني المعلومات في هذا الموقع عن الاستشارة الطبية؟",
+            "en": "Does the information on this website replace a consultation?"
+          }
+        },
+        "parent": "website"
+      },
+      {
+        "slug": "reviews-policy",
+        "content": {
+          "answer": {
+            "ar": "تُنشر الآراء فقط بإذن أصحابها، ولا تظهر الأسماء إلا بموافقة صريحة، والتقييم بالنجوم المعروض هو الذي منحه المريض نفسه.",
+            "en": "Reviews are published only with each patient’s permission. Names appear only with explicit consent, and the star rating shown is the one the patient gave."
+          },
+          "question": {
+            "ar": "كيف تُنشر آراء المرضى؟",
+            "en": "How are patient reviews published?"
+          }
+        },
+        "parent": "website"
+      },
+      {
+        "slug": "contact-form",
+        "content": {
+          "answer": {
+            "ar": "يكفي وصف موجز لاستفسارك وأفضل طريقة للتواصل معك. ويُرجى الإيجاز في التفاصيل الطبية، فالأفضل مناقشتها خلال الاستشارة.",
+            "en": "A short description of your enquiry and the best way to reach you is enough. Please keep medical details brief — they are best discussed during your consultation."
+          },
+          "question": {
+            "ar": "ماذا أكتب في نموذج التواصل؟",
+            "en": "What should I write in the contact form?"
+          }
+        },
+        "parent": "website"
+      }
+    ],
+    "articles": [
+      {
+        "slug": "first-consultation",
+        "content": {
+          "body": [
+            {
+              "text": {
+                "ar": "قد تبدو الزيارة الأولى لطبيب الأورام مُربكة، لكن الاستعداد المسبق يساعدك على الاستفادة من الوقت والخروج بتصوّر أوضح للخطوات التالية.",
+                "en": "A first appointment with an oncologist can feel overwhelming. Preparing in advance helps you make the most of the time and leave with a clearer picture of the next steps."
+              },
+              "type": "paragraph"
+            },
+            {
+              "text": {
+                "ar": "ما الذي تُحضره معك",
+                "en": "What to bring"
+              },
+              "type": "heading"
+            },
+            {
+              "type": "list",
+              "items": {
+                "ar": [
+                  "تقارير التحليل النسيجي أو الخزعة",
+                  "صور الأشعة (على قرص أو ذاكرة USB إن توفرت) وتقاريرها المكتوبة",
+                  "أحدث نتائج تحاليل الدم",
+                  "قائمة بجميع الأدوية والمكملات التي تتناولها",
+                  "تفاصيل الحساسية والأمراض السابقة"
+                ],
+                "en": [
+                  "Pathology or biopsy reports",
+                  "Imaging scans (on a disc or USB drive, if available) and their written reports",
+                  "Recent blood test results",
+                  "A list of all medicines and supplements you take",
+                  "Details of allergies and previous illnesses"
+                ]
+              }
+            },
+            {
+              "text": {
+                "ar": "أسئلة قد ترغب في طرحها",
+                "en": "Questions you may want to ask"
+              },
+              "type": "heading"
+            },
+            {
+              "type": "list",
+              "items": {
+                "ar": [
+                  "ما نوع الورم لديّ وما مرحلته؟",
+                  "هل أحتاج إلى فحوص إضافية؟",
+                  "ما الخيارات العلاجية المتاحة، وما أهدافها؟",
+                  "كيف قد يؤثر العلاج في حياتي اليومية وعملي؟"
+                ],
+                "en": [
+                  "What type of cancer do I have, and what stage is it?",
+                  "Are further tests needed?",
+                  "What treatment options are available, and what are their goals?",
+                  "How might treatment affect my daily life and work?"
+                ]
+              }
+            },
+            {
+              "text": {
+                "ar": "أثناء الزيارة",
+                "en": "During the visit"
+              },
+              "type": "heading"
+            },
+            {
+              "text": {
+                "ar": "توقّع حديثًا عن صحتك وأعراضك ومخاوفك، ومراجعةً لتقاريرك. ولا حرج في أن تطلب إعادة أي معلومة أو كتابتها، كما أن اصطحاب شخص تثق به يساعدك على تذكّر ما دار في الزيارة.",
+                "en": "Expect a conversation about your health, symptoms and concerns, and a review of your reports. It is fine to ask for anything to be repeated or written down. Bringing someone you trust can help you remember what was discussed."
+              },
+              "type": "paragraph"
+            }
+          ],
+          "image": {
+            "alt": {
+              "ar": "دفتر مفتوح بعنوان «ملاحظات» مع قلم ونظارة",
+              "en": "An open notebook titled “Notes” with a pen and glasses"
+            },
+            "src": "/media/article-first-consultation",
+            "credit": "Unsplash — https://images.unsplash.com/photo-1517842645767-c639042777db",
+            "assetId": "bc98518f-9466-4703-ad44-390f3928d579",
+            "position": "40% 55%",
+            "isPlaceholder": true
+          },
+          "title": {
+            "ar": "الاستعداد لاستشارتك الأولى في طب الأورام",
+            "en": "Preparing for your first oncology consultation"
+          },
+          "excerpt": {
+            "ar": "قليل من الاستعداد يجعل زيارتك الأولى أكثر هدوءًا وفائدة. إليك ما تحضره، وما تسأل عنه، وما يمكنك توقعه.",
+            "en": "A little preparation can make your first visit calmer and more useful. Here is what to bring, what to ask and what to expect."
+          },
+          "category": {
+            "ar": "البداية",
+            "en": "Getting started"
+          },
+          "reviewedBy": null,
+          "isPlaceholder": true
+        }
+      },
+      {
+        "slug": "pathology-report",
+        "content": {
+          "body": [
+            {
+              "text": {
+                "ar": "يصف تقرير التحليل النسيجي ما تبيّن عند فحص عينة من النسيج تحت المجهر، وهو من أهم الوثائق في التخطيط لعلاج الأورام.",
+                "en": "A pathology report describes what was found when a tissue sample was examined under a microscope. It is one of the most important documents in planning cancer treatment."
+              },
+              "type": "paragraph"
+            },
+            {
+              "text": {
+                "ar": "مصطلحات شائعة",
+                "en": "Common terms"
+              },
+              "type": "heading"
+            },
+            {
+              "type": "list",
+              "items": {
+                "ar": [
+                  "نوع الورم: نوع الخلايا التي نشأ منها الورم",
+                  "الدرجة: مدى اختلاف الخلايا عن الخلايا الطبيعية، وقد تشير إلى سرعة نموها",
+                  "الحواف: ما إذا كانت الخلايا السرطانية تصل إلى حافة العينة المستأصلة جراحيًا",
+                  "المؤشرات الحيوية: بروتينات أو تغيّرات جينية محددة قد توجّه اختيار العلاج"
+                ],
+                "en": [
+                  "Tumor type: the kind of cell in which the cancer started",
+                  "Grade: how different the cells look from normal cells, which can suggest how quickly they may grow",
+                  "Margins: whether cancer cells reach the edge of a sample removed during surgery",
+                  "Biomarkers: specific proteins or genetic changes that can guide treatment choices"
+                ]
+              }
+            },
+            {
+              "text": {
+                "ar": "لماذا هو مهم",
+                "en": "Why it matters"
+              },
+              "type": "heading"
+            },
+            {
+              "text": {
+                "ar": "يساعد تقرير التحليل النسيجي، مع صور الأشعة، في تحديد مرحلة الورم والعلاجات الأكثر احتمالًا للفائدة، وقد تُطلب أحيانًا فحوص إضافية على العينة نفسها للإجابة عن أسئلة محددة.",
+                "en": "Together with imaging, the pathology report helps determine the stage of the cancer and which treatments are most likely to help. Sometimes additional tests on the same sample are requested to answer specific questions."
+              },
+              "type": "paragraph"
+            },
+            {
+              "text": {
+                "ar": "تستخدم التقارير لغة متخصصة، لذا من الطبيعي أن تكون لديك أسئلة، ويمكن لطبيبك مراجعة التقرير معك وشرح دلالة كل جزء منه على رعايتك.",
+                "en": "Reports use specialized language, so it is normal to have questions. Your doctor can go through the report with you and explain what each part means for your care."
+              },
+              "type": "paragraph"
+            }
+          ],
+          "image": {
+            "alt": {
+              "ar": "مزارع خلوية في آبار مختبرية من الأعلى",
+              "en": "Cell cultures in laboratory wells seen from above"
+            },
+            "src": "/media/article-pathology",
+            "credit": "Unsplash — https://images.unsplash.com/photo-1579154392429-0e6b4e850ad2",
+            "assetId": "fe2feaf3-24ec-42c9-b69d-1b82c20a1f17",
+            "position": "50% 45%",
+            "isPlaceholder": true
+          },
+          "title": {
+            "ar": "فهم تقرير التحليل النسيجي",
+            "en": "Understanding your pathology report"
+          },
+          "excerpt": {
+            "ar": "قد تبدو تقارير التحليل النسيجي معقدة. يشرح هذا الدليل المصطلحات الشائعة وأهميتها في رعايتك.",
+            "en": "Pathology reports can be technical. This guide explains common terms and why they matter for your care."
+          },
+          "category": {
+            "ar": "فهم التشخيص",
+            "en": "Understanding your diagnosis"
+          },
+          "reviewedBy": null,
+          "isPlaceholder": true
+        }
+      },
+      {
+        "slug": "nutrition",
+        "content": {
+          "body": [
+            {
+              "text": {
+                "ar": "تساعد التغذية الجيدة الجسم على تحمّل العلاج والتعافي بعده، وفي الوقت نفسه قد يؤثر العلاج في الشهية والتذوق والهضم، لذا قد تتطلب التغذية الجيدة شيئًا من المرونة.",
+                "en": "Good nutrition helps the body cope with treatment and recover afterwards. At the same time, treatment can affect appetite, taste and digestion, so eating well may need a flexible approach."
+              },
+              "type": "paragraph"
+            },
+            {
+              "text": {
+                "ar": "نصائح عملية",
+                "en": "Practical tips"
+              },
+              "type": "heading"
+            },
+            {
+              "type": "list",
+              "items": {
+                "ar": [
+                  "تناول وجبات صغيرة ومتكررة إن كانت الوجبات الكبيرة صعبة",
+                  "احرص على مصدر للبروتين، مثل البيض أو الألبان أو الأسماك أو الدواجن أو البقوليات، في معظم الوجبات",
+                  "اشرب السوائل بانتظام على مدار اليوم ما لم يُنصح بغير ذلك",
+                  "احتفظ بوجبات خفيفة سهلة في متناولك للأيام التي تقل فيها طاقتك"
+                ],
+                "en": [
+                  "Eat small, frequent meals if large meals feel difficult",
+                  "Include a source of protein — such as eggs, dairy, fish, poultry or legumes — at most meals",
+                  "Drink fluids regularly through the day unless you have been advised otherwise",
+                  "Keep easy snacks within reach for days when energy is low"
+                ]
+              }
+            },
+            {
+              "text": {
+                "ar": "متى تطلب المساعدة",
+                "en": "When to ask for help"
+              },
+              "type": "heading"
+            },
+            {
+              "text": {
+                "ar": "أخبر فريق الرعاية إن كنت تفقد وزنك دون قصد، أو تجد صعوبة في البلع، أو تعاني غثيانًا أو قيئًا أو إسهالًا مستمرًا، فكثيرًا ما يمكن علاج هذه المشكلات.",
+                "en": "Let your care team know if you are losing weight without trying, have difficulty swallowing, or have ongoing nausea, vomiting or diarrhea. These problems can often be treated."
+              },
+              "type": "paragraph"
+            },
+            {
+              "text": {
+                "ar": "استشر طبيبك قبل البدء بأي مكملات أو منتجات عشبية، فبعضها قد يتداخل مع علاج الأورام.",
+                "en": "Check with your doctor before starting supplements or herbal products, as some may interact with cancer treatment."
+              },
+              "type": "note"
+            }
+          ],
+          "image": {
+            "alt": {
+              "ar": "طبق ملوّن من السلطة والخضروات",
+              "en": "A colorful bowl of salad and vegetables"
+            },
+            "src": "/media/article-nutrition",
+            "credit": "Unsplash — https://images.unsplash.com/photo-1512621776951-a57141f2eefd",
+            "assetId": "cac0551f-dc37-4fa7-86b1-78bf815b46eb",
+            "position": "40% 50%",
+            "isPlaceholder": true
+          },
+          "title": {
+            "ar": "التغذية الجيدة أثناء علاج الأورام",
+            "en": "Eating well during cancer treatment"
+          },
+          "excerpt": {
+            "ar": "قد يغيّر العلاج الشهية وحاسة التذوق، لكن عادات بسيطة وعملية تساعدك على الحفاظ على قوتك.",
+            "en": "Treatment can change appetite and taste. Simple, practical habits can help you keep your strength."
+          },
+          "category": {
+            "ar": "العيش بصحة",
+            "en": "Living well"
+          },
+          "reviewedBy": null,
+          "isPlaceholder": true
+        }
+      },
+      {
+        "slug": "fatigue",
+        "content": {
+          "body": [
+            {
+              "text": {
+                "ar": "يختلف الإرهاق المرتبط بالأورام عن التعب المعتاد؛ فقد لا يتحسن تمامًا بالراحة، وقد يؤثر في التركيز والمزاج. وهو شائع، ويستحق الحديث عنه.",
+                "en": "Cancer-related fatigue is different from ordinary tiredness: it may not improve fully with rest and can affect concentration and mood. It is common, and it is worth talking about."
+              },
+              "type": "paragraph"
+            },
+            {
+              "text": {
+                "ar": "أساليب قد تساعد",
+                "en": "Strategies that may help"
+              },
+              "type": "heading"
+            },
+            {
+              "type": "list",
+              "items": {
+                "ar": [
+                  "خطّط للأنشطة المهمة في الأوقات التي تكون فيها طاقتك أعلى",
+                  "وازن بين الراحة والنشاط الخفيف، كالمشي القصير، بعد موافقة طبيبك",
+                  "تقبّل عروض المساعدة في المهام اليومية",
+                  "حافظ على مواعيد نوم منتظمة"
+                ],
+                "en": [
+                  "Plan important activities for the times of day when you have more energy",
+                  "Balance rest with gentle activity, such as short walks, if your doctor agrees",
+                  "Accept offers of help with daily tasks",
+                  "Keep a regular sleep routine"
+                ]
+              }
+            },
+            {
+              "text": {
+                "ar": "أسباب تستحق الفحص",
+                "en": "Causes worth checking"
+              },
+              "type": "heading"
+            },
+            {
+              "text": {
+                "ar": "قد يزداد الإرهاق أحيانًا بسبب مشكلات قابلة للعلاج، مثل فقر الدم أو اضطراب النوم أو الألم أو انخفاض المزاج، وإخبار فريق الرعاية بذلك يتيح البحث عنها.",
+                "en": "Fatigue can sometimes be made worse by treatable problems such as anemia, poor sleep, pain or low mood. Mentioning it to your care team allows these to be looked for."
+              },
+              "type": "paragraph"
+            }
+          ],
+          "image": {
+            "alt": {
+              "ar": "شخص يجلس بهدوء على شرفة وقت الغروب",
+              "en": "A person sitting quietly on a terrace at sunset"
+            },
+            "src": "/media/article-fatigue",
+            "credit": "Unsplash — https://images.unsplash.com/photo-1506126613408-eca07ce68773",
+            "assetId": "d6d553c9-5e38-4041-83ce-5da150cbeeb1",
+            "position": "50% 45%",
+            "isPlaceholder": true
+          },
+          "title": {
+            "ar": "التعامل مع الإرهاق أثناء العلاج",
+            "en": "Coping with fatigue during treatment"
+          },
+          "excerpt": {
+            "ar": "الإرهاق من أكثر آثار الأورام وعلاجها شيوعًا، وقد تساعد تغييرات بسيطة على التعامل معه بسهولة أكبر.",
+            "en": "Fatigue is one of the most common effects of cancer and its treatment. Small changes can make it easier to manage."
+          },
+          "category": {
+            "ar": "العيش بصحة",
+            "en": "Living well"
+          },
+          "reviewedBy": null,
+          "isPlaceholder": true
+        }
+      },
+      {
+        "slug": "immunotherapy",
+        "content": {
+          "body": [
+            {
+              "text": {
+                "ar": "يحمي الجهاز المناعي الجسم عادةً بالتعرّف على الخلايا غير الطبيعية والتخلص منها، لكن بعض الخلايا السرطانية تطوّر طرقًا للاختباء منه، وتساعد أدوية العلاج المناعي الجهاز المناعي على التعرّف على هذه الخلايا من جديد.",
+                "en": "The immune system normally protects the body by recognizing and removing abnormal cells. Some cancer cells develop ways to hide from it. Immunotherapy medicines help the immune system recognize these cells again."
+              },
+              "type": "paragraph"
+            },
+            {
+              "text": {
+                "ar": "لمن قد يكون مفيدًا",
+                "en": "Who it may help"
+              },
+              "type": "heading"
+            },
+            {
+              "text": {
+                "ar": "العلاج المناعي فعّال في بعض أنواع الأورام وحالاتها دون غيرها، وتساعد فحوص الورم، إلى جانب نوعه ومرحلته، في تحديد ما إذا كان خيارًا مناسبًا.",
+                "en": "Immunotherapy is effective for some cancer types and situations, but not all. Tests on the tumor, together with its type and stage, help decide whether it is a suitable option."
+              },
+              "type": "paragraph"
+            },
+            {
+              "text": {
+                "ar": "آثار جانبية ينبغي معرفتها",
+                "en": "Side effects to know about"
+              },
+              "type": "heading"
+            },
+            {
+              "text": {
+                "ar": "لأن العلاج المناعي ينشّط الجهاز المناعي، فقد يسبب أحيانًا التهابًا في أعضاء سليمة، ومن العلامات المحتملة:",
+                "en": "Because immunotherapy activates the immune system, it can sometimes cause inflammation in healthy organs. Possible signs include:"
+              },
+              "type": "paragraph"
+            },
+            {
+              "type": "list",
+              "items": {
+                "ar": [
+                  "إسهال جديد أو متزايد",
+                  "طفح جلدي أو حكة",
+                  "سعال أو ضيق في التنفس",
+                  "إرهاق غير معتاد أو أي أعراض جديدة أخرى"
+                ],
+                "en": [
+                  "New or worsening diarrhea",
+                  "Skin rash or itching",
+                  "Cough or shortness of breath",
+                  "Unusual tiredness or other new symptoms"
+                ]
+              }
+            },
+            {
+              "text": {
+                "ar": "أبلغ فريق الرعاية فورًا عن أي أعراض جديدة، حتى لو ظهرت بعد أسابيع من العلاج.",
+                "en": "Report new symptoms to your care team promptly, even if they appear weeks after treatment."
+              },
+              "type": "note"
+            }
+          ],
+          "image": {
+            "alt": {
+              "ar": "ماصّة تُسقط قطرة في أنبوب مختبري",
+              "en": "A pipette releasing a drop into a laboratory vial"
+            },
+            "src": "/media/article-immunotherapy",
+            "credit": "Unsplash — https://images.unsplash.com/photo-1579165466741-7f35e4755660",
+            "assetId": "9cee9e3b-e4c8-497d-8924-46767f05a5ad",
+            "position": "45% 50%",
+            "isPlaceholder": true
+          },
+          "title": {
+            "ar": "كيف يعمل العلاج المناعي",
+            "en": "How immunotherapy works"
+          },
+          "excerpt": {
+            "ar": "يستعين العلاج المناعي بدفاعات الجسم الطبيعية ضد الأورام. إليك شرحًا مبسطًا لماهيته وما ينبغي الانتباه إليه.",
+            "en": "Immunotherapy uses the body's own defenses against cancer. A simple explanation of what it is and what to watch for."
+          },
+          "category": {
+            "ar": "العلاجات",
+            "en": "Treatments"
+          },
+          "reviewedBy": null,
+          "isPlaceholder": true
+        }
+      },
+      {
+        "slug": "treatment-questions",
+        "content": {
+          "body": [
+            {
+              "text": {
+                "ar": "تُتخذ قرارات العلاج على أفضل وجه بصورة مشتركة، وطرح الأسئلة يساعدك على فهم أسباب التوصية وما تعنيه بالنسبة إليك.",
+                "en": "Treatment decisions are best made together. Asking questions helps you understand the reasons behind a recommendation and what it will mean for you."
+              },
+              "type": "paragraph"
+            },
+            {
+              "text": {
+                "ar": "عن الخطة",
+                "en": "About the plan"
+              },
+              "type": "heading"
+            },
+            {
+              "type": "list",
+              "items": {
+                "ar": [
+                  "ما الهدف من هذا العلاج؟",
+                  "هل توجد خيارات أخرى، وكيف تقارن بها؟",
+                  "كم سيستغرق العلاج، وكم مرة سأحتاج إلى الزيارة؟"
+                ],
+                "en": [
+                  "What is the goal of this treatment?",
+                  "Are there other options, and how do they compare?",
+                  "How long will treatment last, and how often will I need to visit?"
+                ]
+              }
+            },
+            {
+              "text": {
+                "ar": "عن الحياة اليومية",
+                "en": "About daily life"
+              },
+              "type": "heading"
+            },
+            {
+              "type": "list",
+              "items": {
+                "ar": [
+                  "ما الآثار الجانبية الأكثر احتمالًا، وكيف يمكن التعامل معها؟",
+                  "هل يمكنني مواصلة العمل أو السفر أثناء العلاج؟",
+                  "بمن أتواصل إذا شعرت بتوعك؟"
+                ],
+                "en": [
+                  "Which side effects are most likely, and how can they be managed?",
+                  "Can I continue working or travelling during treatment?",
+                  "Who should I contact if I feel unwell?"
+                ]
+              }
+            },
+            {
+              "text": {
+                "ar": "كتابة أسئلتك قبل الموعد وتدوين الإجابات يسهّلان تذكّر ما دار من نقاش.",
+                "en": "Writing your questions down before the appointment, and noting the answers, can make it easier to remember what was discussed."
+              },
+              "type": "paragraph"
+            }
+          ],
+          "image": {
+            "alt": {
+              "ar": "يد تكتب قائمة مهام في دفتر",
+              "en": "A hand writing a checklist in a notebook"
+            },
+            "src": "/media/article-questions",
+            "credit": "Unsplash — https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b",
+            "assetId": "62932fa0-526c-46e3-8d75-934153603bc0",
+            "position": "55% 50%",
+            "isPlaceholder": true
+          },
+          "title": {
+            "ar": "أسئلة تطرحها حول خطتك العلاجية",
+            "en": "Questions to ask about your treatment plan"
+          },
+          "excerpt": {
+            "ar": "فهم خطتك العلاجية يساعدك على المشاركة في القرار، وهذه الأسئلة قد توجّه الحديث مع طبيبك.",
+            "en": "Understanding your plan helps you take part in decisions. These questions can guide the conversation."
+          },
+          "category": {
+            "ar": "البداية",
+            "en": "Getting started"
+          },
+          "reviewedBy": null,
+          "isPlaceholder": true
+        }
+      },
+      {
+        "slug": "supporting-loved-one",
+        "content": {
+          "body": [
+            {
+              "text": {
+                "ar": "عندما يُشخَّص شخص قريب منك بالسرطان، من الطبيعي أن ترغب في المساعدة دون أن تعرف كيف، وكثيرًا ما يكون الدعم الأهم في تفاصيل صغيرة وعملية.",
+                "en": "When someone close to you is diagnosed with cancer, it is natural to want to help but to be unsure how. Support often matters most in small, practical ways."
+              },
+              "type": "paragraph"
+            },
+            {
+              "text": {
+                "ar": "طرق للمساعدة",
+                "en": "Ways to help"
+              },
+              "type": "heading"
+            },
+            {
+              "type": "list",
+              "items": {
+                "ar": [
+                  "اعرض مرافقته إلى المواعيد وتدوين الملاحظات",
+                  "ساعد في المهام اليومية، كإعداد الطعام أو التنقل أو رعاية الأطفال",
+                  "أنصت إليه دون أن تشعر بأن عليك امتلاك كل الإجابات",
+                  "احترم رغبته فيما يشاركه ومع من يشاركه"
+                ],
+                "en": [
+                  "Offer to come to appointments and take notes",
+                  "Help with everyday tasks such as meals, transport or childcare",
+                  "Listen without needing to have all the answers",
+                  "Respect their wishes about what to share, and with whom"
+                ]
+              }
+            },
+            {
+              "text": {
+                "ar": "اعتنِ بنفسك أيضًا",
+                "en": "Looking after yourself"
+              },
+              "type": "heading"
+            },
+            {
+              "text": {
+                "ar": "قد تكون رعاية شخص آخر مُتعبة، وأخذ فترات للراحة، وقبول المساعدة من الآخرين، والتعبير عن مشاعرك، كلها أمور تساعدك على الاستمرار في تقديم الدعم.",
+                "en": "Caring for someone can be tiring. Taking breaks, accepting help from others and talking about your own feelings will help you keep offering support."
+              },
+              "type": "paragraph"
+            }
+          ],
+          "image": {
+            "alt": {
+              "ar": "عائلة تسير معًا على الشاطئ وقت الغروب",
+              "en": "A family walking together on a beach at sunset"
+            },
+            "src": "/media/article-family",
+            "credit": "Unsplash — https://images.unsplash.com/photo-1511895426328-dc8714191300",
+            "assetId": "5c05623c-5657-4305-8da0-d90e281e546b",
+            "position": "50% 60%",
+            "isPlaceholder": true
+          },
+          "title": {
+            "ar": "دعم أحد أحبائك خلال رحلة العلاج",
+            "en": "Supporting a loved one through cancer care"
+          },
+          "excerpt": {
+            "ar": "لأفراد الأسرة دور مهم، والمساعدة العملية والتواصل الصريح يدعمان الجميع.",
+            "en": "Family members play an important role. Practical help and open communication can support everyone involved."
+          },
+          "category": {
+            "ar": "الأسرة والدعم",
+            "en": "Family & support"
+          },
+          "reviewedBy": null,
+          "isPlaceholder": true
+        }
+      }
+    ],
+    "careerMilestones": [
+      {
+        "slug": "medical-degree",
+        "content": {
+          "title": {
+            "ar": "الدرجة الجامعية في الطب",
+            "en": "Medical degree"
+          },
+          "period": {
+            "ar": "قيد التأكيد",
+            "en": "To be confirmed"
+          },
+          "description": {
+            "ar": "التعليم الطبي الأساسي والتدريب السريري في مختلف التخصصات.",
+            "en": "Foundational medical education and clinical rotations across specialties."
+          },
+          "organization": {
+            "ar": "كلية الطب — قيد التأكيد",
+            "en": "Faculty of medicine — to be confirmed"
+          },
+          "isPlaceholder": true
+        }
+      },
+      {
+        "slug": "specialty-training",
+        "content": {
+          "title": {
+            "ar": "التدريب التخصصي في علاج الأورام",
+            "en": "Specialty training in oncology"
+          },
+          "period": {
+            "ar": "قيد التأكيد",
+            "en": "To be confirmed"
+          },
+          "description": {
+            "ar": "تدريب منهجي في تشخيص الأورام وعلاجها.",
+            "en": "Structured training in the diagnosis and treatment of cancer."
+          },
+          "organization": {
+            "ar": "مستشفى التدريب — قيد التأكيد",
+            "en": "Training hospital — to be confirmed"
+          },
+          "isPlaceholder": true
+        }
+      },
+      {
+        "slug": "advanced-qualifications",
+        "content": {
+          "title": {
+            "ar": "المؤهلات المتقدمة",
+            "en": "Advanced qualifications"
+          },
+          "period": {
+            "ar": "قيد التأكيد",
+            "en": "To be confirmed"
+          },
+          "description": {
+            "ar": "الدرجات العليا أو الزمالات أو شهادات البورد، حسب الحال.",
+            "en": "Postgraduate degrees, fellowships or board certifications, where applicable."
+          },
+          "organization": {
+            "ar": "التفاصيل قيد التأكيد",
+            "en": "Details to be confirmed"
+          },
+          "isPlaceholder": true
+        }
+      },
+      {
+        "slug": "current-practice",
+        "content": {
+          "title": {
+            "ar": "الممارسة السريرية الحالية",
+            "en": "Current clinical practice"
+          },
+          "period": {
+            "ar": "قيد التأكيد",
+            "en": "To be confirmed"
+          },
+          "description": {
+            "ar": "استشارات الأورام وتخطيط العلاج والمتابعة.",
+            "en": "Oncology consultations, treatment planning and follow-up care."
+          },
+          "organization": {
+            "ar": "العيادة أو المستشفى — قيد التأكيد",
+            "en": "Clinic or hospital — to be confirmed"
+          },
+          "isPlaceholder": true
+        }
+      }
+    ],
+    "certificates": [
+      {
+        "slug": "certificate-1",
+        "content": {
+          "image": null,
+          "title": {
+            "ar": "الشهادة 1 (بانتظار التزويد)",
+            "en": "Certificate 1 (to be provided)"
+          },
+          "isPlaceholder": true
+        }
+      },
+      {
+        "slug": "certificate-2",
+        "content": {
+          "image": null,
+          "title": {
+            "ar": "الشهادة 2 (بانتظار التزويد)",
+            "en": "Certificate 2 (to be provided)"
+          },
+          "isPlaceholder": true
+        }
+      },
+      {
+        "slug": "certificate-3",
+        "content": {
+          "image": null,
+          "title": {
+            "ar": "الشهادة 3 (بانتظار التزويد)",
+            "en": "Certificate 3 (to be provided)"
+          },
+          "isPlaceholder": true
+        }
+      },
+      {
+        "slug": "certificate-4",
+        "content": {
+          "image": null,
+          "title": {
+            "ar": "الشهادة 4 (بانتظار التزويد)",
+            "en": "Certificate 4 (to be provided)"
+          },
+          "isPlaceholder": true
+        }
+      },
+      {
+        "slug": "certificate-5",
+        "content": {
+          "image": null,
+          "title": {
+            "ar": "الشهادة 5 (بانتظار التزويد)",
+            "en": "Certificate 5 (to be provided)"
+          },
+          "isPlaceholder": true
+        }
+      },
+      {
+        "slug": "certificate-6",
+        "content": {
+          "image": null,
+          "title": {
+            "ar": "الشهادة 6 (بانتظار التزويد)",
+            "en": "Certificate 6 (to be provided)"
+          },
+          "isPlaceholder": true
+        }
+      }
+    ]
+  },
+  "placeholders": [
+    "section home.hero",
+    "section about.hero",
+    "section home.about",
+    "section shared.cta",
+    "section about.intro",
+    "section videos.hero",
+    "section contact.hero",
+    "section reviews.hero",
+    "section articles.hero",
+    "section services.hero",
+    "section home.whyChoose",
+    "section home.statistics",
+    "section about.philosophy",
+    "section settings.contact",
+    "section settings.socials",
+    "section shared.introVideo",
+    "services \"breast\"",
+    "services \"thoracic\"",
+    "services \"gastrointestinal\"",
+    "services \"gynecologic\"",
+    "services \"hematologic\"",
+    "services \"chemotherapy\"",
+    "services \"immunotherapy\"",
+    "services \"targeted\"",
+    "services \"hormonal\"",
+    "services \"supportive\"",
+    "services \"consultation\"",
+    "services \"evaluation\"",
+    "services \"planning\"",
+    "services \"follow-up\"",
+    "videos \"first-visit\"",
+    "videos \"medications\"",
+    "videos \"pathology\"",
+    "videos \"chemotherapy\"",
+    "videos \"immunotherapy\"",
+    "videos \"when-to-call\"",
+    "videos \"nutrition\"",
+    "videos \"second-opinion\"",
+    "videos \"family-support\"",
+    "reviews \"review-1\"",
+    "reviews \"review-2\"",
+    "reviews \"review-3\"",
+    "reviews \"review-4\"",
+    "reviews \"review-5\"",
+    "reviews \"review-6\"",
+    "reviews \"review-7\"",
+    "reviews \"review-8\"",
+    "reviews \"review-9\"",
+    "faqCategories \"before-visit\"",
+    "faqCategories \"diagnosis\"",
+    "faqCategories \"treatment\"",
+    "faqCategories \"follow-up\"",
+    "faqCategories \"website\"",
+    "articles \"first-consultation\"",
+    "articles \"pathology-report\"",
+    "articles \"nutrition\"",
+    "articles \"fatigue\"",
+    "articles \"immunotherapy\"",
+    "articles \"treatment-questions\"",
+    "articles \"supporting-loved-one\"",
+    "careerMilestones \"medical-degree\"",
+    "careerMilestones \"specialty-training\"",
+    "careerMilestones \"advanced-qualifications\"",
+    "careerMilestones \"current-practice\"",
+    "certificates \"certificate-1\"",
+    "certificates \"certificate-2\"",
+    "certificates \"certificate-3\"",
+    "certificates \"certificate-4\"",
+    "certificates \"certificate-5\"",
+    "certificates \"certificate-6\""
+  ]
+}

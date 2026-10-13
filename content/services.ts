@@ -25,6 +25,9 @@ export const servicesPage: ServicesPageContent = {
     },
   },
 
+  // Order and visibility of the sections below the hero
+  layout: { sections: [{ id: "groups" }, { id: "cta" }] },
+
   hero: {
     eyebrow: { en: "Services", ar: "الخدمات" },
     title: {

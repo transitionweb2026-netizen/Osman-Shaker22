@@ -54,7 +54,8 @@ components/
 content/                 ALL editable content (typed, bilingual) — see below
 lib/                     i18n, routes registry, content access layer, SEO helper, fonts, helpers
 assets-src/              original photos (inputs for `npm run images`)
-docs/SUPABASE.md         plan for connecting the future CMS
+docs/CMS.md              the CMS at /admin/: editing, publishing, security
+docs/SUPABASE.md         connecting the CMS: Supabase setup checklist
 ```
 
 Only small parts ship JavaScript (header/menu, language switcher, popups, video
@@ -182,7 +183,8 @@ Temporary photos are from Unsplash (Unsplash License); each entry in
    - `NEXT_PUBLIC_SITE_URL=https://your-domain` (canonical URLs, Open Graph, sitemap)
    - `NEXT_PUBLIC_ALLOW_INDEXING=true` for the launch build; leave it out for a preview
    - optionally `NEXT_PUBLIC_CONTACT_FORM_ENDPOINT` (see "Contact form")
-2. `npm run build`
+2. If the CMS is connected: `npm run cms:sync` (pulls the published CMS content).
+   Then `npm run build`
 3. Upload the **contents** of `out/` (including the hidden `.htaccess`) into
    `public_html/` with File Manager or FTP. The site must be served from the
    domain root.
@@ -222,6 +224,6 @@ cached for a year; HTML is always revalidated).
 - `next.config.ts` pins `turbopack.root` to this folder: the parent Desktop
   folder contains another `package.json`, which Next.js would otherwise treat as
   the workspace root.
-- Future CMS: see [docs/SUPABASE.md](docs/SUPABASE.md).
+- CMS: see [docs/CMS.md](docs/CMS.md); to connect it, [docs/SUPABASE.md](docs/SUPABASE.md).
 #   O s m a n - S h a k e r  
  

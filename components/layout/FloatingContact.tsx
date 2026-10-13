@@ -7,8 +7,11 @@ import styles from "./FloatingContact.module.css";
 
 /** WhatsApp and call shortcuts, fixed to the reading end of the screen on every page. */
 export function FloatingContact({ site }: { site: Site }) {
-  const { phone, whatsapp, whatsappMessage } = site.contact;
-  const { ui } = site;
+  const { ui, quickActions } = site;
+  const { whatsappMessage } = site.contact;
+  // Each shortcut needs its number and can be switched off in the site settings
+  const whatsapp = quickActions.floatingWhatsapp ? site.contact.whatsapp : null;
+  const phone = quickActions.floatingPhone ? site.contact.phone : null;
   if (!phone && !whatsapp) return null;
 
   return (

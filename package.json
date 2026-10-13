@@ -6,14 +6,17 @@
     "dev": "next dev",
     "prebuild": "node scripts/check-placeholders.mjs --build",
     "build": "next build",
+    "postbuild": "node scripts/fix-export-segments.mjs",
     "preview": "node scripts/serve-out.mjs",
     "lint": "eslint",
     "typecheck": "next typegen && tsc --noEmit",
     "images": "node scripts/optimize-images.mjs",
+    "cms:sync": "node scripts/cms-sync.mjs",
     "og": "node scripts/generate-social-images.mjs",
     "check:content": "node scripts/check-placeholders.mjs"
   },
   "dependencies": {
+    "@supabase/supabase-js": "2.117.3",
     "next": "16.4.0",
     "react": "19.3.0",
     "react-dom": "19.3.0"

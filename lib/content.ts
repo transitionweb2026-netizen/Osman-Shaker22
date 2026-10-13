@@ -1,4 +1,5 @@
 import { cache } from "react";
+import snapshotJson from "@/content/cms-snapshot.json";
 import { aboutContent } from "@/content/about";
 import { articlesPage } from "@/content/articles";
 import { contactPage } from "@/content/contact";
@@ -10,30 +11,26 @@ import type {
   AboutPageContent,
   ArticlesPageContent,
   ContactPageContent,
-  FaqItem,
-  FeaturedServices,
   HomePageContent,
-  Review,
   ReviewsPageContent,
-  RouteCta,
-  SectionIntro,
-  Service,
   ServicesPageContent,
   SiteContent,
-  Video,
   VideosPageContent,
 } from "@/content/types";
 import { videosPage } from "@/content/videos";
+import { applySnapshot, type CmsSnapshot, type ContentTree } from "./cms/model";
 import type { Locale } from "./i18n";
 import { localize, type Resolved } from "./localize";
+import { aboutDocument, assertRated, homeDocument, type AboutDocument, type HomeDocument } from "./resolve";
 import type { RouteKey } from "./routes";
 
 /**
  * Where content comes from.
  *
- * Today this is the typed files in `content/`. A Supabase source can implement
- * the same interface later (see `docs/SUPABASE.md`); it runs during
- * `next build`, so the exported HTML stays fully static and indexable.
+ * The typed files in `content/` are the defaults. Content published in the
+ * CMS (Supabase) is pulled into `content/cms-snapshot.json` by
+ * `npm run cms:sync` and applied on top of them during `next build`, so the
+ * exported HTML stays fully static and indexable (see `docs/CMS.md`).
  */
 export interface ContentSource {
   getSiteContent(): Promise<SiteContent>;
@@ -46,69 +43,32 @@ export interface ContentSource {
   getContactPage(): Promise<ContactPageContent>;
 }
 
-const staticContentSource: ContentSource = {
-  getSiteContent: async () => siteContent,
-  getHomePage: async () => homeContent,
-  getAboutPage: async () => aboutContent,
-  getServicesPage: async () => servicesPage,
-  getVideosPage: async () => videosPage,
-  getReviewsPage: async () => reviewsPage,
-  getArticlesPage: async () => articlesPage,
-  getContactPage: async () => contactPage,
+const bundledContent: ContentTree = {
+  site: siteContent,
+  home: homeContent,
+  about: aboutContent,
+  services: servicesPage,
+  videos: videosPage,
+  reviews: reviewsPage,
+  articles: articlesPage,
+  contact: contactPage,
 };
 
-const source: ContentSource = staticContentSource;
+/** The published CMS snapshot, or `{ enabled: false }` before the first sync. */
+export const cmsSnapshot = snapshotJson as unknown as CmsSnapshot;
 
-/** Looks up catalog entries by id; an unknown id fails the build instead of publishing a broken card. */
-function pick<T extends { id: string }>(catalog: T[], ids: readonly string[], kind: string): T[] {
-  return ids.map((id) => {
-    const item = catalog.find((entry) => entry.id === id);
-    if (!item) throw new Error(`Unknown ${kind} id "${id}"`);
-    return item;
-  });
-}
+const content = applySnapshot(bundledContent, cmsSnapshot);
 
-/** How many entries of the importance-ordered catalogs the homepage shows. */
-const HOME_VIDEO_COUNT = 3;
-const HOME_REVIEW_COUNT = 6;
-
-/**
- * The most important entries of a catalog: its first `count` items, as
- * catalogs are ordered by importance. Too short a catalog fails the build.
- */
-function mostImportant<T>(catalog: T[], count: number, kind: string): T[] {
-  if (catalog.length < count) {
-    throw new Error(`The homepage needs ${count} ${kind} entries; the catalog has ${catalog.length}`);
-  }
-  return catalog.slice(0, count);
-}
-
-type FeaturedSection = SectionIntro & { items: Service[]; cta: RouteCta };
-
-function resolveFeatured(featured: FeaturedServices, catalog: Service[]): FeaturedSection {
-  const { serviceIds, ...rest } = featured;
-  return { ...rest, items: pick(catalog, serviceIds, "service") };
-}
-
-/** Real reviews must carry the patient's own rating; only placeholders may leave it empty. */
-function assertRated(reviews: Review[]): Review[] {
-  for (const review of reviews) {
-    if (!review.isPlaceholder && review.rating === null) {
-      throw new Error(`Review "${review.id}" needs the rating the patient gave (1–5) before it is published`);
-    }
-  }
-  return reviews;
-}
-
-type HomeDocument = Omit<HomePageContent, "specialties" | "treatments" | "videos" | "reviews" | "faq"> & {
-  specialties: FeaturedSection;
-  treatments: FeaturedSection;
-  videos: SectionIntro & { items: Video[]; cta: RouteCta };
-  reviews: SectionIntro & { items: Review[]; cta: RouteCta };
-  faq: SectionIntro & { items: FaqItem[] };
+const source: ContentSource = {
+  getSiteContent: async () => content.site,
+  getHomePage: async () => content.home,
+  getAboutPage: async () => content.about,
+  getServicesPage: async () => content.services,
+  getVideosPage: async () => content.videos,
+  getReviewsPage: async () => content.reviews,
+  getArticlesPage: async () => content.articles,
+  getContactPage: async () => content.contact,
 };
-
-type AboutDocument = Omit<AboutPageContent, "specialties"> & { specialties: FeaturedSection };
 
 export type Site = Resolved<SiteContent>;
 export type Home = Resolved<HomeDocument>;
@@ -119,15 +79,26 @@ export type ReviewsPage = Resolved<ReviewsPageContent>;
 export type ArticlesPage = Resolved<ArticlesPageContent>;
 export type ContactPage = Resolved<ContactPageContent>;
 
-const serviceCatalog = cache(async () => (await source.getServicesPage()).groups.flatMap((group) => group.services));
-
 const reviewsDocument = cache(async () => {
   const page = await source.getReviewsPage();
   assertRated(page.items);
   return page;
 });
 
-const faqCatalog = cache(async () => (await reviewsDocument()).faq.categories.flatMap((category) => category.items));
+/** Everything the featured sections draw from. */
+const contentTree = cache(async (): Promise<ContentTree> => {
+  const [site, home, about, services, videos, reviews, articles, contact] = await Promise.all([
+    source.getSiteContent(),
+    source.getHomePage(),
+    source.getAboutPage(),
+    source.getServicesPage(),
+    source.getVideosPage(),
+    reviewsDocument(),
+    source.getArticlesPage(),
+    source.getContactPage(),
+  ]);
+  return { site, home, about, services, videos, reviews, articles, contact };
+});
 
 export const getSite = cache(
   async (locale: Locale): Promise<Site> => localize(await source.getSiteContent(), locale),
@@ -138,32 +109,13 @@ export function navLabel(site: Site, route: RouteKey): string {
   return site.navigation.find((item) => item.route === route)?.label ?? site.name;
 }
 
-export const getHome = cache(async (locale: Locale): Promise<Home> => {
-  const [home, services, videos, reviews, faq] = await Promise.all([
-    source.getHomePage(),
-    serviceCatalog(),
-    source.getVideosPage(),
-    reviewsDocument(),
-    faqCatalog(),
-  ]);
-  const { faqIds, ...faqSection } = home.faq;
-  const document: HomeDocument = {
-    ...home,
-    specialties: resolveFeatured(home.specialties, services),
-    treatments: resolveFeatured(home.treatments, services),
-    // Same records as the Videos and Reviews & FAQs pages, so an edit updates both
-    videos: { ...home.videos, items: mostImportant(videos.items, HOME_VIDEO_COUNT, "video") },
-    reviews: { ...home.reviews, items: mostImportant(reviews.items, HOME_REVIEW_COUNT, "review") },
-    faq: { ...faqSection, items: pick(faq, faqIds, "FAQ") },
-  };
-  return localize(document, locale);
-});
+export const getHome = cache(
+  async (locale: Locale): Promise<Home> => localize(homeDocument(await contentTree()), locale),
+);
 
-export const getAbout = cache(async (locale: Locale): Promise<About> => {
-  const [about, services] = await Promise.all([source.getAboutPage(), serviceCatalog()]);
-  const document: AboutDocument = { ...about, specialties: resolveFeatured(about.specialties, services) };
-  return localize(document, locale);
-});
+export const getAbout = cache(
+  async (locale: Locale): Promise<About> => localize(aboutDocument(await contentTree()), locale),
+);
 
 export const getServicesPage = cache(
   async (locale: Locale): Promise<ServicesPage> => localize(await source.getServicesPage(), locale),

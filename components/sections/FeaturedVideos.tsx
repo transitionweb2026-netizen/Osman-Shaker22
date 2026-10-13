@@ -1,6 +1,6 @@
 import type { CSSProperties } from "react";
 import { VideoCard } from "@/components/media/VideoCard";
-import { RouteButton } from "@/components/ui/Button";
+import { CtaButton } from "@/components/ui/CtaButton";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 import type { Home, Site } from "@/lib/content";
 import type { Locale } from "@/lib/i18n";
@@ -39,11 +39,11 @@ export function FeaturedVideos({ locale, content, site }: FeaturedVideosProps) {
           </ul>
         </div>
 
-        <div className={styles.footer} data-reveal>
-          <RouteButton route={content.cta.route} locale={locale} soonLabel={site.ui.comingSoon}>
-            {content.cta.label}
-          </RouteButton>
-        </div>
+        {!content.cta.hidden && (
+          <div className={styles.footer} data-reveal>
+            <CtaButton cta={content.cta} locale={locale} site={site} />
+          </div>
+        )}
       </div>
     </section>
   );

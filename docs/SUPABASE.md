@@ -1,224 +1,131 @@
-# Supabase CMS — integration plan
+# Connecting the CMS to Supabase — setup checklist
 
-Status: **not implemented**. The site currently reads typed content from `content/`.
-This document describes how to connect Supabase later without touching the
-presentation components.
+The CMS (`/admin/`) runs as a **local demo** until these steps are done: edits
+then stay in the browser and never reach the website. Follow the steps in
+order; none of them needs a secret key in this project.
 
-## 1. How content reaches a static site
+How the CMS works once connected: [docs/CMS.md](CMS.md).
 
-The site is a static export (`out/`) hosted on Hostinger, so there is no server
-to render pages on request. Two consequences:
+## What you need
 
-- **Editing in Supabase does not change the exported HTML by itself.**
-  Content is read while `next build` runs, so a new build and upload is needed
-  for changes to appear.
-- Reading content in the browser instead would work, but search engines and
-  link previews would then see the fallback content, not the edited one.
+| Item | Where to find it | Where it goes |
+| --- | --- | --- |
+| Project URL | Supabase dashboard → Project Settings → API (or **Connect**) | `NEXT_PUBLIC_SUPABASE_URL` |
+| Publishable key (`sb_publishable_…`; older projects: the **anon** key) | Project Settings → API keys | `NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY` |
+| The administrator's email address | — | step 4 |
 
-Recommended flow (keeps full SEO and static hosting):
+**Never** use the secret / `service_role` key anywhere in this project. Every
+`NEXT_PUBLIC_` variable is embedded in the website. The build, `cms:sync` and
+the CMS itself refuse a secret key if one is configured by mistake. If that
+happens, rotate the key in the dashboard.
 
-1. Editors change content in the future dashboard and press **Publish**.
-2. A Supabase Database Webhook (or Edge Function) calls a CI job — e.g. a
-   GitHub Actions `repository_dispatch` event.
-3. The job runs `npm ci && npm run build` with the public Supabase URL and anon
-   key, then uploads `out/` to Hostinger (FTP/SFTP deploy action).
-4. Builds take about a minute; the live site updates when the upload finishes.
+## 1. Create the project
 
-## 2. Where the code plugs in
+Create a Supabase project, preferably in a region close to Egypt (e.g. Frankfurt,
+`eu-central-1`). Keep the database password in a password manager: this project
+does not need it.
 
-`lib/content.ts` defines the seam:
+## 2. Apply the migration
 
-```ts
-export interface ContentSource {
-  getSiteContent(): Promise<SiteContent>;
-  getHomePage(): Promise<HomePageContent>;
-  getAboutPage(): Promise<AboutPageContent>;
-  getServicesPage(): Promise<ServicesPageContent>;
-  getVideosPage(): Promise<VideosPageContent>;
-  getReviewsPage(): Promise<ReviewsPageContent>;
-  getArticlesPage(): Promise<ArticlesPageContent>;
-  getContactPage(): Promise<ContactPageContent>;
-}
+`supabase/migrations/20261012120000_cms_foundation.sql` creates:
+- the tables, Row Level Security policies and roles;
+- the private `cms-media` storage bucket and its policies;
+- the database functions used for publishing.
+
+It only creates new objects, all prefixed `cms_`. It does not modify or drop anything that already exists.
+
+Either:
+
+- **SQL editor**: open SQL Editor → New query, paste the whole file and run it once; or
+- **Supabase CLI**: `supabase link --project-ref <ref>`, then `supabase db push`.
+
+Check afterwards: Table Editor shows the `cms_*` tables, and Storage shows the
+bucket `cms-media` marked **private**.
+
+If the migration was applied outside the CLI (SQL editor or a direct
+connection) and you start using the CLI later, record it first so the CLI does
+not try to apply it again:
+`supabase migration repair --status applied 20261012120000`.
+
+## 3. Lock down sign-ups and set the redirect URLs
+
+Authentication → Sign In / Providers:
+
+- **Allow new users to sign up: off.** Nobody can create an account from the
+  website; people are invited (step 4). A user without a CMS role gets no
+  access even if an account exists.
+- Email provider: on (password sign-in).
+
+Authentication → URL Configuration:
+
+- **Site URL**: `https://your-domain/admin/login/`. Dashboard invitations always
+  return to the Site URL, and the website itself does not use Supabase sign-in,
+  so the CMS sign-in page is the right target. (Local tests:
+  `http://localhost:3000/admin/login/`.)
+- **Redirect URLs**: add `https://your-domain/admin/login/` (plus
+  `http://localhost:3000/admin/login/` and `http://localhost:4173/admin/login/`
+  for local tests). Password-reset links from the sign-in page return there.
+
+## 4. Create the first administrator
+
+1. Authentication → Users → **Invite user** with the administrator's email. They
+   open the email, land on `/admin/login/` and choose a password.
+2. SQL Editor → run (with their email):
+
+   ```sql
+   select public.cms_bootstrap_admin('admin@example.org');
+   ```
+
+   This works only while no administrator exists, and only from the SQL editor:
+   the function cannot be called through the API.
+
+Further people: invite them the same way, then give them a role from the CMS
+(**Team** page, administrators only). Roles:
+
+- **Editor**: edits, publishes and uploads content.
+- **Administrator**: can also change the site settings (contact numbers, navigation, footer), delete content and manage the team.
+
+## 5. Configure this project
+
+Copy `.env.example` to `.env.local` (development) and `.env.production` (the
+build that is uploaded), and fill in:
+
+```bash
+NEXT_PUBLIC_SUPABASE_URL=https://<ref>.supabase.co
+NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY=sb_publishable_...
 ```
 
-Add a `supabaseContentSource` that fetches published rows, maps them onto the
-types in `content/types.ts` and **falls back to the static content** when the
-environment variables are missing or a request fails. Then switch the `source`
-constant. Components stay unchanged, because they only receive localized,
-resolved values (`getSite(locale)`, `getHome(locale)`, `getAbout(locale)`, …).
+Rebuild (`npm run build`). `/admin/` now shows the sign-in page instead of the
+demo banner.
 
-Homepage cards are the same records as the full pages, never copies, so one
-edit updates both:
+## 6. Import the current website content
 
-- **Videos and reviews** are ordered by importance. The homepage shows the first
-  three videos and the first six reviews (`order by sort_order limit 3` / `6` on
-  published rows), so editors decide what the homepage shows by reordering.
-- **Services and FAQs** are picked by id (`serviceIds`, `faqIds`), which
-  `lib/content.ts` resolves against the catalogs. Keep that model in the
-  database (a sort-ordered `featured_items` table, or `featured_on_home` /
-  `featured_on_about` columns).
+Sign in as the administrator. The dashboard offers **Import website content**:
+it copies everything currently on the site into the database (and lists the
+bundled photos in the media library). Keep **Mark the imported content as
+published** ticked so the database matches the live site. Running it again only
+fills in what is missing; it never overwrites edits.
 
-Validate fetched data before using it (e.g. with `zod`), so a bad edit fails
-the build instead of publishing a broken page. Keep the "exactly five
-specialties / five treatments / at least three videos / at least six reviews" rules in that
-validation, or relax the tuple types in `content/types.ts` if the design should
-accept other counts.
+## 7. Publish changes to the live site
 
-## 3. Suggested schema
+After editing and publishing in the CMS:
 
-Bilingual fields are stored as `_en` / `_ar` column pairs, which map directly
-onto `Localized<string>`. Every editable table has a `status` so drafts are never
-public.
-
-```sql
-create type content_status as enum ('draft', 'published');
-
--- People allowed to edit (linked to Supabase Auth users)
-create table public.editors (
-  user_id uuid primary key references auth.users (id) on delete cascade,
-  created_at timestamptz not null default now()
-);
-
--- Singleton sections: hero, intro video, about, statistics heading, journey heading,
--- why choose, final CTA, footer, SEO, contact details, ui strings…
--- `content` holds the same bilingual shape as content/home.ts and content/site.ts.
-create table public.page_sections (
-  key text primary key,                -- e.g. 'home.hero', 'site.contact', 'home.seo'
-  content jsonb not null,
-  status content_status not null default 'draft',
-  updated_at timestamptz not null default now(),
-  updated_by uuid references auth.users (id)
-);
-
--- Repeating items (one table per list keeps the dashboard simple)
-
--- Service groups on the Services page ('medical-specialties', 'treatments', 'consultation-care', …)
-create table public.service_groups (
-  id text primary key,                 -- also the page anchor, e.g. /en/services/#treatments
-  eyebrow_en text not null, eyebrow_ar text not null,
-  title_en text not null, title_ar text not null,
-  description_en text not null, description_ar text not null,
-  sort_order int not null default 0
-);
-
--- The services catalog. Cards show `summary`; the popup shows `details`, an array of
--- blocks matching the ContentBlock type:
---   {"type": "paragraph" | "heading" | "note", "text": {"en": "…", "ar": "…"}}
---   {"type": "list", "items": {"en": ["…"], "ar": ["…"]}}
-create table public.services (
-  id uuid primary key default gen_random_uuid(),
-  slug text unique not null,           -- referenced by featured selections
-  group_id text not null references public.service_groups (id),
-  title_en text not null, title_ar text not null,
-  summary_en text not null, summary_ar text not null,
-  details jsonb not null default '[]',
-  image_path text not null,            -- Supabase Storage path
-  image_alt_en text not null, image_alt_ar text not null,
-  sort_order int not null default 0,
-  status content_status not null default 'draft',
-  updated_at timestamptz not null default now()
-);
-
--- public.journey_steps      (icon, title_*, description_*, sort_order, status)
--- public.statistics         (value int, suffix, label_*, sort_order, status)
--- public.videos             (slug, title_*, description_*, poster_path, youtube_id or file_path, duration, sort_order, status)
--- public.reviews            (text_*, reviewer_*, rating int check (rating between 1 and 5),
---                            consent_confirmed boolean not null, sort_order, status)
--- public.faq_categories     (slug, title_*, sort_order, status)   — topics on the Reviews & FAQs page
--- public.faqs               (slug, category_id, question_*, answer_*, sort_order, status)
--- public.social_links       (platform, url, sort_order, status)
--- public.career_milestones  (period_*, title_*, organization_*, description_*, sort_order, status)
--- public.certificates       (title_*, image_path, sort_order, status) — publish only real, verified scans
--- public.articles           (slug, category_*, title_*, excerpt_*, image_path, body jsonb (ContentBlock[]),
---                            reviewed_by_* null, is_featured boolean, sort_order, status)
+```bash
+npm run cms:sync   # pulls published content and media (publishable key only)
+npm run build      # static export with that content
 ```
 
-For articles, consider requiring `reviewed_by_en` / `reviewed_by_ar` before an
-article can be published, so medical content always carries a named reviewer.
+Upload the contents of `out/` to `public_html/` as before. **Publishing** in the
+CMS shows whether the live site already contains the latest published change.
 
-For reviews, require `consent_confirmed = true` and a `rating` before a row can
-be published (a check constraint or a trigger), so testimonials cannot go live
-without the patient's documented consent or with an invented score. The build
-enforces the rating as well: a non-placeholder review without one fails it.
+## Troubleshooting
 
-## 4. Row Level Security
-
-Enable RLS on **every** table. The public (anon) role may only read published
-rows; only editors may write.
-
-```sql
-create or replace function public.is_editor()
-returns boolean
-language sql
-stable
-security definer
-set search_path = ''
-as $$
-  select exists (select 1 from public.editors where user_id = auth.uid());
-$$;
-
-alter table public.services enable row level security;
-
-create policy "Public can read published services"
-  on public.services for select
-  to anon, authenticated
-  using (status = 'published');
-
-create policy "Editors can read all services"
-  on public.services for select
-  to authenticated
-  using (public.is_editor());
-
-create policy "Editors can insert services"
-  on public.services for insert
-  to authenticated
-  with check (public.is_editor());
-
-create policy "Editors can update services"
-  on public.services for update
-  to authenticated
-  using (public.is_editor())
-  with check (public.is_editor());
-
-create policy "Editors can delete services"
-  on public.services for delete
-  to authenticated
-  using (public.is_editor());
-
--- Repeat for each content table. `editors` itself: RLS on, no public policies;
--- manage membership from the Supabase dashboard or a service-role script.
-```
-
-## 5. Storage
-
-- Bucket `site-media`, **public read** (images must load on the public site).
-- Writes restricted to editors:
-
-```sql
-create policy "Editors can upload site media"
-  on storage.objects for insert to authenticated
-  with check (bucket_id = 'site-media' and public.is_editor());
-
-create policy "Editors can update site media"
-  on storage.objects for update to authenticated
-  using (bucket_id = 'site-media' and public.is_editor());
-
-create policy "Editors can delete site media"
-  on storage.objects for delete to authenticated
-  using (bucket_id = 'site-media' and public.is_editor());
-```
-
-`components/media/MediaImage.tsx` already renders absolute URLs as-is. For
-responsive images from Storage, either upload pre-sized variants or extend the
-component to build a `srcset` from Supabase image transformations (paid plans).
-
-## 6. Keys and secrets
-
-- The build only needs `NEXT_PUBLIC_SUPABASE_URL` and
-  `NEXT_PUBLIC_SUPABASE_ANON_KEY`. The anon key is public by design; RLS is what
-  protects the data.
-- **Never** put the service-role key in this project, in `.env*` files that the
-  build reads, or in the browser. Use it only in trusted server environments
-  (Supabase Edge Functions, CI secrets for admin scripts).
-- The editing dashboard (a separate app or route) authenticates editors with
-  Supabase Auth; all writes go through RLS.
+| Symptom | Cause |
+| --- | --- |
+| `/admin/` still shows "Local demo" | The variables are missing in the env file used by the build, or the build was not re-run. |
+| "The configured key is a secret (service-role) key" | Replace it with the publishable key, and rotate the secret key. |
+| "Your account has no CMS role yet" | Step 4 not done for this user (or their role was removed). |
+| Invitation link opens the website, not `/admin/login/` | The Site URL (step 3) is not the `/admin/login/` address. |
+| Password-reset link is rejected | `/admin/login/` on that domain is missing from Redirect URLs (step 3). |
+| `cms:sync`: "Was the migration applied?" | Step 2 not done, or the URL points to another project. |
+| An editor cannot change settings or delete | That is intended: only administrators can. The database enforces it. |

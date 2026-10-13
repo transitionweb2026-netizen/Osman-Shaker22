@@ -8,6 +8,7 @@ import { ReviewGrid } from "@/components/sections/reviews/ReviewGrid";
 import { Icon } from "@/components/ui/Icon";
 import { getReviewsPage, getSite, navLabel, type ReviewsPage as ReviewsPageData } from "@/lib/content";
 import { isLocale } from "@/lib/i18n";
+import { REVIEWS_SECTIONS, visibleSections } from "@/lib/layout";
 import { pageMetadata } from "@/lib/seo";
 
 export async function generateMetadata({ params }: PageProps<"/[locale]/reviews">): Promise<Metadata> {
@@ -59,8 +60,13 @@ export default async function ReviewsPage({ params }: PageProps<"/[locale]/revie
           ))}
         </ul>
       </PageHero>
-      <ReviewGrid locale={locale} intro={page.reviewsIntro} reviews={page.items} ui={site.ui} />
-      <FaqSection locale={locale} faq={page.faq} site={site} />
+      {visibleSections(page.layout, REVIEWS_SECTIONS).map((id) =>
+        id === "reviews" ? (
+          <ReviewGrid key={id} locale={locale} intro={page.reviewsIntro} reviews={page.items} ui={site.ui} />
+        ) : (
+          <FaqSection key={id} locale={locale} faq={page.faq} site={site} />
+        ),
+      )}
     </>
   );
 }

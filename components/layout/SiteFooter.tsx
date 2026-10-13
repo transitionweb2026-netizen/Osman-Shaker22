@@ -49,23 +49,25 @@ export function SiteFooter({ locale, site }: SiteFooterProps) {
           <nav aria-label={ui.footerNavigation}>
             <h2 className={styles.colTitle}>{footer.navigationHeading}</h2>
             <ul className={styles.links}>
-              {site.navigation.map((item) => {
-                const href = resolveRoute(item.route, locale);
-                return (
-                  <li key={item.route}>
-                    {href ? (
-                      <a href={href} className={styles.link}>
-                        {item.label}
-                      </a>
-                    ) : (
-                      <span className={cx(styles.link, styles.linkSoon)}>
-                        {item.label}
-                        <span className={styles.soonTag}>{ui.comingSoon}</span>
-                      </span>
-                    )}
-                  </li>
-                );
-              })}
+              {site.navigation
+                .filter((item) => !item.hidden)
+                .map((item) => {
+                  const href = resolveRoute(item.route, locale);
+                  return (
+                    <li key={item.route}>
+                      {href ? (
+                        <a href={href} className={styles.link}>
+                          {item.label}
+                        </a>
+                      ) : (
+                        <span className={cx(styles.link, styles.linkSoon)}>
+                          {item.label}
+                          <span className={styles.soonTag}>{ui.comingSoon}</span>
+                        </span>
+                      )}
+                    </li>
+                  );
+                })}
             </ul>
           </nav>
 

@@ -1,21 +1,18 @@
 import { GlassPanel } from "@/components/glass/GlassPanel";
 import { SocialContactPanel } from "@/components/layout/SocialContactPanel";
 import { MediaImage } from "@/components/media/MediaImage";
-import { ButtonLink } from "@/components/ui/Button";
+import { CtaButton } from "@/components/ui/CtaButton";
 import type { Home, Site } from "@/lib/content";
-import { whatsappHref } from "@/lib/contact";
+import type { Locale } from "@/lib/i18n";
 import styles from "./Hero.module.css";
 
 type HeroProps = {
+  locale: Locale;
   content: Home["hero"];
   site: Site;
-  /** Target of the secondary button (an in-page section). */
-  secondaryHref?: string;
 };
 
-export function Hero({ content, site, secondaryHref = "#specialties" }: HeroProps) {
-  const { whatsapp, whatsappMessage } = site.contact;
-
+export function Hero({ locale, content, site }: HeroProps) {
   return (
     <section className={styles.hero} aria-labelledby="hero-title">
       <div className={styles.media}>
@@ -40,19 +37,8 @@ export function Hero({ content, site, secondaryHref = "#specialties" }: HeroProp
           <p className={styles.description}>{content.description}</p>
 
           <div className={styles.actions}>
-            {whatsapp && (
-              <ButtonLink
-                href={whatsappHref(whatsapp, whatsappMessage)}
-                icon="whatsapp"
-                size="lg"
-                newTabHint={site.ui.opensInNewTab}
-              >
-                {content.primaryCta}
-              </ButtonLink>
-            )}
-            <ButtonLink href={secondaryHref} variant="glass" size="lg" arrow>
-              {content.secondaryCta}
-            </ButtonLink>
+            <CtaButton cta={content.primaryCta} locale={locale} site={site} variant="primary" size="lg" />
+            <CtaButton cta={content.secondaryCta} locale={locale} site={site} variant="glass" size="lg" />
           </div>
 
           <SocialContactPanel site={site} />

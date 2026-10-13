@@ -8,7 +8,8 @@ export default function robots(): MetadataRoute.Robots {
     return { rules: { userAgent: "*", disallow: "/" } };
   }
   return {
-    rules: { userAgent: "*", allow: "/" },
+    // The CMS (static admin pages) is never indexed
+    rules: { userAgent: "*", allow: "/", disallow: "/admin/" },
     sitemap: `${siteUrl}/sitemap.xml`,
   };
 }

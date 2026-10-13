@@ -30,11 +30,13 @@ export type MediaAsset = Placeholder & {
   mirrorInRtl?: boolean;
   /** Source and licence of a temporary image. */
   credit?: string;
+  /** CMS media library entry (`cms_media.id`); `npm run cms:sync` sets `src` from it. */
+  assetId?: string;
 };
 
 export type VideoSource =
   | { kind: "youtube"; id: string }
-  | { kind: "file"; src: string; type?: string };
+  | { kind: "file"; src: string; type?: string; assetId?: string };
 
 export type Video = Placeholder & {
   id: string;
@@ -53,7 +55,51 @@ export type SectionIntro = {
   description?: Localized;
 };
 
-export type RouteCta = { label: Localized; route: RouteKey };
+/**
+ * What a button does. A closed set of validated actions (no free-form
+ * scripts or URLs with arbitrary schemes).
+ */
+export type CtaAction =
+  /** A page of the site, or a section of a page (route keys such as `servicesTreatments`). */
+  | { kind: "page"; route: RouteKey }
+  /** A section on the same page, by its id (e.g. `specialties`). */
+  | { kind: "section"; anchor: string }
+  /** Opens WhatsApp with the clinic number; `message` overrides the default greeting. */
+  | { kind: "whatsapp"; message?: Localized }
+  /** Calls the clinic number. */
+  | { kind: "phone" }
+  /** An external website (https only). */
+  | { kind: "external"; url: string; newTab: boolean };
+
+export type Cta = {
+  label: Localized;
+  action: CtaAction;
+  /** Screen-reader label when the visible label alone is not descriptive enough. */
+  ariaLabel?: Localized;
+  /** Hidden buttons are kept in the content but not shown. */
+  hidden?: boolean;
+};
+
+/** Order and visibility of a page's sections (the hero always comes first). */
+export type PageLayout<Id extends string = string> = { sections: { id: Id; hidden?: boolean }[] };
+
+export type HomeSectionId =
+  | "introVideo"
+  | "about"
+  | "statistics"
+  | "specialties"
+  | "treatments"
+  | "journey"
+  | "whyChoose"
+  | "videos"
+  | "reviewsFaq"
+  | "cta";
+
+export type AboutSectionId = "intro" | "specialties" | "career" | "certificates" | "philosophy" | "cta";
+
+export type ServicesSectionId = "groups" | "cta";
+
+export type ReviewsSectionId = "reviews" | "faq";
 
 export type Statistic = Placeholder & {
   id: string;
@@ -108,7 +154,12 @@ export type PhoneNumber = Placeholder & {
   display: string;
 };
 
-export type NavItem = { route: RouteKey; label: Localized };
+export type NavItem = {
+  route: RouteKey;
+  label: Localized;
+  /** Hidden from the header and footer menus (the page itself still exists). */
+  hidden?: boolean;
+};
 
 export type UiStrings = {
   skipToContent: Localized;
@@ -164,6 +215,15 @@ export type SiteContent = {
   };
   socials: SocialLink[];
   navigation: NavItem[];
+  /** Site-wide contact shortcuts (each needs the matching phone / WhatsApp number). */
+  quickActions: {
+    /** "Book a consultation" WhatsApp button in the header. */
+    headerBookButton: boolean;
+    /** Floating WhatsApp button on every page. */
+    floatingWhatsapp: boolean;
+    /** Floating call button on every page. */
+    floatingPhone: boolean;
+  };
   footer: {
     navigationHeading: Localized;
     contactHeading: Localized;
@@ -212,15 +272,15 @@ export type ServiceGroup = {
 };
 
 /** A featured selection of catalog services (homepage, About page). */
-export type FeaturedServices = SectionIntro & { serviceIds: Five<string>; cta: RouteCta };
+export type FeaturedServices = SectionIntro & { serviceIds: Five<string>; cta: Cta };
 
 export type HeroContent = {
   eyebrow: Localized;
   title: Localized;
   titleAccent: Localized;
   description: Localized;
-  primaryCta: Localized;
-  secondaryCta: Localized;
+  primaryCta: Cta;
+  secondaryCta: Cta;
   image: MediaAsset;
 };
 
@@ -232,7 +292,14 @@ export type PageHeroContent = {
   image: MediaAsset;
 };
 
-export type PageSeo = { title: Localized; description: Localized };
+export type PageSeo = {
+  title: Localized;
+  description: Localized;
+  /** Social sharing image; the site default is used when empty. */
+  shareImage?: MediaAsset | null;
+  /** Asks search engines not to index this page (indexing is also off site-wide until launch). */
+  noindex?: boolean;
+};
 
 export type Quote = Placeholder & {
   text: Localized;
@@ -268,24 +335,21 @@ export type Article = Placeholder & {
 };
 
 export type HomePageContent = {
-  seo: {
-    title: Localized;
-    description: Localized;
-    ogImage: Localized<string>;
-    ogImageAlt: Localized;
-  };
+  /** `ogImage`: the generated sharing images (`npm run og`), used unless `shareImage` is set. */
+  seo: PageSeo & { ogImage: Localized<string>; ogImageAlt: Localized };
+  layout: PageLayout<HomeSectionId>;
   hero: HeroContent;
   introVideo: SectionIntro & { video: Video };
   about: SectionIntro &
     Placeholder & {
       paragraphs: Localized<string[]>;
-      cta: RouteCta;
+      cta: Cta;
       portrait: MediaAsset;
     };
   statistics: SectionIntro & { items: Statistic[] };
   specialties: FeaturedServices;
   treatments: FeaturedServices;
-  journey: SectionIntro & { steps: JourneyStep[]; note: Localized; cta: RouteCta };
+  journey: SectionIntro & { steps: JourneyStep[]; note: Localized; cta: Cta };
   whyChoose: SectionIntro &
     Placeholder & {
       principles: Principle[];
@@ -293,18 +357,19 @@ export type HomePageContent = {
       caption: Localized;
     };
   /** Shows the three most important videos: the first entries of the catalog (content/videos.ts). */
-  videos: SectionIntro & { cta: RouteCta };
+  videos: SectionIntro & { cta: Cta };
   /**
    * Shows the six most important reviews: the first entries of the catalog
    * (content/reviews.ts). `cta` is the button centered under the reviews and FAQ columns.
    */
-  reviews: SectionIntro & { cta: RouteCta };
+  reviews: SectionIntro & { cta: Cta };
   /** Questions from the FAQ catalog (content/faq.ts). */
   faq: SectionIntro & { faqIds: string[] };
 };
 
 export type AboutPageContent = {
   seo: PageSeo;
+  layout: PageLayout<AboutSectionId>;
   hero: HeroContent;
   intro: { eyebrow: Localized; quote: Quote; video: Video };
   specialties: FeaturedServices;
@@ -315,6 +380,7 @@ export type AboutPageContent = {
 
 export type ServicesPageContent = {
   seo: PageSeo;
+  layout: PageLayout<ServicesSectionId>;
   hero: PageHeroContent;
   groups: ServiceGroup[];
 };
@@ -330,6 +396,7 @@ export type VideosPageContent = {
 
 export type ReviewsPageContent = {
   seo: PageSeo;
+  layout: PageLayout<ReviewsSectionId>;
   hero: PageHeroContent;
   reviewsIntro: SectionIntro;
   /** Ordered by importance: the homepage shows the first six. */

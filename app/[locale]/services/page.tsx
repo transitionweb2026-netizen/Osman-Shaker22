@@ -8,6 +8,7 @@ import { ServiceGroups } from "@/components/sections/services/ServiceGroups";
 import { Icon } from "@/components/ui/Icon";
 import { getServicesPage, getSite, navLabel } from "@/lib/content";
 import { isLocale } from "@/lib/i18n";
+import { SERVICES_SECTIONS, visibleSections } from "@/lib/layout";
 import { pageMetadata } from "@/lib/seo";
 
 export async function generateMetadata({ params }: PageProps<"/[locale]/services">): Promise<Metadata> {
@@ -37,8 +38,13 @@ export default async function ServicesPage({ params }: PageProps<"/[locale]/serv
           ))}
         </ul>
       </PageHero>
-      <ServiceGroups locale={locale} groups={page.groups} site={site} />
-      <FinalCta site={site} />
+      {visibleSections(page.layout, SERVICES_SECTIONS).map((id) =>
+        id === "groups" ? (
+          <ServiceGroups key={id} locale={locale} groups={page.groups} site={site} />
+        ) : (
+          <FinalCta key={id} site={site} />
+        ),
+      )}
     </>
   );
 }

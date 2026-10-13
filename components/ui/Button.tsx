@@ -17,6 +17,8 @@ type ButtonLinkProps = {
   arrow?: boolean;
   /** Opens in a new tab; pass the localized "(opens in a new tab)" hint. */
   newTabHint?: string;
+  /** Accessible name when the visible label is not descriptive enough. */
+  ariaLabel?: string;
   className?: string;
 };
 
@@ -28,6 +30,7 @@ export function ButtonLink({
   icon,
   arrow = false,
   newTabHint,
+  ariaLabel,
   className,
 }: ButtonLinkProps) {
   const external = Boolean(newTabHint);
@@ -35,6 +38,7 @@ export function ButtonLink({
     <a
       href={href}
       className={cx(styles.button, styles[variant], size === "lg" && styles.large, className)}
+      aria-label={ariaLabel || undefined}
       {...(external ? { target: "_blank", rel: "noopener noreferrer" } : {})}
     >
       {icon && <Icon name={icon} size={20} />}

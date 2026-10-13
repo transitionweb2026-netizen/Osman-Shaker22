@@ -30,6 +30,22 @@ export const homeContent: HomePageContent = {
     },
   },
 
+  // Order and visibility of the sections below the hero
+  layout: {
+    sections: [
+      { id: "introVideo" },
+      { id: "about" },
+      { id: "statistics" },
+      { id: "specialties" },
+      { id: "treatments" },
+      { id: "journey" },
+      { id: "whyChoose" },
+      { id: "videos" },
+      { id: "reviewsFaq" },
+      { id: "cta" },
+    ],
+  },
+
   hero: {
     eyebrow: { en: "Oncology · Personalized care", ar: "طب الأورام · رعاية شخصية" },
     title: { en: "Expert cancer care", ar: "رعاية متخصصة لمرضى الأورام" },
@@ -38,8 +54,8 @@ export const homeContent: HomePageContent = {
       en: "Clear explanations, thoughtful planning and steady support at every stage of your care.",
       ar: "شرح واضح، وتخطيط مدروس، ودعم متواصل في كل مرحلة من مراحل رحلتك العلاجية.",
     },
-    primaryCta: { en: "Book a consultation", ar: "احجز استشارة" },
-    secondaryCta: { en: "Explore specialties", ar: "تعرّف على التخصصات" },
+    primaryCta: { label: { en: "Book a consultation", ar: "احجز استشارة" }, action: { kind: "whatsapp" } },
+    secondaryCta: { label: { en: "Explore specialties", ar: "تعرّف على التخصصات" }, action: { kind: "section", anchor: "specialties" } },
     image: heroImage,
   },
 
@@ -69,7 +85,7 @@ export const homeContent: HomePageContent = {
         "تركّز كل استشارة على حالتك وأولوياتك وأسئلتك، لتُتخذ القرارات المتعلقة برعايتك معك ومع عائلتك، خطوة بخطوة.",
       ],
     },
-    cta: { label: { en: "More about Dr. Othman", ar: "المزيد عن د. عثمان" }, route: "about" },
+    cta: { label: { en: "More about Dr. Othman", ar: "المزيد عن د. عثمان" }, action: { kind: "page", route: "about" } },
     portrait: doctorPortrait,
     isPlaceholder: true,
   },
@@ -122,7 +138,7 @@ export const homeContent: HomePageContent = {
     serviceIds: ["breast", "thoracic", "gastrointestinal", "gynecologic", "hematologic"],
     cta: {
       label: { en: "View all specialties", ar: "عرض جميع التخصصات" },
-      route: "servicesSpecialties",
+      action: { kind: "page", route: "servicesSpecialties" },
     },
   },
 
@@ -137,7 +153,7 @@ export const homeContent: HomePageContent = {
       ar: "تعتمد أي توصية علاجية على نوع الورم ومرحلته وحالتك الصحية العامة وتفضيلاتك، وتُناقش معك دائمًا قبل البدء.",
     },
     serviceIds: ["chemotherapy", "immunotherapy", "targeted", "hormonal", "supportive"],
-    cta: { label: { en: "Explore treatments", ar: "استكشف العلاجات" }, route: "servicesTreatments" },
+    cta: { label: { en: "Explore treatments", ar: "استكشف العلاجات" }, action: { kind: "page", route: "servicesTreatments" } },
   },
 
   journey: {
@@ -198,7 +214,7 @@ export const homeContent: HomePageContent = {
       en: "These stages are illustrative — every patient’s care is different.",
       ar: "هذه المراحل توضيحية، فلكل مريض مسار رعاية مختلف.",
     },
-    cta: { label: { en: "Learn about treatments", ar: "تعرّف على العلاجات" }, route: "servicesTreatments" },
+    cta: { label: { en: "Learn about treatments", ar: "تعرّف على العلاجات" }, action: { kind: "page", route: "servicesTreatments" } },
   },
 
   whyChoose: {
@@ -264,7 +280,7 @@ export const homeContent: HomePageContent = {
       ar: "فيديوهات توعوية تساعد المرضى وعائلاتهم على الاستعداد بثقة أكبر.",
     },
     // The cards are the first three videos of the catalog (content/videos.ts), which is ordered by importance
-    cta: { label: { en: "View all videos", ar: "عرض جميع الفيديوهات" }, route: "videos" },
+    cta: { label: { en: "View all videos", ar: "عرض جميع الفيديوهات" }, action: { kind: "page", route: "videos" } },
   },
 
   reviews: {
@@ -276,7 +292,7 @@ export const homeContent: HomePageContent = {
     },
     // The cards are the first six reviews of the catalog (content/reviews.ts), which is ordered by importance.
     // The button sits centered under both the reviews and the FAQ.
-    cta: { label: { en: "Reviews & FAQs", ar: "الآراء والأسئلة الشائعة" }, route: "reviews" },
+    cta: { label: { en: "Reviews & FAQs", ar: "الآراء والأسئلة الشائعة" }, action: { kind: "page", route: "reviews" } },
   },
 
   faq: {

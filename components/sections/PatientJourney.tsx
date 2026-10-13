@@ -1,6 +1,6 @@
 import type { CSSProperties } from "react";
 import { GlassPanel } from "@/components/glass/GlassPanel";
-import { RouteButton } from "@/components/ui/Button";
+import { CtaButton } from "@/components/ui/CtaButton";
 import { Icon } from "@/components/ui/Icon";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 import type { Home, Site } from "@/lib/content";
@@ -52,9 +52,7 @@ export function PatientJourney({ locale, content, site }: PatientJourneyProps) {
 
         <div className={styles.footer} data-reveal>
           <p className={styles.note}>{content.note}</p>
-          <RouteButton route={content.cta.route} locale={locale} soonLabel={site.ui.comingSoon}>
-            {content.cta.label}
-          </RouteButton>
+          <CtaButton cta={content.cta} locale={locale} site={site} />
         </div>
       </div>
     </section>

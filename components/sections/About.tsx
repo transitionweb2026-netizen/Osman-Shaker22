@@ -1,5 +1,5 @@
 import { PortraitStack } from "@/components/media/PortraitStack";
-import { RouteButton } from "@/components/ui/Button";
+import { CtaButton } from "@/components/ui/CtaButton";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 import type { Home, Site } from "@/lib/content";
 import { cx } from "@/lib/cx";
@@ -23,11 +23,11 @@ export function About({ locale, content, site }: AboutProps) {
               <p key={paragraph}>{paragraph}</p>
             ))}
           </div>
-          <div data-reveal>
-            <RouteButton route={content.cta.route} locale={locale} soonLabel={site.ui.comingSoon}>
-              {content.cta.label}
-            </RouteButton>
-          </div>
+          {!content.cta.hidden && (
+            <div data-reveal>
+              <CtaButton cta={content.cta} locale={locale} site={site} />
+            </div>
+          )}
         </div>
 
         <div className={styles.visual} data-reveal="scale">

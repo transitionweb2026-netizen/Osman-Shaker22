@@ -1,7 +1,7 @@
 import type { CSSProperties } from "react";
 import { ReviewCard } from "@/components/cards/ReviewCard";
 import { FaqAccordion } from "@/components/media/FaqAccordion";
-import { RouteButton } from "@/components/ui/Button";
+import { CtaButton } from "@/components/ui/CtaButton";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 import type { Home, Site } from "@/lib/content";
 import type { Locale } from "@/lib/i18n";
@@ -11,7 +11,7 @@ type ReviewsFaqProps = {
   locale: Locale;
   reviews: Home["reviews"];
   faq: Home["faq"];
-  ui: Site["ui"];
+  site: Site;
 };
 
 /**
@@ -19,7 +19,8 @@ type ReviewsFaqProps = {
  * line up (the grid follows the reading direction in Arabic), with one button
  * to the Reviews & FAQs page centered beneath both.
  */
-export function ReviewsFaq({ locale, reviews, faq, ui }: ReviewsFaqProps) {
+export function ReviewsFaq({ locale, reviews, faq, site }: ReviewsFaqProps) {
+  const { ui } = site;
   return (
     <div className="section">
       <div className="container">
@@ -51,11 +52,11 @@ export function ReviewsFaq({ locale, reviews, faq, ui }: ReviewsFaqProps) {
           </section>
         </div>
 
-        <div className={styles.more} data-reveal>
-          <RouteButton route={reviews.cta.route} locale={locale} soonLabel={ui.comingSoon}>
-            {reviews.cta.label}
-          </RouteButton>
-        </div>
+        {!reviews.cta.hidden && (
+          <div className={styles.more} data-reveal>
+            <CtaButton cta={reviews.cta} locale={locale} site={site} />
+          </div>
+        )}
       </div>
     </div>
   );

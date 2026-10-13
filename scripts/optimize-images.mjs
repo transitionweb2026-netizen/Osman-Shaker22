@@ -52,8 +52,11 @@ for (const file of sources) {
   names.set(name, file);
 }
 
-await rm(outDir, { recursive: true, force: true });
+// Start clean, but keep the files written by `npm run cms:sync` (`cms-…`)
 await mkdir(outDir, { recursive: true });
+for (const file of await readdir(outDir)) {
+  if (!file.startsWith("cms-")) await rm(path.join(outDir, file), { recursive: true, force: true });
+}
 
 const manifest = {};
 for (const [name, file] of [...names].sort(([a], [b]) => a.localeCompare(b))) {

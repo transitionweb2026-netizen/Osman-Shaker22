@@ -48,13 +48,15 @@ export default async function LocaleLayout({ children, params }: LayoutProps<"/[
           brandRole={site.specialty}
           homeHref={localeHref(locale)}
           homeLabel={ui.homeLink}
-          navigation={site.navigation.map((item) => ({
-            key: item.route,
-            label: item.label,
-            href: resolveRoute(item.route, locale),
-          }))}
+          navigation={site.navigation
+            .filter((item) => !item.hidden)
+            .map((item) => ({
+              key: item.route,
+              label: item.label,
+              href: resolveRoute(item.route, locale),
+            }))}
           book={
-            contact.whatsapp
+            contact.whatsapp && site.quickActions.headerBookButton
               ? { href: whatsappHref(contact.whatsapp, contact.whatsappMessage), label: ui.bookConsultation }
               : null
           }

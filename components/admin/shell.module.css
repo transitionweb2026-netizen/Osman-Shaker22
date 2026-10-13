@@ -1,0 +1,362 @@
+.fullPage {
+  display: grid;
+  place-items: center;
+  min-block-size: 100vh;
+}
+
+.app {
+  display: grid;
+  min-block-size: 100vh;
+}
+
+.skip {
+  position: fixed;
+  z-index: 200;
+  inset-block-start: 0.75rem;
+  inset-inline-start: 0.75rem;
+  padding: 0.6rem 1rem;
+  border-radius: 999px;
+  background: var(--cms-orange);
+  color: #1b1004;
+  font-weight: 700;
+  translate: 0 -200%;
+}
+
+.skip:focus-visible {
+  translate: 0 0;
+}
+
+/* ---- Sidebar ------------------------------------------------------------------- */
+
+.sidebar {
+  position: fixed;
+  z-index: 60;
+  inset-block: 0;
+  inset-inline-start: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  inline-size: min(288px, 86vw);
+  padding: 1rem 0.75rem 1.5rem;
+  overflow-y: auto;
+  border-inline-end: 1px solid var(--cms-border);
+  background:
+    radial-gradient(120% 40% at 0% 0%, rgb(12 68 132 / 0.45), transparent 70%),
+    radial-gradient(90% 30% at 100% 100%, rgb(233 132 53 / 0.09), transparent 70%),
+    var(--cms-sidebar);
+  translate: calc(-105% * var(--cms-dir)) 0;
+  transition: translate 280ms var(--ease-out);
+}
+
+.sidebarOpen {
+  translate: 0 0;
+}
+
+.scrim {
+  position: fixed;
+  z-index: 55;
+  inset: 0;
+  background: rgb(2 6 16 / 0.6);
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  padding: 0.25rem 0.5rem 0.75rem;
+  border-block-end: 1px solid var(--cms-border);
+}
+
+.brand > div {
+  flex: 1;
+  min-inline-size: 0;
+}
+
+.brandName {
+  font-weight: 700;
+  font-size: 0.95rem;
+}
+
+.brandRole {
+  color: var(--cms-orange-bright);
+  font-size: 0.76rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+}
+
+.drawerClose {
+  display: grid;
+  place-items: center;
+  inline-size: 36px;
+  block-size: 36px;
+  border: 0;
+  border-radius: 10px;
+  background: transparent;
+  color: var(--cms-muted);
+  cursor: pointer;
+}
+
+.navGroup + .navGroup {
+  margin-block-start: 1rem;
+}
+
+.navGroupLabel {
+  padding: 0 0.75rem 0.35rem;
+  color: var(--cms-faint);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+[dir="rtl"] .navGroupLabel {
+  letter-spacing: 0;
+}
+
+.navLink {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  min-block-size: 40px;
+  padding-inline: 0.75rem;
+  border-radius: 10px;
+  color: var(--cms-muted);
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.navLink:hover {
+  background: var(--cms-surface-2);
+  color: var(--cms-text);
+}
+
+.navLink[aria-current="page"] {
+  background: linear-gradient(90deg, var(--cms-orange-soft), transparent);
+  color: var(--cms-text);
+  box-shadow: inset 2px 0 0 var(--cms-orange);
+}
+
+[dir="rtl"] .navLink[aria-current="page"] {
+  background: linear-gradient(-90deg, var(--cms-orange-soft), transparent);
+  box-shadow: inset -2px 0 0 var(--cms-orange);
+}
+
+.navLink[aria-current="page"] svg {
+  color: var(--cms-orange-bright);
+}
+
+/* ---- Main column ---------------------------------------------------------------- */
+
+.main {
+  display: flex;
+  flex-direction: column;
+  min-inline-size: 0;
+}
+
+.demoBanner {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.6rem clamp(16px, 3vw, 32px);
+  background: var(--cms-warning-soft);
+  border-block-end: 1px solid rgb(237 189 90 / 0.3);
+  color: #f6d590;
+  font-size: 0.86rem;
+}
+
+.demoBanner p {
+  flex: 1;
+}
+
+.demoBanner > svg {
+  flex-shrink: 0;
+}
+
+.topbar {
+  position: sticky;
+  z-index: 40;
+  inset-block-start: 0;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  min-block-size: 64px;
+  padding-inline: clamp(12px, 3vw, 32px);
+  border-block-end: 1px solid var(--cms-border);
+  background: rgb(5 11 25 / 0.82);
+  backdrop-filter: blur(14px);
+}
+
+.menuButton {
+  display: grid;
+  place-items: center;
+  inline-size: 40px;
+  block-size: 40px;
+  border: 1px solid var(--cms-border-strong);
+  border-radius: 10px;
+  background: var(--cms-surface);
+  color: var(--cms-text);
+  cursor: pointer;
+}
+
+.topTitle {
+  flex: 1;
+  min-inline-size: 0;
+  overflow: hidden;
+  font-weight: 700;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.topActions {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+
+.topLink {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  min-block-size: 38px;
+  padding-inline: 0.7rem;
+  border: 0;
+  border-radius: 10px;
+  background: transparent;
+  color: var(--cms-muted);
+  font-size: 0.86rem;
+  font-weight: 600;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.topLink:hover {
+  background: var(--cms-surface-2);
+  color: var(--cms-text);
+}
+
+.account {
+  position: relative;
+}
+
+.accountButton {
+  display: flex;
+  align-items: center;
+  gap: 0.55rem;
+  min-block-size: 42px;
+  padding: 0.2rem 0.65rem 0.2rem 0.25rem;
+  border: 1px solid var(--cms-border);
+  border-radius: 999px;
+  background: var(--cms-surface);
+  cursor: pointer;
+}
+
+.avatar {
+  display: grid;
+  place-items: center;
+  inline-size: 32px;
+  block-size: 32px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, var(--cms-blue), var(--cms-orange));
+  color: #fff;
+  font-weight: 700;
+  font-size: 0.85rem;
+}
+
+.accountText {
+  display: grid;
+  text-align: start;
+  line-height: 1.2;
+}
+
+.accountEmail {
+  max-inline-size: 180px;
+  overflow: hidden;
+  font-size: 0.82rem;
+  font-weight: 650;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.accountRole {
+  color: var(--cms-orange-bright);
+  font-size: 0.72rem;
+  font-weight: 700;
+}
+
+.accountMenu {
+  position: absolute;
+  z-index: 50;
+  inset-block-start: calc(100% + 6px);
+  inset-inline-end: 0;
+  display: grid;
+  min-inline-size: 200px;
+  padding: 0.35rem;
+  border: 1px solid var(--cms-border-strong);
+  border-radius: var(--cms-radius);
+  background: #0a1834;
+  box-shadow: var(--cms-shadow);
+}
+
+.menuItem {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  min-block-size: 40px;
+  padding-inline: 0.7rem;
+  border: 0;
+  border-radius: 8px;
+  background: transparent;
+  color: var(--cms-text);
+  font-size: 0.9rem;
+  text-align: start;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.menuItem:hover {
+  background: var(--cms-surface-2);
+}
+
+.content {
+  flex: 1;
+  inline-size: 100%;
+  max-inline-size: 1320px;
+  margin-inline: auto;
+  padding: clamp(18px, 3vw, 36px) clamp(14px, 3vw, 36px) 4rem;
+  outline: none;
+}
+
+@media (max-width: 720px) {
+  .topLink span,
+  .accountText {
+    display: none;
+  }
+
+  .accountButton {
+    padding: 0.2rem;
+  }
+}
+
+/* ---- Desktop: persistent sidebar -------------------------------------------------- */
+
+@media (min-width: 1024px) {
+  .app {
+    grid-template-columns: 272px minmax(0, 1fr);
+  }
+
+  .sidebar {
+    position: sticky;
+    inset-block-start: 0;
+    block-size: 100vh;
+    inline-size: auto;
+    translate: none;
+    transition: none;
+  }
+
+  .drawerClose,
+  .menuButton,
+  .scrim {
+    display: none;
+  }
+}

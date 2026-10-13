@@ -34,6 +34,18 @@ export const aboutContent: AboutPageContent = {
     },
   },
 
+  // Order and visibility of the sections below the hero
+  layout: {
+    sections: [
+      { id: "intro" },
+      { id: "specialties" },
+      { id: "career" },
+      { id: "certificates" },
+      { id: "philosophy" },
+      { id: "cta" },
+    ],
+  },
+
   hero: {
     eyebrow: { en: "About Dr. Othman Shaker", ar: "عن د. عثمان شاكر" },
     title: { en: "Clarity and compassion", ar: "وضوح ورحمة" },
@@ -42,8 +54,8 @@ export const aboutContent: AboutPageContent = {
       en: "Learn about Dr. Othman Shaker's approach to care, his areas of focus and his professional journey.",
       ar: "تعرّف على نهج د. عثمان شاكر في الرعاية، ومجالات اهتمامه، ومسيرته المهنية.",
     },
-    primaryCta: { en: "Book a consultation", ar: "احجز استشارة" },
-    secondaryCta: { en: "Professional journey", ar: "المسيرة المهنية" },
+    primaryCta: { label: { en: "Book a consultation", ar: "احجز استشارة" }, action: { kind: "whatsapp" } },
+    secondaryCta: { label: { en: "Professional journey", ar: "المسيرة المهنية" }, action: { kind: "section", anchor: "career" } },
     image: aboutHeroImage,
   },
 
@@ -71,7 +83,7 @@ export const aboutContent: AboutPageContent = {
     serviceIds: ["breast", "thoracic", "gastrointestinal", "gynecologic", "hematologic"],
     cta: {
       label: { en: "View all medical specialties", ar: "عرض جميع التخصصات الطبية" },
-      route: "servicesSpecialties",
+      action: { kind: "page", route: "servicesSpecialties" },
     },
   },
 

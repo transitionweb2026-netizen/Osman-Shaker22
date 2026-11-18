@@ -60,9 +60,9 @@ jobs:
           [ "$ftp" = false ] && echo "::warning::FTP secrets not set: the site is built but not uploaded to Hostinger."
           echo "upload=$ftp" >> "$GITHUB_OUTPUT"
 
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
 
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v7
         with:
           node-version: 22
           cache: npm
@@ -75,7 +75,7 @@ jobs:
 
       - name: Upload to Hostinger
         if: steps.settings.outputs.upload == 'true'
-        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        uses: SamKirkland/FTP-Deploy-Action@v4.4.0
         with:
           server: ${{ secrets.FTP_SERVER }}
           username: ${{ secrets.FTP_USERNAME }}

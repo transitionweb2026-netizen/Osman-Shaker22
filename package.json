@@ -3,7 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "node scripts/dev.mjs",
+    "dev:static": "next dev",
     "prebuild": "node scripts/check-placeholders.mjs --build",
     "build": "next build",
     "postbuild": "node scripts/fix-export-segments.mjs",

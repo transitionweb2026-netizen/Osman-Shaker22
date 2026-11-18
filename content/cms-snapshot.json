@@ -1,7 +1,7 @@
 {
   "enabled": true,
-  "syncedAt": "2026-10-13T09:45:26.103Z",
-  "version": "2026-10-13T09:43:45.506352+00:00",
+  "syncedAt": "2026-11-18T09:46:58.235Z",
+  "version": "2026-11-17T15:55:00.740212+00:00",
   "documents": {
     "home.faq": {
       "title": {
@@ -3102,15 +3102,15 @@
           "body": [
             {
               "text": {
-                "ar": "قد تبدو الزيارة الأولى لطبيب الأورام مُربكة، لكن الاستعداد المسبق يساعدك على الاستفادة من الوقت والخروج بتصوّر أوضح للخطوات التالية.",
-                "en": "A first appointment with an oncologist can feel overwhelming. Preparing in advance helps you make the most of the time and leave with a clearer picture of the next steps."
+                "ar": "توجد عدة أنواع من الفتق، تختلف حسب موقع الإصابة وطبيعة الأنسجة المتأثرة، ومنها الفتق الإربي الذي يظهر في أعلى الفخذ، والفتق السري الذي يحدث بالقرب من السرة، والفتق الجراحي الذي يظهر في موضع عملية سابقة، والفتق الفخذي الذي يصيب أعلى الفخذ، بالإضافة إلى فتق الحجاب الحاجز الذي يحدث عند اندفاع جزء من المعدة إلى التجويف الصدري.",
+                "en": "Hernias are classified according to their location and the tissues involved. Common types include inguinal hernias in the groin, umbilical hernias near the belly button, incisional hernias at previous surgical sites, femoral hernias in the upper thigh, and hiatal hernias, which occur when part of the stomach moves into the chest cavity."
               },
               "type": "paragraph"
             },
             {
               "text": {
-                "ar": "ما الذي تُحضره معك",
-                "en": "What to bring"
+                "ar": "ما أسباب الإصابة بالفتق؟",
+                "en": "What Causes a Hernia?"
               },
               "type": "heading"
             },
@@ -3118,25 +3118,17 @@
               "type": "list",
               "items": {
                 "ar": [
-                  "تقارير التحليل النسيجي أو الخزعة",
-                  "صور الأشعة (على قرص أو ذاكرة USB إن توفرت) وتقاريرها المكتوبة",
-                  "أحدث نتائج تحاليل الدم",
-                  "قائمة بجميع الأدوية والمكملات التي تتناولها",
-                  "تفاصيل الحساسية والأمراض السابقة"
+                  "ينتج الفتق عادةً عن ضعف في العضلات أو الأنسجة، وقد تساهم عدة عوامل في ظهوره، مثل زيادة الوزن، والإمساك المزمن، والسعال المستمر، ورفع الأوزان الثقيلة، والحمل، والتقدم في العمر، أو وجود استعداد وراثي لضعف الأنسجة."
                 ],
                 "en": [
-                  "Pathology or biopsy reports",
-                  "Imaging scans (on a disc or USB drive, if available) and their written reports",
-                  "Recent blood test results",
-                  "A list of all medicines and supplements you take",
-                  "Details of allergies and previous illnesses"
+                  "Hernias generally develop due to weakness in the muscles or connective tissues. Contributing factors may include obesity, chronic constipation, persistent coughing, heavy lifting, pregnancy, aging, and inherited tissue weakness."
                 ]
               }
             },
             {
               "text": {
-                "ar": "أسئلة قد ترغب في طرحها",
-                "en": "Questions you may want to ask"
+                "ar": "ما الأعراض التي تشير إلى وجود فتق؟",
+                "en": "What Are the Symptoms of a Hernia?"
               },
               "type": "heading"
             },
@@ -3144,30 +3136,26 @@
               "type": "list",
               "items": {
                 "ar": [
-                  "ما نوع الورم لديّ وما مرحلته؟",
-                  "هل أحتاج إلى فحوص إضافية؟",
-                  "ما الخيارات العلاجية المتاحة، وما أهدافها؟",
-                  "كيف قد يؤثر العلاج في حياتي اليومية وعملي؟"
+                  "يُعد ظهور انتفاخ أو كتلة في المنطقة المصابة من أبرز العلامات، وقد يصاحبه ألم أو شعور بالضغط والثقل، خاصة أثناء الحركة أو المجهود. وفي بعض الحالات، قد يكون الفتق غير مؤلم.",
+                  "أما الألم الشديد المفاجئ المصحوب بالقيء أو وجود انتفاخ مؤلم لا يمكن إعادته إلى مكانه، فقد يشير إلى حدوث مضاعفات تستدعي التوجه للطوارئ."
                 ],
                 "en": [
-                  "What type of cancer do I have, and what stage is it?",
-                  "Are further tests needed?",
-                  "What treatment options are available, and what are their goals?",
-                  "How might treatment affect my daily life and work?"
+                  "A visible lump or swelling is one of the most common signs of a hernia. It may be accompanied by pain, pressure, or discomfort, particularly during physical activity. Some hernias may remain painless.",
+                  "However, sudden severe pain, vomiting, or a painful bulge that cannot be pushed back into place may indicate serious complications requiring emergency medical evaluation."
                 ]
               }
             },
             {
               "text": {
-                "ar": "أثناء الزيارة",
-                "en": "During the visit"
+                "ar": "متى يحتاج الفتق إلى تدخل جراحي؟",
+                "en": "When Is Hernia Surgery Necessary?"
               },
               "type": "heading"
             },
             {
               "text": {
-                "ar": "توقّع حديثًا عن صحتك وأعراضك ومخاوفك، ومراجعةً لتقاريرك. ولا حرج في أن تطلب إعادة أي معلومة أو كتابتها، كما أن اصطحاب شخص تثق به يساعدك على تذكّر ما دار في الزيارة.",
-                "en": "Expect a conversation about your health, symptoms and concerns, and a review of your reports. It is fine to ask for anything to be repeated or written down. Bringing someone you trust can help you remember what was discussed."
+                "ar": "يعتمد قرار إصلاح الفتق جراحيًا على نوعه وحجمه والأعراض المصاحبة له واحتمالية حدوث المضاعفات. وقد تكون المتابعة الطبية مناسبة لبعض حالات الفتق الإربي قليلة الأعراض لدى الرجال، بينما يُوصى بالجراحة عند زيادة الألم أو حجم الفتق أو ارتفاع خطر حدوث مضاعفات.",
+                "en": "The decision to perform hernia repair depends on the type, size, symptoms, and risk of complications. Watchful waiting may be appropriate for some men with minimally symptomatic inguinal hernias, while surgery may be recommended for increasing pain, enlargement, or a higher risk of complications."
               },
               "type": "paragraph"
             }
@@ -3184,12 +3172,12 @@
             "isPlaceholder": true
           },
           "title": {
-            "ar": "الاستعداد لاستشارتك الأولى في طب الأورام",
-            "en": "Preparing for your first oncology consultation"
+            "ar": "الفتق بأنواعه: الأسباب والأعراض ومتى يحتاج إلى تدخل جراحي؟",
+            "en": "Types of Hernias: Causes, Symptoms, and When Is Surgery Necessary?"
           },
           "excerpt": {
-            "ar": "قليل من الاستعداد يجعل زيارتك الأولى أكثر هدوءًا وفائدة. إليك ما تحضره، وما تسأل عنه، وما يمكنك توقعه.",
-            "en": "A little preparation can make your first visit calmer and more useful. Here is what to bring, what to ask and what to expect."
+            "ar": "الفتق هو بروز جزء من الأنسجة أو أحد الأعضاء الداخلية من خلال منطقة ضعيفة في العضلات أو الأنسجة المحيطة بها. وغالبًا ما يظهر في صورة انتفاخ ملحوظ في البطن أو المنطقة الإربية، وقد يزداد وضوحه أثناء الوقوف أو السعال أو بذل مجهود بدني.",
+            "en": "A hernia occurs when an internal organ or tissue protrudes through a weakened area of the surrounding muscle or connective tissue. It often appears as a visible bulge in the abdomen or groin, becoming more noticeable when standing, coughing, or performing physical activities."
           },
           "category": {
             "ar": "البداية",
@@ -3205,15 +3193,15 @@
           "body": [
             {
               "text": {
-                "ar": "يصف تقرير التحليل النسيجي ما تبيّن عند فحص عينة من النسيج تحت المجهر، وهو من أهم الوثائق في التخطيط لعلاج الأورام.",
-                "en": "A pathology report describes what was found when a tissue sample was examined under a microscope. It is one of the most important documents in planning cancer treatment."
+                "ar": "تتكون الحصوات عادةً عندما تصبح بعض مكونات العصارة الصفراوية، مثل الكوليسترول، أكثر تركيزًا من الطبيعي. وتزداد احتمالية الإصابة مع السمنة، وفقدان الوزن السريع، والحمل، والتقدم في العمر، والتاريخ العائلي، وبعض أمراض الدم والكبد.",
+                "en": "Gallstones commonly form when substances in bile, such as cholesterol, become excessively concentrated. Risk factors include obesity, rapid weight loss, pregnancy, increasing age, family history, and certain blood or liver disorders."
               },
               "type": "paragraph"
             },
             {
               "text": {
-                "ar": "مصطلحات شائعة",
-                "en": "Common terms"
+                "ar": "ما أعراض حصوات المرارة؟",
+                "en": "What Are the Symptoms of Gallstones?"
               },
               "type": "heading"
             },
@@ -3221,37 +3209,33 @@
               "type": "list",
               "items": {
                 "ar": [
-                  "نوع الورم: نوع الخلايا التي نشأ منها الورم",
-                  "الدرجة: مدى اختلاف الخلايا عن الخلايا الطبيعية، وقد تشير إلى سرعة نموها",
-                  "الحواف: ما إذا كانت الخلايا السرطانية تصل إلى حافة العينة المستأصلة جراحيًا",
-                  "المؤشرات الحيوية: بروتينات أو تغيّرات جينية محددة قد توجّه اختيار العلاج"
+                  "قد تسبب حصوات المرارة ألمًا في الجزء العلوي الأيمن أو الأوسط من البطن، وقد يمتد إلى الظهر أو الكتف الأيمن. وتظهر نوبات الألم أحيانًا بعد تناول الوجبات الدسمة، وقد يصاحبها الغثيان أو القيء.",
+                  "أما استمرار الألم لساعات أو ظهور الحمى أو اصفرار العينين والجلد، فقد يشير إلى التهاب المرارة أو انسداد القنوات المرارية، ويحتاج إلى تقييم طبي عاجل."
                 ],
                 "en": [
-                  "Tumor type: the kind of cell in which the cancer started",
-                  "Grade: how different the cells look from normal cells, which can suggest how quickly they may grow",
-                  "Margins: whether cancer cells reach the edge of a sample removed during surgery",
-                  "Biomarkers: specific proteins or genetic changes that can guide treatment choices"
+                  "Gallstones may cause pain in the upper right or central abdomen, sometimes radiating to the back or right shoulder. Symptoms may occur after fatty meals and can be accompanied by nausea or vomiting.",
+                  "Persistent pain, fever, or yellowing of the skin and eyes may indicate gallbladder inflammation or bile duct obstruction and requires urgent medical assessment."
                 ]
               }
             },
             {
               "text": {
-                "ar": "لماذا هو مهم",
-                "en": "Why it matters"
+                "ar": "متى تكون جراحة استئصال المرارة ضرورية؟",
+                "en": "When Is Gallbladder Surgery Necessary?"
               },
               "type": "heading"
             },
             {
               "text": {
-                "ar": "يساعد تقرير التحليل النسيجي، مع صور الأشعة، في تحديد مرحلة الورم والعلاجات الأكثر احتمالًا للفائدة، وقد تُطلب أحيانًا فحوص إضافية على العينة نفسها للإجابة عن أسئلة محددة.",
-                "en": "Together with imaging, the pathology report helps determine the stage of the cancer and which treatments are most likely to help. Sometimes additional tests on the same sample are requested to answer specific questions."
+                "ar": "لا تحتاج جميع حصوات المرارة إلى عملية جراحية، خاصة إذا لم تسبب أعراضًا. لكن قد يُوصى باستئصال المرارة عند تكرار المغص المراري، أو حدوث التهاب حاد بالمرارة، أو وجود مضاعفات مثل التهاب البنكرياس الناتج عن الحصوات.",
+                "en": "Not all gallstones require surgery, particularly when they cause no symptoms. However, gallbladder removal may be recommended for recurrent biliary colic, acute cholecystitis, or complications such as gallstone pancreatitis."
               },
               "type": "paragraph"
             },
             {
               "text": {
-                "ar": "تستخدم التقارير لغة متخصصة، لذا من الطبيعي أن تكون لديك أسئلة، ويمكن لطبيبك مراجعة التقرير معك وشرح دلالة كل جزء منه على رعايتك.",
-                "en": "Reports use specialized language, so it is normal to have questions. Your doctor can go through the report with you and explain what each part means for your care."
+                "ar": "يُعد استئصال المرارة بالمنظار من الطرق الشائعة لعلاج حصوات المرارة المصحوبة بالأعراض. ويتميز بإجراء العملية من خلال فتحات صغيرة، مما قد يقلل الألم بعد الجراحة ويساعد على تقصير مدة الإقامة بالمستشفى وسرعة العودة إلى الأنشطة اليومية مقارنة بالجراحة المفتوحة في الحالات المناسبة.",
+                "en": "Laparoscopic cholecystectomy is a widely used treatment for symptomatic gallstones. It involves removing the gallbladder through small abdominal incisions, which may reduce postoperative pain, shorten hospital stays, and allow a faster return to daily activities compared with open surgery in suitable patients."
               },
               "type": "paragraph"
             }
@@ -3268,12 +3252,12 @@
             "isPlaceholder": true
           },
           "title": {
-            "ar": "فهم تقرير التحليل النسيجي",
-            "en": "Understanding your pathology report"
+            "ar": "حصوات المرارة: متى تكون الجراحة ضرورية؟ ومميزات استئصال المرارة بالمنظار",
+            "en": "Gallstones: When Is Surgery Necessary and What Are the Benefits of Laparoscopic Cholecystectomy?"
           },
           "excerpt": {
-            "ar": "قد تبدو تقارير التحليل النسيجي معقدة. يشرح هذا الدليل المصطلحات الشائعة وأهميتها في رعايتك.",
-            "en": "Pathology reports can be technical. This guide explains common terms and why they matter for your care."
+            "ar": "حصوات المرارة هي ترسبات صلبة تتكون داخل المرارة نتيجة تغير في مكونات العصارة الصفراوية. وتختلف الحصوات في حجمها وعددها، وقد تظل دون أعراض لفترات طويلة، بينما تسبب في بعض الحالات نوبات متكررة من الألم أو مضاعفات تستدعي العلاج.",
+            "en": "Gallstones are hardened deposits that form inside the gallbladder due to changes in bile composition. They vary in size and number and may remain asymptomatic for years. However, some patients experience recurrent pain or develop complications requiring treatment."
           },
           "category": {
             "ar": "فهم التشخيص",
@@ -3289,15 +3273,15 @@
           "body": [
             {
               "text": {
-                "ar": "تساعد التغذية الجيدة الجسم على تحمّل العلاج والتعافي بعده، وفي الوقت نفسه قد يؤثر العلاج في الشهية والتذوق والهضم، لذا قد تتطلب التغذية الجيدة شيئًا من المرونة.",
-                "en": "Good nutrition helps the body cope with treatment and recover afterwards. At the same time, treatment can affect appetite, taste and digestion, so eating well may need a flexible approach."
+                "ar": "أورام القولون والمستقيم هي نمو غير طبيعي للخلايا داخل القولون أو المستقيم، وقد تكون أورامًا حميدة أو خبيثة. وتبدأ بعض حالات سرطان القولون والمستقيم في صورة زوائد لحمية تتطور تدريجيًا بمرور الوقت، لذلك يمثل الكشف المبكر خطوة مهمة في الوقاية والتشخيص.",
+                "en": "Colorectal tumors are abnormal growths that develop in the colon or rectum and may be benign or malignant. Some colorectal cancers begin as polyps that gradually develop into malignant tumors, making early screening essential for prevention and diagnosis."
               },
               "type": "paragraph"
             },
             {
               "text": {
-                "ar": "نصائح عملية",
-                "en": "Practical tips"
+                "ar": "ما أعراض أورام القولون والمستقيم؟",
+                "en": "What Are the Symptoms of Colorectal Cancer?"
               },
               "type": "heading"
             },
@@ -3305,37 +3289,31 @@
               "type": "list",
               "items": {
                 "ar": [
-                  "تناول وجبات صغيرة ومتكررة إن كانت الوجبات الكبيرة صعبة",
-                  "احرص على مصدر للبروتين، مثل البيض أو الألبان أو الأسماك أو الدواجن أو البقوليات، في معظم الوجبات",
-                  "اشرب السوائل بانتظام على مدار اليوم ما لم يُنصح بغير ذلك",
-                  "احتفظ بوجبات خفيفة سهلة في متناولك للأيام التي تقل فيها طاقتك"
+                  "قد لا تظهر أعراض واضحة في المراحل المبكرة، لكن هناك علامات تستدعي الفحص الطبي، مثل وجود دم في البراز، أو تغير مستمر في طبيعة التبرز، أو آلام متكررة في البطن، أو فقدان الوزن دون سبب واضح، أو الإصابة بفقر الدم الناتج عن نقص الحديد."
                 ],
                 "en": [
-                  "Eat small, frequent meals if large meals feel difficult",
-                  "Include a source of protein — such as eggs, dairy, fish, poultry or legumes — at most meals",
-                  "Drink fluids regularly through the day unless you have been advised otherwise",
-                  "Keep easy snacks within reach for days when energy is low"
+                  "Colorectal cancer may not cause noticeable symptoms in its early stages. Warning signs include blood in the stool, persistent changes in bowel habits, recurrent abdominal pain, unexplained weight loss, and iron deficiency anemia."
                 ]
               }
             },
             {
               "text": {
-                "ar": "متى تطلب المساعدة",
-                "en": "When to ask for help"
+                "ar": "كيف يتم تشخيص أورام القولون والمستقيم؟",
+                "en": "How Is Colorectal Cancer Diagnosed?"
               },
               "type": "heading"
             },
             {
               "text": {
-                "ar": "أخبر فريق الرعاية إن كنت تفقد وزنك دون قصد، أو تجد صعوبة في البلع، أو تعاني غثيانًا أو قيئًا أو إسهالًا مستمرًا، فكثيرًا ما يمكن علاج هذه المشكلات.",
-                "en": "Let your care team know if you are losing weight without trying, have difficulty swallowing, or have ongoing nausea, vomiting or diarrhea. These problems can often be treated."
+                "ar": "يُعد منظار القولون من أهم وسائل التشخيص، حيث يسمح بفحص القولون والمستقيم من الداخل وأخذ عينات من المناطق المشتبه بها لتحليلها. وفي حالة تأكيد وجود ورم خبيث، قد تُستخدم الأشعة المقطعية أو الرنين المغناطيسي وبعض التحاليل لتحديد مرحلة المرض ووضع الخطة العلاجية.",
+                "en": "Colonoscopy is one of the most important diagnostic procedures, allowing direct examination of the colon and rectum and collection of tissue samples for biopsy. If cancer is confirmed, CT scans, MRI, and laboratory investigations may be used to determine the disease stage and guide treatment."
               },
               "type": "paragraph"
             },
             {
               "text": {
-                "ar": "استشر طبيبك قبل البدء بأي مكملات أو منتجات عشبية، فبعضها قد يتداخل مع علاج الأورام.",
-                "en": "Check with your doctor before starting supplements or herbal products, as some may interact with cancer treatment."
+                "ar": "يساعد الكشف المبكر في اكتشاف الزوائد اللحمية وإزالتها قبل تحولها إلى أورام خبيثة، كما يساهم في اكتشاف السرطان في مراحل مبكرة. وتوصي بعض الإرشادات ببدء الفحص الدوري للأشخاص متوسطي الخطورة من عمر 45 عامًا، مع إجراء الفحص مبكرًا لبعض أصحاب عوامل الخطورة.",
+                "en": "Early screening can detect and remove precancerous polyps before they develop into cancer. Some guidelines recommend starting regular screening at age 45 for average risk adults, while individuals with certain risk factors may need earlier screening."
               },
               "type": "note"
             }
@@ -3352,12 +3330,12 @@
             "isPlaceholder": true
           },
           "title": {
-            "ar": "التغذية الجيدة أثناء علاج الأورام",
-            "en": "Eating well during cancer treatment"
+            "ar": "أورام القولون والمستقيم: الأعراض والتشخيص ودور الجراحة في العلاج",
+            "en": "Colorectal Cancer: Symptoms, Diagnosis, and the Role of Surgery in Treatment"
           },
           "excerpt": {
-            "ar": "قد يغيّر العلاج الشهية وحاسة التذوق، لكن عادات بسيطة وعملية تساعدك على الحفاظ على قوتك.",
-            "en": "Treatment can change appetite and taste. Simple, practical habits can help you keep your strength."
+            "ar": "أورام القولون والمستقيم هي نمو غير طبيعي للخلايا داخل القولون أو المستقيم، وقد تكون أورامًا حميدة أو خبيثة. وتبدأ بعض حالات سرطان القولون والمستقيم في صورة زوائد لحمية تتطور تدريجيًا بمرور الوقت، لذلك يمثل الكشف المبكر خطوة مهمة في الوقاية والتشخيص.",
+            "en": "Colorectal tumors are abnormal growths that develop in the colon or rectum and may be benign or malignant. Some colorectal cancers begin as polyps that gradually develop into malignant tumors, making early screening essential for prevention and diagnosis."
           },
           "category": {
             "ar": "العيش بصحة",
@@ -3373,15 +3351,15 @@
           "body": [
             {
               "text": {
-                "ar": "يختلف الإرهاق المرتبط بالأورام عن التعب المعتاد؛ فقد لا يتحسن تمامًا بالراحة، وقد يؤثر في التركيز والمزاج. وهو شائع، ويستحق الحديث عنه.",
-                "en": "Cancer-related fatigue is different from ordinary tiredness: it may not improve fully with rest and can affect concentration and mood. It is common, and it is worth talking about."
+                "ar": "قد يزيد فتق الحجاب الحاجز من احتمالية حدوث ارتجاع المريء، لكنه لا يؤدي بالضرورة إلى ظهور الأعراض لدى جميع المرضى. كما يمكن أن يحدث ارتجاع المريء دون وجود فتق بالحجاب الحاجز.",
+                "en": "A hiatal hernia may increase the likelihood of gastroesophageal reflux disease, but not all patients with a hiatal hernia develop symptoms. GERD can also occur without a hiatal hernia."
               },
               "type": "paragraph"
             },
             {
               "text": {
-                "ar": "أساليب قد تساعد",
-                "en": "Strategies that may help"
+                "ar": "متى نحتاج إلى التدخل الجراحي؟",
+                "en": "When Is Surgery Recommended?"
               },
               "type": "heading"
             },
@@ -3389,30 +3367,24 @@
               "type": "list",
               "items": {
                 "ar": [
-                  "خطّط للأنشطة المهمة في الأوقات التي تكون فيها طاقتك أعلى",
-                  "وازن بين الراحة والنشاط الخفيف، كالمشي القصير، بعد موافقة طبيبك",
-                  "تقبّل عروض المساعدة في المهام اليومية",
-                  "حافظ على مواعيد نوم منتظمة"
+                  "قد يكون التدخل الجراحي مناسبًا لبعض المرضى الذين يعانون من ارتجاع مثبت بالفحوصات مع استمرار الأعراض أو حدوث مضاعفات رغم العلاج المناسب. كما قد تحتاج بعض حالات فتق الحجاب الحاجز الكبير أو المعقد إلى الإصلاح الجراحي."
                 ],
                 "en": [
-                  "Plan important activities for the times of day when you have more energy",
-                  "Balance rest with gentle activity, such as short walks, if your doctor agrees",
-                  "Accept offers of help with daily tasks",
-                  "Keep a regular sleep routine"
+                  "Surgery may be considered for selected patients with objectively confirmed GERD who experience persistent symptoms or complications despite appropriate treatment. Large or complicated hiatal hernias may also require surgical repair."
                 ]
               }
             },
             {
               "text": {
-                "ar": "أسباب تستحق الفحص",
-                "en": "Causes worth checking"
+                "ar": "كيف تتم جراحة فتق الحجاب الحاجز بالمنظار؟",
+                "en": "How Is Laparoscopic Hiatal Hernia Repair Performed?"
               },
               "type": "heading"
             },
             {
               "text": {
-                "ar": "قد يزداد الإرهاق أحيانًا بسبب مشكلات قابلة للعلاج، مثل فقر الدم أو اضطراب النوم أو الألم أو انخفاض المزاج، وإخبار فريق الرعاية بذلك يتيح البحث عنها.",
-                "en": "Fatigue can sometimes be made worse by treatable problems such as anemia, poor sleep, pain or low mood. Mentioning it to your care team allows these to be looked for."
+                "ar": "تُجرى العملية من خلال فتحات صغيرة في البطن باستخدام المنظار الجراحي، بهدف إعادة المعدة إلى موضعها الطبيعي وإصلاح فتحة الحجاب الحاجز. وقد تتضمن الجراحة إجراء تثنية قاع المعدة لتقوية الحاجز المضاد للارتجاع حسب الحالة.",
+                "en": "Laparoscopic hiatal hernia repair is performed through small abdominal incisions to return the stomach to its normal position and repair the diaphragmatic opening. An antireflux procedure, such as fundoplication, may also be performed when appropriate."
               },
               "type": "paragraph"
             }
@@ -3429,12 +3401,12 @@
             "isPlaceholder": true
           },
           "title": {
-            "ar": "التعامل مع الإرهاق أثناء العلاج",
-            "en": "Coping with fatigue during treatment"
+            "ar": "فتق الحجاب الحاجز وارتجاع المريء: متى نحتاج إلى التدخل الجراحي؟",
+            "en": "Hiatal Hernia and GERD: When Is Surgical Treatment Necessary?"
           },
           "excerpt": {
-            "ar": "الإرهاق من أكثر آثار الأورام وعلاجها شيوعًا، وقد تساعد تغييرات بسيطة على التعامل معه بسهولة أكبر.",
-            "en": "Fatigue is one of the most common effects of cancer and its treatment. Small changes can make it easier to manage."
+            "ar": "فتق الحجاب الحاجز هو حالة تحدث عندما يندفع جزء من المعدة إلى التجويف الصدري عبر الفتحة التي يمر منها المريء في عضلة الحجاب الحاجز. وقد يساهم هذا التغير في حدوث ارتجاع المريء نتيجة ضعف الحاجز الطبيعي الذي يمنع رجوع أحماض المعدة.",
+            "en": "A hiatal hernia occurs when part of the stomach moves upward through the diaphragm into the chest cavity. This anatomical change may contribute to gastroesophageal reflux by weakening the natural barrier that prevents stomach acid from flowing backward into the esophagus."
           },
           "category": {
             "ar": "العيش بصحة",
@@ -3450,36 +3422,36 @@
           "body": [
             {
               "text": {
-                "ar": "يحمي الجهاز المناعي الجسم عادةً بالتعرّف على الخلايا غير الطبيعية والتخلص منها، لكن بعض الخلايا السرطانية تطوّر طرقًا للاختباء منه، وتساعد أدوية العلاج المناعي الجهاز المناعي على التعرّف على هذه الخلايا من جديد.",
-                "en": "The immune system normally protects the body by recognizing and removing abnormal cells. Some cancer cells develop ways to hide from it. Immunotherapy medicines help the immune system recognize these cells again."
+                "ar": "قد ترتبط العقد الدرقية بالتقدم في العمر، أو وجود تاريخ عائلي لأمراض الغدة، أو نقص اليود، أو التهابات الغدة الدرقية. كما قد تزداد احتمالية الإصابة ببعض أنواع سرطان الغدة الدرقية لدى الأشخاص الذين تعرضوا سابقًا للإشعاع في منطقة الرأس أو الرقبة.",
+                "en": "Thyroid nodules may be associated with increasing age, family history of thyroid disease, iodine deficiency, and thyroid inflammation. Previous radiation exposure involving the head or neck may increase the risk of certain thyroid cancers."
               },
               "type": "paragraph"
             },
             {
               "text": {
-                "ar": "لمن قد يكون مفيدًا",
-                "en": "Who it may help"
+                "ar": "هل كل عقدة في الغدة الدرقية تحتاج إلى استئصال؟",
+                "en": "Does Every Thyroid Nodule Require Surgery?"
               },
               "type": "heading"
             },
             {
               "text": {
-                "ar": "العلاج المناعي فعّال في بعض أنواع الأورام وحالاتها دون غيرها، وتساعد فحوص الورم، إلى جانب نوعه ومرحلته، في تحديد ما إذا كان خيارًا مناسبًا.",
-                "en": "Immunotherapy is effective for some cancer types and situations, but not all. Tests on the tumor, together with its type and stage, help decide whether it is a suitable option."
+                "ar": "لا تحتاج معظم العقد الدرقية إلى جراحة، خاصة إذا كانت حميدة وصغيرة ولا تسبب أعراضًا. وقد تكون المتابعة الدورية بالسونار والفحوصات الطبية كافية، بينما تستدعي بعض الحالات تدخلًا جراحيًا حسب نتائج التقييم.",
+                "en": "Most thyroid nodules do not require surgery, particularly when they are benign, small, and asymptomatic. Regular ultrasound monitoring and clinical follow up may be sufficient, while selected cases require surgical intervention."
               },
               "type": "paragraph"
             },
             {
               "text": {
-                "ar": "آثار جانبية ينبغي معرفتها",
-                "en": "Side effects to know about"
+                "ar": "متى يكون استئصال الغدة الدرقية ضروريًا؟",
+                "en": "When Is Thyroidectomy Necessary?"
               },
               "type": "heading"
             },
             {
               "text": {
-                "ar": "لأن العلاج المناعي ينشّط الجهاز المناعي، فقد يسبب أحيانًا التهابًا في أعضاء سليمة، ومن العلامات المحتملة:",
-                "en": "Because immunotherapy activates the immune system, it can sometimes cause inflammation in healthy organs. Possible signs include:"
+                "ar": "قد يُوصى باستئصال الغدة الدرقية عند تأكيد وجود ورم خبيث أو ارتفاع الاشتباه به، أو وجود تضخم يضغط على الأعضاء المحيطة ويسبب صعوبة البلع أو التنفس، أو في بعض حالات فرط نشاط الغدة الدرقية، أو عند وجود عقد غير محددة الطبيعة تستدعي الاستئصال التشخيصي.",
+                "en": "Thyroidectomy may be recommended for confirmed or highly suspicious thyroid cancer, large nodules causing compression symptoms, certain cases of hyperthyroidism, or indeterminate nodules requiring diagnostic surgery."
               },
               "type": "paragraph"
             },
@@ -3487,23 +3459,17 @@
               "type": "list",
               "items": {
                 "ar": [
-                  "إسهال جديد أو متزايد",
-                  "طفح جلدي أو حكة",
-                  "سعال أو ضيق في التنفس",
-                  "إرهاق غير معتاد أو أي أعراض جديدة أخرى"
+                  "يعتمد نوع الجراحة على طبيعة المرض وحجم الورم ونتائج الفحوصات. وقد يحتاج بعض المرضى إلى استئصال فص واحد فقط، بينما تتطلب حالات أخرى الاستئصال الكامل. وبعد استئصال الغدة بالكامل، يحتاج المريض عادةً إلى العلاج الهرموني التعويضي بصورة مستمرة."
                 ],
                 "en": [
-                  "New or worsening diarrhea",
-                  "Skin rash or itching",
-                  "Cough or shortness of breath",
-                  "Unusual tiredness or other new symptoms"
+                  "The extent of surgery depends on the diagnosis, tumor characteristics, and clinical findings. Some patients require removal of one thyroid lobe, while others need total thyroidectomy. Lifelong thyroid hormone replacement is generally required after complete thyroid removal."
                 ]
               }
             },
             {
               "text": {
-                "ar": "أبلغ فريق الرعاية فورًا عن أي أعراض جديدة، حتى لو ظهرت بعد أسابيع من العلاج.",
-                "en": "Report new symptoms to your care team promptly, even if they appear weeks after treatment."
+                "ar": "لا تحتاج معظم العقد الدرقية إلى جراحة، خاصة إذا كانت حميدة وصغيرة ولا تسبب أعراضًا. وقد تكون المتابعة الدورية بالسونار والفحوصات الطبية كافية، بينما تستدعي بعض الحالات تدخلًا جراحيًا حسب نتائج التقييم.",
+                "en": "Most thyroid nodules do not require surgery, particularly when they are benign, small, and asymptomatic. Regular ultrasound monitoring and clinical follow up may be sufficient, while selected cases require surgical intervention."
               },
               "type": "note"
             }
@@ -3520,12 +3486,12 @@
             "isPlaceholder": true
           },
           "title": {
-            "ar": "كيف يعمل العلاج المناعي",
-            "en": "How immunotherapy works"
+            "ar": "أورام الغدة الدرقية: تقييم العقد الدرقية ومتى نحتاج إلى استئصال الغدة؟",
+            "en": "Thyroid Tumors: Evaluation of Thyroid Nodules and When Is Thyroidectomy Necessary?"
           },
           "excerpt": {
-            "ar": "يستعين العلاج المناعي بدفاعات الجسم الطبيعية ضد الأورام. إليك شرحًا مبسطًا لماهيته وما ينبغي الانتباه إليه.",
-            "en": "Immunotherapy uses the body's own defenses against cancer. A simple explanation of what it is and what to watch for."
+            "ar": "الغدة الدرقية هي غدة صغيرة تقع في مقدمة الرقبة، وتنتج هرمونات مهمة لتنظيم عمليات الأيض ووظائف الجسم. وقد تظهر بداخلها عقد أو كتل تختلف في الحجم والطبيعة، وتُعد معظم هذه العقد حميدة، بينما تحتاج بعض الحالات إلى تقييم إضافي لاستبعاد وجود أورام خبيثة.",
+            "en": "The thyroid is a small gland located at the front of the neck. It produces hormones that regulate metabolism and essential body functions. Thyroid nodules are lumps that develop within the gland. Most are benign, although some require further investigation to exclude malignancy."
           },
           "category": {
             "ar": "العلاجات",
@@ -3541,15 +3507,15 @@
           "body": [
             {
               "text": {
-                "ar": "تُتخذ قرارات العلاج على أفضل وجه بصورة مشتركة، وطرح الأسئلة يساعدك على فهم أسباب التوصية وما تعنيه بالنسبة إليك.",
-                "en": "Treatment decisions are best made together. Asking questions helps you understand the reasons behind a recommendation and what it will mean for you."
+                "ar": "البواسير هي تضخم أو تورم في الأنسجة والأوعية الدموية الموجودة في منطقة الشرج والمستقيم السفلي. وقد تكون داخلية تسبب النزيف أو البروز أثناء التبرز، أو خارجية تسبب التورم والألم، خاصة عند حدوث جلطة دموية بداخلها.",
+                "en": "Hemorrhoids are swollen or enlarged vascular tissues in the anal canal and lower rectum. Internal hemorrhoids may cause bleeding or prolapse, while external hemorrhoids may cause swelling and pain, particularly when thrombosed."
               },
               "type": "paragraph"
             },
             {
               "text": {
-                "ar": "عن الخطة",
-                "en": "About the plan"
+                "ar": "ما هو الشرخ الشرجي؟",
+                "en": "Second: What Is an Anal Fissure?"
               },
               "type": "heading"
             },
@@ -3557,21 +3523,17 @@
               "type": "list",
               "items": {
                 "ar": [
-                  "ما الهدف من هذا العلاج؟",
-                  "هل توجد خيارات أخرى، وكيف تقارن بها؟",
-                  "كم سيستغرق العلاج، وكم مرة سأحتاج إلى الزيارة؟"
+                  "الشرخ الشرجي هو تمزق صغير في بطانة القناة الشرجية، وغالبًا ما يسبب ألمًا حادًا أثناء التبرز قد يستمر بعده، وقد يصاحبه نزيف بسيط. ويُعد الإمساك ومرور البراز الصلب من أبرز الأسباب المرتبطة بحدوثه."
                 ],
                 "en": [
-                  "What is the goal of this treatment?",
-                  "Are there other options, and how do they compare?",
-                  "How long will treatment last, and how often will I need to visit?"
+                  "An anal fissure is a small tear in the lining of the anal canal. It commonly causes sharp pain during bowel movements that may continue afterward, sometimes accompanied by minor bleeding. Constipation and hard stools are common contributing factors."
                 ]
               }
             },
             {
               "text": {
-                "ar": "عن الحياة اليومية",
-                "en": "About daily life"
+                "ar": "ما هو الناسور الشرجي؟",
+                "en": "Third: What Is an Anal Fistula?"
               },
               "type": "heading"
             },
@@ -3579,21 +3541,17 @@
               "type": "list",
               "items": {
                 "ar": [
-                  "ما الآثار الجانبية الأكثر احتمالًا، وكيف يمكن التعامل معها؟",
-                  "هل يمكنني مواصلة العمل أو السفر أثناء العلاج؟",
-                  "بمن أتواصل إذا شعرت بتوعك؟"
+                  "الناسور الشرجي هو قناة غير طبيعية تتكون بين القناة الشرجية والجلد المحيط بفتحة الشرج، وغالبًا ما يظهر بعد الإصابة بخراج شرجي. وقد يسبب إفرازات متكررة أو خروج صديد أو ألمًا أو تورمًا بالقرب من فتحة الشرج."
                 ],
                 "en": [
-                  "Which side effects are most likely, and how can they be managed?",
-                  "Can I continue working or travelling during treatment?",
-                  "Who should I contact if I feel unwell?"
+                  "An anal fistula is an abnormal tunnel connecting the anal canal to the surrounding skin, often developing after an anal abscess. Symptoms may include recurrent discharge, pus, pain, or swelling near the anus."
                 ]
               }
             },
             {
               "text": {
-                "ar": "كتابة أسئلتك قبل الموعد وتدوين الإجابات يسهّلان تذكّر ما دار من نقاش.",
-                "en": "Writing your questions down before the appointment, and noting the answers, can make it easier to remember what was discussed."
+                "ar": "تختلف طرق علاج البواسير والشرخ والناسور الشرجي حسب طبيعة الحالة وشدة الأعراض. ويساعد التشخيص الدقيق لدى استشاري الجراحة العامة على اختيار العلاج الأنسب، سواء بالأدوية أو الإجراءات البسيطة أو التدخل الجراحي.",
+                "en": "Treatment of hemorrhoids, anal fissures, and anal fistulas varies according to the diagnosis and symptom severity. Accurate assessment by a general surgery specialist is essential for selecting medical, procedural, or surgical treatment."
               },
               "type": "paragraph"
             }
@@ -3610,12 +3568,12 @@
             "isPlaceholder": true
           },
           "title": {
-            "ar": "أسئلة تطرحها حول خطتك العلاجية",
-            "en": "Questions to ask about your treatment plan"
+            "ar": "أمراض الشرج والمستقيم: البواسير والشرخ والناسور الشرجي وطرق العلاج",
+            "en": "Anorectal Diseases: Hemorrhoids, Anal Fissures, Anal Fistulas, and Treatment Options"
           },
           "excerpt": {
-            "ar": "فهم خطتك العلاجية يساعدك على المشاركة في القرار، وهذه الأسئلة قد توجّه الحديث مع طبيبك.",
-            "en": "Understanding your plan helps you take part in decisions. These questions can guide the conversation."
+            "ar": "تشمل أمراض الشرج والمستقيم مجموعة من المشكلات الصحية التي قد تسبب الألم أو النزيف أو التورم أو عدم الراحة أثناء التبرز. ومن أشهرها البواسير والشرخ الشرجي والناسور الشرجي، ورغم تشابه بعض الأعراض، فإن كل حالة تختلف في أسبابها وطريقة علاجها.",
+            "en": "Anorectal diseases include conditions that affect the anus and lower rectum, causing pain, bleeding, swelling, or discomfort during bowel movements. Hemorrhoids, anal fissures, and anal fistulas are among the most common conditions, each requiring a different treatment approach."
           },
           "category": {
             "ar": "البداية",
@@ -3631,15 +3589,15 @@
           "body": [
             {
               "text": {
-                "ar": "عندما يُشخَّص شخص قريب منك بالسرطان، من الطبيعي أن ترغب في المساعدة دون أن تعرف كيف، وكثيرًا ما يكون الدعم الأهم في تفاصيل صغيرة وعملية.",
-                "en": "When someone close to you is diagnosed with cancer, it is natural to want to help but to be unsure how. Support often matters most in small, practical ways."
+                "ar": "تشمل أورام الغدة الكظرية الأورام الغدية الحميدة، وهي من أكثر الأنواع شيوعًا، وأورام القواتم التي قد تسبب زيادة إفراز هرمونات مرتبطة بارتفاع ضغط الدم والخفقان، والأورام المنتجة للكورتيزول أو الألدوستيرون، بالإضافة إلى بعض الأورام الخبيثة مثل سرطان قشرة الغدة الكظرية.",
+                "en": "Adrenal tumors include benign adrenal adenomas, which are among the most common types, pheochromocytomas that may cause excessive catecholamine production, cortisol producing or aldosterone producing tumors, and malignant tumors such as adrenocortical carcinoma. "
               },
               "type": "paragraph"
             },
             {
               "text": {
-                "ar": "طرق للمساعدة",
-                "en": "Ways to help"
+                "ar": "متى يكون استئصال الغدة الكظرية ضروريًا؟",
+                "en": "When Is Adrenalectomy Necessary?"
               },
               "type": "heading"
             },
@@ -3647,30 +3605,24 @@
               "type": "list",
               "items": {
                 "ar": [
-                  "اعرض مرافقته إلى المواعيد وتدوين الملاحظات",
-                  "ساعد في المهام اليومية، كإعداد الطعام أو التنقل أو رعاية الأطفال",
-                  "أنصت إليه دون أن تشعر بأن عليك امتلاك كل الإجابات",
-                  "احترم رغبته فيما يشاركه ومع من يشاركه"
+                  "قد يُوصى باستئصال الغدة الكظرية عندما يكون الورم نشطًا هرمونيًا بصورة تستدعي العلاج، أو عند وجود علامات تشير إلى احتمال وجود ورم خبيث، أو عند حدوث تغيرات مقلقة في حجم الورم أو خصائصه خلال المتابعة. ويُحدد القرار بعد تقييم شامل للحالة."
                 ],
                 "en": [
-                  "Offer to come to appointments and take notes",
-                  "Help with everyday tasks such as meals, transport or childcare",
-                  "Listen without needing to have all the answers",
-                  "Respect their wishes about what to share, and with whom"
+                  "Adrenalectomy may be recommended for clinically significant hormone producing tumors, masses with suspicious features suggesting malignancy, or lesions showing concerning changes during follow up. The decision requires comprehensive clinical evaluation."
                 ]
               }
             },
             {
               "text": {
-                "ar": "اعتنِ بنفسك أيضًا",
-                "en": "Looking after yourself"
+                "ar": "هل المنظار مناسب لجميع أورام الغدة الكظرية؟",
+                "en": "Is Laparoscopic Surgery Suitable for All Adrenal Tumors?"
               },
               "type": "heading"
             },
             {
               "text": {
-                "ar": "قد تكون رعاية شخص آخر مُتعبة، وأخذ فترات للراحة، وقبول المساعدة من الآخرين، والتعبير عن مشاعرك، كلها أمور تساعدك على الاستمرار في تقديم الدعم.",
-                "en": "Caring for someone can be tiring. Taking breaks, accepting help from others and talking about your own feelings will help you keep offering support."
+                "ar": "لا، فبعض الأورام المشتبه في كونها خبيثة، أو التي تحتاج إلى استئصال واسع بسبب امتدادها إلى الأنسجة المحيطة، قد يكون التدخل الجراحي المفتوح هو الاختيار الأنسب. ويعتمد تحديد التقنية على خصائص الورم والتقييم الجراحي.",
+                "en": "No. Some tumors with suspected malignancy or extensive involvement of surrounding tissues may require open surgery. The most appropriate surgical approach depends on tumor characteristics and specialist assessment."
               },
               "type": "paragraph"
             }
@@ -3687,12 +3639,12 @@
             "isPlaceholder": true
           },
           "title": {
-            "ar": "دعم أحد أحبائك خلال رحلة العلاج",
-            "en": "Supporting a loved one through cancer care"
+            "ar": "أورام الغدة الكظرية: التشخيص ومتى يكون الاستئصال بالمنظار ضروريًا؟",
+            "en": "Adrenal Tumors: Diagnosis and When Is Laparoscopic Adrenalectomy Necessary?"
           },
           "excerpt": {
-            "ar": "لأفراد الأسرة دور مهم، والمساعدة العملية والتواصل الصريح يدعمان الجميع.",
-            "en": "Family members play an important role. Practical help and open communication can support everyone involved."
+            "ar": "الغدتان الكظريتان هما غدتان صغيرتان تقع كل منهما أعلى إحدى الكليتين، وتنتجان هرمونات مهمة لتنظيم ضغط الدم والتمثيل الغذائي واستجابة الجسم للتوتر. وقد تظهر أورام في إحدى الغدتين أو كلتيهما، وتختلف طبيعتها بين أورام حميدة وأخرى خبيثة.",
+            "en": "The adrenal glands are two small glands located above the kidneys. They produce hormones involved in regulating blood pressure, metabolism, and the body's response to stress. Adrenal tumors may develop in one or both glands and can be benign or malignant."
           },
           "category": {
             "ar": "الأسرة والدعم",

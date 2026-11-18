@@ -19,6 +19,13 @@ Because the site is static, publishing alone does not change the live pages.
 **Publishing** in the CMS compares the database with the live site's
 `/cms-build.json` and says when a rebuild is needed.
 
+**While writing content on your own computer**, run `npm run dev` and open
+`http://localhost:3000/`. It pulls the published content when it starts and
+checks Supabase every 5 seconds: anything you **publish** (a draft is not
+enough) appears on the local site within a few seconds, with no build.
+`npm run preview` is different: it shows the last `npm run build` and does not
+update by itself.
+
 ## What can be edited
 
 - **Pages & sections**: each page lists its sections. Each section can be:
@@ -127,6 +134,8 @@ The interface and the publishing rules are the same as when connected.
 
 | Command | What it does |
 | --- | --- |
+| `npm run dev` | Local site that follows the CMS: pulls published content at start and after every publish (`scripts/dev.mjs`). |
+| `npm run dev:static` | `next dev` alone, with the content already synced. |
 | `npm run cms:sync` | Downloads published content and the media it uses; writes the build snapshot. |
 | `npm run cms:sync -- --reset` | Back to the bundled content (removes the snapshot and synced media). |
 | `npm run cms:sync -- --from-file site.json` | Uses a saved `cms_published_site()` result (offline tests). |

@@ -34,7 +34,14 @@ export function hasPlaceholder(value: unknown): boolean {
 }
 
 /** `{ cmsContent, contentVersion, syncedAt, builtAt }` written into every static build. */
-export type BuildInfo = { cmsContent: boolean; contentVersion: string | null; syncedAt: string | null; builtAt: string };
+export type BuildInfo = {
+  cmsContent: boolean;
+  contentVersion: string | null;
+  syncedAt: string | null;
+  builtAt: string;
+  /** Built by the "Publish website" workflow, which runs again after every publish. */
+  autoPublish?: boolean;
+};
 
 export async function fetchBuildInfo(): Promise<BuildInfo | null> {
   try {

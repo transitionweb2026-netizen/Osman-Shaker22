@@ -10,5 +10,7 @@ export function GET() {
     contentVersion: cmsSnapshot.version ?? null,
     syncedAt: cmsSnapshot.syncedAt ?? null,
     builtAt: new Date().toISOString(),
+    // Set by the "Publish website" GitHub workflow: publishing rebuilds the site by itself.
+    autoPublish: process.env.CMS_AUTO_PUBLISH === "1",
   });
 }

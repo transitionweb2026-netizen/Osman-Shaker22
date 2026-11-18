@@ -288,6 +288,8 @@ const en = {
   pubLastChange: "Published content last changed {time}",
   pubUpToDate: "The live website includes every published change.",
   pubBehind: "Published changes since the last build. Rebuild and upload the site to make them live.",
+  pubBehindAuto: "The website is being updated with your latest changes. This takes a few minutes; press Retry to check.",
+  pubAutoOn: "Automatic: every publish updates the live website within a few minutes. Nothing else to do.",
   pubPending: "Waiting to be published",
   pubPendingEmpty: "No unpublished changes.",
   pubPublishAll: "Publish all listed",
@@ -297,7 +299,7 @@ const en = {
   pubStep2: "Upload the contents of the out/ folder to public_html on Hostinger (File Manager or FTP).",
   pubStep3: "Reload this page: “Live website” shows the new build.",
   pubAutomation:
-    "This can be automated later (a “Publish website” button) with a GitHub Action that builds and uploads the site. It needs a GitHub token and the Hostinger FTP details as secrets — see docs/CMS.md.",
+    "This can be automatic: a GitHub workflow rebuilds and uploads the site after every publish. It needs a GitHub token and the Hostinger FTP details — see “Automatic publishing” in docs/CMS.md.",
   // seo
   seoTitle: "Search & sharing",
   seoIntro: "Titles and descriptions for every page, in both languages. Search engines see changes after the next site build.",
@@ -640,6 +642,8 @@ const ar: Record<MessageKey, string> = {
   pubLastChange: "آخر تغيير في المحتوى المنشور {time}",
   pubUpToDate: "الموقع المباشر يتضمن كل التغييرات المنشورة.",
   pubBehind: "توجد تغييرات منشورة منذ آخر بناء. أعد بناء الموقع وارفعه لتظهر.",
+  pubBehindAuto: "يجري تحديث الموقع بآخر تغييراتك. يستغرق ذلك بضع دقائق؛ اضغط «إعادة المحاولة» للتحقق.",
+  pubAutoOn: "تلقائي: كل نشر يحدّث الموقع المباشر خلال بضع دقائق، دون أي خطوة أخرى.",
   pubPending: "بانتظار النشر",
   pubPendingEmpty: "لا تغييرات غير منشورة.",
   pubPublishAll: "نشر كل العناصر المدرجة",
@@ -649,7 +653,7 @@ const ar: Record<MessageKey, string> = {
   pubStep2: "ارفع محتويات المجلد out/ إلى public_html في Hostinger (مدير الملفات أو FTP).",
   pubStep3: "أعد تحميل هذه الصفحة: سيظهر البناء الجديد في «الموقع المباشر».",
   pubAutomation:
-    "يمكن أتمتة ذلك لاحقًا (زر «نشر الموقع») عبر GitHub Action يبني الموقع ويرفعه. يحتاج ذلك إلى رمز GitHub وبيانات FTP الخاصة بـ Hostinger كأسرار — انظر docs/CMS.md.",
+    "يمكن أن يتم ذلك تلقائيًا: سير عمل في GitHub يعيد بناء الموقع ويرفعه بعد كل نشر. يحتاج إلى رمز GitHub وبيانات FTP الخاصة بـ Hostinger — انظر «النشر التلقائي» في docs/CMS.md.",
   seoTitle: "البحث والمشاركة",
   seoIntro: "عناوين وأوصاف كل الصفحات باللغتين. ترى محركات البحث التغييرات بعد إعادة البناء التالية.",
   seoIndexing: "فهرسة محركات البحث",

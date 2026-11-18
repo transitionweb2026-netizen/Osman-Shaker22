@@ -13,11 +13,12 @@ Connecting it to Supabase: [docs/SUPABASE.md](SUPABASE.md).
 | --- | --- | --- |
 | **Save draft** | CMS editor | Stored in the database as the draft. Never visible to the public. |
 | **Publish** | CMS editor | The draft becomes the published version (a copy is kept in the history). |
-| **Rebuild the site** | `npm run build` (pulls the published content first), upload `out/` | The live website shows everything published. |
+| **Rebuild the site** | Automatic after each publish ([Automatic publishing](#automatic-publishing)); by hand: `npm run build`, upload `out/` | The live website shows everything published. |
 
-Because the site is static, publishing alone does not change the live pages.
-**Publishing** in the CMS compares the database with the live site's
-`/cms-build.json` and says when a rebuild is needed.
+The site is static: the live pages change when the site is rebuilt. With
+automatic publishing set up, that happens by itself a few minutes after each
+publish. **Publishing** in the CMS compares the database with the live site's
+`/cms-build.json` and says whether the site is up to date.
 
 **While writing content on your own computer**, run `npm run dev` and open
 `http://localhost:3000/`. It pulls the published content when it starts and
@@ -142,23 +143,59 @@ The interface and the publishing rules are the same as when connected.
 | `npm run check:content` | Lists placeholders (from the snapshot when one exists) and launch settings. |
 | `npm run build` | Pulls the published CMS content (stops if it can't), placeholder and key checks, static export, prefetch-file fix. `SKIP_CMS_SYNC=1` builds offline with the last synced content. |
 
-## Automating "Publish website" later (not set up)
+## Automatic publishing
 
-A button in the CMS can trigger the rebuild instead of running the commands by
-hand. One way:
-1. A GitHub Action on `repository_dispatch` (or `workflow_dispatch`) runs `npm ci`, `npm run cms:sync` and `npm run build`.
-2. It uploads `out/` to Hostinger over FTP or SFTP.
-3. It needs these repository secrets:
-   - the Supabase URL and publishable key;
-   - the Hostinger FTP host, user and password.
-4. The trigger is a small Supabase Edge Function that holds a GitHub token, so the token never reaches the browser. It should check that the caller is a CMS member.
+Every publish in the CMS updates the live website by itself, a few minutes later:
 
-None of this is configured yet. It needs those credentials, and your decision
-to deploy automatically.
+```
+Publish in the CMS
+   → cms_site_state.content_changed_at changes
+   → database trigger (pg_net) → GitHub repository_dispatch "cms-publish"
+   → workflow .github/workflows/publish-website.yml:
+       npm ci → npm run build (pulls the published content) → FTP upload of out/ to Hostinger
+```
+
+The workflow also runs on every push to `main`, and by hand (Actions → Publish
+website → Run workflow). Uploads never overlap; publishes made during an upload
+are collected into one more run. The CMS **Publishing** screen shows
+"Automatic" once a site built this way is live.
+
+### One-time setup
+
+1. **GitHub token** (github.com → Settings → Developer settings → Fine-grained
+   tokens): access to this repository only, permission **Contents: Read and
+   write**. Note its expiry date: publishing stops updating the site when it expires.
+2. **Supabase** (SQL editor): run
+   `supabase/migrations/20261118120000_cms_auto_publish.sql`, then store the token
+   and the repository in Vault:
+   ```sql
+   select vault.create_secret('<token>', 'github_dispatch_token');
+   select vault.create_secret('transitionweb2026-netizen/Osman-Shaker22', 'github_dispatch_repo');
+   ```
+   To replace the token later: `select vault.update_secret((select id from vault.secrets where name = 'github_dispatch_token'), '<new token>');`
+3. **GitHub repository** → Settings → Secrets and variables → Actions:
+   - variables: `NEXT_PUBLIC_SUPABASE_URL`, `NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY`
+     (the same public values as `.env.local`), `NEXT_PUBLIC_SITE_URL` (the real domain);
+   - secrets: `FTP_SERVER`, `FTP_USERNAME`, `FTP_PASSWORD` (hPanel → Files → FTP Accounts);
+   - optional variables: `FTP_SERVER_DIR` (default `public_html/`; the folder of the
+     site as seen by the FTP account, ending with `/`), `FTP_PROTOCOL` (`ftps` by
+     default, `ftp` if FTPS is refused), `FTP_PORT` (21), `FTP_SECURITY` (`strict`;
+     `loose` only if the FTP server's certificate does not match its host name),
+     `NEXT_PUBLIC_ALLOW_INDEXING` (`true` at launch, once no placeholders remain).
+
+Until the FTP secrets exist, the workflow builds the site as a check and skips the upload.
+
+### Checking it
+
+- GitHub → Actions → "Publish website": one run per publish (or per batch).
+- Supabase SQL editor: `select * from public.cms_auto_publish_status();` shows
+  whether both Vault secrets exist and GitHub's latest answers (204 = accepted,
+  401 = bad or expired token, 404 = wrong repository or missing permission).
+- If a run fails, publishing still works; the next publish or a manual run catches up.
 
 ## Limits and notes
 
 - The homepage structure (5 featured specialties, 5 treatments, the statistics) follows the approved design. The editors validate these counts.
 - Responsive image sizes for uploads are generated by `cms:sync` (WebP, 320–2560 px). The CMS itself shows the original file or its thumbnail.
-- Order changes take effect at the next build, like every published change.
+- Order changes take effect at the next build (automatic after publishing), like every published change.
 - The revision history keeps the 30 most recent versions of each record.

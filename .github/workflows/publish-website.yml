@@ -1,0 +1,87 @@
+name: Publish website
+
+# Builds the static site with the content published in the CMS and uploads it to Hostinger.
+#
+# Runs:
+#   - when the CMS publishes something (Supabase sends a `cms-publish` repository_dispatch,
+#     see supabase/migrations/20261118120000_cms_auto_publish.sql);
+#   - on every push to main (code changes);
+#   - by hand: Actions → Publish website → Run workflow.
+#
+# Settings (repository → Settings → Secrets and variables → Actions), see docs/CMS.md:
+#   variables: NEXT_PUBLIC_SUPABASE_URL, NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY, NEXT_PUBLIC_SITE_URL,
+#              optional NEXT_PUBLIC_ALLOW_INDEXING, FTP_SERVER_DIR, FTP_PROTOCOL, FTP_PORT, FTP_SECURITY
+#   secrets:   FTP_SERVER, FTP_USERNAME, FTP_PASSWORD
+# Until the FTP secrets exist, the site is built (as a check) but not uploaded.
+
+on:
+  repository_dispatch:
+    types: [cms-publish]
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+# One upload at a time. A publish that arrives during an upload waits; several waiting
+# publishes collapse into one run, which pulls the latest content when it starts.
+concurrency:
+  group: publish-website
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      NEXT_PUBLIC_SUPABASE_URL: ${{ vars.NEXT_PUBLIC_SUPABASE_URL }}
+      NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY: ${{ vars.NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY }}
+      NEXT_PUBLIC_SITE_URL: ${{ vars.NEXT_PUBLIC_SITE_URL }}
+      NEXT_PUBLIC_ALLOW_INDEXING: ${{ vars.NEXT_PUBLIC_ALLOW_INDEXING }}
+      # Tells the CMS (via /cms-build.json) that publishing updates the website by itself.
+      CMS_AUTO_PUBLISH: "1"
+    steps:
+      - name: Check the settings
+        id: settings
+        env:
+          FTP_SERVER: ${{ secrets.FTP_SERVER }}
+          FTP_USERNAME: ${{ secrets.FTP_USERNAME }}
+          FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
+        run: |
+          cms=false; ftp=false
+          [ -n "$NEXT_PUBLIC_SUPABASE_URL" ] && [ -n "$NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY" ] && cms=true
+          [ -n "$FTP_SERVER" ] && [ -n "$FTP_USERNAME" ] && [ -n "$FTP_PASSWORD" ] && ftp=true
+          if [ "$ftp" = true ] && [ "$cms" = false ]; then
+            echo "::error::NEXT_PUBLIC_SUPABASE_URL / NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY are not set: the site would be uploaded without the CMS content. Add them as repository variables."
+            exit 1
+          fi
+          [ "$cms" = false ] && echo "::warning::Supabase variables not set: building with the content committed in the repository, not the latest CMS content."
+          [ "$ftp" = false ] && echo "::warning::FTP secrets not set: the site is built but not uploaded to Hostinger."
+          echo "upload=$ftp" >> "$GITHUB_OUTPUT"
+
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      # `prebuild` pulls the published CMS content first and stops the run if it can't.
+      - name: Build
+        run: npm run build
+
+      - name: Upload to Hostinger
+        if: steps.settings.outputs.upload == 'true'
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        with:
+          server: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          protocol: ${{ vars.FTP_PROTOCOL || 'ftps' }}
+          port: ${{ vars.FTP_PORT || 21 }}
+          security: ${{ vars.FTP_SECURITY || 'strict' }}
+          local-dir: ./out/
+          server-dir: ${{ vars.FTP_SERVER_DIR || 'public_html/' }}

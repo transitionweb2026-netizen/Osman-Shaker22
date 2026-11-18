@@ -83,6 +83,7 @@ export function PublishingScreen() {
   if (!state) return <Skeleton lines={8} />;
 
   const current = buildIsCurrent(state.build, state.version);
+  const auto = state.build?.autoPublish === true;
   const statusLabels = { draft: t("statusDraft"), published: t("statusPublished"), changed: t("statusChanged"), new: t("statusNew") };
 
   return (
@@ -120,7 +121,9 @@ export function PublishingScreen() {
         <Card title={t("pubDatabase")}>
           <p className={styles.muted}>{t("pubLastChange", { time: relativeTime(locale, state.version) })}</p>
           {current !== null && (
-            <Notice tone={current ? "success" : "warning"}>{current ? t("pubUpToDate") : t("pubBehind")}</Notice>
+            <Notice tone={current ? "success" : auto ? "info" : "warning"}>
+              {current ? t("pubUpToDate") : auto ? t("pubBehindAuto") : t("pubBehind")}
+            </Notice>
           )}
         </Card>
       </div>
@@ -154,23 +157,29 @@ export function PublishingScreen() {
         )}
       </Card>
 
-      <Card title={t("pubSteps")}>
-        <ol className={styles.steps}>
-          <li>
-            <p>{t("pubStep1")}</p>
-            <pre className={styles.code} dir="ltr">
-              npm run cms:sync{"\n"}npm run build
-            </pre>
-          </li>
-          <li>
-            <p>{t("pubStep2")}</p>
-          </li>
-          <li>
-            <p>{t("pubStep3")}</p>
-          </li>
-        </ol>
-        <Notice tone="info">{t("pubAutomation")}</Notice>
-      </Card>
+      {auto ? (
+        <Card title={t("pubSteps")}>
+          <Notice tone="success">{t("pubAutoOn")}</Notice>
+        </Card>
+      ) : (
+        <Card title={t("pubSteps")}>
+          <ol className={styles.steps}>
+            <li>
+              <p>{t("pubStep1")}</p>
+              <pre className={styles.code} dir="ltr">
+                npm run build
+              </pre>
+            </li>
+            <li>
+              <p>{t("pubStep2")}</p>
+            </li>
+            <li>
+              <p>{t("pubStep3")}</p>
+            </li>
+          </ol>
+          <Notice tone="info">{t("pubAutomation")}</Notice>
+        </Card>
+      )}
     </div>
   );
 }

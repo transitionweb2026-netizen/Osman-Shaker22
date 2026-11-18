@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "node scripts/dev.mjs",
     "dev:static": "next dev",
-    "prebuild": "node scripts/check-placeholders.mjs --build",
+    "prebuild": "node scripts/prebuild.mjs",
     "build": "next build",
     "postbuild": "node scripts/fix-export-segments.mjs",
     "preview": "node scripts/serve-out.mjs",

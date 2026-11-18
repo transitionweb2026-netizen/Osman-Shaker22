@@ -1,7 +1,7 @@
 {
   "enabled": true,
-  "syncedAt": "2026-11-18T09:46:58.235Z",
-  "version": "2026-11-17T15:55:00.740212+00:00",
+  "syncedAt": "2026-11-18T14:29:08.424Z",
+  "version": "2026-11-18T14:13:19.348881+00:00",
   "documents": {
     "home.faq": {
       "title": {
@@ -69,11 +69,11 @@
         "positionMobile": "40% 18%"
       },
       "title": {
-        "ar": "رعاية متخصصة لمرضى الأورام",
+        "ar": "الاورام",
         "en": "Expert cancer care"
       },
       "eyebrow": {
-        "ar": "طب الأورام · رعاية شخصية",
+        "ar": "ميدوووووووووو",
         "en": "Oncology · Personalized care"
       },
       "primaryCta": {
@@ -3180,8 +3180,8 @@
             "en": "A hernia occurs when an internal organ or tissue protrudes through a weakened area of the surrounding muscle or connective tissue. It often appears as a visible bulge in the abdomen or groin, becoming more noticeable when standing, coughing, or performing physical activities."
           },
           "category": {
-            "ar": "البداية",
-            "en": "Getting started"
+            "ar": "الفتق بانواعة",
+            "en": "All Types of Hernias"
           },
           "reviewedBy": null,
           "isPlaceholder": true

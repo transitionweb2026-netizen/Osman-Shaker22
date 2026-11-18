@@ -13,7 +13,7 @@ Connecting it to Supabase: [docs/SUPABASE.md](SUPABASE.md).
 | --- | --- | --- |
 | **Save draft** | CMS editor | Stored in the database as the draft. Never visible to the public. |
 | **Publish** | CMS editor | The draft becomes the published version (a copy is kept in the history). |
-| **Rebuild the site** | `npm run cms:sync && npm run build`, upload `out/` | The live website shows everything published. |
+| **Rebuild the site** | `npm run build` (pulls the published content first), upload `out/` | The live website shows everything published. |
 
 Because the site is static, publishing alone does not change the live pages.
 **Publishing** in the CMS compares the database with the live site's
@@ -140,7 +140,7 @@ The interface and the publishing rules are the same as when connected.
 | `npm run cms:sync -- --reset` | Back to the bundled content (removes the snapshot and synced media). |
 | `npm run cms:sync -- --from-file site.json` | Uses a saved `cms_published_site()` result (offline tests). |
 | `npm run check:content` | Lists placeholders (from the snapshot when one exists) and launch settings. |
-| `npm run build` | Placeholder and key checks, static export, prefetch-file fix. |
+| `npm run build` | Pulls the published CMS content (stops if it can't), placeholder and key checks, static export, prefetch-file fix. `SKIP_CMS_SYNC=1` builds offline with the last synced content. |
 
 ## Automating "Publish website" later (not set up)
 

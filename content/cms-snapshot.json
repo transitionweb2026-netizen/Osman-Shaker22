@@ -1,7 +1,7 @@
 {
   "enabled": true,
-  "syncedAt": "2026-11-19T13:22:31.809Z",
-  "version": "2026-11-19T10:47:54.232367+00:00",
+  "syncedAt": "2026-11-19T14:09:02.933Z",
+  "version": "2026-11-19T14:08:55.962474+00:00",
   "documents": {
     "home.faq": {
       "title": {
@@ -70,11 +70,11 @@
       },
       "title": {
         "ar": "الاورام",
-        "en": "cccccc"
+        "en": "akram"
       },
       "eyebrow": {
-        "ar": "يييي",
-        "en": "dddd"
+        "ar": "بببببب",
+        "en": "fffff"
       },
       "primaryCta": {
         "label": {

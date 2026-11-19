@@ -11,6 +11,7 @@
  */
 import { heading, list, note, paragraph } from "./blocks";
 import { careServiceImages, pageHeroImages, specialtyImages, treatmentImages } from "./media";
+import { surgicalServiceGroups } from "./services-surgical";
 import type { ServicesPageContent } from "./types";
 
 export const servicesPage: ServicesPageContent = {
@@ -549,5 +550,7 @@ export const servicesPage: ServicesPageContent = {
         },
       ],
     },
+    // Groups 4–9: surgical services (content/services-surgical.ts)
+    ...surgicalServiceGroups,
   ],
 };

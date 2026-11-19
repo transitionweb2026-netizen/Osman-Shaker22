@@ -22,13 +22,15 @@ export default async function ServicesPage({ params }: PageProps<"/[locale]/serv
   const { locale } = await params;
   if (!isLocale(locale)) notFound();
   const [site, page] = await Promise.all([getSite(locale), getServicesPage(locale)]);
+  // A group appears once it has at least one published service (new groups start empty in the CMS).
+  const groups = page.groups.filter((group) => group.services.length > 0);
 
   return (
     <>
       <PageHero locale={locale} site={site} content={page.hero} pageLabel={navLabel(site, "services")}>
         {/* Jump links to each service group */}
         <ul className={heroStyles.links}>
-          {page.groups.map((group) => (
+          {groups.map((group) => (
             <li key={group.id}>
               <GlassPanel as="a" href={`#${group.id}`} blur className={heroStyles.chip}>
                 {group.eyebrow}
@@ -40,7 +42,7 @@ export default async function ServicesPage({ params }: PageProps<"/[locale]/serv
       </PageHero>
       {visibleSections(page.layout, SERVICES_SECTIONS).map((id) =>
         id === "groups" ? (
-          <ServiceGroups key={id} locale={locale} groups={page.groups} site={site} />
+          <ServiceGroups key={id} locale={locale} groups={groups} site={site} />
         ) : (
           <FinalCta key={id} site={site} />
         ),

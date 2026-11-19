@@ -1,7 +1,7 @@
 {
   "enabled": true,
-  "syncedAt": "2026-11-18T14:46:37.862Z",
-  "version": "2026-11-18T14:36:10.365417+00:00",
+  "syncedAt": "2026-11-19T10:19:12.561Z",
+  "version": "2026-11-19T10:19:09.940385+00:00",
   "documents": {
     "home.faq": {
       "title": {
@@ -70,11 +70,11 @@
       },
       "title": {
         "ar": "الاورام",
-        "en": "Expert cancer care"
+        "en": "ssss"
       },
       "eyebrow": {
-        "ar": "ميدوووووووووو علييييي",
-        "en": "Oncology · Personalized care"
+        "ar": "ميد",
+        "en": "akraaam"
       },
       "primaryCta": {
         "label": {
@@ -119,8 +119,8 @@
         "positionMobile": "40% 18%"
       },
       "title": {
-        "ar": "وضوح ورحمة",
-        "en": "Clarity and compassion"
+        "ar": "فبرححححححححححححححححححح",
+        "en": "ddd"
       },
       "eyebrow": {
         "ar": "عن د. عثمان شاكر",
@@ -140,7 +140,7 @@
         "en": "Learn about Dr. Othman Shaker's approach to care, his areas of focus and his professional journey."
       },
       "titleAccent": {
-        "ar": "في كل خطوة من رعاية الأورام.",
+        "ar": "الاورام ",
         "en": "at every step of cancer care."
       },
       "secondaryCta": {

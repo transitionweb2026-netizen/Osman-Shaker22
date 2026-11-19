@@ -21,9 +21,11 @@ publish. **Publishing** in the CMS compares the database with the live site's
 `/cms-build.json` and says whether the site is up to date.
 
 **While writing content on your own computer**, run `npm run dev` and open
-`http://localhost:3000/`. It pulls the published content when it starts and
-checks Supabase every 5 seconds: anything you **publish** (a draft is not
-enough) appears on the local site within a few seconds, with no build.
+`http://localhost:3005/ar/` (dashboard: `http://localhost:3005/admin/`; port 3005
+is fixed so other projects on 3000 are not confused with this site). It pulls the
+published content when it starts and checks Supabase every 5 seconds: anything you
+**publish** (a draft is not enough) appears on the local site within a few seconds,
+with no build. Open pages reload by themselves, also after the computer slept.
 `npm run preview` is different: it shows the last `npm run build` and does not
 update by itself.
 
@@ -135,7 +137,7 @@ The interface and the publishing rules are the same as when connected.
 
 | Command | What it does |
 | --- | --- |
-| `npm run dev` | Local site that follows the CMS: pulls published content at start and after every publish (`scripts/dev.mjs`). |
+| `npm run dev` | Local site on `http://localhost:3005/` that follows the CMS: pulls published content at start and after every publish (`scripts/dev.mjs`); open pages reload by themselves. |
 | `npm run dev:static` | `next dev` alone, with the content already synced. |
 | `npm run cms:sync` | Downloads published content and the media it uses; writes the build snapshot. |
 | `npm run cms:sync -- --reset` | Back to the bundled content (removes the snapshot and synced media). |

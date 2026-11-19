@@ -9,7 +9,10 @@
  *
  * Without the Supabase settings it only starts `next dev` (bundled content, local demo).
  * `npm run dev:static` starts `next dev` alone. Extra arguments go to `next dev`,
- * e.g. `npm run dev -- -p 3001`.
+ * e.g. `npm run dev -- -p 3001`. The default port is 3005 (not Next's 3000), so this site
+ * keeps one address while other projects run on 3000.
+ *
+ * Open pages refresh by themselves after a publish (components/layout/CmsLiveReload.tsx).
  */
 import { spawn } from "node:child_process";
 import { readFile } from "node:fs/promises";
@@ -29,9 +32,20 @@ const url = (process.env.NEXT_PUBLIC_SUPABASE_URL ?? "").trim();
 const key = (process.env.NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY ?? process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY ?? "").trim();
 const tag = "[cms]";
 
+// A fixed port of its own, so this site is not confused with other projects running on 3000.
+const DEFAULT_PORT = "3005";
+
 function startNext() {
   const nextBin = createRequire(import.meta.url).resolve("next/dist/bin/next");
-  const child = spawn(process.execPath, [nextBin, "dev", ...process.argv.slice(2)], { cwd: root, stdio: "inherit" });
+  const args = process.argv.slice(2);
+  const portIndex = args.findIndex((arg) => arg === "-p" || arg === "--port");
+  const port =
+    (portIndex >= 0 ? args[portIndex + 1] : args.find((arg) => arg.startsWith("--port="))?.slice(7)) ??
+    process.env.PORT ??
+    DEFAULT_PORT;
+  if (portIndex < 0 && !args.some((arg) => arg.startsWith("--port=")) && !process.env.PORT) args.push("-p", DEFAULT_PORT);
+  console.log(`${tag} Dr. Othman Shaker  ·  site: http://localhost:${port}/ar/  ·  dashboard: http://localhost:${port}/admin/`);
+  const child = spawn(process.execPath, [nextBin, "dev", ...args], { cwd: root, stdio: "inherit" });
   child.on("exit", (code) => process.exit(code ?? 0));
   for (const signal of ["SIGINT", "SIGTERM"]) process.on(signal, () => child.kill(signal));
 }

@@ -1,10 +1,11 @@
 import type { Metadata, Viewport } from "next";
 import { notFound } from "next/navigation";
+import { CmsLiveReload } from "@/components/layout/CmsLiveReload";
 import { FloatingContact } from "@/components/layout/FloatingContact";
 import { RevealObserver } from "@/components/layout/RevealObserver";
 import { SiteFooter } from "@/components/layout/SiteFooter";
 import { SiteHeader } from "@/components/layout/SiteHeader";
-import { getSite } from "@/lib/content";
+import { cmsSnapshot, getSite } from "@/lib/content";
 import { whatsappHref } from "@/lib/contact";
 import { fontVariables } from "@/lib/fonts";
 import { isLocale, localeSettings, locales } from "@/lib/i18n";
@@ -75,6 +76,8 @@ export default async function LocaleLayout({ children, params }: LayoutProps<"/[
         <SiteFooter locale={locale} site={site} />
         <FloatingContact site={site} />
         <RevealObserver />
+        {/* `npm run dev` only: open pages follow CMS publishes (not part of the static export). */}
+        {process.env.NODE_ENV === "development" && <CmsLiveReload version={cmsSnapshot.version ?? null} />}
       </body>
     </html>
   );

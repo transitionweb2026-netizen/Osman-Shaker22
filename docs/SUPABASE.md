@@ -61,9 +61,9 @@ Authentication → URL Configuration:
 - **Site URL**: `https://your-domain/admin/login/`. Dashboard invitations always
   return to the Site URL, and the website itself does not use Supabase sign-in,
   so the CMS sign-in page is the right target. (Local tests:
-  `http://localhost:3000/admin/login/`.)
+  `http://localhost:3005/admin/login/`, the `npm run dev` address.)
 - **Redirect URLs**: add `https://your-domain/admin/login/` (plus
-  `http://localhost:3000/admin/login/` and `http://localhost:4173/admin/login/`
+  `http://localhost:3005/admin/login/` and `http://localhost:4173/admin/login/`
   for local tests). Password-reset links from the sign-in page return there.
 
 ## 4. Create the first administrator

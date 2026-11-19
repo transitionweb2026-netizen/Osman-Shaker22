@@ -2,9 +2,9 @@
  * Runs before every `npm run build` (npm's `prebuild` hook).
  *
  * 1. When Supabase is configured, pulls the content published in the CMS
- *    (`scripts/cms-sync.mjs`), so a build never ships content older than the
- *    dashboard. If the sync fails (network, Supabase), the build stops instead of
- *    quietly using the previous snapshot.
+ *    (`scripts/cms-sync.mjs`) into the snapshot the site falls back on when
+ *    Supabase cannot be reached. Pages read the CMS live (lib/cms/published.ts),
+ *    so a failed sync only leaves an older fallback: the build continues.
  * 2. Runs the placeholder and key checks (`scripts/check-placeholders.mjs --build`).
  *
  * Without Supabase settings (a fresh clone, the local demo), step 1 is skipped and
@@ -32,11 +32,10 @@ if (process.env.SKIP_CMS_SYNC === "1") {
 } else if (configured) {
   console.log("prebuild: pulling the content published in the CMS…");
   if (run("cms-sync.mjs") !== 0) {
-    console.error(
-      "\nBuild stopped: the published CMS content could not be pulled, so the site would show old content.\n" +
-        "Check the internet connection and run the build again (or SKIP_CMS_SYNC=1 npm run build to build offline).",
+    console.warn(
+      "\nprebuild: the published CMS content could not be pulled; the fallback snapshot stays as it was.\n" +
+        "The site still reads the CMS live once it is running.",
     );
-    process.exit(1);
   }
 }
 

@@ -1,16 +1,18 @@
-import { cmsSnapshot } from "@/lib/content";
+import { getCmsSnapshotInfo } from "@/lib/content";
 
-// Written into the static export as /cms-build.json. The CMS reads it from the
-// live site to tell whether published changes are still waiting for a rebuild.
+// Which published CMS content the site currently shows. The CMS Publishing screen
+// compares it with the database. Cached with the pages and refreshed on every publish.
 export const dynamic = "force-static";
 
-export function GET() {
+export async function GET() {
+  const info = await getCmsSnapshotInfo();
   return Response.json({
-    cmsContent: cmsSnapshot.enabled,
-    contentVersion: cmsSnapshot.version ?? null,
-    syncedAt: cmsSnapshot.syncedAt ?? null,
+    cmsContent: info.enabled,
+    contentVersion: info.version,
+    syncedAt: info.syncedAt,
     builtAt: new Date().toISOString(),
-    // Set by the "Publish website" GitHub workflow: publishing rebuilds the site by itself.
-    autoPublish: process.env.CMS_AUTO_PUBLISH === "1",
+    // Pages read the CMS when rendered: publishing updates the site by itself.
+    autoPublish: true,
+    live: info.live,
   });
 }

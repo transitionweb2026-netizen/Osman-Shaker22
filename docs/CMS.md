@@ -1,33 +1,27 @@
 # Website CMS
 
 A bilingual (English / Arabic) content management system at **`/admin/`**,
-built into the static website. Editors change texts, photos, videos, services,
-reviews, FAQs and articles. Publishing makes changes ready for the next site
-build. The website stays a fully static export: no server is added.
+built into the website. Editors change texts, photos, videos, services,
+reviews, FAQs and articles. **Publishing shows the change on the live website
+within seconds**: no build, no upload, nobody else involved.
 
 Connecting it to Supabase: [docs/SUPABASE.md](SUPABASE.md).
 
-## Three separate steps
+## Two steps
 
 | Step | Who / where | Effect |
 | --- | --- | --- |
 | **Save draft** | CMS editor | Stored in the database as the draft. Never visible to the public. |
-| **Publish** | CMS editor | The draft becomes the published version (a copy is kept in the history). |
-| **Rebuild the site** | Automatic after each publish ([Automatic publishing](#automatic-publishing)); by hand: `npm run build`, upload `out/` | The live website shows everything published. |
+| **Publish** | CMS editor | The draft becomes the published version (a copy is kept in the history), and the live website shows it within seconds ([Live updates](#live-updates)). |
 
-The site is static: the live pages change when the site is rebuilt. With
-automatic publishing set up, that happens by itself a few minutes after each
-publish. **Publishing** in the CMS compares the database with the live site's
-`/cms-build.json` and says whether the site is up to date.
+The **Publishing** screen in the CMS compares the database with the live
+site's `/cms-build.json` and says whether the site already shows everything published.
 
 **While writing content on your own computer**, run `npm run dev` and open
 `http://localhost:3005/ar/` (dashboard: `http://localhost:3005/admin/`; port 3005
-is fixed so other projects on 3000 are not confused with this site). It pulls the
-published content when it starts and checks Supabase every 5 seconds: anything you
-**publish** (a draft is not enough) appears on the local site within a few seconds,
-with no build. Open pages reload by themselves, also after the computer slept.
-`npm run preview` is different: it shows the last `npm run build` and does not
-update by itself.
+is fixed so other projects on 3000 are not confused with this site). It reads the
+published content every few seconds; open pages reload by themselves, also after
+the computer slept.
 
 ## What can be edited
 
@@ -73,32 +67,36 @@ update by itself.
 ## Architecture
 
 ```
-Browser (/admin/, static pages)
+Browser (/admin/)
    │  Supabase Auth (email + password, invitation only)
    │  PostgREST + Storage, protected by Row Level Security
    ▼
 Supabase: cms_documents, cms_<catalog> tables, cms_media, cms_revisions, bucket cms-media (private)
    │  cms_published_site()  — published content only, callable with the publishable key
+   │  on publish: trigger (pg_net) → POST https://<site>/api/revalidate/
    ▼
-npm run cms:sync  →  content/cms-snapshot.json (+ public/media/cms-*.webp|mp4)
-   ▼
-next build  →  out/  (content/*.ts defaults, overridden by the snapshot)  →  Hostinger
+Website (Next.js server: Vercel, or Hostinger Business/Cloud)
+   pages prerendered and cached (content/*.ts defaults + published CMS content),
+   re-rendered on the next visit after each publish; CMS uploads served by /cms-media/
 ```
 
 **Code map**
 
-- `supabase/migrations/…_cms_foundation.sql`: the schema, RLS, storage policies, publishing functions, roles and revision history.
+- `supabase/migrations/…_cms_foundation.sql`: the schema, RLS, storage policies, publishing functions, roles and revision history. `…_cms_live_revalidate.sql`: the publish trigger that refreshes the website.
 - `lib/cms/`:
-  - `model.ts`: how CMS records map onto the site's content tree, and `applySnapshot` for the build.
+  - `published.ts`: reads `cms_published_site()` for the pages (cached under the `cms` tag) and points CMS uploads at `/cms-media/`.
+  - `model.ts`: how CMS records map onto the site's content tree (`applySnapshot`).
   - `registry.ts`: every editable document and catalog, with bilingual field labels and validation.
   - `schema.ts`: the field types and validation.
   - `store/`: `SupabaseStore` (real data) and `LocalStore` (the demo).
   - `preview.ts`: draft previews.
   - `media-upload.ts`: file checks and thumbnails.
+- `lib/content.ts`: the page data (live CMS content, or the committed snapshot when Supabase can't be reached).
+- `app/api/revalidate/route.ts`: called by Supabase after each publish; expires the cached CMS content.
+- `app/cms-media/[id]/[file]/route.ts`: published uploads: photos resized to WebP on request (cached for a year), videos through a signed Storage URL.
 - `components/admin/`: the interface: shell, screens, editors, field editors, media library and preview.
-- `app/admin/`: static routes. Screens read their state from the URL, e.g. `/admin/edit/?doc=home.hero` or `/admin/videos/?id=…`.
-- `scripts/cms-sync.mjs`: pulls published content and media for the build.
-- `scripts/fix-export-segments.mjs`: runs after every build (`postbuild`). On Windows, Next.js 16 writes the router's prefetch files into nested folders; this gives them the flat names the browser requests.
+- `app/admin/`: the CMS routes. Screens read their state from the URL, e.g. `/admin/edit/?doc=home.hero` or `/admin/videos/?id=…`.
+- `scripts/cms-sync.mjs`: saves the published content as `content/cms-snapshot.json`, the fallback used when Supabase can't be reached (run by every build).
 
 ## Security model
 
@@ -107,21 +105,22 @@ next build  →  out/  (content/*.ts defaults, overridden by the snapshot)  → 
   - editors can't change site settings;
   - editors can't delete content, media or team members;
   - at least one administrator always remains.
-- **Visitors have no table access at all.** The static build reads published content through `cms_published_site()`. Drafts are never returned by public queries.
-- **Media is private by default.** A file becomes readable without signing in only while published content uses it; editors preview drafts through short-lived signed URLs. Uploads:
+- **Visitors have no table access at all.** The website server reads published content through `cms_published_site()`. Drafts are never returned by public queries.
+- **Media is private by default.** A file becomes readable without signing in only while published content uses it; editors preview drafts through short-lived signed URLs. `/cms-media/` serves only files listed as published. Uploads:
   - are checked by their actual file signature, not the browser's declared type;
   - are stored as `images/<uuid>.<ext>` or `videos/<uuid>.<ext>` (the storage policy rejects any other path), never under user file names;
   - are limited in size by the bucket.
-- **Keys**: the browser and `cms:sync` use only the publishable key. A secret / `service_role` key is refused:
+- **Keys**: the browser, the website server and `cms:sync` use only the publishable key. A secret / `service_role` key is refused:
   - by the CMS, which shows an error;
   - by `cms:sync`, which stops;
   - by every build: `prebuild` stops if any `NEXT_PUBLIC_` variable holds one.
+- **The refresh endpoint** (`/api/revalidate/`) needs `CMS_REVALIDATE_SECRET` (server-only, never `NEXT_PUBLIC_`); without it, it refuses every request.
 - **Privileged actions are database functions:**
   - `cms_set_role` and `cms_remove_member` check that the caller is an administrator;
   - `cms_bootstrap_admin` can only run in the SQL editor.
 
   Nothing privileged runs in the browser.
-- **The admin is never indexed**: pages carry `noindex`, `robots.txt` disallows `/admin/`, and `.htaccess` sends `X-Frame-Options: SAMEORIGIN`.
+- **The admin is never indexed**: pages carry `noindex`, `robots.txt` disallows `/admin/`, and every response sends `X-Frame-Options: SAMEORIGIN` (`next.config.ts`).
 
 ## Local demo
 
@@ -137,67 +136,61 @@ The interface and the publishing rules are the same as when connected.
 
 | Command | What it does |
 | --- | --- |
-| `npm run dev` | Local site on `http://localhost:3005/` that follows the CMS: pulls published content at start and after every publish (`scripts/dev.mjs`); open pages reload by themselves. |
-| `npm run dev:static` | `next dev` alone, with the content already synced. |
-| `npm run cms:sync` | Downloads published content and the media it uses; writes the build snapshot. |
+| `npm run dev` | Local site on `http://localhost:3005/` that follows the CMS; open pages reload by themselves after a publish (`scripts/dev.mjs`). |
+| `npm run dev:static` | `next dev` alone. |
+| `npm run build` | Saves the fallback snapshot (`cms:sync`; a failure only leaves the previous one), placeholder and key checks, production build. `SKIP_CMS_SYNC=1` skips the snapshot. |
+| `npm start` / `npm run preview` | Production server (`next start`; `preview` on port 3006). |
+| `npm run cms:sync` | Saves the published content (and the media it uses) as the fallback snapshot. |
 | `npm run cms:sync -- --reset` | Back to the bundled content (removes the snapshot and synced media). |
 | `npm run cms:sync -- --from-file site.json` | Uses a saved `cms_published_site()` result (offline tests). |
 | `npm run check:content` | Lists placeholders (from the snapshot when one exists) and launch settings. |
-| `npm run build` | Pulls the published CMS content (stops if it can't), placeholder and key checks, static export, prefetch-file fix. `SKIP_CMS_SYNC=1` builds offline with the last synced content. |
 
-## Automatic publishing
-
-Every publish in the CMS updates the live website by itself, a few minutes later:
+## Live updates
 
 ```
 Publish in the CMS
    → cms_site_state.content_changed_at changes
-   → database trigger (pg_net) → GitHub repository_dispatch "cms-publish"
-   → workflow .github/workflows/publish-website.yml:
-       npm ci → npm run build (pulls the published content) → FTP upload of out/ to Hostinger
+   → database trigger (pg_net) → POST <site_revalidate_url> with header x-cms-secret
+   → app/api/revalidate: revalidateTag("cms", { expire: 0 })
+   → the next visit of any page renders the new content (and caches it again)
 ```
 
-The workflow also runs on every push to `main`, and by hand (Actions → Publish
-website → Run workflow). Uploads never overlap; publishes made during an upload
-are collected into one more run. The CMS **Publishing** screen shows
-"Automatic" once a site built this way is live.
+Without that call (not set up yet, or it failed), pages still refresh their
+CMS content at most a minute after it changed. If Supabase can't be reached,
+pages keep the content they last had (or the committed snapshot), never an error.
 
 ### One-time setup
 
-1. **GitHub token** (github.com → Settings → Developer settings → Fine-grained
-   tokens): access to this repository only, permission **Contents: Read and
-   write**. Note its expiry date: publishing stops updating the site when it expires.
-2. **Supabase** (SQL editor): run
-   `supabase/migrations/20261118120000_cms_auto_publish.sql`, then store the token
-   and the repository in Vault:
-   ```sql
-   select vault.create_secret('<token>', 'github_dispatch_token');
-   select vault.create_secret('transitionweb2026-netizen/Osman-Shaker22', 'github_dispatch_repo');
-   ```
-   To replace the token later: `select vault.update_secret((select id from vault.secrets where name = 'github_dispatch_token'), '<new token>');`
-3. **GitHub repository** → Settings → Secrets and variables → Actions:
-   - variables: `NEXT_PUBLIC_SUPABASE_URL`, `NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY`
-     (the same public values as `.env.local`), `NEXT_PUBLIC_SITE_URL` (the real domain);
-   - secrets: `FTP_SERVER`, `FTP_USERNAME`, `FTP_PASSWORD` (hPanel → Files → FTP Accounts);
-   - optional variables: `FTP_SERVER_DIR` (default `public_html/`; the folder of the
-     site as seen by the FTP account, ending with `/`), `FTP_PROTOCOL` (`ftps` by
-     default, `ftp` if FTPS is refused), `FTP_PORT` (21), `FTP_SECURITY` (`strict`;
-     `loose` only if the FTP server's certificate does not match its host name),
-     `NEXT_PUBLIC_ALLOW_INDEXING` (`true` at launch, once no placeholders remain).
+1. **A secret**: a long random value, e.g.
+   `node -e "console.log(require('crypto').randomBytes(32).toString('base64url'))"`.
+   (`.env.local` on the developer's computer already holds one, as `CMS_REVALIDATE_SECRET`.)
+2. **The website host**: add the environment variable `CMS_REVALIDATE_SECRET` with that
+   value (Vercel: Project → Settings → Environment Variables, Production; then redeploy.
+   Hostinger: the Node.js app's environment variables).
+3. **Supabase**:
+   - SQL editor: run `supabase/migrations/20261119120000_cms_live_revalidate.sql`.
+   - Integrations → Vault → Secrets, two secrets:
+     - `site_revalidate_url`: `https://<website domain>/api/revalidate/` (with the final slash);
+     - `site_revalidate_secret`: the same value as `CMS_REVALIDATE_SECRET`.
 
-Until the FTP secrets exist, the workflow builds the site as a check and skips the upload.
+When the website moves (another domain, Vercel → Hostinger), only
+`site_revalidate_url` changes, plus the environment variables on the new host.
+
+The earlier GitHub-based publishing (`github_dispatch_token`, `github_dispatch_repo`)
+is no longer used: delete those two Vault secrets and revoke the GitHub token.
 
 ### Checking it
 
-- GitHub → Actions → "Publish website": one run per publish (or per batch).
 - Supabase SQL editor: `select * from public.cms_auto_publish_status();` shows
-  whether both Vault secrets exist and GitHub's latest answers (204 = accepted,
-  401 = bad or expired token, 404 = wrong repository or missing permission).
-- If a run fails, publishing still works; the next publish or a manual run catches up.
+  whether both Vault secrets exist and the website's latest answers (200 = refreshed,
+  401 = the two secrets differ, 503 = `CMS_REVALIDATE_SECRET` missing on the host,
+  404 = wrong `site_revalidate_url`).
+- `https://<site>/cms-build.json`: `contentVersion` is the time of the last publish
+  the site shows; `live: true` means it reads the CMS directly.
 
 ## Limits and notes
 
 - The homepage structure (5 featured specialties, 5 treatments, the statistics) follows the approved design. The editors validate these counts.
-- Responsive image sizes for uploads are generated by `cms:sync` (WebP, 320–2560 px). The CMS itself shows the original file or its thumbnail.
-- Order changes take effect at the next build (automatic after publishing), like every published change.
+- Photos uploaded in the CMS are resized on request (WebP, 320–1920 px, never enlarged) and then cached by browsers and the CDN. The CMS itself shows the original file or its thumbnail.
+- Order changes and every other published change appear on the next visit after publishing.
 - The revision history keeps the 30 most recent versions of each record.

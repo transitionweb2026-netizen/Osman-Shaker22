@@ -5,7 +5,7 @@ import { FloatingContact } from "@/components/layout/FloatingContact";
 import { RevealObserver } from "@/components/layout/RevealObserver";
 import { SiteFooter } from "@/components/layout/SiteFooter";
 import { SiteHeader } from "@/components/layout/SiteHeader";
-import { cmsSnapshot, getSite } from "@/lib/content";
+import { getCmsSnapshotInfo, getSite } from "@/lib/content";
 import { whatsappHref } from "@/lib/contact";
 import { fontVariables } from "@/lib/fonts";
 import { isLocale, localeSettings, locales } from "@/lib/i18n";
@@ -77,7 +77,7 @@ export default async function LocaleLayout({ children, params }: LayoutProps<"/[
         <FloatingContact site={site} />
         <RevealObserver />
         {/* `npm run dev` only: open pages follow CMS publishes (not part of the static export). */}
-        {process.env.NODE_ENV === "development" && <CmsLiveReload version={cmsSnapshot.version ?? null} />}
+        {process.env.NODE_ENV === "development" && <CmsLiveReload version={(await getCmsSnapshotInfo()).version} />}
       </body>
     </html>
   );

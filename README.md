@@ -1,8 +1,9 @@
 # Dr. Othman Shaker — bilingual website
 
-Static, bilingual (English / Arabic) website built with Next.js 16 (App Router)
-and exported as plain HTML/CSS/JS for Hostinger. No Node.js server is needed in
-production.
+Bilingual (English / Arabic) website built with Next.js 16 (App Router), running
+as a Next.js server (Vercel, or a Node.js host such as Hostinger Business/Cloud).
+Pages are prerendered and cached, and content published in the CMS appears
+within seconds, with no build (see [docs/CMS.md](docs/CMS.md)).
 
 Pages (each in `/en/…` and `/ar/…`): Home, About the Doctor, Services, Videos,
 Reviews & FAQs, Articles, Contact.
@@ -16,15 +17,15 @@ Reviews & FAQs, Articles, Contact.
 
 ```bash
 npm install
-npm run dev          # http://localhost:3000 → /en/ or /ar/
-npm run build        # static export into out/
-npm run preview      # serves out/ like Hostinger does, http://localhost:4173
+npm run dev          # http://localhost:3005 → /en/ or /ar/ (follows the CMS)
+npm run build        # production build (pulls the CMS fallback snapshot first)
+npm start            # production server, http://localhost:3000 (npm run preview: port 3006)
 ```
 
 | Script | Purpose |
 | --- | --- |
-| `dev` / `build` | Next.js development server / static export to `out/` (after the placeholder check) |
-| `preview` | Serves `out/` (directory URLs → `index.html`, unknown paths → `404.html`) |
+| `dev` / `build` | Development server on port 3005 / production build (after the placeholder check) |
+| `start` / `preview` | Production server (`next start`), as on the host |
 | `lint`, `typecheck` | ESLint; route type generation + `tsc --noEmit` |
 | `images` | Converts photos in `assets-src/` into responsive WebP files in `public/media/` |
 | `og` | Regenerates social sharing images (`public/og/`) and the Apple touch icon |
@@ -162,7 +163,7 @@ Temporary photos are from Unsplash (Unsplash License); each entry in
 
 ## Languages and routing
 
-- Every page exists as `/en/…/` and `/ar/…/` static HTML with the correct
+- Every page exists as `/en/…/` and `/ar/…/` prerendered HTML with the correct
   `lang` and `dir`, so there is no flash of the wrong direction.
 - The EN / AR switcher links to the same page in the other language and saves
   the choice in `localStorage` (optional — switching works without it).
@@ -175,22 +176,27 @@ Temporary photos are from Unsplash (Unsplash License); each entry in
   phone numbers stay in Latin digits.
 - `lib/routes.ts` is the route registry. A future page can be registered with
   `live: false`: links then fall back to a homepage section or a non-clickable
-  "Soon" state, so the export never contains broken links.
+  "Soon" state, so the site never contains broken links.
 
-## Deploying to Hostinger
+## Deploying
 
-1. Create `.env.production` from `.env.example`:
-   - `NEXT_PUBLIC_SITE_URL=https://your-domain` (canonical URLs, Open Graph, sitemap)
-   - `NEXT_PUBLIC_ALLOW_INDEXING=true` for the launch build; leave it out for a preview
-   - optionally `NEXT_PUBLIC_CONTACT_FORM_ENDPOINT` (see "Contact form")
-2. If the CMS is connected: `npm run cms:sync` (pulls the published CMS content).
-   Then `npm run build`
-3. Upload the **contents** of `out/` (including the hidden `.htaccess`) into
-   `public_html/` with File Manager or FTP. The site must be served from the
-   domain root.
+The site needs a host that runs Next.js as a server (a static-only plan cannot
+show CMS edits without a rebuild):
 
-`.htaccess` sets the 404 page, compression and caching (hashed JS/CSS/fonts are
-cached for a year; HTML is always revalidated).
+- **Vercel** (current): the project deploys every push to `main`.
+- **Hostinger**: a Business or Cloud plan, as a Node.js web app connected to the
+  GitHub repository (build command `npm run build`, start command `npm start`).
+
+Environment variables on the host (see `.env.example`):
+
+- `NEXT_PUBLIC_SUPABASE_URL`, `NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY` (CMS)
+- `CMS_REVALIDATE_SECRET` (live updates, see docs/CMS.md)
+- `NEXT_PUBLIC_SITE_URL=https://your-domain` (canonical URLs, Open Graph, sitemap)
+- `NEXT_PUBLIC_ALLOW_INDEXING=true` for the launch; leave it out for a preview
+- optionally `NEXT_PUBLIC_CONTACT_FORM_ENDPOINT` (see "Contact form")
+
+Security headers (`X-Frame-Options`, `X-Content-Type-Options`, `Referrer-Policy`)
+are set in `next.config.ts`.
 
 `npm run build` runs the placeholder check first (`prebuild`):
 
@@ -216,8 +222,9 @@ cached for a year; HTML is always revalidated).
 - [ ] Consented patient reviews, each with the rating the patient gave
 - [ ] Doctor-approved FAQ answers (`content/faq.ts`)
 - [ ] `npm run check:content` lists only the two launch settings
-- [ ] Domain in `NEXT_PUBLIC_SITE_URL` and `NEXT_PUBLIC_ALLOW_INDEXING=true` in `.env.production`
-- [ ] `npm run build` completes (it stops while anything remains), upload `out/`
+- [ ] Domain in `NEXT_PUBLIC_SITE_URL` and `NEXT_PUBLIC_ALLOW_INDEXING=true` on the host
+- [ ] `npm run build` completes (it stops while anything remains)
+- [ ] Vault `site_revalidate_url` points at the final domain (docs/CMS.md, "Live updates")
 
 ## Notes
 

@@ -19,6 +19,7 @@ import type {
 } from "@/content/types";
 import { videosPage } from "@/content/videos";
 import { applySnapshot, type CmsSnapshot, type ContentTree } from "./cms/model";
+import { fetchPublishedSite, toSnapshot } from "./cms/published";
 import type { Locale } from "./i18n";
 import { localize, type Resolved } from "./localize";
 import { aboutDocument, assertRated, homeDocument, type AboutDocument, type HomeDocument } from "./resolve";
@@ -28,9 +29,10 @@ import type { RouteKey } from "./routes";
  * Where content comes from.
  *
  * The typed files in `content/` are the defaults. Content published in the
- * CMS (Supabase) is pulled into `content/cms-snapshot.json` by
- * `npm run cms:sync` and applied on top of them during `next build`, so the
- * exported HTML stays fully static and indexable (see `docs/CMS.md`).
+ * CMS (Supabase) is applied on top of them when a page is rendered: pages are
+ * cached and re-rendered right after each publish (lib/cms/published.ts), so
+ * they stay fast and indexable while edits appear within seconds. The
+ * snapshot pulled by `npm run cms:sync` is the fallback (see `docs/CMS.md`).
  */
 export interface ContentSource {
   getSiteContent(): Promise<SiteContent>;
@@ -54,20 +56,40 @@ const bundledContent: ContentTree = {
   contact: contactPage,
 };
 
-/** The published CMS snapshot, or `{ enabled: false }` before the first sync. */
-export const cmsSnapshot = snapshotJson as unknown as CmsSnapshot;
+/** The snapshot committed with the code (`npm run cms:sync`), used when Supabase cannot be reached. */
+const committedSnapshot = snapshotJson as unknown as CmsSnapshot;
 
-const content = applySnapshot(bundledContent, cmsSnapshot);
+/**
+ * Published CMS content: read live from Supabase (cached and refreshed on every
+ * publish, see lib/cms/published.ts), or the committed snapshot as a fallback.
+ */
+const currentSnapshot = cache(async (): Promise<CmsSnapshot & { live: boolean }> => {
+  const site = await fetchPublishedSite();
+  return site ? { ...toSnapshot(site), live: true } : { ...committedSnapshot, live: false };
+});
+
+const currentContent = cache(async (): Promise<ContentTree> => applySnapshot(bundledContent, await currentSnapshot()));
+
+/** Which published content the site shows, for /cms-build.json and the development live reload. */
+export async function getCmsSnapshotInfo() {
+  const snapshot = await currentSnapshot();
+  return {
+    enabled: snapshot.enabled,
+    version: snapshot.version ?? null,
+    syncedAt: snapshot.syncedAt ?? null,
+    live: snapshot.live,
+  };
+}
 
 const source: ContentSource = {
-  getSiteContent: async () => content.site,
-  getHomePage: async () => content.home,
-  getAboutPage: async () => content.about,
-  getServicesPage: async () => content.services,
-  getVideosPage: async () => content.videos,
-  getReviewsPage: async () => content.reviews,
-  getArticlesPage: async () => content.articles,
-  getContactPage: async () => content.contact,
+  getSiteContent: async () => (await currentContent()).site,
+  getHomePage: async () => (await currentContent()).home,
+  getAboutPage: async () => (await currentContent()).about,
+  getServicesPage: async () => (await currentContent()).services,
+  getVideosPage: async () => (await currentContent()).videos,
+  getReviewsPage: async () => (await currentContent()).reviews,
+  getArticlesPage: async () => (await currentContent()).articles,
+  getContactPage: async () => (await currentContent()).contact,
 };
 
 export type Site = Resolved<SiteContent>;

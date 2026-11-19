@@ -32,6 +32,11 @@ export type MediaAsset = Placeholder & {
   credit?: string;
   /** CMS media library entry (`cms_media.id`); `npm run cms:sync` sets `src` from it. */
   assetId?: string;
+  /**
+   * Size of the original upload. Set by the website server (never stored) when `src`
+   * points at the runtime media route `/cms-media/<id>` (lib/cms/published.ts).
+   */
+  dimensions?: { width: number; height: number };
 };
 
 export type VideoSource =

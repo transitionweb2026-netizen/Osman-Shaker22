@@ -12,6 +12,10 @@
 /.next/
 /out/
 
+# Resized copies of photos uploaded in the CMS, written by `npm run cms:sync`
+# (every build and `npm run dev` recreate them; the live site serves uploads from Supabase)
+/public/media/cms-*
+
 # production
 /build
 

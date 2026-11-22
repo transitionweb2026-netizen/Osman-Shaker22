@@ -13,6 +13,16 @@
 
 begin;
 
+-- Safety check: stop unless this is Dr. Othman Shaker's project (pbzdlhuhilmotmdnyzfk),
+-- recognised by its own service groups. Other CMS projects share the same tables.
+do $$
+begin
+  if not exists (select 1 from public.cms_service_groups where slug = 'medical-specialties')
+     or not exists (select 1 from public.cms_service_groups where slug = 'consultation-care') then
+    raise exception 'Wrong project: this file is for Dr. Othman Shaker''s website (Supabase project pbzdlhuhilmotmdnyzfk). Nothing was changed.';
+  end if;
+end $$;
+
 -- Groups: after the existing ones, in this order
 insert into public.cms_service_groups (slug, sort_order, draft, published, published_at)
 select g.slug,

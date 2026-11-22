@@ -1,7 +1,7 @@
 {
   "enabled": true,
-  "syncedAt": "2026-11-19T14:09:02.933Z",
-  "version": "2026-11-19T14:08:55.962474+00:00",
+  "syncedAt": "2026-11-22T09:08:32.162Z",
+  "version": "2026-11-19T15:19:27.70037+00:00",
   "documents": {
     "home.faq": {
       "title": {
@@ -900,16 +900,16 @@
         "positionMobile": "70% 50%"
       },
       "title": {
-        "ar": "فهم رعاية الأورام",
-        "en": "Understanding cancer care"
+        "ar": "دليلك لفهم الحالات الجراحية وطرق علاجها",
+        "en": "Your Guide to Understanding Surgical Conditions and Treatments"
       },
       "eyebrow": {
         "ar": "المقالات",
         "en": "Articles"
       },
       "description": {
-        "ar": "مقالات عملية بلغة بسيطة تساعدك على الاستعداد للمواعيد وفهم العلاج والعناية بنفسك.",
-        "en": "Practical, plain-language articles to help you prepare for appointments, understand treatment and look after yourself."
+        "ar": "اكتشف مجموعة من المقالات الطبية عن الجراحة العامة وجراحة الأورام والمناظير، بمعلومات موثوقة تساعدك على فهم حالتك والخيارات العلاجية المتاحة.",
+        "en": "Explore a collection of medical articles on general surgery, surgical oncology, and laparoscopic procedures, offering reliable insights to help you understand your condition and available treatment options."
       }
     },
     "reviews.intro": {
@@ -940,16 +940,16 @@
         "positionMobile": "75% 30%"
       },
       "title": {
-        "ar": "التخصصات والعلاجات والرعاية المستمرة",
-        "en": "Specialties, treatments and ongoing care"
+        "ar": "رعاية جراحية متخصصة ترتكز على دقة التشخيص",
+        "en": "Specialized Surgical Care Based on Accurate Diagnosis"
       },
       "eyebrow": {
         "ar": "الخدمات",
         "en": "Services"
       },
       "description": {
-        "ar": "نظرة شاملة على أنواع الأورام التي نتعامل معها، والعلاجات التي قد يُوصى بها، والدعم المقدَّم في كل مرحلة. اختر أي بطاقة لمزيد من التفاصيل.",
-        "en": "An overview of the cancers treated, the treatments that may be recommended and the support offered along the way. Select any card for more detail."
+        "ar": "تعرف على الخدمات الطبية التي يقدمها د. عثمان شاكر في الجراحة العامة وجراحة الأورام والمناظير، مع اختيار أنسب الحلول الجراحية وفقًا لطبيعة كل حالة واحتياجاتها.\n\n",
+        "en": "Explore the medical services provided by Dr. Osman Shaker in general surgery, surgical oncology, and laparoscopic surgery, with personalized surgical solutions tailored to each patient's condition and needs."
       }
     },
     "home.whyChoose": {
@@ -1319,8 +1319,8 @@
     },
     "articles.settings": {
       "moreTitle": {
-        "ar": "مقالات أخرى",
-        "en": "More articles"
+        "ar": "المعرفة الطبية",
+        "en": "Medical Knowledge"
       },
       "featuredId": "first-consultation",
       "featuredLabel": {
@@ -1486,6 +1486,108 @@
           "description": {
             "ar": "مراحل الرحلة العلاجية كخدمات قائمة بذاتها، ومنها الرأي الطبي الثاني المستقل.",
             "en": "The stages of the patient journey, offered as services in their own right — including independent second opinions."
+          }
+        }
+      },
+      {
+        "slug": "hernia-surgery",
+        "content": {
+          "title": {
+            "ar": "الفتق وجدار البطن",
+            "en": "Hernias and the abdominal wall"
+          },
+          "eyebrow": {
+            "ar": "جراحة الفتق",
+            "en": "Hernia surgery"
+          },
+          "description": {
+            "ar": "تقييم وإصلاح فتق الأربية والسرة وفتق الجروح السابقة، بالجراحة المفتوحة أو بالمنظار، وفق الحالة الصحية ونمط الحياة لكل مريض.",
+            "en": "Assessment and repair of hernias of the groin, the navel and previous scars, open or laparoscopic, planned around each patient's health and daily life."
+          }
+        }
+      },
+      {
+        "slug": "gallbladder-surgery",
+        "content": {
+          "title": {
+            "ar": "جراحة المرارة والقنوات المرارية",
+            "en": "Gallbladder and bile duct surgery"
+          },
+          "eyebrow": {
+            "ar": "المرارة",
+            "en": "Gallbladder"
+          },
+          "description": {
+            "ar": "رعاية حصوات المرارة ومضاعفاتها، مع اعتماد الجراحة بالمنظار عادةً عندما يُوصى بالتدخل الجراحي.",
+            "en": "Care for gallstones and their complications, with laparoscopic surgery as the usual approach when an operation is recommended."
+          }
+        }
+      },
+      {
+        "slug": "colorectal-surgery",
+        "content": {
+          "title": {
+            "ar": "جراحة القولون والمستقيم والشرج",
+            "en": "Colorectal and anal surgery"
+          },
+          "eyebrow": {
+            "ar": "القولون والمستقيم",
+            "en": "Colon & rectum"
+          },
+          "description": {
+            "ar": "من أورام القولون والمستقيم إلى المشكلات الشائعة التي قد يتحرّج البعض من الحديث عنها، مثل البواسير والشرخ والناسور، تُناقش بصراحة وتُعالج بعناية.",
+            "en": "From colon and rectal tumors to common problems that people often find hard to talk about, such as hemorrhoids, fissures and fistulas — discussed openly and treated with care."
+          }
+        }
+      },
+      {
+        "slug": "upper-gi-surgery",
+        "content": {
+          "title": {
+            "ar": "جراحة المريء والمعدة",
+            "en": "Esophageal and stomach surgery"
+          },
+          "eyebrow": {
+            "ar": "المريء والمعدة",
+            "en": "Esophagus & stomach"
+          },
+          "description": {
+            "ar": "رعاية جراحية لحالات الارتجاع وفتق الحجاب الحاجز وأورام المعدة ومضاعفات القرحة، بعد تقييم دقيق للأعراض ونتائج الفحوص.",
+            "en": "Surgical care for reflux and hiatal hernia, stomach tumors and the complications of ulcers, after a careful assessment of symptoms and test results."
+          }
+        }
+      },
+      {
+        "slug": "endocrine-surgery",
+        "content": {
+          "title": {
+            "ar": "جراحة الغدة الدرقية والجار درقية والكظرية",
+            "en": "Thyroid, parathyroid and adrenal surgery"
+          },
+          "eyebrow": {
+            "ar": "الغدد الصماء",
+            "en": "Endocrine glands"
+          },
+          "description": {
+            "ar": "عمليات على الغدد المسؤولة عن الهرمونات، تُخطَّط مع أطباء الغدد الصماء وتسترشد بالتحاليل والأشعة والعينات عند الحاجة.",
+            "en": "Operations on the hormone glands, planned with endocrinologists and guided by blood tests, imaging and, when needed, biopsies."
+          }
+        }
+      },
+      {
+        "slug": "surgical-oncology",
+        "content": {
+          "title": {
+            "ar": "جراحة الأورام والإجراءات المصاحبة",
+            "en": "Tumor surgery and related procedures"
+          },
+          "eyebrow": {
+            "ar": "جراحة الأورام",
+            "en": "Surgical oncology"
+          },
+          "description": {
+            "ar": "عمليات وإجراءات تمثل جزءًا من رعاية الأورام، من استئصال الأورام إلى أخذ العينات وتركيب البورت، بالتنسيق مع باقي الخطة العلاجية.",
+            "en": "Operations and procedures that are part of cancer care — from removing tumors to taking biopsies and placing ports — coordinated with the rest of the treatment plan."
           }
         }
       }
@@ -2399,6 +2501,1182 @@
           "isPlaceholder": true
         },
         "parent": "consultation-care"
+      },
+      {
+        "slug": "inguinal-hernia",
+        "content": {
+          "image": {
+            "alt": {
+              "ar": "طبيب يقيس ضغط الدم لمريضة",
+              "en": "A doctor measuring a patient's blood pressure"
+            },
+            "src": "/media/video-first-visit",
+            "credit": "Unsplash — https://images.unsplash.com/photo-1631815588090-d4bfec5b1ccb",
+            "assetId": "e88aadc6-d69f-4a6d-8d6d-e883c28d97f9",
+            "position": "50% 40%",
+            "isPlaceholder": true
+          },
+          "title": {
+            "ar": "الفتق الإربي",
+            "en": "Inguinal hernia"
+          },
+          "details": [
+            {
+              "text": {
+                "ar": "يحدث الفتق الإربي عندما تبرز أنسجة من نقطة ضعف في جدار البطن السفلي، فيظهر انتفاخ في منطقة الأربية قد يؤلم عند رفع الأشياء أو السعال أو الوقوف طويلًا.",
+                "en": "An inguinal hernia happens when tissue pushes through a weak spot in the lower abdominal wall, causing a bulge in the groin that may ache when lifting, coughing or standing for long."
+              },
+              "type": "paragraph"
+            },
+            {
+              "text": {
+                "ar": "ما قد تشمله الرعاية",
+                "en": "What care may include"
+              },
+              "type": "heading"
+            },
+            {
+              "type": "list",
+              "items": {
+                "ar": [
+                  "فحص سريري، وأشعة بالموجات فوق الصوتية عند الحاجة",
+                  "الإصلاح باستخدام شبكة جراحية بالجراحة المفتوحة أو بالمنظار",
+                  "إرشادات العودة إلى العمل ورفع الأشياء وممارسة الرياضة",
+                  "تقييم عاجل إذا أصبح الانتفاخ مؤلمًا أو صلبًا أو تعذّر إرجاعه"
+                ],
+                "en": [
+                  "Clinical examination and, when needed, an ultrasound",
+                  "Repair with a surgical mesh, open or laparoscopic",
+                  "Advice on returning to work, lifting and exercise",
+                  "Urgent assessment if the bulge becomes painful, hard or cannot be pushed back"
+                ]
+              }
+            }
+          ],
+          "summary": {
+            "ar": "انتفاخ في منطقة الأربية يُقيَّم ويُصلَح غالبًا باستخدام شبكة جراحية، وكثيرًا ما يكون ذلك بالمنظار.",
+            "en": "A bulge in the groin, assessed and repaired with a surgical mesh, often by laparoscopy."
+          },
+          "isPlaceholder": true
+        },
+        "parent": "hernia-surgery"
+      },
+      {
+        "slug": "umbilical-hernia",
+        "content": {
+          "image": {
+            "alt": {
+              "ar": "أخصائية تقيس ضغط الدم لمريضة خلال زيارتها",
+              "en": "A clinician measuring a patient's blood pressure during a visit"
+            },
+            "src": "/media/cta-consultation",
+            "credit": "Unsplash — https://images.unsplash.com/photo-1631815589968-fdb09a223b1e",
+            "assetId": "abcd87d6-5b17-4537-9561-a7d97d010da1",
+            "position": "40% 35%",
+            "isPlaceholder": true
+          },
+          "title": {
+            "ar": "الفتق السري",
+            "en": "Umbilical hernia"
+          },
+          "details": [
+            {
+              "text": {
+                "ar": "يظهر الفتق السري أو المجاور للسرة على شكل انتفاخ عند السرة أو حولها، ويزداد شيوعه مع زيادة الوزن أو الحمل أو السعال المزمن.",
+                "en": "Umbilical and paraumbilical hernias appear as a bulge at or around the navel. They are more common with weight gain, pregnancy or a persistent cough."
+              },
+              "type": "paragraph"
+            },
+            {
+              "text": {
+                "ar": "ما قد تشمله الرعاية",
+                "en": "What care may include"
+              },
+              "type": "heading"
+            },
+            {
+              "type": "list",
+              "items": {
+                "ar": [
+                  "تقييم حجم الفتق ومحتواه",
+                  "الإصلاح بالغرز أو بالشبكة الجراحية حسب حجمه",
+                  "إرشادات بشأن الوزن والنشاط للحد من تكرار الفتق",
+                  "مراجعة عاجلة عند ظهور ألم أو احمرار أو قيء"
+                ],
+                "en": [
+                  "Assessing the size of the hernia and its contents",
+                  "Repair with stitches or a mesh, depending on its size",
+                  "Guidance on weight and activity to reduce recurrence",
+                  "Urgent review if pain, redness or vomiting appear"
+                ]
+              }
+            }
+          ],
+          "summary": {
+            "ar": "فتق عند السرة أو بالقرب منها يُصلَح لتخفيف الأعراض والوقاية من المضاعفات.",
+            "en": "Hernias at or near the navel, repaired to relieve symptoms and prevent complications."
+          },
+          "isPlaceholder": true
+        },
+        "parent": "hernia-surgery"
+      },
+      {
+        "slug": "incisional-hernia",
+        "content": {
+          "image": {
+            "alt": {
+              "ar": "أطباء يراجعون صورًا طبية معًا في مكتب عيادة مضيء",
+              "en": "Doctors reviewing medical images together in a bright clinic office"
+            },
+            "src": "/media/why-choose",
+            "credit": "Unsplash — https://images.unsplash.com/photo-1666214277657-e60f05c40b04",
+            "assetId": "89cbb8d2-bf85-43ca-8694-7e098022dcdd",
+            "position": "72% 40%",
+            "isPlaceholder": true
+          },
+          "title": {
+            "ar": "الفتق الجراحي",
+            "en": "Incisional hernia"
+          },
+          "details": [
+            {
+              "text": {
+                "ar": "ينشأ الفتق الجراحي حين لا يلتئم جدار البطن تمامًا بعد عملية سابقة، ويُصمَّم إصلاحه بحسب حجمه وطبيعة العملية السابقة والحالة الصحية العامة.",
+                "en": "An incisional hernia develops where the abdominal wall did not heal fully after surgery. Its repair is tailored to its size, the previous operation and the patient's general health."
+              },
+              "type": "paragraph"
+            },
+            {
+              "text": {
+                "ar": "قد يشمل التخطيط",
+                "en": "Planning may include"
+              },
+              "type": "heading"
+            },
+            {
+              "type": "list",
+              "items": {
+                "ar": [
+                  "فحوص تصويرية مثل الأشعة المقطعية لقياس الفتحة",
+                  "التحضير للجراحة، بما في ذلك إرشادات الوزن والتدخين",
+                  "الإصلاح بالشبكة الجراحية بالجراحة المفتوحة أو بالمنظار",
+                  "المتابعة للتأكد من التئام الجرح وجدار البطن"
+                ],
+                "en": [
+                  "Imaging such as a CT scan to measure the defect",
+                  "Preparing for surgery, including advice on weight and smoking",
+                  "Mesh repair, open or laparoscopic",
+                  "Follow-up to check the healing of the wound and the abdominal wall"
+                ]
+              }
+            }
+          ],
+          "summary": {
+            "ar": "فتق يظهر مكان جرح عملية سابقة، ويُخطَّط لإصلاحه بعناية وفق حجمه وموضعه.",
+            "en": "A hernia at the scar of a previous operation, planned carefully because of its size and position."
+          },
+          "isPlaceholder": true
+        },
+        "parent": "hernia-surgery"
+      },
+      {
+        "slug": "laparoscopic-cholecystectomy",
+        "content": {
+          "image": {
+            "alt": {
+              "ar": "طبيبة تشرح صورة أشعة مقطعية معروضة على شاشة الحاسوب",
+              "en": "A doctor explaining a CT scan displayed on a computer screen"
+            },
+            "src": "/media/intro-video-poster",
+            "credit": "Unsplash — https://images.unsplash.com/photo-1666214280557-f1b5022eb634",
+            "assetId": "8e45b362-0d4b-4529-868e-7ac410c441a9",
+            "position": "55% 45%",
+            "isPlaceholder": true
+          },
+          "title": {
+            "ar": "استئصال المرارة بالمنظار",
+            "en": "Laparoscopic gallbladder removal"
+          },
+          "details": [
+            {
+              "text": {
+                "ar": "عندما تسبب حصوات المرارة ألمًا أو مضاعفات، يُوصى عادةً باستئصال المرارة بالمنظار، ويعود معظم المرضى إلى منازلهم خلال يوم أو يومين ثم يستأنفون نشاطهم تدريجيًا.",
+                "en": "When gallstones cause pain or complications, removing the gallbladder by laparoscopy is usually recommended. Most people go home within a day or two and return to their activities gradually."
+              },
+              "type": "paragraph"
+            },
+            {
+              "text": {
+                "ar": "ما يمكن توقعه",
+                "en": "What to expect"
+              },
+              "type": "heading"
+            },
+            {
+              "type": "list",
+              "items": {
+                "ar": [
+                  "أشعة بالموجات فوق الصوتية وتحاليل دم قبل العملية",
+                  "تخدير كلي وبضع فتحات صغيرة",
+                  "تسكين الألم والحركة المبكرة بعد الجراحة",
+                  "إرشادات حول الغذاء والنشاط خلال فترة التعافي"
+                ],
+                "en": [
+                  "An ultrasound and blood tests before the operation",
+                  "General anesthesia and a few small incisions",
+                  "Pain relief and walking early after surgery",
+                  "Advice on diet and activity during recovery"
+                ]
+              }
+            }
+          ],
+          "summary": {
+            "ar": "العملية المعتادة لحصوات المرارة المسببة للأعراض، عبر فتحات صغيرة مع إقامة قصيرة في المستشفى.",
+            "en": "The usual operation for gallstones that cause symptoms, through small incisions with a short hospital stay."
+          },
+          "isPlaceholder": true
+        },
+        "parent": "gallbladder-surgery"
+      },
+      {
+        "slug": "acute-cholecystitis",
+        "content": {
+          "image": {
+            "alt": {
+              "ar": "طبيب يفحص صور الأشعة على لوح الإضاءة",
+              "en": "A doctor examining scan images on a light box"
+            },
+            "src": "/media/specialty-thoracic",
+            "credit": "Unsplash — https://images.unsplash.com/photo-1581595219315-a187dd40c322",
+            "assetId": "6882b810-4069-487b-b2ab-3c4d4aee3756",
+            "position": "60% 35%",
+            "isPlaceholder": true
+          },
+          "title": {
+            "ar": "التهاب المرارة الحاد",
+            "en": "Acute cholecystitis"
+          },
+          "details": [
+            {
+              "text": {
+                "ar": "يسبب التهاب المرارة الحاد ألمًا مستمرًا في أعلى البطن من الجهة اليمنى، وكثيرًا ما يصاحبه ارتفاع في الحرارة وغثيان. يبدأ العلاج في المستشفى، ويُنصح عادةً باستئصال المرارة مبكرًا أو بعد هدوء الالتهاب.",
+                "en": "Acute cholecystitis causes persistent pain in the upper right abdomen, often with fever and nausea. Treatment starts in hospital, and removing the gallbladder is usually advised, early or once the inflammation settles."
+              },
+              "type": "paragraph"
+            },
+            {
+              "text": {
+                "ar": "علامات تستدعي رعاية عاجلة",
+                "en": "Signs that need urgent care"
+              },
+              "type": "heading"
+            },
+            {
+              "type": "list",
+              "items": {
+                "ar": [
+                  "ألم شديد أسفل الضلوع اليمنى يستمر عدة ساعات",
+                  "ارتفاع الحرارة أو الرعشة",
+                  "اصفرار العينين أو الجلد",
+                  "القيء المتكرر"
+                ],
+                "en": [
+                  "Severe pain under the right ribs lasting several hours",
+                  "Fever or shivering",
+                  "Yellowing of the eyes or skin",
+                  "Repeated vomiting"
+                ]
+              }
+            }
+          ],
+          "summary": {
+            "ar": "التهاب مفاجئ في المرارة يحدث غالبًا بسبب حصوة، ويحتاج إلى تقييم سريع.",
+            "en": "Sudden inflammation of the gallbladder, usually caused by a gallstone, which needs prompt assessment."
+          },
+          "isPlaceholder": true
+        },
+        "parent": "gallbladder-surgery"
+      },
+      {
+        "slug": "bile-duct-stones",
+        "content": {
+          "image": {
+            "alt": {
+              "ar": "طبيبان يراجعان صورًا طبية على شاشات الحاسوب",
+              "en": "Two doctors reviewing medical images on computer screens"
+            },
+            "src": "/media/page-services",
+            "credit": "Unsplash — https://images.unsplash.com/photo-1666214280391-8ff5bd3c0bf0",
+            "assetId": "a8cbbda9-720a-48db-9ee1-0e8ad399cbb6",
+            "position": "70% 35%",
+            "isPlaceholder": true,
+            "positionMobile": "75% 30%"
+          },
+          "title": {
+            "ar": "حصوات القناة المرارية",
+            "en": "Bile duct stones"
+          },
+          "details": [
+            {
+              "text": {
+                "ar": "قد تنتقل حصوات المرارة إلى القناة المرارية الرئيسية فتعيق تدفق العصارة الصفراوية، مسببةً الصفراء أو الألم أو الالتهاب. وكثيرًا ما تُستخرج بالمنظار الداخلي (ERCP)، ثم تُستأصل المرارة بعد ذلك.",
+                "en": "Gallstones can pass into the common bile duct and block the flow of bile, causing jaundice, pain or infection. They are often removed by endoscopy (ERCP), and the gallbladder is removed afterwards."
+              },
+              "type": "paragraph"
+            },
+            {
+              "text": {
+                "ar": "ما قد تشمله الرعاية",
+                "en": "What care may include"
+              },
+              "type": "heading"
+            },
+            {
+              "type": "list",
+              "items": {
+                "ar": [
+                  "تحاليل دم وفحوص تصويرية مثل الرنين المغناطيسي للقنوات المرارية",
+                  "التنسيق مع فريق المناظير",
+                  "تحديد موعد استئصال المرارة بعد تنظيف القناة",
+                  "متابعة تحاليل وظائف الكبد"
+                ],
+                "en": [
+                  "Blood tests and imaging such as an MRCP",
+                  "Coordination with the endoscopy team",
+                  "Timing the gallbladder removal once the duct is cleared",
+                  "Follow-up of liver tests"
+                ]
+              }
+            }
+          ],
+          "summary": {
+            "ar": "حصوات تنتقل إلى القناة المرارية، وتُعالج بالتنسيق مع أطباء المناظير.",
+            "en": "Stones that move into the bile duct, treated in coordination with endoscopy specialists."
+          },
+          "isPlaceholder": true
+        },
+        "parent": "gallbladder-surgery"
+      },
+      {
+        "slug": "colorectal-tumors",
+        "content": {
+          "image": {
+            "alt": {
+              "ar": "طبيبان يناقشان صورًا طبية على الشاشة",
+              "en": "Two doctors discussing medical images on a monitor"
+            },
+            "src": "/media/specialty-gastrointestinal",
+            "credit": "Unsplash — https://images.unsplash.com/photo-1666214280391-8ff5bd3c0bf0",
+            "assetId": "525b44fb-2e95-4978-b369-d7f88d54b40e",
+            "position": "68% 40%",
+            "isPlaceholder": true
+          },
+          "title": {
+            "ar": "جراحة أورام القولون والمستقيم",
+            "en": "Colorectal tumor surgery"
+          },
+          "details": [
+            {
+              "text": {
+                "ar": "يُعد استئصال الجزء المصاب من القولون أو المستقيم مع الغدد الليمفاوية المجاورة محورًا أساسيًا في علاج معظم أورام القولون والمستقيم، وتُتفق الخطة مع فريق الأورام، وقد تشمل علاجًا قبل العملية أو بعدها.",
+                "en": "Removing the affected part of the colon or rectum, with the nearby lymph nodes, is central to treating most colorectal tumors. The plan is agreed with the oncology team and may include treatment before or after the operation."
+              },
+              "type": "paragraph"
+            },
+            {
+              "text": {
+                "ar": "ما قد تشمله الرعاية",
+                "en": "What care may include"
+              },
+              "type": "heading"
+            },
+            {
+              "type": "list",
+              "items": {
+                "ar": [
+                  "مراجعة نتائج منظار القولون والعينة والأشعة",
+                  "مناقشة العملية واحتمال الحاجة إلى فتحة مؤقتة أو دائمة في البطن",
+                  "برنامج التعافي السريع بعد الجراحة",
+                  "المتابعة مع فريق الأورام"
+                ],
+                "en": [
+                  "Reviewing colonoscopy, biopsy and scan results",
+                  "Discussing the operation and whether a stoma may be needed",
+                  "An enhanced recovery program after surgery",
+                  "Follow-up with the oncology team"
+                ]
+              }
+            }
+          ],
+          "summary": {
+            "ar": "الجراحة كجزء من خطة علاجية متفق عليها مع فريق الأورام، بالجراحة المفتوحة أو بالمنظار.",
+            "en": "Surgery as part of a plan agreed with the oncology team, open or laparoscopic."
+          },
+          "isPlaceholder": true
+        },
+        "parent": "colorectal-surgery"
+      },
+      {
+        "slug": "hemorrhoids",
+        "content": {
+          "image": {
+            "alt": {
+              "ar": "كبسولات دوائية بجوار عبوة دواء على خلفية برتقالية",
+              "en": "Capsules beside a medicine bottle on an orange background"
+            },
+            "src": "/media/treatment-hormonal",
+            "credit": "Unsplash — https://images.unsplash.com/photo-1587854692152-cbe660dbde88",
+            "assetId": "bd46c518-4e71-45d9-beab-845fba0338eb",
+            "position": "62% 50%",
+            "isPlaceholder": true
+          },
+          "title": {
+            "ar": "البواسير",
+            "en": "Hemorrhoids"
+          },
+          "details": [
+            {
+              "text": {
+                "ar": "قد تسبب البواسير نزيفًا أو تورمًا أو انزعاجًا، ويتحسن كثير منها بالألياف والسوائل والأدوية، بينما قد تحتاج الحالات المستمرة أو المتقدمة إلى إجراء بسيط أو جراحة.",
+                "en": "Hemorrhoids can cause bleeding, swelling or discomfort. Many improve with fiber, fluids and medicines; persistent or advanced cases may need a procedure or surgery."
+              },
+              "type": "paragraph"
+            },
+            {
+              "text": {
+                "ar": "معلومات مهمة",
+                "en": "Good to know"
+              },
+              "type": "heading"
+            },
+            {
+              "type": "list",
+              "items": {
+                "ar": [
+                  "ينبغي فحص أي نزيف من الشرج دائمًا، حتى عند الاشتباه في البواسير",
+                  "يعتمد العلاج على درجة البواسير والأعراض",
+                  "تجنّب الإمساك يساعد على منع تكرارها"
+                ],
+                "en": [
+                  "Rectal bleeding should always be examined, even when hemorrhoids are suspected",
+                  "Treatment depends on the grade of the hemorrhoids and on the symptoms",
+                  "Avoiding constipation helps prevent recurrence"
+                ]
+              }
+            }
+          ],
+          "summary": {
+            "ar": "علاج يتناسب مع درجة البواسير، من الغذاء والأدوية إلى الإجراءات البسيطة والجراحة.",
+            "en": "Treatment matched to the grade of the hemorrhoids, from diet and medicines to simple procedures and surgery."
+          },
+          "isPlaceholder": true
+        },
+        "parent": "colorectal-surgery"
+      },
+      {
+        "slug": "anal-fissure",
+        "content": {
+          "image": {
+            "alt": {
+              "ar": "صيدلي يراجع عبوة دواء",
+              "en": "A pharmacist reviewing a medicine bottle"
+            },
+            "src": "/media/video-medications",
+            "credit": "Unsplash — https://images.unsplash.com/photo-1580281658626-ee379f3cce93",
+            "assetId": "fd6ed902-819b-415b-a2ac-0ff28de0872c",
+            "position": "50% 30%",
+            "isPlaceholder": true
+          },
+          "title": {
+            "ar": "الشرخ الشرجي",
+            "en": "Anal fissure"
+          },
+          "details": [
+            {
+              "text": {
+                "ar": "يسبب الشرخ الشرجي ألمًا حادًا وحرقانًا أثناء التبرز وبعده، وأحيانًا نزيفًا بسيطًا. يلتئم معظمه بملينات البراز والكريمات العلاجية، وقد يحتاج الشرخ المزمن إلى جراحة بسيطة.",
+                "en": "An anal fissure causes sharp, burning pain during and after bowel movements, sometimes with light bleeding. Most heal with stool softeners and prescribed creams; long-standing fissures may need a minor operation."
+              },
+              "type": "paragraph"
+            },
+            {
+              "text": {
+                "ar": "ما قد تشمله الرعاية",
+                "en": "What care may include"
+              },
+              "type": "heading"
+            },
+            {
+              "type": "list",
+              "items": {
+                "ar": [
+                  "فحص لتأكيد التشخيص",
+                  "إرشادات غذائية وملينات وكريمات علاجية",
+                  "حقن البوتوكس أو جراحة بسيطة للشرخ الذي لا يلتئم"
+                ],
+                "en": [
+                  "An examination to confirm the diagnosis",
+                  "Diet advice, stool softeners and prescribed creams",
+                  "A Botox injection or a minor operation for fissures that do not heal"
+                ]
+              }
+            }
+          ],
+          "summary": {
+            "ar": "تمزق صغير يسبب ألمًا حادًا أثناء التبرز، ويُعالج عادةً دون جراحة في البداية.",
+            "en": "A small tear that causes sharp pain with bowel movements, usually treated without surgery first."
+          },
+          "isPlaceholder": true
+        },
+        "parent": "colorectal-surgery"
+      },
+      {
+        "slug": "anal-fistula",
+        "content": {
+          "image": {
+            "alt": {
+              "ar": "أخصائية تقيس ضغط الدم لمريضة خلال زيارتها",
+              "en": "A clinician measuring a patient's blood pressure during a visit"
+            },
+            "src": "/media/cta-consultation",
+            "credit": "Unsplash — https://images.unsplash.com/photo-1631815589968-fdb09a223b1e",
+            "assetId": "abcd87d6-5b17-4537-9561-a7d97d010da1",
+            "position": "40% 35%",
+            "isPlaceholder": true
+          },
+          "title": {
+            "ar": "الناسور والخراج الشرجي",
+            "en": "Anal fistula and abscess"
+          },
+          "details": [
+            {
+              "text": {
+                "ar": "يسبب الخراج بجوار فتحة الشرج تورمًا مؤلمًا وارتفاعًا في الحرارة، ويحتاج إلى تصريف. وقد يترك بعض الخراجات ناسورًا، وهو قناة صغيرة تفرز إفرازات، ويُعالج بإجراء يُختار للحفاظ على عضلات التحكم.",
+                "en": "An abscess near the anus causes painful swelling and fever and needs drainage. Some abscesses leave a fistula, a small tunnel that discharges, which is treated with a procedure chosen to protect the sphincter muscles."
+              },
+              "type": "paragraph"
+            },
+            {
+              "text": {
+                "ar": "ما قد تشمله الرعاية",
+                "en": "What care may include"
+              },
+              "type": "heading"
+            },
+            {
+              "type": "list",
+              "items": {
+                "ar": [
+                  "تصريف الخراج دون تأخير",
+                  "رنين مغناطيسي لتحديد مسار الناسور المعقّد عند الحاجة",
+                  "إجراء مناسب لكل حالة، وأحيانًا على مراحل",
+                  "العناية بالجرح والمتابعة حتى الالتئام"
+                ],
+                "en": [
+                  "Prompt drainage of an abscess",
+                  "An MRI to map a complex fistula when needed",
+                  "A procedure tailored to each case, sometimes in stages",
+                  "Wound care and follow-up until healed"
+                ]
+              }
+            }
+          ],
+          "summary": {
+            "ar": "تصريف الخراج وعلاج الناسور مع الحفاظ على التحكم في الإخراج.",
+            "en": "Draining an abscess and treating a fistula while protecting continence."
+          },
+          "isPlaceholder": true
+        },
+        "parent": "colorectal-surgery"
+      },
+      {
+        "slug": "hiatal-hernia-reflux",
+        "content": {
+          "image": {
+            "alt": {
+              "ar": "طبيبان يناقشان صورًا طبية على الشاشة",
+              "en": "Two doctors discussing medical images on a monitor"
+            },
+            "src": "/media/specialty-gastrointestinal",
+            "credit": "Unsplash — https://images.unsplash.com/photo-1666214280391-8ff5bd3c0bf0",
+            "assetId": "525b44fb-2e95-4978-b369-d7f88d54b40e",
+            "position": "68% 40%",
+            "isPlaceholder": true
+          },
+          "title": {
+            "ar": "فتق الحجاب الحاجز والارتجاع",
+            "en": "Hiatal hernia and reflux"
+          },
+          "details": [
+            {
+              "text": {
+                "ar": "يسمح فتق الحجاب الحاجز بانزلاق جزء من المعدة إلى التجويف الصدري، وقد يزيد الارتجاع الحمضي سوءًا. يُعالج معظم المرضى بالأدوية وتغيير نمط الحياة، وتُدرس الجراحة عند استمرار الأعراض أو حدوث مضاعفات أو كِبر حجم الفتق.",
+                "en": "A hiatal hernia lets part of the stomach slide up into the chest and can make acid reflux worse. Most people are treated with medicines and lifestyle changes; surgery is considered for persistent symptoms, complications or large hernias."
+              },
+              "type": "paragraph"
+            },
+            {
+              "text": {
+                "ar": "قبل اتخاذ قرار الجراحة",
+                "en": "Before deciding on surgery"
+              },
+              "type": "heading"
+            },
+            {
+              "type": "list",
+              "items": {
+                "ar": [
+                  "منظار علوي لفحص المريء والمعدة",
+                  "فحوص البلع والحموضة عند الحاجة",
+                  "إصلاح الفتق بالمنظار مع عملية لفّ أعلى المعدة",
+                  "إرشادات غذائية للأسابيع الأولى بعد العملية"
+                ],
+                "en": [
+                  "An upper endoscopy to examine the esophagus and stomach",
+                  "Swallowing and acid tests when needed",
+                  "Laparoscopic repair of the hernia with a fundoplication",
+                  "Diet advice for the first weeks after the operation"
+                ]
+              }
+            }
+          ],
+          "summary": {
+            "ar": "إصلاح بالمنظار للارتجاع وفتق الحجاب الحاجز عندما لا تكفي الأدوية وتغيير نمط الحياة.",
+            "en": "Laparoscopic repair for reflux and hiatal hernia when medicines and lifestyle changes are not enough."
+          },
+          "isPlaceholder": true
+        },
+        "parent": "upper-gi-surgery"
+      },
+      {
+        "slug": "stomach-tumors",
+        "content": {
+          "image": {
+            "alt": {
+              "ar": "أطباء يراجعون صورًا طبية معًا في مكتب عيادة مضيء",
+              "en": "Doctors reviewing medical images together in a bright clinic office"
+            },
+            "src": "/media/why-choose",
+            "credit": "Unsplash — https://images.unsplash.com/photo-1666214277657-e60f05c40b04",
+            "assetId": "89cbb8d2-bf85-43ca-8694-7e098022dcdd",
+            "position": "72% 40%",
+            "isPlaceholder": true
+          },
+          "title": {
+            "ar": "جراحة أورام المعدة",
+            "en": "Stomach tumor surgery"
+          },
+          "details": [
+            {
+              "text": {
+                "ar": "تُشخَّص أورام المعدة بالمنظار وأخذ العينة، ثم تُحدَّد مرحلتها بالأشعة. وعندما يُوصى بالجراحة يُستأصل جزء من المعدة أو المعدة كلها مع الغدد الليمفاوية المجاورة، وغالبًا ما يصاحب ذلك علاج كيميائي.",
+                "en": "Stomach tumors are diagnosed by endoscopy and biopsy, then staged with scans. When surgery is recommended, part or all of the stomach is removed with the nearby lymph nodes, usually alongside chemotherapy."
+              },
+              "type": "paragraph"
+            },
+            {
+              "text": {
+                "ar": "ما قد تشمله الرعاية",
+                "en": "What care may include"
+              },
+              "type": "heading"
+            },
+            {
+              "type": "list",
+              "items": {
+                "ar": [
+                  "مراجعة نتائج المنظار والعينة وأشعة تحديد المرحلة",
+                  "مناقشة الحالة في اجتماع متعدد التخصصات",
+                  "دعم غذائي قبل الجراحة وبعدها",
+                  "متابعة طويلة المدى وإرشادات حول الأكل"
+                ],
+                "en": [
+                  "Reviewing endoscopy, pathology and staging scans",
+                  "Discussion at a multidisciplinary meeting",
+                  "Nutritional support before and after surgery",
+                  "Long-term follow-up and advice on eating"
+                ]
+              }
+            }
+          ],
+          "summary": {
+            "ar": "جراحة تُخطَّط مع فريق الأورام، وكثيرًا ما تُدمج مع علاج قبل العملية وبعدها.",
+            "en": "Surgery planned with the oncology team, often combined with treatment before and after the operation."
+          },
+          "isPlaceholder": true
+        },
+        "parent": "upper-gi-surgery"
+      },
+      {
+        "slug": "peptic-ulcer-complications",
+        "content": {
+          "image": {
+            "alt": {
+              "ar": "طبيب يقيس ضغط الدم لمريضة",
+              "en": "A doctor measuring a patient's blood pressure"
+            },
+            "src": "/media/video-first-visit",
+            "credit": "Unsplash — https://images.unsplash.com/photo-1631815588090-d4bfec5b1ccb",
+            "assetId": "e88aadc6-d69f-4a6d-8d6d-e883c28d97f9",
+            "position": "50% 40%",
+            "isPlaceholder": true
+          },
+          "title": {
+            "ar": "مضاعفات قرحة المعدة والاثني عشر",
+            "en": "Ulcer complications"
+          },
+          "details": [
+            {
+              "text": {
+                "ar": "تلتئم معظم القرح بالأدوية، وتصبح الجراحة ضرورية عندما يحدث ثقب في القرحة، أو نزيف شديد رغم العلاج بالمنظار، أو ضيق في مخرج المعدة.",
+                "en": "Most ulcers heal with medicines. Surgery is needed when an ulcer perforates, bleeds heavily despite endoscopic treatment, or narrows the outlet of the stomach."
+              },
+              "type": "paragraph"
+            },
+            {
+              "text": {
+                "ar": "علامات تستدعي رعاية عاجلة",
+                "en": "Signs that need urgent care"
+              },
+              "type": "heading"
+            },
+            {
+              "type": "list",
+              "items": {
+                "ar": [
+                  "ألم مفاجئ وشديد في البطن",
+                  "قيء دموي أو براز أسود",
+                  "دوخة أو إغماء",
+                  "قيء متكرر بعد الوجبات"
+                ],
+                "en": [
+                  "Sudden, severe abdominal pain",
+                  "Vomiting blood or passing black stools",
+                  "Dizziness or fainting",
+                  "Repeated vomiting after meals"
+                ]
+              }
+            }
+          ],
+          "summary": {
+            "ar": "رعاية جراحية عاجلة لثقب القرحة أو نزيفها عندما لا تكفي العلاجات الأخرى.",
+            "en": "Urgent surgical care for a perforated or bleeding ulcer when other treatments are not enough."
+          },
+          "isPlaceholder": true
+        },
+        "parent": "upper-gi-surgery"
+      },
+      {
+        "slug": "thyroid-surgery",
+        "content": {
+          "image": {
+            "alt": {
+              "ar": "طبيب يفحص صور الأشعة على لوح الإضاءة",
+              "en": "A doctor examining scan images on a light box"
+            },
+            "src": "/media/specialty-thoracic",
+            "credit": "Unsplash — https://images.unsplash.com/photo-1581595219315-a187dd40c322",
+            "assetId": "6882b810-4069-487b-b2ab-3c4d4aee3756",
+            "position": "60% 35%",
+            "isPlaceholder": true
+          },
+          "title": {
+            "ar": "جراحة الغدة الدرقية",
+            "en": "Thyroid surgery"
+          },
+          "details": [
+            {
+              "text": {
+                "ar": "تنتشر عقد الغدة الدرقية، ومعظمها حميد. وقد يُنصح بالجراحة للعقد المشتبه بها أو الخبيثة، أو للتضخم الكبير الذي يضغط على الرقبة، أو لفرط النشاط الذي لا يُسيطر عليه بوسائل أخرى.",
+                "en": "Thyroid nodules are common and most are benign. Surgery may be advised for suspicious or cancerous nodules, a large goiter that presses on the neck, or overactivity that is not controlled otherwise."
+              },
+              "type": "paragraph"
+            },
+            {
+              "text": {
+                "ar": "ما قد تشمله الرعاية",
+                "en": "What care may include"
+              },
+              "type": "heading"
+            },
+            {
+              "type": "list",
+              "items": {
+                "ar": [
+                  "أشعة بالموجات فوق الصوتية وعينة بالإبرة الدقيقة عند الحاجة",
+                  "فحص الأحبال الصوتية ومستوى الكالسيوم",
+                  "استئصال فص من الغدة أو الغدة كاملة",
+                  "أقراص هرمون الغدة الدرقية بعد الجراحة عند الحاجة"
+                ],
+                "en": [
+                  "An ultrasound and a fine-needle biopsy when needed",
+                  "Checking the vocal cords and calcium levels",
+                  "Removal of one lobe or of the whole gland",
+                  "Thyroid hormone tablets after surgery when needed"
+                ]
+              }
+            }
+          ],
+          "summary": {
+            "ar": "استئصال جزء من الغدة الدرقية أو كلها في حالات العقد أو التضخم أو فرط النشاط أو الأورام.",
+            "en": "Removal of part or all of the thyroid for nodules, goiter, overactivity or cancer."
+          },
+          "isPlaceholder": true
+        },
+        "parent": "endocrine-surgery"
+      },
+      {
+        "slug": "parathyroid-surgery",
+        "content": {
+          "image": {
+            "alt": {
+              "ar": "أنابيب عينات دم في حامل داخل المختبر",
+              "en": "Blood sample tubes in a laboratory rack"
+            },
+            "src": "/media/specialty-hematologic",
+            "credit": "Unsplash — https://images.unsplash.com/photo-1581594693702-fbdc51b2763b",
+            "assetId": "16f41fde-34c5-49ce-92b0-e3d31fd3cec4",
+            "position": "40% 50%",
+            "isPlaceholder": true
+          },
+          "title": {
+            "ar": "جراحة الغدد الجار درقية",
+            "en": "Parathyroid surgery"
+          },
+          "details": [
+            {
+              "text": {
+                "ar": "يؤدي فرط نشاط الغدة الجار درقية إلى ارتفاع الكالسيوم في الدم، مما قد يسبب حصوات الكلى أو هشاشة العظام أو الإرهاق أو تقلب المزاج، ويُعد استئصال الغدة المصابة العلاج المعتاد.",
+                "en": "An overactive parathyroid gland raises the calcium in the blood, which can cause kidney stones, thinning of the bones, fatigue or low mood. Removing the affected gland is the usual cure."
+              },
+              "type": "paragraph"
+            },
+            {
+              "text": {
+                "ar": "ما قد تشمله الرعاية",
+                "en": "What care may include"
+              },
+              "type": "heading"
+            },
+            {
+              "type": "list",
+              "items": {
+                "ar": [
+                  "تحاليل دم للكالسيوم وهرمون الغدة الجار درقية",
+                  "أشعة لتحديد مكان الغدة زائدة النشاط",
+                  "جراحة موضعية عبر فتحة صغيرة في الرقبة متى أمكن",
+                  "متابعة مستوى الكالسيوم بعد الجراحة"
+                ],
+                "en": [
+                  "Blood tests for calcium and parathyroid hormone",
+                  "Scans to locate the overactive gland",
+                  "A focused operation through a small neck incision when possible",
+                  "Calcium checks after surgery"
+                ]
+              }
+            }
+          ],
+          "summary": {
+            "ar": "استئصال غدة جار درقية زائدة النشاط ترفع نسبة الكالسيوم في الدم.",
+            "en": "Removing an overactive parathyroid gland that raises the calcium in the blood."
+          },
+          "isPlaceholder": true
+        },
+        "parent": "endocrine-surgery"
+      },
+      {
+        "slug": "adrenal-surgery",
+        "content": {
+          "image": {
+            "alt": {
+              "ar": "طبيبان يراجعان صورًا طبية على شاشات الحاسوب",
+              "en": "Two doctors reviewing medical images on computer screens"
+            },
+            "src": "/media/page-services",
+            "credit": "Unsplash — https://images.unsplash.com/photo-1666214280391-8ff5bd3c0bf0",
+            "assetId": "a8cbbda9-720a-48db-9ee1-0e8ad399cbb6",
+            "position": "70% 35%",
+            "isPlaceholder": true,
+            "positionMobile": "75% 30%"
+          },
+          "title": {
+            "ar": "استئصال الغدة الكظرية بالمنظار",
+            "en": "Laparoscopic adrenal surgery"
+          },
+          "details": [
+            {
+              "text": {
+                "ar": "تُكتشف كثير من أورام الغدة الكظرية بالصدفة ولا تحتاج إلى جراحة، ويُنصح بالاستئصال، بالمنظار غالبًا، للأورام التي تفرز هرمونات أو تكبر مع الوقت أو تبدو مشتبهًا بها.",
+                "en": "Many adrenal masses are found by chance and need no surgery. Removal, usually by laparoscopy, is advised for tumors that produce hormones, grow over time or look suspicious."
+              },
+              "type": "paragraph"
+            },
+            {
+              "text": {
+                "ar": "ما قد تشمله الرعاية",
+                "en": "What care may include"
+              },
+              "type": "heading"
+            },
+            {
+              "type": "list",
+              "items": {
+                "ar": [
+                  "تحاليل دم وبول للهرمونات",
+                  "أشعة مقطعية أو رنين مغناطيسي لتقييم الورم",
+                  "التحضير بالأدوية إذا كان الورم يفرز هرمونات",
+                  "متابعة مستوى الهرمونات بعد الجراحة"
+                ],
+                "en": [
+                  "Hormone tests on blood and urine",
+                  "A CT scan or MRI to assess the mass",
+                  "Preparation with medicines when the tumor produces hormones",
+                  "Hormone checks during follow-up"
+                ]
+              }
+            }
+          ],
+          "summary": {
+            "ar": "استئصال أورام الغدة الكظرية التي تفرز هرمونات زائدة أو تبدو مشتبهًا بها في الأشعة.",
+            "en": "Removal of adrenal tumors that produce excess hormones or look suspicious on scans."
+          },
+          "isPlaceholder": true
+        },
+        "parent": "endocrine-surgery"
+      },
+      {
+        "slug": "breast-tumor-surgery",
+        "content": {
+          "image": {
+            "alt": {
+              "ar": "مريضة برفقة أخصائية الأشعة أثناء فحص الماموجرام",
+              "en": "A patient with a radiographer during a mammogram"
+            },
+            "src": "/media/specialty-breast",
+            "credit": "Unsplash — https://images.unsplash.com/photo-1579154341098-e4e158cc7f55",
+            "assetId": "34413557-e377-4f13-a469-4bad94f418ff",
+            "position": "58% 40%",
+            "isPlaceholder": true
+          },
+          "title": {
+            "ar": "جراحة أورام ",
+            "en": "Breast tumor surgery"
+          },
+          "details": [
+            {
+              "text": {
+                "ar": "تتراوح جراحة أورام الثدي بين استئصال الورم مع هامش من الأنسجة السليمة واستئصال الثدي بالكامل، ويعتمد الاختيار على طبيعة الورم والثدي وتفضيلات المريضة، ويُتخذ القرار بالتعاون مع فريق الأورام.",
+                "en": "Surgery for breast tumors ranges from removing the lump with a margin of healthy tissue to removing the whole breast. The choice depends on the tumor, the breast and the patient's preferences, and is made together with the oncology team."
+              },
+              "type": "paragraph"
+            },
+            {
+              "text": {
+                "ar": "ما قد تشمله الرعاية",
+                "en": "What care may include"
+              },
+              "type": "heading"
+            },
+            {
+              "type": "list",
+              "items": {
+                "ar": [
+                  "مراجعة نتائج الماموجرام والموجات فوق الصوتية والعينة",
+                  "أخذ عينة من الغدة الليمفاوية الحارسة عند الحاجة",
+                  "مناقشة خيارات إعادة بناء الثدي",
+                  "التنسيق للعلاج الإشعاعي والدوائي بعد الجراحة"
+                ],
+                "en": [
+                  "Reviewing mammogram, ultrasound and biopsy results",
+                  "A sentinel lymph node biopsy when appropriate",
+                  "Discussing reconstruction options",
+                  "Coordinating radiotherapy and medical treatment after surgery"
+                ]
+              }
+            }
+          ],
+          "summary": {
+            "ar": "جراحة تحفظ الثدي أو استئصاله، مع جراحة الغدد الليمفاوية، ضمن خطة علاجية مشتركة.",
+            "en": "Breast-conserving surgery or mastectomy, with lymph node surgery, as part of a shared plan."
+          },
+          "isPlaceholder": true
+        },
+        "parent": "surgical-oncology"
+      },
+      {
+        "slug": "soft-tissue-tumors",
+        "content": {
+          "image": {
+            "alt": {
+              "ar": "باحثة تعمل على المجهر في المختبر",
+              "en": "A scientist working at a microscope in a laboratory"
+            },
+            "src": "/media/video-pathology",
+            "credit": "Unsplash — https://images.unsplash.com/photo-1582719471384-894fbb16e074",
+            "assetId": "ca65debe-3141-44ea-a923-69b44a5e1c4f",
+            "position": "55% 50%",
+            "isPlaceholder": true
+          },
+          "title": {
+            "ar": "أورام الأنسجة الرخوة والكتل الدهنية",
+            "en": "Soft tissue lumps"
+          },
+          "details": [
+            {
+              "text": {
+                "ar": "معظم الكتل تحت الجلد، مثل الأورام الدهنية والأكياس، حميدة ويمكن استئصالها بالتخدير الموضعي، أما الكتل الكبيرة أو العميقة أو المؤلمة أو التي تكبر فتحتاج إلى أشعة، وأحيانًا إلى عينة، قبل الجراحة.",
+                "en": "Most lumps under the skin, such as lipomas and cysts, are benign and can be removed under local anesthesia. Lumps that are large, deep, painful or growing need imaging, and sometimes a biopsy, before surgery."
+              },
+              "type": "paragraph"
+            },
+            {
+              "text": {
+                "ar": "علامات تستحق الفحص",
+                "en": "Signs worth checking"
+              },
+              "type": "heading"
+            },
+            {
+              "type": "list",
+              "items": {
+                "ar": [
+                  "كتلة يزيد حجمها على 5 سم تقريبًا",
+                  "كتلة يزداد حجمها",
+                  "كتلة عميقة تحت العضلة",
+                  "كتلة تعود بعد استئصالها"
+                ],
+                "en": [
+                  "A lump larger than about 5 cm",
+                  "A lump that is growing",
+                  "A lump deep under the muscle",
+                  "A lump that comes back after removal"
+                ]
+              }
+            }
+          ],
+          "summary": {
+            "ar": "تقييم واستئصال الكتل تحت الجلد، من الأورام الدهنية البسيطة إلى الأورام التي تحتاج إلى رعاية متخصصة.",
+            "en": "Assessment and removal of lumps under the skin, from simple lipomas to tumors that need specialist care."
+          },
+          "isPlaceholder": true
+        },
+        "parent": "surgical-oncology"
+      },
+      {
+        "slug": "lymph-node-biopsy",
+        "content": {
+          "image": {
+            "alt": {
+              "ar": "صورة مجهرية لخلايا ملوّنة بالأزرق والأرجواني",
+              "en": "Microscope image of cells stained blue and magenta"
+            },
+            "src": "/media/treatment-immunotherapy",
+            "credit": "Unsplash — https://images.unsplash.com/photo-1576086213369-97a306d36557",
+            "assetId": "7a76c5c8-c098-4bd5-94e0-534275fdc813",
+            "position": "50% 50%",
+            "isPlaceholder": true
+          },
+          "title": {
+            "ar": "عينة الغدد الليمفاوية",
+            "en": "Lymph node biopsy"
+          },
+          "details": [
+            {
+              "text": {
+                "ar": "عندما تظل الغدة الليمفاوية متضخمة أو لا تكون نتيجة العينة بالإبرة حاسمة، يتيح استئصال الغدة لطبيب الأنسجة كمية كافية من النسيج لتشخيص حالات مثل الأورام الليمفاوية أو انتشار الأورام.",
+                "en": "When a lymph node stays enlarged or a needle biopsy is not conclusive, removing the node gives the pathologist enough tissue to diagnose conditions such as lymphoma or the spread of a tumor."
+              },
+              "type": "paragraph"
+            },
+            {
+              "text": {
+                "ar": "ما يمكن توقعه",
+                "en": "What to expect"
+              },
+              "type": "heading"
+            },
+            {
+              "type": "list",
+              "items": {
+                "ar": [
+                  "إجراء قصير غالبًا، وكثيرًا ما يكون دون مبيت",
+                  "تخدير موضعي أو كلي حسب موضع الغدة",
+                  "مناقشة النتائج معك فور صدور تقرير التحليل النسيجي"
+                ],
+                "en": [
+                  "Usually a short procedure, often without an overnight stay",
+                  "Local or general anesthesia, depending on where the node is",
+                  "Results discussed with you once the pathology report is ready"
+                ]
+              }
+            }
+          ],
+          "summary": {
+            "ar": "استئصال غدة ليمفاوية أو جزء منها ليتمكن طبيب الأنسجة من وضع تشخيص دقيق.",
+            "en": "Removing a lymph node, or part of it, so the pathologist can make an accurate diagnosis."
+          },
+          "isPlaceholder": true
+        },
+        "parent": "surgical-oncology"
+      },
+      {
+        "slug": "chemotherapy-port",
+        "content": {
+          "image": {
+            "alt": {
+              "ar": "حامل محاليل وريدية يحمل كيس العلاج",
+              "en": "An infusion stand holding an intravenous bag"
+            },
+            "src": "/media/treatment-chemotherapy",
+            "credit": "Unsplash — https://images.unsplash.com/photo-1516574187841-cb9cc2ca948b",
+            "assetId": "6b3f4dff-dc1d-4eb5-90cf-a76234da6c4c",
+            "position": "50% 50%",
+            "isPlaceholder": true
+          },
+          "title": {
+            "ar": "تركيب بورت للعلاج الكيميائي",
+            "en": "Chemotherapy port insertion"
+          },
+          "details": [
+            {
+              "text": {
+                "ar": "البورت خزان صغير يوضع تحت جلد الصدر ويتصل بوريد كبير، ويتيح إعطاء العلاج الكيميائي والمحاليل وسحب التحاليل دون وخز متكرر في أوردة الذراع.",
+                "en": "A port is a small reservoir placed under the skin of the chest and connected to a large vein. It allows chemotherapy, fluids and blood tests without repeated needles in the veins of the arm."
+              },
+              "type": "paragraph"
+            },
+            {
+              "text": {
+                "ar": "معلومات مهمة",
+                "en": "Good to know"
+              },
+              "type": "heading"
+            },
+            {
+              "type": "list",
+              "items": {
+                "ar": [
+                  "يُركَّب في إجراء قصير، غالبًا بالتخدير الموضعي",
+                  "يُغسل بانتظام للحفاظ على عمله",
+                  "ينبغي الإبلاغ فورًا عن الحرارة أو الاحمرار أو التورم حوله",
+                  "يُزال بسهولة بعد انتهاء العلاج"
+                ],
+                "en": [
+                  "Placed in a short procedure, usually under local anesthesia",
+                  "Flushed regularly to keep it working",
+                  "Fever, redness or swelling around it should be reported promptly",
+                  "Removed easily once treatment is complete"
+                ]
+              }
+            }
+          ],
+          "summary": {
+            "ar": "جهاز صغير تحت الجلد يسهّل إعطاء العلاج الكيميائي وسحب التحاليل ويحافظ على الأوردة.",
+            "en": "A small device under the skin that makes chemotherapy and blood tests easier and spares the veins."
+          },
+          "isPlaceholder": true
+        },
+        "parent": "surgical-oncology"
       }
     ],
     "videos": [
@@ -3165,11 +4443,10 @@
               "ar": "دفتر مفتوح بعنوان «ملاحظات» مع قلم ونظارة",
               "en": "An open notebook titled “Notes” with a pen and glasses"
             },
-            "src": "/media/article-first-consultation",
-            "credit": "Unsplash — https://images.unsplash.com/photo-1517842645767-c639042777db",
-            "assetId": "bc98518f-9466-4703-ad44-390f3928d579",
+            "src": "/media/cms-aeb9f1e6-cc1d-42c3-8396-c691a7d6a5e3",
+            "assetId": "aeb9f1e6-cc1d-42c3-8396-c691a7d6a5e3",
             "position": "40% 55%",
-            "isPlaceholder": true
+            "isPlaceholder": false
           },
           "title": {
             "ar": "الفتق بأنواعه: الأسباب والأعراض ومتى يحتاج إلى تدخل جراحي؟",
@@ -3245,11 +4522,10 @@
               "ar": "مزارع خلوية في آبار مختبرية من الأعلى",
               "en": "Cell cultures in laboratory wells seen from above"
             },
-            "src": "/media/article-pathology",
-            "credit": "Unsplash — https://images.unsplash.com/photo-1579154392429-0e6b4e850ad2",
-            "assetId": "fe2feaf3-24ec-42c9-b69d-1b82c20a1f17",
+            "src": "/media/cms-8d10c88b-7058-4601-ad37-1f2ea4c4c8e1",
+            "assetId": "8d10c88b-7058-4601-ad37-1f2ea4c4c8e1",
             "position": "50% 45%",
-            "isPlaceholder": true
+            "isPlaceholder": false
           },
           "title": {
             "ar": "حصوات المرارة: متى تكون الجراحة ضرورية؟ ومميزات استئصال المرارة بالمنظار",
@@ -3260,8 +4536,8 @@
             "en": "Gallstones are hardened deposits that form inside the gallbladder due to changes in bile composition. They vary in size and number and may remain asymptomatic for years. However, some patients experience recurrent pain or develop complications requiring treatment."
           },
           "category": {
-            "ar": "فهم التشخيص",
-            "en": "Understanding your diagnosis"
+            "ar": "حصوات المرارة",
+            "en": "Gallstones"
           },
           "reviewedBy": null,
           "isPlaceholder": true
@@ -3323,11 +4599,10 @@
               "ar": "طبق ملوّن من السلطة والخضروات",
               "en": "A colorful bowl of salad and vegetables"
             },
-            "src": "/media/article-nutrition",
-            "credit": "Unsplash — https://images.unsplash.com/photo-1512621776951-a57141f2eefd",
-            "assetId": "cac0551f-dc37-4fa7-86b1-78bf815b46eb",
+            "src": "/media/cms-60a8d72d-5543-4499-8da1-7d59f84516f3",
+            "assetId": "60a8d72d-5543-4499-8da1-7d59f84516f3",
             "position": "40% 50%",
-            "isPlaceholder": true
+            "isPlaceholder": false
           },
           "title": {
             "ar": "أورام القولون والمستقيم: الأعراض والتشخيص ودور الجراحة في العلاج",
@@ -3338,8 +4613,8 @@
             "en": "Colorectal tumors are abnormal growths that develop in the colon or rectum and may be benign or malignant. Some colorectal cancers begin as polyps that gradually develop into malignant tumors, making early screening essential for prevention and diagnosis."
           },
           "category": {
-            "ar": "العيش بصحة",
-            "en": "Living well"
+            "ar": "اورام القولون والمستقيم",
+            "en": "Colon and Rectal Tumors"
           },
           "reviewedBy": null,
           "isPlaceholder": true
@@ -3394,11 +4669,10 @@
               "ar": "شخص يجلس بهدوء على شرفة وقت الغروب",
               "en": "A person sitting quietly on a terrace at sunset"
             },
-            "src": "/media/article-fatigue",
-            "credit": "Unsplash — https://images.unsplash.com/photo-1506126613408-eca07ce68773",
-            "assetId": "d6d553c9-5e38-4041-83ce-5da150cbeeb1",
+            "src": "/media/cms-5eeb26b6-36da-4be7-9a75-8c2d69e7a422",
+            "assetId": "5eeb26b6-36da-4be7-9a75-8c2d69e7a422",
             "position": "50% 45%",
-            "isPlaceholder": true
+            "isPlaceholder": false
           },
           "title": {
             "ar": "فتق الحجاب الحاجز وارتجاع المريء: متى نحتاج إلى التدخل الجراحي؟",
@@ -3409,8 +4683,8 @@
             "en": "A hiatal hernia occurs when part of the stomach moves upward through the diaphragm into the chest cavity. This anatomical change may contribute to gastroesophageal reflux by weakening the natural barrier that prevents stomach acid from flowing backward into the esophagus."
           },
           "category": {
-            "ar": "العيش بصحة",
-            "en": "Living well"
+            "ar": "فتق الحجاب الحاجز ",
+            "en": "Hiatal Hernia"
           },
           "reviewedBy": null,
           "isPlaceholder": true
@@ -3479,11 +4753,10 @@
               "ar": "ماصّة تُسقط قطرة في أنبوب مختبري",
               "en": "A pipette releasing a drop into a laboratory vial"
             },
-            "src": "/media/article-immunotherapy",
-            "credit": "Unsplash — https://images.unsplash.com/photo-1579165466741-7f35e4755660",
-            "assetId": "9cee9e3b-e4c8-497d-8924-46767f05a5ad",
+            "src": "/media/cms-096d04de-7ca9-411a-a34c-afb2107fed7a",
+            "assetId": "096d04de-7ca9-411a-a34c-afb2107fed7a",
             "position": "45% 50%",
-            "isPlaceholder": true
+            "isPlaceholder": false
           },
           "title": {
             "ar": "أورام الغدة الدرقية: تقييم العقد الدرقية ومتى نحتاج إلى استئصال الغدة؟",
@@ -3494,8 +4767,8 @@
             "en": "The thyroid is a small gland located at the front of the neck. It produces hormones that regulate metabolism and essential body functions. Thyroid nodules are lumps that develop within the gland. Most are benign, although some require further investigation to exclude malignancy."
           },
           "category": {
-            "ar": "العلاجات",
-            "en": "Treatments"
+            "ar": "اورام الغدة الدرقية",
+            "en": "Thyroid Tumors"
           },
           "reviewedBy": null,
           "isPlaceholder": true
@@ -3632,11 +4905,10 @@
               "ar": "عائلة تسير معًا على الشاطئ وقت الغروب",
               "en": "A family walking together on a beach at sunset"
             },
-            "src": "/media/article-family",
-            "credit": "Unsplash — https://images.unsplash.com/photo-1511895426328-dc8714191300",
-            "assetId": "5c05623c-5657-4305-8da0-d90e281e546b",
+            "src": "/media/cms-41b7d65e-78dd-4c0b-b0f4-a53c2e4e8d69",
+            "assetId": "41b7d65e-78dd-4c0b-b0f4-a53c2e4e8d69",
             "position": "50% 60%",
-            "isPlaceholder": true
+            "isPlaceholder": false
           },
           "title": {
             "ar": "أورام الغدة الكظرية: التشخيص ومتى يكون الاستئصال بالمنظار ضروريًا؟",
@@ -3647,8 +4919,8 @@
             "en": "The adrenal glands are two small glands located above the kidneys. They produce hormones involved in regulating blood pressure, metabolism, and the body's response to stress. Adrenal tumors may develop in one or both glands and can be benign or malignant."
           },
           "category": {
-            "ar": "الأسرة والدعم",
-            "en": "Family & support"
+            "ar": "اورام الغدة الكظرية",
+            "en": "Adrenal Gland Tumors"
           },
           "reviewedBy": null,
           "isPlaceholder": true
@@ -3845,6 +5117,26 @@
     "services \"evaluation\"",
     "services \"planning\"",
     "services \"follow-up\"",
+    "services \"inguinal-hernia\"",
+    "services \"umbilical-hernia\"",
+    "services \"incisional-hernia\"",
+    "services \"laparoscopic-cholecystectomy\"",
+    "services \"acute-cholecystitis\"",
+    "services \"bile-duct-stones\"",
+    "services \"colorectal-tumors\"",
+    "services \"hemorrhoids\"",
+    "services \"anal-fissure\"",
+    "services \"anal-fistula\"",
+    "services \"hiatal-hernia-reflux\"",
+    "services \"stomach-tumors\"",
+    "services \"peptic-ulcer-complications\"",
+    "services \"thyroid-surgery\"",
+    "services \"parathyroid-surgery\"",
+    "services \"adrenal-surgery\"",
+    "services \"breast-tumor-surgery\"",
+    "services \"soft-tissue-tumors\"",
+    "services \"lymph-node-biopsy\"",
+    "services \"chemotherapy-port\"",
     "videos \"first-visit\"",
     "videos \"medications\"",
     "videos \"pathology\"",

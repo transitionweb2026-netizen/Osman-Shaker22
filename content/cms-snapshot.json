@@ -1,7 +1,7 @@
 {
   "enabled": true,
-  "syncedAt": "2026-11-22T09:08:32.162Z",
-  "version": "2026-11-19T15:19:27.70037+00:00",
+  "syncedAt": "2026-11-23T14:16:08.612Z",
+  "version": "2026-11-23T13:26:47.75812+00:00",
   "documents": {
     "home.faq": {
       "title": {
@@ -1442,16 +1442,16 @@
         "slug": "medical-specialties",
         "content": {
           "title": {
-            "ar": "أنواع الأورام التي نعتني بها",
-            "en": "Cancers we care for"
+            "ar": "جراحات الفتق بالمنظار",
+            "en": "Laparoscopic Hernia Surgery"
           },
           "eyebrow": {
             "ar": "التخصصات الطبية",
             "en": "Medical specialties"
           },
           "description": {
-            "ar": "يختلف سلوك كل نوع من الأورام عن غيره، لذا تُصمَّم الرعاية وفق العضو المصاب والمرحلة والحالة الصحية العامة.",
-            "en": "Each type of cancer behaves differently. Care is shaped around the organ involved, the stage and the person's overall health."
+            "ar": "علاج أنواع الفتق المختلفة باستخدام تقنيات المنظار الجراحي في الحالات المناسبة، بهدف إصلاح الفتق وتدعيم جدار البطن وتقليل فترة التعافي.",
+            "en": "Treatment of various types of hernias using laparoscopic techniques when appropriate, aiming to repair the hernia, reinforce the abdominal wall, and support faster recovery."
           }
         }
       },
@@ -1459,16 +1459,16 @@
         "slug": "treatments",
         "content": {
           "title": {
-            "ar": "الخيارات العلاجية",
-            "en": "Treatment options"
+            "ar": "جراحات المرارة بالمنظار",
+            "en": "Laparoscopic Gallbladder Surgery"
           },
           "eyebrow": {
             "ar": "العلاجات",
             "en": "Treatments"
           },
           "description": {
-            "ar": "تعتمد التوصيات على نوع الورم ومرحلته والحالة الصحية العامة والتفضيلات الشخصية، وتُناقش معك دائمًا قبل البدء.",
-            "en": "Recommendations depend on the type and stage of cancer, overall health and personal preferences — and are always discussed with you first."
+            "ar": "تشخيص وعلاج حصوات المرارة والتهاباتها باستخدام المنظار الجراحي في الحالات المناسبة، مع التعامل مع الحالات المعقدة بهدف إجراء تدخل جراحي آمن والمساعدة على تقليل الألم وفترة التعافي.",
+            "en": "Diagnosis and surgical treatment of gallstones and gallbladder inflammation using laparoscopic techniques when appropriate, including the management of complex cases, with the aim of ensuring safe surgical care, reducing postoperative pain, and supporting faster recovery."
           }
         }
       },
@@ -1476,16 +1476,16 @@
         "slug": "consultation-care",
         "content": {
           "title": {
-            "ar": "من الزيارة الأولى إلى المتابعة",
-            "en": "From first visit to follow-up"
+            "ar": "جراحات القولون والمستقيم",
+            "en": "Colorectal Surgery"
           },
           "eyebrow": {
             "ar": "الاستشارة والرعاية المستمرة",
             "en": "Consultation & ongoing care"
           },
           "description": {
-            "ar": "مراحل الرحلة العلاجية كخدمات قائمة بذاتها، ومنها الرأي الطبي الثاني المستقل.",
-            "en": "The stages of the patient journey, offered as services in their own right — including independent second opinions."
+            "ar": "تشخيص وعلاج أمراض وأورام القولون والمستقيم باستخدام التقنيات الجراحية المناسبة، بما فيها المنظار، مع التعامل مع الحالات المعقدة وفقًا لطبيعة كل حالة.",
+            "en": "Diagnosis and surgical treatment of colorectal diseases and tumors using appropriate techniques, including laparoscopy, with specialized management of complex cases."
           }
         }
       },
@@ -1493,16 +1493,16 @@
         "slug": "hernia-surgery",
         "content": {
           "title": {
-            "ar": "الفتق وجدار البطن",
-            "en": "Hernias and the abdominal wall"
+            "ar": "جراحات الغدة الدرقية",
+            "en": "Thyroid Surgery"
           },
           "eyebrow": {
             "ar": "جراحة الفتق",
             "en": "Hernia surgery"
           },
           "description": {
-            "ar": "تقييم وإصلاح فتق الأربية والسرة وفتق الجروح السابقة، بالجراحة المفتوحة أو بالمنظار، وفق الحالة الصحية ونمط الحياة لكل مريض.",
-            "en": "Assessment and repair of hernias of the groin, the navel and previous scars, open or laparoscopic, planned around each patient's health and daily life."
+            "ar": "تشخيص وعلاج عقد وأورام الغدة الدرقية، مع تحديد التدخل الجراحي المناسب، سواء بالاستئصال الجزئي أو الكلي، وفقًا لطبيعة الحالة ونتائج الفحوصات.",
+            "en": "Diagnosis and surgical treatment of thyroid nodules and tumors, including partial or total thyroidectomy when indicated, based on the patient's condition and diagnostic findings."
           }
         }
       },
@@ -1608,21 +1608,21 @@
             "isPlaceholder": true
           },
           "title": {
-            "ar": "أورام الثدي",
-            "en": "Breast cancer"
+            "ar": "الفتق الإربي",
+            "en": "Inguinal Hernia"
           },
           "details": [
             {
               "text": {
-                "ar": "تُخطَّط رعاية سرطان الثدي وفق نوع الورم ومرحلته ونتائج الفحوص، مثل مستقبلات الهرمونات وحالة HER2. وتساعد هذه التفاصيل في تحديد العلاجات الأنسب لكل حالة.",
-                "en": "Breast cancer care is planned around the specific type of tumor, its stage and test results such as hormone receptor and HER2 status. These details help guide which treatments are likely to be most suitable."
+                "ar": "يُعد الفتق الإربي من أكثر أنواع الفتق شيوعًا، ويحدث عندما يبرز جزء من الأنسجة الدهنية أو الأمعاء عبر منطقة ضعيفة في جدار البطن بالقرب من أعلى الفخذ. وقد يظهر على هيئة انتفاخ يزداد وضوحًا أثناء الوقوف أو السعال أو بذل المجهود، ويصاحبه أحيانًا ألم أو شعور بالثقل وعدم الراحة. ويعتمد تحديد العلاج المناسب على حجم الفتق والأعراض المصاحبة له والحالة الصحية للمريض، مع إمكانية استخدام المنظار الجراحي لإصلاح الفتق في الحالات المناسبة.",
+                "en": "Inguinal hernia is one of the most common types of hernias. It occurs when fatty tissue or part of the intestine protrudes through a weakened area of the abdominal wall near the groin. It may appear as a visible bulge that becomes more noticeable during standing, coughing, or physical activity, sometimes accompanied by pain, heaviness, or discomfort. Treatment depends on the hernia size, associated symptoms, and the patient's overall health, with laparoscopic repair considered in suitable cases."
               },
               "type": "paragraph"
             },
             {
               "text": {
-                "ar": "ما قد تشمله الرعاية",
-                "en": "What care may include"
+                "ar": "أعراض الفتق الإربي",
+                "en": "Symptoms of Inguinal Hernia "
               },
               "type": "heading"
             },
@@ -1630,23 +1630,25 @@
               "type": "list",
               "items": {
                 "ar": [
-                  "مراجعة صور الأشعة ونتائج الخزعة والتحليل النسيجي",
-                  "مناقشة دور الجراحة والعلاج الإشعاعي والأدوية مع فريق الرعاية",
-                  "العلاجات الدوائية مثل العلاج الكيميائي أو الهرموني أو الموجّه عند الحاجة",
-                  "المتابعة والدعم على المدى الطويل بعد انتهاء العلاج"
+                  "ظهور انتفاخ أو تورم في منطقة أعلى الفخذ، يزداد وضوحًا عند الوقوف أو السعال.",
+                  "الشعور بألم أو ضغط في المنطقة المصابة، خاصةً أثناء الحركة أو رفع الأوزان.",
+                  "الإحساس بالثقل أو الشد في منطقة الفخذ.",
+                  "زيادة حجم الانتفاخ تدريجيًا في بعض الحالات.",
+                  "حدوث ألم شديد مفاجئ أو قيء مع عدم إمكانية إعادة الفتق إلى مكانه، وهي علامات تستدعي التقييم الطبي العاجل."
                 ],
                 "en": [
-                  "Reviewing imaging, biopsy and pathology results",
-                  "Discussing the roles of surgery, radiotherapy and medicines with the wider care team",
-                  "Systemic treatments such as chemotherapy, hormonal therapy or targeted therapy, when appropriate",
-                  "Long-term follow-up and support after treatment"
+                  "A visible bulge or swelling in the groin, especially when standing or coughing.",
+                  "Pain or pressure in the affected area, particularly during movement or heavy lifting.",
+                  "A feeling of heaviness or pulling in the groin.",
+                  "Gradual enlargement of the bulge in some cases.",
+                  " Sudden severe pain or vomiting with an irreducible hernia, requiring urgent medical assessment."
                 ]
               }
             },
             {
               "text": {
-                "ar": "أسئلة قد ترغب في طرحها",
-                "en": "Questions you may want to ask"
+                "ar": "تشخيص وعلاج الفتق الإربي",
+                "en": "Diagnosis and Treatment of Inguinal Hernia "
               },
               "type": "heading"
             },
@@ -1654,21 +1656,25 @@
               "type": "list",
               "items": {
                 "ar": [
-                  "ما نوع سرطان الثدي لديّ وما مرحلته؟",
-                  "ما الهدف من العلاج المقترح؟",
-                  "ما الآثار الجانبية التي ينبغي أن أنتبه لها؟"
+                  "الفحص السريري لتحديد موقع الفتق وحجمه وطبيعته.",
+                  "استخدام الموجات فوق الصوتية أو الفحوصات التصويرية عند الحاجة لتأكيد التشخيص.",
+                  "تقييم مدى الحاجة إلى التدخل الجراحي وفقًا للأعراض وحجم الفتق.",
+                  "إصلاح الفتق باستخدام المنظار الجراحي أو الجراحة المفتوحة حسب طبيعة الحالة.",
+                  " تدعيم منطقة الضعف بشبكة جراحية عند الحاجة لتقليل احتمالية تكرار الفتق."
                 ],
                 "en": [
-                  "What type and stage of breast cancer do I have?",
-                  "What is the goal of the recommended treatment?",
-                  "Which side effects should I watch for?"
+                  "Clinical examination to determine the hernia's location, size, and characteristics.",
+                  "Ultrasound or other imaging investigations when necessary to confirm the diagnosis.",
+                  "Assessment of the need for surgical intervention based on symptoms and hernia size.",
+                  "Hernia repair using laparoscopic or open surgical techniques according to the case.",
+                  "Surgical mesh reinforcement when indicated to reduce the risk of recurrence."
                 ]
               }
             }
           ],
           "summary": {
-            "ar": "متابعة مدروسة عبر مراحل التشخيص وخيارات العلاج والمتابعة طويلة المدى.",
-            "en": "Thoughtful guidance through diagnosis, treatment options and long-term follow-up."
+            "ar": "تشخيص وعلاج الفتق الإربي باستخدام التقنيات الجراحية المناسبة، بما فيها المنظار الجراحي، لإصلاح مناطق الضعف في جدار البطن وتقليل احتمالية تكرار الفتق.",
+            "en": "Diagnosis and treatment of inguinal hernias using appropriate surgical techniques, including laparoscopy, to repair weakened areas of the abdominal wall and reduce the risk of recurrence."
           },
           "isPlaceholder": true
         },
@@ -1689,21 +1695,21 @@
             "isPlaceholder": true
           },
           "title": {
-            "ar": "أورام الرئة والصدر",
-            "en": "Lung & thoracic cancers"
+            "ar": "الفتق السري",
+            "en": "Umbilical Hernia"
           },
           "details": [
             {
               "text": {
-                "ar": "تُقيَّم أورام الرئة والصدر بالاعتماد على صور الأشعة ونتائج الخزعة، ومن خلال الفحوص الجزيئية للورم بصورة متزايدة. وتساعد هذه المعطيات مجتمعةً في تحديد المرحلة وأساليب العلاج الملائمة.",
-                "en": "Cancers of the lung and chest are assessed using imaging, biopsy results and, increasingly, molecular tests on the tumor. Together these help determine the stage and which treatment approaches may be suitable."
+                "ar": "يحدث الفتق السري نتيجة وجود ضعف أو فتحة في عضلات جدار البطن المحيطة بالسرة، مما يسمح ببروز الأنسجة الدهنية أو جزء من الأمعاء عبر هذه المنطقة. وقد يرتبط ظهوره لدى البالغين بزيادة الضغط داخل البطن نتيجة السمنة أو الحمل المتكرر أو بعض الحالات الصحية الأخرى. تختلف شدة الأعراض حسب حجم الفتق ومحتوياته، ويعتمد قرار التدخل الجراحي على التقييم الطبي ومدى تأثير الفتق على المريض، مع إمكانية الإصلاح بالمنظار في الحالات المناسبة.",
+                "en": "An umbilical hernia occurs when fatty tissue or part of the intestine protrudes through a weakened area or opening in the abdominal wall around the navel. In adults, it may be associated with increased intra abdominal pressure caused by obesity, repeated pregnancies, or other medical conditions. Symptoms vary depending on the size and contents of the hernia. The decision to perform surgery is based on clinical evaluation and the impact of the condition, with laparoscopic repair considered when appropriate."
               },
               "type": "paragraph"
             },
             {
               "text": {
-                "ar": "ما قد تشمله الرعاية",
-                "en": "What care may include"
+                "ar": "أعراض وعلامات الفتق السري",
+                "en": "Symptoms and Signs of Umbilical Hernia "
               },
               "type": "heading"
             },
@@ -1711,30 +1717,32 @@
               "type": "list",
               "items": {
                 "ar": [
-                  "مراجعة دقيقة للأشعة المقطعية والمسح البوزيتروني وغيرها",
-                  "مناقشة الفحوص الجزيئية أو المؤشرات الحيوية عند الحاجة",
-                  "تخطيط علاجي قد يشمل الأدوية أو العلاج الإشعاعي أو الجراحة",
-                  "الاهتمام بالتنفس والسعال وغيرها من الأعراض"
+                  "ظهور انتفاخ واضح في منطقة السرة أو حولها.",
+                  "زيادة بروز الفتق أثناء السعال أو الوقوف أو بذل المجهود.",
+                  "الشعور بألم أو ضغط حول السرة، خاصةً مع زيادة حجم الفتق.",
+                  "عدم القدرة على إعادة الانتفاخ إلى مكانه في بعض الحالات.",
+                  " حدوث ألم شديد مفاجئ أو قيء أو تغير لون الجلد فوق الفتق، وهي علامات قد تشير إلى مضاعفات تستدعي التقييم العاجل."
                 ],
                 "en": [
-                  "Careful review of CT, PET and other imaging",
-                  "Discussing molecular or biomarker testing when relevant",
-                  "Treatment planning that may involve medicines, radiotherapy or surgery",
-                  "Attention to breathing, cough and other symptoms"
+                  "A visible bulge or swelling around the navel.",
+                  "Increased prominence during coughing, standing, or physical strain.",
+                  "Pain or pressure around the navel, particularly as the hernia enlarges.",
+                  "Difficulty pushing the hernia contents back into the abdomen in some cases.",
+                  " Sudden severe pain, vomiting, or skin discoloration over the hernia, potentially indicating complications requiring urgent assessment."
                 ]
               }
             },
             {
               "text": {
-                "ar": "الإقلاع عن التدخين مفيد في أي مرحلة من مراحل الرعاية، والدعم متاح إن رغبت فيه.",
-                "en": "Stopping smoking helps at any stage of care. Support is available if you would like it."
+                "ar": "يتم تقييم الفتق من خلال إجراء فحص سريري لتحديد حجمه ومدى إمكانية إعادته إلى داخل البطن، مع الاستعانة بالموجات فوق الصوتية أو الأشعة المقطعية عند الحاجة، ثم تحديد مدى الحاجة إلى التدخل الجراحي بناءً على حجم الفتق والأعراض المصاحبة وعوامل الخطورة، وفي الحالات التي تستدعي الجراحة يتم إصلاح الفتق باستخدام الجراحة المفتوحة أو المنظار حسب الحالة، مع إمكانية استخدام شبكة جراحية لتدعيم جدار البطن وتقليل احتمالية تكرار الفتق، خاصةً في حالات الفتق الأكبر حجمًا.\n\n\n",
+                "en": "The hernia is evaluated through a clinical examination to determine its size and whether it can be pushed back into the abdominal cavity. Ultrasound or CT scans may be used when necessary. The need for surgical intervention is then determined based on the size of the hernia, associated symptoms, and risk factors. In cases requiring surgery, the hernia is repaired using either open surgery or laparoscopic surgery, depending on the patient's condition. A surgical mesh may also be used to reinforce the abdominal wall and reduce the risk of recurrence, especially in cases involving larger hernias."
               },
               "type": "note"
             }
           ],
           "summary": {
-            "ar": "مراجعة دقيقة لنتائج الأشعة والتحاليل النسيجية لتحديد الخطوات المناسبة.",
-            "en": "Careful review of imaging and pathology to plan the right next steps."
+            "ar": "تشخيص وعلاج الفتق السري وإصلاح مناطق الضعف المحيطة بالسرة باستخدام التقنيات الجراحية المناسبة، مع اختيار طريقة التدخل وفقًا لحجم الفتق وطبيعة الحالة.",
+            "en": "Diagnosis and treatment of umbilical hernias through appropriate surgical techniques, with the repair approach selected according to hernia size and individual clinical findings."
           },
           "isPlaceholder": true
         },
@@ -1755,21 +1763,21 @@
             "isPlaceholder": true
           },
           "title": {
-            "ar": "أورام الجهاز الهضمي",
-            "en": "Gastrointestinal cancers"
+            "ar": "الفتق الجراحي",
+            "en": "Incisional Hernia"
           },
           "details": [
             {
               "text": {
-                "ar": "تشمل أورام الجهاز الهضمي أورام المريء والمعدة والأمعاء والكبد والبنكرياس. ولكلٍّ منها سلوك مختلف، لذا تُصمَّم الرعاية وفق العضو المصاب والمرحلة والحالة الصحية العامة.",
-                "en": "Gastrointestinal cancers include tumors of the esophagus, stomach, bowel, liver and pancreas. Each behaves differently, so care is tailored to the organ involved, the stage and the person's overall health."
+                "ar": "الفتق الجراحي هو أحد أنواع الفتق التي تظهر في منطقة شق جراحي سابق بالبطن، نتيجة ضعف التئام أنسجة وعضلات جدار البطن بعد العملية. وقد يظهر بعد فترة قصيرة من الجراحة أو بعد عدة سنوات، وتختلف درجة تعقيده حسب حجم الفتق وموقعه ووجود التصاقات أو عمليات سابقة. يحتاج علاج الفتق الجراحي إلى تقييم دقيق لتحديد أفضل طريقة للإصلاح، سواء باستخدام المنظار الجراحي أو الجراحة المفتوحة أو تقنيات إعادة بناء جدار البطن في الحالات المعقدة.",
+                "en": "An incisional hernia develops at the site of a previous abdominal surgical incision due to weakness in the healing of abdominal wall muscles and connective tissues. It may appear shortly after surgery or several years later. Its complexity varies depending on the hernia size, location, adhesions, and previous operations. Treatment requires careful evaluation to determine the most appropriate repair technique, including laparoscopic surgery, open repair, or abdominal wall reconstruction in complex cases."
               },
               "type": "paragraph"
             },
             {
               "text": {
-                "ar": "ما قد تشمله الرعاية",
-                "en": "What care may include"
+                "ar": "أسباب وعوامل خطورة الفتق الجراحي",
+                "en": "Causes and Risk Factors of Incisional Hernia "
               },
               "type": "heading"
             },
@@ -1777,37 +1785,39 @@
               "type": "list",
               "items": {
                 "ar": [
-                  "مراجعة تقارير المناظير والأشعة والتحاليل النسيجية",
-                  "تخطيط العلاج الدوائي قبل الجراحة أو بعدها عند الحاجة",
-                  "التنسيق مع الجراحين وغيرهم من المتخصصين",
-                  "الاهتمام بالتغذية والهضم والوزن"
+                  "ضعف التئام الأنسجة في موضع الجراحة السابقة.",
+                  "الإصابة بالتهابات في الجرح بعد العملية.",
+                  "السمنة وزيادة الضغط المستمر داخل البطن.",
+                  "وجود أمراض تؤثر على التئام الجروح، مثل السكري غير المنضبط.",
+                  " التدخين أو المجهود البدني المبكر الذي قد يؤثر على التئام جدار البطن."
                 ],
                 "en": [
-                  "Reviewing endoscopy, imaging and pathology reports",
-                  "Planning medical treatment before or after surgery when appropriate",
-                  "Coordinating with surgeons and other specialists",
-                  "Attention to nutrition, digestion and weight"
+                  "Poor tissue healing at the previous surgical incision.",
+                  "Postoperative wound infections.",
+                  "Obesity and persistently increased intra abdominal pressure.",
+                  "Medical conditions that impair wound healing, such as poorly controlled diabetes.",
+                  " Smoking or premature physical strain that may interfere with abdominal wall healing."
                 ]
               }
             },
             {
               "text": {
-                "ar": "معلومة مفيدة",
-                "en": "Good to know"
+                "ar": "تشخيص وعلاج الفتق الجراحي",
+                "en": "Diagnosis and Treatment of Incisional Hernia "
               },
               "type": "heading"
             },
             {
               "text": {
-                "ar": "قد تتأثر الشهية والتغذية بالمرض وبالعلاج معًا، والإبلاغ المبكر عن أي تغيّر في الشهية أو الوزن يساعد على التعامل معه في وقت أبكر.",
-                "en": "Eating can be affected by both the illness and its treatment. Mentioning changes in appetite or weight early helps them be addressed sooner."
+                "ar": "يعتمد تشخيص الفتق الجراحي على الفحص السريري لتقييم موضع الجراحة السابقة وحجم الفتق، مع إمكانية إجراء الأشعة المقطعية عند الحاجة لتحديد حالة جدار البطن ومحتويات الفتق. كما تتم مراجعة التاريخ الجراحي للمريض للتعرف على وجود شبكات جراحية سابقة أو التصاقات قد تؤثر على خطة العلاج. وبناءً على نتائج التقييم، يتم اختيار الطريقة الأنسب لإصلاح الفتق، سواء باستخدام المنظار الجراحي أو الجراحة المفتوحة، مع إمكانية اللجوء إلى تقنيات تدعيم أو إعادة بناء جدار البطن في الحالات الكبيرة أو المعقدة.",
+                "en": "Diagnosis of an incisional hernia involves a clinical examination to assess the previous surgical site and hernia size, with CT imaging performed when necessary to evaluate the abdominal wall and hernia contents. The patient's surgical history is also reviewed to identify previous mesh placement or adhesions that may influence treatment planning. Based on the assessment findings, the most appropriate surgical approach is selected, whether laparoscopic or open repair, with abdominal wall reinforcement or reconstruction techniques considered for large or complex hernias."
               },
               "type": "paragraph"
             }
           ],
           "summary": {
-            "ar": "رعاية لأورام المعدة والقولون والكبد والبنكرياس، مع اهتمام بجودة الحياة اليومية.",
-            "en": "Care for cancers of the stomach, colon, liver and pancreas, with attention to everyday wellbeing."
+            "ar": "التقييم والعلاج الجراحي للفتق الذي يظهر في موضع عمليات البطن السابقة، باستخدام التقنيات المناسبة لإصلاح جدار البطن والتعامل مع الحالات المعقدة.",
+            "en": "Surgical evaluation and treatment of hernias developing at previous abdominal incision sites, using appropriate techniques to repair abdominal wall defects and manage complex cases."
           },
           "isPlaceholder": true
         },
@@ -1828,21 +1838,21 @@
             "isPlaceholder": true
           },
           "title": {
-            "ar": "أورام النساء",
-            "en": "Gynecologic cancers"
+            "ar": "الفتق البطني",
+            "en": "Ventral Hernia"
           },
           "details": [
             {
               "text": {
-                "ar": "تشمل أورام النساء سرطانات المبيض والرحم وعنق الرحم، وتُخطَّط رعايتها بما يراعي الخصوصية والأسئلة المتعلقة بالخصوبة وجودة الحياة.",
-                "en": "Gynecologic cancers include cancers of the ovary, uterus and cervix. Care is planned with sensitivity to privacy, questions about fertility and quality of life."
+                "ar": "يحدث الفتق البطني نتيجة وجود ضعف أو فتحة في جدار البطن تسمح ببروز الأنسجة الدهنية أو جزء من الأمعاء عبر المنطقة المصابة. وقد يظهر في مناطق مختلفة من الجدار الأمامي للبطن، ويشمل ذلك بعض حالات الفتق السري والفتق الجراحي. تختلف طبيعة الفتق من حالة لأخرى وفقًا لحجمه وموقعه وتأثيره على الأنسجة المحيطة. ويساعد التشخيص المبكر والتقييم الجراحي على تحديد مدى الحاجة إلى الإصلاح واختيار التقنية المناسبة، سواء بالمنظار أو الجراحة المفتوحة.",
+                "en": "A ventral hernia occurs when fatty tissue or part of the intestine protrudes through a weakened area or defect in the abdominal wall. It may develop in different regions of the anterior abdominal wall, including certain umbilical and incisional hernias. Its characteristics vary according to size, location, and the condition of surrounding tissues. Early diagnosis and surgical assessment help determine whether repair is required and whether laparoscopic or open surgery is the most appropriate approach."
               },
               "type": "paragraph"
             },
             {
               "text": {
-                "ar": "ما قد تشمله الرعاية",
-                "en": "What care may include"
+                "ar": "أعراض الفتق البطني وعوامل ظهوره",
+                "en": "Symptoms and Contributing Factors of Ventral Hernia "
               },
               "type": "heading"
             },
@@ -1850,23 +1860,25 @@
               "type": "list",
               "items": {
                 "ar": [
-                  "مراجعة نتائج الأشعة والجراحة والتحليل النسيجي",
-                  "مناقشة العلاج الكيميائي وغيره من العلاجات الدوائية عند الحاجة",
-                  "التنسيق مع جراحي أورام النساء وفرق العلاج الإشعاعي",
-                  "زيارات المتابعة والدعم بعد انتهاء العلاج"
+                  "ظهور انتفاخ أو بروز في إحدى مناطق جدار البطن.",
+                  "الشعور بألم أو ضغط عند الحركة أو بذل المجهود.",
+                  "زيادة وضوح الانتفاخ مع السعال أو الوقوف لفترات طويلة.",
+                  "ضعف أنسجة جدار البطن أو وجود فتحات في العضلات والأنسجة الضامة.",
+                  " زيادة الضغط داخل البطن نتيجة السمنة أو بعض الحالات المرضية."
                 ],
                 "en": [
-                  "Reviewing imaging, surgical and pathology findings",
-                  "Discussing chemotherapy and other medical treatments when needed",
-                  "Coordinating with gynecologic surgeons and radiotherapy teams",
-                  "Follow-up visits and support after treatment"
+                  "A visible bulge or swelling in the abdominal wall.",
+                  "Pain or pressure during movement or physical activity.",
+                  "Increased prominence during coughing or prolonged standing.",
+                  "Weakness or defects in the muscles and connective tissues of the abdominal wall.",
+                  " Increased intra abdominal pressure associated with obesity or certain medical conditions."
                 ]
               }
             },
             {
               "text": {
-                "ar": "موضوعات تستحق الطرح",
-                "en": "Topics worth raising"
+                "ar": "تشخيص وإصلاح الفتق البطني",
+                "en": "Diagnosis and Repair of Ventral Hernia "
               },
               "type": "heading"
             },
@@ -1874,21 +1886,17 @@
               "type": "list",
               "items": {
                 "ar": [
-                  "الأسئلة المتعلقة بالخصوبة أو انقطاع الطمث",
-                  "الآثار الجانبية التي تؤثر في الحياة اليومية",
-                  "الدعم النفسي لكِ ولأسرتكِ"
+                  "ايعتمد تشخيص الفتق البطني على الفحص السريري لتحديد موقع الفتق وحجمه والأعراض المصاحبة له، مع إمكانية الاستعانة بالموجات فوق الصوتية أو الأشعة المقطعية في الحالات التي تحتاج إلى تقييم أكثر دقة. ويساعد ذلك على تحديد طبيعة الأنسجة البارزة ومدى تأثر جدار البطن، لاختيار الطريقة الجراحية الأنسب للإصلاح، سواء باستخدام المنظار أو الجراحة المفتوحة. وقد يتضمن التدخل استخدام شبكة جراحية لتدعيم منطقة الإصلاح وتقليل احتمالية تكرار الفتق، وفقًا لطبيعة الحالة."
                 ],
                 "en": [
-                  "Questions about fertility or menopause",
-                  "Side effects that affect daily life",
-                  "Emotional support for you and your family"
+                  "Diagnosis of a ventral hernia begins with a clinical examination to assess its location, size, and associated symptoms. Ultrasound or CT imaging may be used when further evaluation is required to determine the nature of the protruding tissues and the condition of the abdominal wall. Based on these findings, the most appropriate surgical approach is selected, whether laparoscopic or open repair. Surgical mesh may also be used to reinforce the repaired area and reduce the risk of recurrence, depending on the individual case."
                 ]
               }
             }
           ],
           "summary": {
-            "ar": "رعاية تراعي الخصوصية لأورام المبيض والرحم وعنق الرحم.",
-            "en": "Sensitive, private care for ovarian, uterine and cervical cancers."
+            "ar": "تشخيص وعلاج أنواع الفتق التي تصيب جدار البطن الأمامي، باستخدام التقنيات الجراحية المناسبة لإصلاح مناطق الضعف وتدعيم جدار البطن.",
+            "en": "Diagnosis and surgical treatment of anterior abdominal wall hernias using appropriate techniques to repair weakened areas and reinforce abdominal wall integrity."
           },
           "isPlaceholder": true
         },
@@ -1909,21 +1917,21 @@
             "isPlaceholder": true
           },
           "title": {
-            "ar": "أورام الدم والغدد الليمفاوية",
-            "en": "Blood cancers & lymphoma"
+            "ar": "الفتق المتكرر",
+            "en": "Recurrent Hernia"
           },
           "details": [
             {
               "text": {
-                "ar": "تصيب الأورام الليمفاوية وسرطانات الدم والحالات المرتبطة بها الدمَ أو نخاع العظم أو الجهاز الليمفاوي، ويعتمد تشخيصها على تحاليل الدم والخزعات والدراسات المخبرية المتخصصة.",
-                "en": "Lymphomas, leukemias and related conditions affect the blood, bone marrow or lymphatic system. Diagnosis relies on blood tests, biopsies and specialized laboratory studies."
+                "ar": "الفتق المتكرر هو عودة ظهور الفتق في نفس المنطقة بعد إجراء عملية جراحية سابقة لإصلاحه، وقد يحدث نتيجة ضعف أنسجة جدار البطن أو عوامل مرتبطة بالجراحة السابقة أو زيادة الضغط المستمر داخل البطن. وتُعد هذه الحالات أكثر تعقيدًا في بعض الأحيان بسبب وجود التصاقات أو شبكات جراحية سابقة أو تغيرات في طبيعة الأنسجة. لذلك يتطلب الفتق المتكرر تقييمًا متخصصًا يشمل مراجعة التاريخ الجراحي والفحوصات التصويرية عند الحاجة، لتحديد التقنية الأنسب لإعادة الإصلاح وتقليل احتمالية تكرار المشكلة.",
+                "en": "A recurrent hernia occurs when a hernia returns at the same site after a previous surgical repair. It may result from abdominal wall weakness, factors related to the initial procedure, or persistently increased intra-abdominal pressure. These cases can be more complex because of adhesions, previous surgical mesh, or changes in tissue anatomy. Therefore, recurrent hernias require specialized assessment, including a review of surgical history and imaging when necessary, to determine the most appropriate repair technique and minimize the risk of further recurrence."
               },
               "type": "paragraph"
             },
             {
               "text": {
-                "ar": "ما قد تشمله الرعاية",
-                "en": "What care may include"
+                "ar": "أسباب وعوامل تكرار الفتق",
+                "en": "Causes and Risk Factors of Hernia Recurrence "
               },
               "type": "heading"
             },
@@ -1931,30 +1939,98 @@
               "type": "list",
               "items": {
                 "ar": [
-                  "شرح صورة الدم ونتائج التحاليل بوضوح",
-                  "مناقشة خيارات العلاج، وقد تشمل العلاج الكيميائي أو المناعي أو الأدوية الموجّهة",
-                  "المتابعة أثناء العلاج بتحاليل دم منتظمة",
-                  "الإحالة إلى العلاجات المتخصصة عند الحاجة"
+                  "ضعف أنسجة جدار البطن أو عدم التئام منطقة الإصلاح بصورة كافية.",
+                  "زيادة الضغط داخل البطن نتيجة السمنة أو السعال المزمن أو الإمساك المستمر.",
+                  "حدوث التهابات أو مضاعفات بعد عملية الإصلاح السابقة.",
+                  "وجود عوامل مرتبطة بالتقنية الجراحية أو الشبكة المستخدمة في الإصلاح الأول.",
+                  "التدخين أو الأمراض المزمنة التي قد تؤثر على التئام الأنسجة."
                 ],
                 "en": [
-                  "Explaining blood counts and laboratory results clearly",
-                  "Discussing treatment options, which may include chemotherapy, immunotherapy or targeted medicines",
-                  "Monitoring during treatment with regular blood tests",
-                  "Referral for specialized treatments when needed"
+                  "Abdominal wall weakness or inadequate healing following the initial repair.",
+                  "Increased intra abdominal pressure caused by obesity, chronic coughing, or persistent constipation.",
+                  "Postoperative infections or complications after previous repair.",
+                  "Factors related to the surgical technique or mesh used in the initial procedure.",
+                  " Smoking or chronic medical conditions that may impair tissue healing."
                 ]
               }
             },
             {
               "text": {
-                "ar": "تُتابَع بعض أورام الدم عن كثب قبل البدء بأي علاج، عندما يكون ذلك هو النهج الأكثر أمانًا للمريض.",
-                "en": "Some blood cancers are monitored closely before any treatment begins, when this is the safest approach for the individual."
+                "ar": "يعتمد تشخيص الفتق المتكرر على مراجعة التاريخ الجراحي للمريض وتفاصيل العمليات السابقة، مع إجراء فحص سريري لتقييم حجم الفتق وموقعه وحالة جدار البطن. وقد يتطلب الأمر إجراء أشعة مقطعية لتقييم منطقة الفتق وتحديد وجود شبكات جراحية سابقة أو تغيرات في الأنسجة والالتصاقات المحتملة. وبناءً على نتائج التقييم، يتم اختيار الطريقة الأنسب لإعادة إصلاح الفتق، سواء باستخدام المنظار الجراحي أو الجراحة المفتوحة، مع إمكانية اللجوء إلى تقنيات جراحية متقدمة لإعادة بناء جدار البطن في الحالات الكبيرة والمعقدة، والعمل على معالجة عوامل الخطورة لتقليل احتمالية تكرار الفتق.",
+                "en": "Diagnosis of recurrent hernia involves reviewing the patient's surgical history and previous procedures, along with a clinical examination to assess the hernia's size, location, and abdominal wall condition. CT imaging may be required to evaluate the hernia defect, identify previously placed surgical mesh, and assess tissue changes or possible adhesions. Based on these findings, the most appropriate repair technique is selected, whether laparoscopic or open surgery. Advanced surgical techniques or abdominal wall reconstruction may be considered for large or complex hernias, while addressing contributing risk factors to reduce the likelihood of further recurrence."
               },
               "type": "note"
             }
           ],
           "summary": {
-            "ar": "شرح واضح لنتائج التحاليل ومسارات العلاج لأورام الغدد الليمفاوية وسرطان الدم.",
-            "en": "Clear explanations of test results and treatment pathways for lymphoma and leukemia."
+            "ar": "التقييم وإعادة الإصلاح الجراحي لحالات الفتق التي تعود بعد عمليات سابقة، باستخدام تقنيات تناسب طبيعة الفتق وحالة جدار البطن والتدخلات السابقة.",
+            "en": "Surgical evaluation and repair of hernias recurring after previous operations, using techniques tailored to hernia characteristics, abdominal wall condition, and surgical history."
+          },
+          "isPlaceholder": true
+        },
+        "parent": "medical-specialties"
+      },
+      {
+        "slug": "service-35",
+        "content": {
+          "image": {
+            "alt": {
+              "ar": "طبيبان يراجعان صورًا طبية على شاشات الحاسوب",
+              "en": "Two doctors reviewing medical images on computer screens"
+            },
+            "src": "/media/page-services",
+            "assetId": "a8cbbda9-720a-48db-9ee1-0e8ad399cbb6",
+            "isPlaceholder": true
+          },
+          "title": {
+            "ar": "جراحات الفتق المعقدة وإعادة إصلاح الفتق",
+            "en": "Complex Hernia Surgery and Hernia Re Repair"
+          },
+          "details": [
+            {
+              "text": {
+                "ar": "تُعد جراحات الفتق المعقدة وإعادة إصلاح الفتق من التدخلات التي تحتاج إلى تقييم جراحي دقيق، خاصةً في الحالات التي يعود فيها الفتق بعد عملية سابقة أو يكون مصحوبًا بضعف كبير في عضلات وأنسجة جدار البطن. وقد تزداد صعوبة هذه الحالات نتيجة وجود التصاقات أو شبكات جراحية سابقة أو اتساع منطقة الفتق. ويعتمد اختيار طريقة العلاج على حجم الفتق وموقعه والحالة الصحية للمريض، مع إمكانية استخدام المنظار الجراحي أو تقنيات إعادة بناء جدار البطن للوصول إلى إصلاح مناسب ومستقر.",
+                "en": "Complex hernia surgery and hernia re repair require careful surgical evaluation, particularly when a hernia recurs after previous surgery or involves significant weakness of the abdominal wall muscles and tissues. These cases may become more challenging due to adhesions, previously implanted surgical mesh, or large abdominal wall defects. The choice of treatment depends on the hernia's size, location, and the patient's overall health, with laparoscopic techniques or abdominal wall reconstruction considered to achieve an effective and durable repair."
+              },
+              "type": "paragraph"
+            },
+            {
+              "text": {
+                "ar": "الحالات التي تحتاج إلى جراحات الفتق المعقدة",
+                "en": "Conditions Requiring Complex Hernia Surgery "
+              },
+              "type": "heading"
+            },
+            {
+              "type": "list",
+              "items": {
+                "ar": [
+                  "الفتق المتكرر بعد إجراء عملية إصلاح سابقة.",
+                  "الفتق الجراحي الناتج عن ضعف جدار البطن في موضع العمليات السابقة.",
+                  "الفتق البطني كبير الحجم أو المصحوب بضعف شديد في العضلات.",
+                  "حالات الفتق المصحوبة بالتصاقات أو وجود شبكات جراحية سابقة.",
+                  "الفتق الذي يحتاج إلى تقنيات متقدمة لإعادة بناء جدار البطن."
+                ],
+                "en": [
+                  "Recurrent hernias following previous surgical repair.",
+                  "Incisional hernias developing at previous abdominal surgical sites.",
+                  "Large abdominal wall hernias associated with significant muscle weakness.",
+                  "Hernias involving adhesions or previously implanted surgical mesh.",
+                  "Hernias requiring advanced abdominal wall reconstruction techniques."
+                ]
+              }
+            },
+            {
+              "text": {
+                "ar": "يعتمد التعامل مع الفتق المعقد على مراجعة التاريخ الجراحي للمريض وإجراء فحص سريري شامل لتقييم حجم الفتق وموقعه وحالة جدار البطن. وقد يتطلب الأمر إجراء أشعة مقطعية لتحديد طبيعة العيب في جدار البطن وتقييم العضلات والأنسجة المحيطة. وبناءً على نتائج الفحوصات، يتم اختيار التقنية الجراحية المناسبة، سواء بالمنظار أو الجراحة المفتوحة أو باستخدام تقنيات متقدمة لإعادة بناء جدار البطن، مع مراعاة العوامل التي قد تؤثر على التئام الأنسجة وتقليل احتمالية تكرار الفتق.",
+                "en": "Management of complex hernias involves reviewing the patient's surgical history and performing a comprehensive clinical examination to assess the hernia's size, location, and abdominal wall condition. CT imaging may be required to evaluate the abdominal wall defect and surrounding muscles and tissues. Based on these findings, the most appropriate surgical technique is selected, including laparoscopic repair, open surgery, or advanced abdominal wall reconstruction. Treatment planning also considers factors that may affect tissue healing and the risk of recurrence."
+              },
+              "type": "paragraph"
+            }
+          ],
+          "summary": {
+            "ar": "التقييم والعلاج الجراحي لحالات الفتق المعقد والمتكرر، باستخدام تقنيات جراحية متقدمة لإصلاح مناطق الضعف وإعادة بناء جدار البطن عند الحاجة.",
+            "en": "Surgical evaluation and treatment of complex and recurrent hernias using advanced techniques to repair abdominal wall defects and perform reconstruction when necessary."
           },
           "isPlaceholder": true
         },
@@ -1975,21 +2051,21 @@
             "isPlaceholder": true
           },
           "title": {
-            "ar": "العلاج الكيميائي",
-            "en": "Chemotherapy"
+            "ar": "العلاج حصوات المرارة",
+            "en": "Gallstones"
           },
           "details": [
             {
               "text": {
-                "ar": "يعتمد العلاج الكيميائي على أدوية تؤثر في الخلايا سريعة الانقسام. وبحسب الحالة، قد يُعطى قبل الجراحة أو بعدها، أو مع العلاج الإشعاعي، أو كعلاج أساسي.",
-                "en": "Chemotherapy uses medicines that affect rapidly dividing cells. Depending on the situation, it may be given before or after surgery, together with radiotherapy, or as the main treatment."
+                "ar": "تُعد حصوات المرارة من المشكلات الشائعة التي تحدث نتيجة تكوّن ترسبات صلبة داخل المرارة، وقد تتكون من الكوليسترول أو مواد أخرى موجودة في العصارة الصفراوية. وفي بعض الحالات لا تسبب الحصوات أي أعراض، بينما قد تؤدي إلى نوبات من الألم في الجزء العلوي الأيمن من البطن، خاصةً بعد تناول الوجبات الدسمة. وقد ينتج عن انسداد القنوات المرارية مضاعفات مثل التهاب المرارة أو التهاب البنكرياس. ويعتمد اختيار العلاج على الأعراض ونتائج الفحوصات، ويُعد استئصال المرارة بالمنظار أحد الخيارات الجراحية الأساسية للحالات التي تستدعي التدخل.",
+                "en": "Gallstones are a common condition caused by the formation of solid deposits inside the gallbladder, typically composed of cholesterol or other substances found in bile. Some gallstones remain asymptomatic, while others may cause episodes of pain in the upper right abdomen, particularly after fatty meals. Blockage of the biliary ducts may lead to complications such as gallbladder inflammation or pancreatitis. Treatment depends on symptoms and diagnostic findings, with laparoscopic cholecystectomy being a standard surgical option when intervention is indicated."
               },
               "type": "paragraph"
             },
             {
               "text": {
-                "ar": "كيف يُعطى",
-                "en": "How it is given"
+                "ar": "أعراض حصوات المرارة ومضاعفاتها",
+                "en": "Symptoms and Complications of Gallstones "
               },
               "type": "heading"
             },
@@ -1997,35 +2073,34 @@
               "type": "list",
               "items": {
                 "ar": [
-                  "عادةً على دورات تتخللها فترات راحة تتيح للجسم التعافي",
-                  "عن طريق الوريد أو على شكل أقراص بحسب نوع الدواء",
-                  "مع تحاليل دم وفحص طبي قبل كل دورة"
+                  "ألم مفاجئ أو متكرر في الجزء العلوي الأيمن من البطن، وقد يمتد إلى الظهر أو الكتف الأيمن.",
+                  "الشعور بالغثيان أو القيء، خاصةً أثناء نوبات المغص المراري.",
+                  "زيادة الألم بعد تناول الوجبات الدسمة في بعض الحالات.",
+                  "التهاب المرارة نتيجة انسداد القناة المرارية بالحصوات.",
+                  "انسداد القناة الصفراوية الرئيسية، وقد يصاحبه اصفرار الجلد والعينين.",
+                  " التهاب البنكرياس الحاد في بعض الحالات نتيجة انتقال الحصوات إلى القنوات الصفراوية."
                 ],
                 "en": [
-                  "Usually in cycles, with rest periods that allow the body to recover",
-                  "Through a vein (infusion) or as tablets, depending on the medicine",
-                  "With blood tests and a check-up before each cycle"
+                  "Sudden or recurring pain in the upper right abdomen, sometimes radiating to the back or right shoulder.",
+                  "Nausea or vomiting, particularly during episodes of biliary colic.",
+                  "Increased discomfort after fatty meals in some patients.",
+                  "Gallbladder inflammation caused by gallstone obstruction.",
+                  "Common bile duct obstruction, potentially causing jaundice.",
+                  "Acute pancreatitis in certain cases due to gallstones migrating into the bile ducts."
                 ]
               }
             },
             {
               "text": {
-                "ar": "عن الآثار الجانبية",
-                "en": "About side effects"
+                "ar": "تشخيص وعلاج حصوات المرارة",
+                "en": "Diagnosis and Treatment of Gallstones"
               },
               "type": "heading"
-            },
-            {
-              "text": {
-                "ar": "تختلف الآثار الجانبية باختلاف الأدوية ومن شخص لآخر، وقد تشمل الإرهاق أو الغثيان أو ارتفاع خطر العدوى. ويمكن الوقاية من كثير منها أو تخفيفه، لذا من المهم الإبلاغ عنها.",
-                "en": "Side effects depend on the specific medicines and vary from person to person. They may include tiredness, nausea or a higher risk of infection. Many can be prevented or eased, so it is important to report them."
-              },
-              "type": "paragraph"
             }
           ],
           "summary": {
-            "ar": "أدوية تستهدف الخلايا سريعة الانقسام، تُعطى على دورات تخضع لمتابعة دقيقة.",
-            "en": "Medicines that act on rapidly dividing cells, given in carefully monitored cycles."
+            "ar": "تشخيص وعلاج حصوات المرارة وتقييم الحالات التي تحتاج إلى التدخل الجراحي، مع إمكانية استئصال المرارة بالمنظار عند الحاجة لتجنب المضاعفات المرتبطة بالحصوات.",
+            "en": "Diagnosis and treatment of gallstones, including the evaluation of cases requiring surgical intervention and laparoscopic gallbladder removal when indicated to prevent gallstone related complications."
           },
           "isPlaceholder": true
         },
@@ -2046,21 +2121,21 @@
             "isPlaceholder": true
           },
           "title": {
-            "ar": "العلاج المناعي",
-            "en": "Immunotherapy"
+            "ar": "التهاب المرارة",
+            "en": "Cholecystitis"
           },
           "details": [
             {
               "text": {
-                "ar": "يساعد العلاج المناعي جهاز المناعة في الجسم على التعرّف على الخلايا السرطانية ومهاجمتها، ويُستخدم لأنواع وحالات محددة من الأورام، وغالبًا ما تسترشد قراراته بفحوص الورم.",
-                "en": "Immunotherapy helps the body's own immune system recognize and attack cancer cells. It is used for certain cancer types and situations, often guided by tests on the tumor."
+                "ar": "يحدث التهاب المرارة غالبًا نتيجة انسداد القناة المرارية بحصوة، مما يؤدي إلى تجمع العصارة الصفراوية وظهور التهاب في جدار المرارة. وقد يظهر الالتهاب بصورة حادة مصحوبة بألم شديد في الجزء العلوي الأيمن من البطن، أو في صورة نوبات متكررة من الأعراض المرتبطة بحصوات المرارة. وتحتاج بعض الحالات إلى التدخل الطبي السريع لتجنب تطور المضاعفات، مثل تجمع الصديد أو حدوث تلف في جدار المرارة. ويعتمد العلاج على شدة الالتهاب والحالة الصحية للمريض، وقد يشمل العلاج الدوائي والدعم الطبي إلى جانب استئصال المرارة بالمنظار عند ملاءمة الحالة.",
+                "en": "Cholecystitis commonly occurs when a gallstone obstructs the cystic duct, causing bile accumulation and inflammation of the gallbladder wall. It may present as an acute condition with severe upper right abdominal pain or as recurrent episodes of gallbladder related symptoms. Some cases require prompt medical intervention to prevent complications such as gallbladder empyema or tissue damage. Treatment depends on the severity of inflammation and the patient's overall health and may include supportive medical care, medications, and laparoscopic cholecystectomy when appropriate."
               },
               "type": "paragraph"
             },
             {
               "text": {
-                "ar": "معلومات مهمة",
-                "en": "Good to know"
+                "ar": "أعراض التهاب المرارة ومضاعفاته",
+                "en": "Symptoms and Complications of Cholecystitis "
               },
               "type": "heading"
             },
@@ -2068,78 +2143,27 @@
               "type": "list",
               "items": {
                 "ar": [
-                  "يعمل بطريقة مختلفة عن العلاج الكيميائي، لذا تختلف آثاره الجانبية أيضًا",
-                  "قد يؤثر الجهاز المناعي أحيانًا في أعضاء سليمة مثل الجلد أو الأمعاء أو الغدة الدرقية",
-                  "ينبغي الإبلاغ عن أي أعراض جديدة فورًا، حتى بعد أسابيع من الجرعة"
+                  "ألم مستمر في الجزء العلوي الأيمن من البطن، وقد يمتد إلى الكتف أو الظهر.",
+                  "ارتفاع درجة حرارة الجسم، وقد يصاحبه رعشة أو قشعريرة.",
+                  "الغثيان والقيء وفقدان الشهية.",
+                  "زيادة الألم عند الضغط على منطقة المرارة أثناء الفحص السريري.",
+                  "تجمع الصديد داخل المرارة أو حدوث غرغرينا في الحالات الشديدة.",
+                  " احتمالية حدوث ثقب في جدار المرارة أو التهاب بالغشاء البريتوني في الحالات المتقدمة."
                 ],
                 "en": [
-                  "It works differently from chemotherapy, so its side effects are different too",
-                  "The immune system can sometimes affect healthy organs, such as the skin, bowel or thyroid",
-                  "New symptoms should be reported promptly, even weeks after a dose"
+                  "Persistent pain in the upper right abdomen, potentially radiating to the shoulder or back.",
+                  "Fever, sometimes accompanied by chills.",
+                  "Nausea, vomiting, and loss of appetite.",
+                  "Increased tenderness over the gallbladder area during clinical examination.",
+                  "Gallbladder empyema or gangrene in severe cases.",
+                  " Possible gallbladder perforation or peritonitis in advanced cases."
                 ]
               }
             }
           ],
           "summary": {
-            "ar": "علاجات تساعد الجهاز المناعي على التعرّف على الخلايا السرطانية والتصدي لها.",
-            "en": "Treatments that help the immune system recognize and respond to cancer cells."
-          },
-          "isPlaceholder": true
-        },
-        "parent": "treatments"
-      },
-      {
-        "slug": "targeted",
-        "content": {
-          "image": {
-            "alt": {
-              "ar": "رسم توضيحي للحمض النووي بشكله الحلزوني المزدوج",
-              "en": "Illustration of a DNA double helix"
-            },
-            "src": "/media/treatment-targeted",
-            "credit": "Unsplash — https://images.unsplash.com/photo-1628595351029-c2bf17511435",
-            "assetId": "f1247d05-4487-451f-8234-5b8c8a5ac0bb",
-            "position": "35% 50%",
-            "isPlaceholder": true
-          },
-          "title": {
-            "ar": "العلاج الموجّه",
-            "en": "Targeted therapy"
-          },
-          "details": [
-            {
-              "text": {
-                "ar": "تستهدف العلاجات الموجّهة تغيّرات محددة في الخلايا السرطانية، مثل جينات أو بروتينات بعينها، ويساعد فحص الورم على معرفة ما إذا كان هناك علاج موجّه مناسب.",
-                "en": "Targeted therapies act on specific changes in cancer cells, such as particular genes or proteins. Testing the tumor helps identify whether a suitable targeted treatment exists."
-              },
-              "type": "paragraph"
-            },
-            {
-              "text": {
-                "ar": "ما الذي يتضمنه",
-                "en": "What it involves"
-              },
-              "type": "heading"
-            },
-            {
-              "type": "list",
-              "items": {
-                "ar": [
-                  "فحوص جزيئية أو للمؤشرات الحيوية على نسيج الورم أو الدم",
-                  "أدوية تُعطى على شكل أقراص أو عن طريق الوريد",
-                  "متابعة منتظمة للاستجابة وللآثار الجانبية"
-                ],
-                "en": [
-                  "Molecular or biomarker testing of tumor tissue or blood",
-                  "Medicines given as tablets or infusions",
-                  "Regular monitoring of response and side effects"
-                ]
-              }
-            }
-          ],
-          "summary": {
-            "ar": "أدوية تُختار وفق خصائص محددة في الورم، وغالبًا ما تسترشد بنتائج الفحوص الجزيئية.",
-            "en": "Medicines chosen for specific features of a tumor, often guided by molecular testing."
+            "ar": "تشخيص وعلاج التهابات المرارة الحادة والمتكررة، مع تقييم الحاجة إلى استئصال المرارة بالمنظار لتجنب المضاعفات واستعادة الوظائف الطبيعية للجهاز الهضمي.",
+            "en": "Diagnosis and treatment of acute and recurrent gallbladder inflammation, including assessment for laparoscopic cholecystectomy when indicated to prevent complications."
           },
           "isPlaceholder": true
         },
@@ -2160,21 +2184,21 @@
             "isPlaceholder": true
           },
           "title": {
-            "ar": "العلاج الهرموني",
-            "en": "Hormonal therapy"
+            "ar": "استئصال المرارة بالمنظار",
+            "en": "Laparoscopic Cholecystectomy"
           },
           "details": [
             {
               "text": {
-                "ar": "تنمو بعض الأورام، ومنها كثير من أورام الثدي والبروستاتا، استجابةً للهرمونات. ويعمل العلاج الهرموني على خفض مستوى الهرمونات أو منع تأثيرها في الخلايا السرطانية.",
-                "en": "Some cancers, including many breast and prostate cancers, grow in response to hormones. Hormonal therapy lowers hormone levels or blocks their effect on cancer cells."
+                "ar": "يُعد استئصال المرارة بالمنظار من الإجراءات الجراحية الشائعة لعلاج حصوات المرارة المصحوبة بأعراض والتهابات المرارة وبعض الحالات الأخرى التي تستدعي الاستئصال. وتعتمد العملية على إدخال كاميرا وأدوات جراحية دقيقة من خلال فتحات صغيرة في جدار البطن، مما يسمح برؤية الأعضاء وإجراء الاستئصال دون الحاجة إلى شق جراحي كبير في الحالات المناسبة. وتتميز هذه التقنية بإمكانية تقليل ألم الجروح بعد العملية وقصر فترة الإقامة بالمستشفى مقارنة بالجراحة المفتوحة، مع اختلاف مدة التعافي وفقًا لطبيعة الحالة ومدى تعقيد الجراحة.",
+                "en": "Laparoscopic cholecystectomy is a commonly performed surgical procedure for treating symptomatic gallstones, gallbladder inflammation, and other conditions requiring gallbladder removal. The procedure involves inserting a camera and specialized surgical instruments through small abdominal incisions, allowing the surgeon to visualize the organs and remove the gallbladder without a large surgical incision in suitable cases. Compared with open surgery, this technique may reduce postoperative wound pain and shorten hospital stays, although recovery time varies depending on the patient's condition and surgical complexity."
               },
               "type": "paragraph"
             },
             {
               "text": {
-                "ar": "معلومات مهمة",
-                "en": "Good to know"
+                "ar": "الحالات التي تستدعي استئصال المرارة بالمنظار",
+                "en": "Conditions Requiring Laparoscopic Cholecystectomy "
               },
               "type": "heading"
             },
@@ -2182,21 +2206,25 @@
               "type": "list",
               "items": {
                 "ar": [
-                  "يُؤخذ غالبًا على شكل أقراص يومية أو حقن منتظمة",
-                  "قد يستمر العلاج عدة سنوات",
-                  "قد تشمل آثاره الجانبية الهبّات الساخنة أو الإرهاق أو آلام المفاصل، ويمكن التعامل معها في كثير من الأحيان"
+                  "حصوات المرارة التي تسبب نوبات متكررة من الألم أو المغص المراري.",
+                  "التهاب المرارة الحاد أو المتكرر الذي يستدعي التدخل الجراحي.",
+                  "بعض حالات التهاب البنكرياس الناتج عن حصوات المرارة بعد استقرار الحالة.",
+                  "بعض حالات الزوائد اللحمية بالمرارة وفقًا لحجمها وعوامل الخطورة المصاحبة.",
+                  "اضطرابات المرارة التي تستدعي الاستئصال بعد استكمال الفحوصات والتقييم الطبي."
                 ],
                 "en": [
-                  "It is often taken as daily tablets or regular injections",
-                  "Treatment may continue for several years",
-                  "Side effects can include hot flushes, tiredness or joint aches, and can often be managed"
+                  "Symptomatic gallstones causing recurrent pain or biliary colic.",
+                  "Acute or recurrent cholecystitis requiring surgical intervention.",
+                  "Selected cases of gallstone related pancreatitis after clinical stabilization.",
+                  "Certain gallbladder polyps based on their size and associated risk factors.",
+                  " Gallbladder disorders requiring removal following appropriate diagnostic evaluation."
                 ]
               }
             }
           ],
           "summary": {
-            "ar": "علاج للأورام الحساسة للهرمونات، مثل بعض أنواع سرطان الثدي والبروستاتا.",
-            "en": "Treatment for hormone-sensitive cancers, such as some breast and prostate cancers."
+            "ar": "استئصال المرارة باستخدام المنظار الجراحي من خلال فتحات صغيرة في البطن، لعلاج الحالات التي تستدعي التدخل الجراحي، مع المساعدة على تقليل ألم الجروح وفترة التعافي.",
+            "en": "Laparoscopic gallbladder removal through small abdominal incisions to treat conditions requiring surgical intervention, potentially reducing postoperative wound pain and recovery time."
           },
           "isPlaceholder": true
         },
@@ -2217,21 +2245,21 @@
             "isPlaceholder": true
           },
           "title": {
-            "ar": "الرعاية الداعمة",
-            "en": "Supportive care"
+            "ar": "الحالات الصعبة من استئصال المرارة",
+            "en": "Complex and Difficult Gallbladder Surgery"
           },
           "details": [
             {
               "text": {
-                "ar": "تركّز الرعاية الداعمة على الراحة وجودة الحياة في كل مرحلة: أثناء العلاج، وبعده، وجنبًا إلى جنب مع الرعاية الأخرى.",
-                "en": "Supportive care focuses on comfort and quality of life at every stage — during treatment, after it, and alongside other care."
+                "ar": "تُعد بعض حالات استئصال المرارة أكثر تعقيدًا من الجراحات المعتادة، خاصةً عند وجود التهابات شديدة أو متكررة، أو التصاقات ناتجة عن عمليات سابقة، أو تغيرات في التشريح الطبيعي للمرارة والقنوات الصفراوية. وقد تؤدي هذه العوامل إلى صعوبة تحديد التراكيب التشريحية أثناء الجراحة، مما يتطلب تخطيطًا دقيقًا واستخدام استراتيجيات جراحية مناسبة لتقليل احتمالية حدوث مضاعفات. ويعتمد اختيار المنظار أو الجراحة المفتوحة على طبيعة الحالة ودرجة الالتهاب ومدى وضوح التراكيب التشريحية أثناء التدخل.",
+                "en": "Some gallbladder removal procedures are more complex than routine operations, particularly in the presence of severe or recurrent inflammation, adhesions from previous surgeries, or anatomical variations involving the gallbladder and bile ducts. These factors can make identifying anatomical structures during surgery more challenging, requiring careful planning and appropriate surgical strategies to reduce the risk of complications. The choice between laparoscopic and open surgery depends on the patient's condition, the severity of inflammation, and the clarity of anatomical structures during the procedure."
               },
               "type": "paragraph"
             },
             {
               "text": {
-                "ar": "قد تساعد في",
-                "en": "It may help with"
+                "ar": "الحالات التي تزيد من صعوبة استئصال المرارة",
+                "en": "Conditions That Make Gallbladder Surgery More Complex "
               },
               "type": "heading"
             },
@@ -2239,30 +2267,27 @@
               "type": "list",
               "items": {
                 "ar": [
-                  "الألم والغثيان والإرهاق",
-                  "الشهية والتغذية",
-                  "النوم والحالة المزاجية والقلق",
-                  "الدعم العملي والنفسي للأسرة"
+                  "التهاب المرارة الحاد المصحوب بتورم شديد أو تغيرات واضحة في الأنسجة.",
+                  "الالتهابات المتكررة التي قد تؤدي إلى تليف أو التصاقات حول المرارة.",
+                  "وجود عمليات جراحية سابقة بالبطن نتج عنها التصاقات.",
+                  "حالات المرارة المنكمشة أو المتليفة نتيجة الالتهاب المزمن.",
+                  "وجود اختلافات تشريحية في القنوات الصفراوية أو الأوعية الدموية المحيطة بالمرارة.",
+                  " بعض حالات التهاب المرارة المصحوبة بصديد أو غرغرينا أو مضاعفات موضعية."
                 ],
                 "en": [
-                  "Pain, nausea and fatigue",
-                  "Appetite and nutrition",
-                  "Sleep, mood and anxiety",
-                  "Practical and emotional support for families"
+                  "Acute cholecystitis associated with severe swelling or significant tissue changes.",
+                  "Recurrent inflammation causing fibrosis or adhesions around the gallbladder.",
+                  "Previous abdominal surgeries resulting in adhesions.",
+                  "Contracted or fibrotic gallbladders associated with chronic inflammation.",
+                  "Anatomical variations involving the bile ducts or blood vessels surrounding the gallbladder.",
+                  "Selected cases of cholecystitis complicated by empyema, gangrene, or localized complications."
                 ]
               }
-            },
-            {
-              "text": {
-                "ar": "الرعاية الداعمة ليست مقتصرة على المراحل المتقدمة، بل يمكن أن تبدأ منذ التشخيص.",
-                "en": "Supportive care is not only for advanced illness; it can begin from the time of diagnosis."
-              },
-              "type": "note"
             }
           ],
           "summary": {
-            "ar": "التعامل مع الأعراض والآثار الجانبية للحفاظ على الراحة وجودة الحياة.",
-            "en": "Managing symptoms and side effects to protect comfort and quality of life."
+            "ar": "التقييم والتدخل الجراحي في حالات استئصال المرارة المعقدة، مثل الالتهابات الشديدة والالتصاقات، مع اختيار التقنية المناسبة للحفاظ على سلامة المريض.",
+            "en": "Surgical evaluation and management of complex gallbladder cases, including severe inflammation and adhesions, using appropriate techniques with patient safety as the primary consideration."
           },
           "isPlaceholder": true
         },
@@ -2283,21 +2308,21 @@
             "isPlaceholder": true
           },
           "title": {
-            "ar": "الاستشارة والرأي الطبي الثاني",
-            "en": "Consultation & second opinion"
+            "ar": "أورام القولون",
+            "en": "Colon Tumors"
           },
           "details": [
             {
               "text": {
-                "ar": "الاستشارة الأولى فرصة لمراجعة تاريخك المرضي وتقاريرك وصور الأشعة، ومناقشة أسئلتك. أما الرأي الطبي الثاني فيقدّم رؤية مستقلة لتشخيص أو خطة علاجية حصلت عليها بالفعل.",
-                "en": "The first consultation is a chance to review your medical history, reports and scans, and to talk through your questions. A second opinion offers an independent view of a diagnosis or treatment plan you have already received."
+                "ar": "تُعد أورام القولون من الحالات التي تحتاج إلى تشخيص دقيق لتحديد طبيعة الورم، سواء كان حميدًا أو خبيثًا، ومدى تأثيره على الأنسجة المحيطة. وقد تظهر بعض الأورام دون أعراض واضحة في المراحل المبكرة، بينما قد تتسبب في تغيرات بعادات الإخراج أو وجود دم في البراز أو آلام متكررة بالبطن. ويعتمد اختيار العلاج على نتائج منظار القولون وتحليل الأنسجة والفحوصات التصويرية، وقد يتطلب الأمر استئصال الجزء المصاب من القولون مع الغدد الليمفاوية المرتبطة به في حالات السرطان. ويمكن استخدام المنظار الجراحي في الحالات المناسبة، مع وضع خطة علاجية متكاملة بالتعاون مع التخصصات المعنية عند الحاجة.",
+                "en": "Colon tumors require accurate diagnosis to determine whether they are benign or malignant and assess their impact on surrounding tissues. Some tumors may remain asymptomatic in the early stages, while others may cause changes in bowel habits, blood in the stool, or recurrent abdominal pain. Treatment decisions depend on colonoscopy findings, histopathological results, and imaging studies. In cases of colon cancer, surgical treatment may involve removing the affected segment of the colon along with its associated lymph nodes. Laparoscopic surgery may be performed in suitable cases, with multidisciplinary treatment planning when necessary."
               },
               "type": "paragraph"
             },
             {
               "text": {
-                "ar": "يُفضَّل إحضار",
-                "en": "Helpful to bring"
+                "ar": "تشخيص وعلاج أورام القولون",
+                "en": "Diagnosis and Treatment of Colon Tumors "
               },
               "type": "heading"
             },
@@ -2305,23 +2330,25 @@
               "type": "list",
               "items": {
                 "ar": [
-                  "تقارير التحليل النسيجي والخزعة",
-                  "صور الأشعة وتقاريرها المكتوبة",
-                  "أحدث تحاليل الدم وقائمة بالأدوية الحالية",
-                  "أسئلتك مكتوبةً مسبقًا"
+                  "إجراء منظار القولون لتحديد موقع الورم وحجمه وأخذ عينات للفحص النسيجي.",
+                  "استخدام الأشعة المقطعية والفحوصات اللازمة لتقييم مدى انتشار الأورام الخبيثة.",
+                  "تحديد مدى الحاجة إلى التدخل الجراحي وفقًا لطبيعة الورم ومرحلته.",
+                  "استئصال الجزء المصاب من القولون باستخدام المنظار أو الجراحة المفتوحة حسب الحالة.",
+                  " التنسيق مع فريق الأورام لتحديد الحاجة إلى علاجات إضافية بعد الجراحة."
                 ],
                 "en": [
-                  "Pathology and biopsy reports",
-                  "Imaging scans and their written reports",
-                  "Recent blood tests and a list of current medicines",
-                  "Your questions, written down in advance"
+                  "Colonoscopy to identify tumor location and size and obtain tissue samples for histopathological examination.",
+                  "CT imaging and appropriate investigations to assess the extent of malignant tumors.",
+                  "Determining the need for surgery based on tumor characteristics and stage.",
+                  "Removal of the affected colon segment through laparoscopic or open surgery when indicated.",
+                  "Coordination with the oncology team to determine whether additional treatment is required after surgery."
                 ]
               }
             }
           ],
           "summary": {
-            "ar": "زيارة أولى دون استعجال، أو رأي مستقل في تشخيص أو خطة علاجية قائمة.",
-            "en": "An unhurried first visit, or an independent view of an existing diagnosis or plan."
+            "ar": "التقييم والعلاج الجراحي لأورام القولون الحميدة والخبيثة، مع تحديد التدخل المناسب وفقًا لنوع الورم وموقعه ومرحلته، باستخدام التقنيات الجراحية الحديثة.",
+            "en": "Surgical evaluation and treatment of benign and malignant colon tumors, with individualized surgical planning based on tumor type, location, and stage using appropriate modern surgical techniques."
           },
           "isPlaceholder": true
         },
@@ -2342,21 +2369,21 @@
             "isPlaceholder": true
           },
           "title": {
-            "ar": "مراجعة التقارير والأشعة",
-            "en": "Review of reports & imaging"
+            "ar": "أورام المستقيم",
+            "en": "Rectal Tumors"
           },
           "details": [
             {
               "text": {
-                "ar": "فهم نتائج الفحوص أساس التخطيط للرعاية، لذا تُراجَع التقارير معًا وتُشرح خطوة بخطوة، بما في ذلك دلالتها ومدى الحاجة إلى فحوص إضافية.",
-                "en": "Understanding test results is central to planning care. Reports are reviewed together and explained step by step, including what they mean and whether further tests may be needed."
+                "ar": "تحتاج أورام المستقيم إلى تقييم متخصص نظرًا لطبيعة موقع المستقيم داخل الحوض وقربه من الأعصاب والعضلات المسؤولة عن التحكم في الإخراج. وقد تظهر الأورام في صورة نزيف شرجي أو تغير في طبيعة التبرز أو الشعور بعدم اكتمال الإخراج، بينما قد لا تسبب أعراضًا واضحة في بعض الحالات المبكرة. يعتمد تحديد الخطة العلاجية على نوع الورم وموقعه ومدى امتداده، باستخدام منظار القولون والرنين المغناطيسي للحوض والفحوصات الأخرى عند الحاجة. وقد يتضمن العلاج الاستئصال الجراحي بالمنظار أو الجراحة المفتوحة، مع إمكانية الحاجة إلى العلاج الكيميائي أو الإشعاعي قبل الجراحة أو بعدها وفقًا لمرحلة الورم، بهدف تحقيق أفضل نتائج علاجية ممكنة مع الحفاظ على الوظائف الطبيعية قدر الإمكان.",
+                "en": "Rectal tumors require specialized assessment due to the rectum's location within the pelvis and its proximity to nerves and muscles responsible for bowel control. Symptoms may include rectal bleeding, changes in bowel habits, or a sensation of incomplete evacuation, although early stage tumors may cause no noticeable symptoms. Treatment planning depends on tumor type, location, and extent, using colonoscopy, pelvic MRI, and other investigations when indicated. Management may involve laparoscopic or open surgical resection, with chemotherapy or radiotherapy considered before or after surgery according to the tumor stage. The aim is to achieve appropriate cancer treatment while preserving normal bowel function whenever possible."
               },
               "type": "paragraph"
             },
             {
               "text": {
-                "ar": "قد يشمل ذلك",
-                "en": "This may include"
+                "ar": "تشخيص وعلاج أورام المستقيم",
+                "en": "Diagnosis and Treatment of Rectal Tumors "
               },
               "type": "heading"
             },
@@ -2364,21 +2391,27 @@
               "type": "list",
               "items": {
                 "ar": [
-                  "تقارير التحليل النسيجي والفحوص الجزيئية",
-                  "الأشعة المقطعية والرنين المغناطيسي والمسح البوزيتروني وغيرها",
-                  "تحاليل الدم ودلالات الأورام عند الحاجة"
+                  "إجراء منظار القولون والمستقيم وأخذ عينات لتحديد طبيعة الورم.",
+                  "استخدام الرنين المغناطيسي للحوض لتقييم موقع الورم ومدى امتداده.",
+                  "إجراء الفحوصات التصويرية اللازمة لتحديد مرحلة الورم في الحالات الخبيثة.",
+                  "اختيار التدخل الجراحي المناسب مع مراعاة الحفاظ على عضلات التحكم في الإخراج متى أمكن.",
+                  "تقييم الحاجة إلى العلاج الكيميائي أو الإشعاعي ضمن خطة علاجية متعددة التخصصات.",
+                  "متابعة المريض بعد الجراحة وفقًا لنوع الورم ومرحلته والخطة العلاجية."
                 ],
                 "en": [
-                  "Pathology and molecular test reports",
-                  "CT, MRI, PET and other imaging",
-                  "Blood tests and tumor markers when relevant"
+                  "Colonoscopy and rectal examination with tissue biopsy to determine tumor characteristics.",
+                  "Pelvic MRI to assess tumor location and local extent.",
+                  "Appropriate imaging investigations for staging malignant tumors.",
+                  "Selecting the most suitable surgical approach while preserving bowel continence whenever feasible.",
+                  "Evaluating the need for chemotherapy or radiotherapy as part of multidisciplinary treatment planning.",
+                  " Postoperative follow up according to tumor type, stage, and treatment plan."
                 ]
               }
             }
           ],
           "summary": {
-            "ar": "مراجعة دقيقة لنتائج التحليل النسيجي والأشعة والتحاليل، مع شرحها بلغة واضحة.",
-            "en": "Careful review of pathology, imaging and laboratory results, explained in clear language."
+            "ar": "تشخيص وعلاج أورام المستقيم باستخدام التقنيات الجراحية المناسبة، مع التخطيط الدقيق للحفاظ على وظائف المستقيم وعضلات التحكم في الإخراج قدر الإمكان.",
+            "en": "Diagnosis and surgical treatment of rectal tumors using appropriate techniques, with careful planning to preserve rectal function and bowel continence whenever possible."
           },
           "isPlaceholder": true
         },
@@ -2399,21 +2432,21 @@
             "isPlaceholder": true
           },
           "title": {
-            "ar": "تخطيط علاجي فردي",
-            "en": "Individualized treatment planning"
+            "ar": "جراحات القولون بالمنظار",
+            "en": "Laparoscopic Colon Surgery"
           },
           "details": [
             {
               "text": {
-                "ar": "تجمع الخطة العلاجية بين تفاصيل التشخيص والأدلة الطبية الحالية وأولوياتك الشخصية، وتُناقش الخيارات بصراحة، بما في ذلك فوائدها المتوقعة وآثارها الجانبية المحتملة.",
-                "en": "A treatment plan brings together the details of the diagnosis, current medical evidence and your own priorities. Options are discussed openly, including their expected benefits and possible side effects."
+                "ar": "تُعد جراحات القولون بالمنظار من التقنيات الجراحية محدودة التدخل التي تُستخدم لعلاج بعض أمراض وأورام القولون التي تستدعي استئصال جزء منه. وتعتمد على إدخال كاميرا وأدوات جراحية دقيقة عبر فتحات صغيرة في جدار البطن، مما يسمح للجراح برؤية الأعضاء وإجراء الاستئصال مع الحفاظ على الأنسجة المحيطة قدر الإمكان. وقد تساعد هذه التقنية على تقليل ألم الجروح وفترة الإقامة بالمستشفى مقارنة بالجراحة المفتوحة في الحالات المناسبة. ويعتمد اختيار المنظار على طبيعة المرض وموقعه ومدى تعقيد الحالة، مع مراعاة التاريخ الجراحي والحالة الصحية العامة للمريض.",
+                "en": "Laparoscopic colon surgery is a minimally invasive technique used to treat selected colon diseases and tumors requiring removal of part of the colon. It involves inserting a camera and specialized surgical instruments through small abdominal incisions, allowing the surgeon to visualize internal structures and perform the procedure while minimizing unnecessary tissue disruption. In suitable cases, this approach may reduce postoperative wound pain and shorten hospital stays compared with open surgery. The suitability of laparoscopy depends on the disease type, location, complexity, previous surgical history, and the patient's overall health."
               },
               "type": "paragraph"
             },
             {
               "text": {
-                "ar": "تشمل الخطة عادةً",
-                "en": "A plan usually covers"
+                "ar": "الحالات التي يمكن علاجها بجراحات القولون بالمنظار",
+                "en": "Conditions Treated with Laparoscopic Colon Surgery "
               },
               "type": "heading"
             },
@@ -2421,23 +2454,27 @@
               "type": "list",
               "items": {
                 "ar": [
-                  "أهداف العلاج",
-                  "العلاجات الموصى بها وترتيبها",
-                  "كيفية متابعة الاستجابة والتقدم",
-                  "جهة التواصل عند وجود أسئلة أو مخاوف"
+                  "أورام القولون التي تستدعي الاستئصال الجراحي.",
+                  "بعض الزوائد اللحمية الكبيرة التي لا يمكن استئصالها بالكامل بمنظار القولون.",
+                  "حالات التهاب الرتوج المتكرر أو المصحوب بمضاعفات تستدعي الجراحة.",
+                  "بعض حالات ضيق القولون أو الانسداد التي تتطلب تدخلًا جراحيًا.",
+                  "بعض أمراض القولون الالتهابية التي تحتاج إلى استئصال جزء من القولون.",
+                  " الحالات التي تتطلب استئصال جزء من القولون وإعادة توصيل الأمعاء عند ملاءمة الحالة."
                 ],
                 "en": [
-                  "The goals of treatment",
-                  "Which treatments are recommended, and in what order",
-                  "How progress will be monitored",
-                  "Who to contact with questions or concerns"
+                  "Colon tumors requiring surgical resection.",
+                  "Selected large colonic polyps that cannot be completely removed through colonoscopy.",
+                  "Recurrent or complicated diverticular disease requiring surgery.",
+                  "Certain cases of colonic narrowing or obstruction requiring surgical intervention.",
+                  "Selected inflammatory bowel conditions requiring partial colon resection.",
+                  " Conditions requiring removal of a colon segment and bowel reconnection when appropriate."
                 ]
               }
             }
           ],
           "summary": {
-            "ar": "خطة تُبنى حول تشخيصك وصحتك وما يهمك أكثر.",
-            "en": "A plan built around your diagnosis, your health and what matters most to you."
+            "ar": "إجراء جراحات القولون باستخدام المنظار من خلال فتحات صغيرة في البطن لعلاج الحالات المناسبة، مع المساعدة على تقليل ألم الجروح وتسريع التعافي بعد الجراحة.",
+            "en": "Performing colon surgery through small abdominal incisions using laparoscopic techniques in suitable cases, potentially reducing postoperative wound pain and supporting faster recovery."
           },
           "isPlaceholder": true
         },
@@ -2458,21 +2495,21 @@
             "isPlaceholder": true
           },
           "title": {
-            "ar": "المتابعة والرعاية بعد العلاج",
-            "en": "Follow-up & survivorship care"
+            "ar": "الحالات الجراحية المعقدة للقولون والمستقيم",
+            "en": "Complex Colorectal Surgical Cases"
           },
           "details": [
             {
               "text": {
-                "ar": "تستمر المتابعة بعد انتهاء العلاج الفعّال، إذ تهدف الزيارات إلى متابعة التعافي، ورصد أي علامات لعودة المرض، والتعامل مع الآثار طويلة المدى للعلاج.",
-                "en": "Follow-up continues after active treatment ends. Visits monitor recovery, look for any signs of the illness returning and address long-term effects of treatment."
+                "ar": "تتطلب الحالات الجراحية المعقدة للقولون والمستقيم تقييمًا دقيقًا وخطة علاجية فردية، خاصةً عند وجود أورام متقدمة أو التصاقات ناتجة عن عمليات سابقة أو مضاعفات تؤثر على وظائف الأمعاء. وقد تشمل هذه الحالات أورامًا قريبة من أعضاء حيوية داخل الحوض، أو حالات انسداد القولون، أو الحاجة إلى إعادة التدخل بعد جراحات سابقة. ويعتمد اختيار العلاج على الفحص السريري والأشعة والمناظير ونتائج تحليل الأنسجة عند الحاجة. وقد يتطلب التدخل استخدام تقنيات جراحية متقدمة أو التعاون مع فريق طبي متعدد التخصصات، بهدف التعامل مع المشكلة الأساسية وتقليل المخاطر والحفاظ على وظائف الجهاز الهضمي قدر الإمكان.",
+                "en": "Complex colorectal surgical conditions require careful assessment and individualized treatment planning, particularly in patients with advanced tumors, adhesions from previous operations, or complications affecting bowel function. These cases may involve tumors located near vital pelvic structures, colonic obstruction, or the need for repeat surgery following previous procedures. Treatment decisions are guided by clinical examination, imaging, endoscopy, and histopathological findings when indicated. Advanced surgical techniques or multidisciplinary collaboration may be necessary to address the underlying condition, minimize surgical risks, and preserve gastrointestinal function whenever possible."
               },
               "type": "paragraph"
             },
             {
               "text": {
-                "ar": "قد تشمل المتابعة",
-                "en": "Follow-up may include"
+                "ar": "الحالات التي تحتاج إلى جراحات متقدمة للقولون والمستقيم",
+                "en": "Conditions Requiring Advanced Colorectal Surgery "
               },
               "type": "heading"
             },
@@ -2480,23 +2517,27 @@
               "type": "list",
               "items": {
                 "ar": [
-                  "فحوصات وتحاليل دورية حسب التوصيات",
-                  "التعامل مع الآثار الجانبية المستمرة",
-                  "إرشادات للعودة إلى الأنشطة اليومية",
-                  "جهة تواصل واضحة بين الزيارات"
+                  "أورام القولون والمستقيم المتقدمة أو القريبة من الأعضاء والأنسجة المحيطة.",
+                  "انسداد القولون الناتج عن الأورام أو بعض الأمراض الأخرى.",
+                  "الحالات التي تحتاج إلى إعادة جراحة بعد تدخلات سابقة بالقولون أو المستقيم.",
+                  "وجود التصاقات شديدة داخل البطن أو الحوض تؤثر على التدخل الجراحي.",
+                  "بعض حالات الالتهابات المعقدة أو وجود خراجات واتصالات غير طبيعية بين الأمعاء والأعضاء المجاورة.",
+                  " الحالات التي تتطلب التخطيط الجراحي بالتعاون مع تخصصات طبية أخرى."
                 ],
                 "en": [
-                  "Regular check-ups and tests, as recommended",
-                  "Managing lasting side effects",
-                  "Guidance on returning to daily activities",
-                  "A clear point of contact between visits"
+                  "Advanced colorectal tumors or tumors involving nearby organs and tissues.",
+                  "Colonic obstruction caused by tumors or other conditions.",
+                  "Cases requiring repeat surgery following previous colorectal procedures.",
+                  "Severe abdominal or pelvic adhesions affecting surgical intervention.",
+                  "Selected cases of complicated inflammation, abscesses, or fistulas involving adjacent organs.",
+                  " Conditions requiring coordinated surgical planning with other medical specialties."
                 ]
               }
             }
           ],
           "summary": {
-            "ar": "متابعة منتظمة أثناء العلاج وبعده، مع اهتمام بالصحة على المدى الطويل.",
-            "en": "Regular follow-up during and after treatment, with attention to long-term wellbeing."
+            "ar": "التقييم والتدخل الجراحي في حالات القولون والمستقيم المعقدة، بما يشمل الأورام المتقدمة والجراحات المتكررة والحالات التي تحتاج إلى تخطيط جراحي متخصص.",
+            "en": "Surgical evaluation and management of complex colorectal conditions, including advanced tumors, repeat operations, and cases requiring specialized surgical planning."
           },
           "isPlaceholder": true
         },
@@ -2517,21 +2558,21 @@
             "isPlaceholder": true
           },
           "title": {
-            "ar": "الفتق الإربي",
-            "en": "Inguinal hernia"
+            "ar": "عقد الغدة الدرقية",
+            "en": "Thyroid Nodules"
           },
           "details": [
             {
               "text": {
-                "ar": "يحدث الفتق الإربي عندما تبرز أنسجة من نقطة ضعف في جدار البطن السفلي، فيظهر انتفاخ في منطقة الأربية قد يؤلم عند رفع الأشياء أو السعال أو الوقوف طويلًا.",
-                "en": "An inguinal hernia happens when tissue pushes through a weak spot in the lower abdominal wall, causing a bulge in the groin that may ache when lifting, coughing or standing for long."
+                "ar": "تُعد عقد الغدة الدرقية من الحالات الشائعة، وهي عبارة عن تكتلات أو نمو غير طبيعي داخل أنسجة الغدة الدرقية، وقد تكون صلبة أو ممتلئة بالسوائل أو مزيجًا منهما. ومعظم هذه العقد حميدة ولا تحتاج إلى تدخل جراحي، لكن بعض الحالات تتطلب تقييمًا أكثر دقة لاستبعاد الأورام الخبيثة أو تحديد تأثير العقدة على الأعضاء المحيطة. وقد تظهر العقد دون أعراض واضحة، بينما قد تسبب العقد الكبيرة صعوبة في البلع أو إحساسًا بالضغط في الرقبة. ويعتمد التشخيص على الفحص السريري والموجات فوق الصوتية، مع إمكانية سحب عينة بالإبرة الدقيقة عند وجود مؤشرات تستدعي ذلك، لتحديد الحاجة إلى المتابعة أو العلاج الجراحي.",
+                "en": "Thyroid nodules are common growths that develop within the thyroid gland. They may be solid, fluid filled, or a combination of both. Most thyroid nodules are benign and do not require surgery; however, some cases need further assessment to exclude malignancy or evaluate pressure on surrounding structures. While many nodules cause no noticeable symptoms, larger nodules may lead to difficulty swallowing or a sensation of pressure in the neck. Diagnosis involves clinical examination and thyroid ultrasound, with fine-needle aspiration performed when indicated to determine whether monitoring or surgical treatment is necessary."
               },
               "type": "paragraph"
             },
             {
               "text": {
-                "ar": "ما قد تشمله الرعاية",
-                "en": "What care may include"
+                "ar": "تشخيص وعلاج عقد الغدة الدرقية",
+                "en": "Diagnosis and Management of Thyroid Nodules "
               },
               "type": "heading"
             },
@@ -2539,23 +2580,27 @@
               "type": "list",
               "items": {
                 "ar": [
-                  "فحص سريري، وأشعة بالموجات فوق الصوتية عند الحاجة",
-                  "الإصلاح باستخدام شبكة جراحية بالجراحة المفتوحة أو بالمنظار",
-                  "إرشادات العودة إلى العمل ورفع الأشياء وممارسة الرياضة",
-                  "تقييم عاجل إذا أصبح الانتفاخ مؤلمًا أو صلبًا أو تعذّر إرجاعه"
+                  "إجراء فحص سريري لتقييم حجم الغدة الدرقية وطبيعة العقد الموجودة بها.",
+                  "استخدام الموجات فوق الصوتية لتحديد حجم العقد وخصائصها ومدى الاشتباه في وجود تغيرات غير طبيعية.",
+                  "إجراء تحاليل وظائف الغدة الدرقية لتقييم نشاطها الهرموني.",
+                  "سحب عينة بالإبرة الدقيقة (FNAC/FNAB) عند الحاجة لتحديد طبيعة الخلايا.",
+                  "تحديد الحالات التي تحتاج إلى متابعة دورية أو تدخل جراحي وفقًا لنتائج التقييم.",
+                  " استئصال جزء من الغدة الدرقية أو الغدة بالكامل في الحالات التي تستدعي العلاج الجراحي."
                 ],
                 "en": [
-                  "Clinical examination and, when needed, an ultrasound",
-                  "Repair with a surgical mesh, open or laparoscopic",
-                  "Advice on returning to work, lifting and exercise",
-                  "Urgent assessment if the bulge becomes painful, hard or cannot be pushed back"
+                  "Clinical examination to assess thyroid size and nodule characteristics.",
+                  "Thyroid ultrasound to evaluate nodule size, structure, and suspicious features.",
+                  "Thyroid function tests to assess hormonal activity.",
+                  "Fine needle aspiration cytology or biopsy (FNAC/FNAB) when indicated.",
+                  "Determining whether regular monitoring or surgical intervention is required based on diagnostic findings.",
+                  " Partial or total thyroidectomy in cases requiring surgical treatment."
                 ]
               }
             }
           ],
           "summary": {
-            "ar": "انتفاخ في منطقة الأربية يُقيَّم ويُصلَح غالبًا باستخدام شبكة جراحية، وكثيرًا ما يكون ذلك بالمنظار.",
-            "en": "A bulge in the groin, assessed and repaired with a surgical mesh, often by laparoscopy."
+            "ar": "تشخيص وتقييم عقد الغدة الدرقية لتحديد طبيعتها ومدى الحاجة إلى التدخل الجراحي، اعتمادًا على الفحص السريري والموجات فوق الصوتية ونتائج العينات عند الحاجة.",
+            "en": "Diagnosis and evaluation of thyroid nodules to determine their nature and the need for surgical intervention, based on clinical examination, ultrasound findings, and biopsy results when indicated."
           },
           "isPlaceholder": true
         },
@@ -2576,21 +2621,21 @@
             "isPlaceholder": true
           },
           "title": {
-            "ar": "الفتق السري",
-            "en": "Umbilical hernia"
+            "ar": "أورام الغدة الدرقية",
+            "en": "Thyroid Tumors"
           },
           "details": [
             {
               "text": {
-                "ar": "يظهر الفتق السري أو المجاور للسرة على شكل انتفاخ عند السرة أو حولها، ويزداد شيوعه مع زيادة الوزن أو الحمل أو السعال المزمن.",
-                "en": "Umbilical and paraumbilical hernias appear as a bulge at or around the navel. They are more common with weight gain, pregnancy or a persistent cough."
+                "ar": "تشمل أورام الغدة الدرقية مجموعة من الأورام الحميدة والخبيثة التي قد تظهر في صورة عقدة أو تضخم داخل الغدة. وتختلف طبيعة هذه الأورام وطرق التعامل معها وفقًا لنوع الخلايا ومدى نمو الورم وتأثيره على الأنسجة المحيطة. وقد لا تسبب أورام الغدة الدرقية أعراضًا في مراحلها المبكرة، بينما قد يظهر تورم في الرقبة أو صعوبة في البلع أو تغير في الصوت في بعض الحالات. ويعتمد التقييم على الموجات فوق الصوتية وتحاليل وظائف الغدة ونتائج سحب العينات، مع إجراء فحوصات إضافية عند الحاجة. وفي الحالات التي تستدعي التدخل الجراحي، يتم تحديد مدى الاستئصال وفقًا لطبيعة الورم وعوامل الخطورة، مع مراعاة الحفاظ على الأعصاب المسؤولة عن حركة الأحبال الصوتية والغدد جار الدرقية قدر الإمكان.",
+                "en": "Thyroid tumors include benign and malignant growths that may appear as nodules or enlargement within the thyroid gland. Their characteristics and management vary according to tumor type, growth pattern, and involvement of surrounding tissues. Early thyroid tumors may cause no symptoms, while some patients develop neck swelling, difficulty swallowing, or voice changes. Evaluation involves ultrasound imaging, thyroid function tests, and fine needle aspiration results, with additional investigations when necessary. When surgery is indicated, the extent of thyroid removal is determined by tumor characteristics and risk factors, while aiming to preserve the nerves controlling vocal cord movement and the parathyroid glands whenever possible."
               },
               "type": "paragraph"
             },
             {
               "text": {
-                "ar": "ما قد تشمله الرعاية",
-                "en": "What care may include"
+                "ar": "تشخيص وعلاج أورام الغدة الدرقية",
+                "en": "Diagnosis and Treatment of Thyroid Tumors "
               },
               "type": "heading"
             },
@@ -2598,23 +2643,27 @@
               "type": "list",
               "items": {
                 "ar": [
-                  "تقييم حجم الفتق ومحتواه",
-                  "الإصلاح بالغرز أو بالشبكة الجراحية حسب حجمه",
-                  "إرشادات بشأن الوزن والنشاط للحد من تكرار الفتق",
-                  "مراجعة عاجلة عند ظهور ألم أو احمرار أو قيء"
+                  "تقييم أورام الغدة الدرقية باستخدام الفحص السريري والموجات فوق الصوتية.",
+                  "سحب عينات بالإبرة الدقيقة لتقييم طبيعة الورم عند الحاجة.",
+                  "تحديد حجم الورم وموقعه ومدى تأثر الأنسجة والغدد الليمفاوية المحيطة.",
+                  "اختيار الاستئصال الجزئي أو الكلي للغدة الدرقية وفقًا لنوع الورم ومرحلته.",
+                  "تقييم الحاجة إلى استئصال الغدد الليمفاوية المصابة في بعض حالات الأورام الخبيثة.",
+                  " التنسيق مع التخصصات المعنية لتحديد الحاجة إلى علاجات إضافية والمتابعة بعد الجراحة."
                 ],
                 "en": [
-                  "Assessing the size of the hernia and its contents",
-                  "Repair with stitches or a mesh, depending on its size",
-                  "Guidance on weight and activity to reduce recurrence",
-                  "Urgent review if pain, redness or vomiting appear"
+                  "Clinical examination and ultrasound assessment of thyroid tumors.",
+                  "Fine needle aspiration to evaluate tumor characteristics when indicated.",
+                  "Assessment of tumor size, location, and possible involvement of surrounding tissues or lymph nodes.",
+                  "Selection of partial or total thyroidectomy according to tumor type and stage.",
+                  "Evaluation of the need for lymph node removal in selected cases of thyroid malignancy.",
+                  "Coordination with relevant specialists to determine additional treatment and postoperative follow up requirements."
                 ]
               }
             }
           ],
           "summary": {
-            "ar": "فتق عند السرة أو بالقرب منها يُصلَح لتخفيف الأعراض والوقاية من المضاعفات.",
-            "en": "Hernias at or near the navel, repaired to relieve symptoms and prevent complications."
+            "ar": "التقييم والعلاج الجراحي لأورام الغدة الدرقية الحميدة والخبيثة، مع تحديد الخطة المناسبة وفقًا لنوع الورم وحجمه ونتائج الفحوصات.",
+            "en": "Surgical evaluation and treatment of benign and malignant thyroid tumors, with individualized treatment planning based on tumor type, size, and diagnostic findings."
           },
           "isPlaceholder": true
         },
@@ -5108,9 +5157,9 @@
     "services \"gastrointestinal\"",
     "services \"gynecologic\"",
     "services \"hematologic\"",
+    "services \"service-35\"",
     "services \"chemotherapy\"",
     "services \"immunotherapy\"",
-    "services \"targeted\"",
     "services \"hormonal\"",
     "services \"supportive\"",
     "services \"consultation\"",

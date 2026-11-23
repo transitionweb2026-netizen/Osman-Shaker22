@@ -148,7 +148,6 @@ const msg = {
   atMost: (n: number) => L(`Use at most ${n}.`, `استخدم ${n} كحد أقصى.`),
   missingReference: (id: string) =>
     L(`“${id}” does not exist (it may have been deleted).`, `العنصر «${id}» غير موجود (ربما حُذف).`),
-  emptyBlock: L("This block is empty in one of the languages.", "هذه الفقرة فارغة في إحدى اللغتين."),
   placeholder: L(
     "Marked as placeholder: replace it or confirm it before launch.",
     "معلّم كمحتوى مؤقت: استبدله أو اعتمده قبل الإطلاق.",
@@ -314,20 +313,10 @@ export function validateField(field: Field, value: unknown, path: string, ctx: V
       return;
     }
     case "blocks": {
+      // A block may be written in one language only (or a list may have more points in one
+      // language): the website skips empty text in each language (components/content/ContentBlocks.tsx).
       const blocks = Array.isArray(value) ? (value as Json[]) : [];
       if (field.required && !blocks.length) out.push({ path, severity: "incomplete", message: msg.required });
-      blocks.forEach((block, index) => {
-        const blockPath = join(path, index);
-        if (block.type === "list") {
-          const items = (block.items ?? {}) as { en?: string[]; ar?: string[] };
-          const en = (items.en ?? []).filter((s) => !blank(s));
-          const ar = (items.ar ?? []).filter((s) => !blank(s));
-          if (!en.length || en.length !== ar.length) out.push({ path: blockPath, severity: "incomplete", message: msg.emptyBlock });
-        } else {
-          const text = (block.text ?? {}) as Partial<Label>;
-          if (blank(text.en) || blank(text.ar)) out.push({ path: blockPath, severity: "incomplete", message: msg.emptyBlock });
-        }
-      });
       return;
     }
     case "references": {

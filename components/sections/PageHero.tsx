@@ -21,8 +21,8 @@ type PageHeroProps = {
 };
 
 /**
- * Hero for internal pages: the homepage hero's image treatment and motion,
- * in a shorter composition with breadcrumbs.
+ * Hero for internal pages: the homepage hero's photo (shown without colour
+ * effects) and motion, in a shorter composition with breadcrumbs.
  */
 export function PageHero({ locale, site, content, pageLabel, children }: PageHeroProps) {
   const home = site.navigation.find((item) => item.route === "home")?.label ?? site.name;
@@ -32,10 +32,7 @@ export function PageHero({ locale, site, content, pageLabel, children }: PageHer
       <div className={heroStyles.media}>
         <MediaImage image={content.image} sizes="100vw" priority className={heroStyles.image} />
       </div>
-      <div className={heroStyles.tint} aria-hidden="true" />
-      <div className={heroStyles.grade} aria-hidden="true" />
       <div className={heroStyles.scrim} aria-hidden="true" />
-      <div className={heroStyles.light} aria-hidden="true" />
 
       <div className="container-wide">
         <div className={heroStyles.content}>

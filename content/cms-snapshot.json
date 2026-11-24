@@ -1,7 +1,7 @@
 {
   "enabled": true,
-  "syncedAt": "2026-11-23T14:16:08.612Z",
-  "version": "2026-11-23T13:26:47.75812+00:00",
+  "syncedAt": "2026-11-24T09:50:12.505Z",
+  "version": "2026-11-24T09:49:27.471643+00:00",
   "documents": {
     "home.faq": {
       "title": {
@@ -60,21 +60,20 @@
           "ar": "طبيب يرتدي معطفًا أبيض وسماعة طبية، يقف عاقدًا ذراعيه",
           "en": "Doctor in a white coat with a stethoscope, standing with arms crossed"
         },
-        "src": "/media/hero-doctor",
-        "credit": "Unsplash — https://images.unsplash.com/photo-1612349317150-e413f6a5b16d",
-        "assetId": "9e9f30f2-db2f-4f5f-8e92-96438f821932",
+        "src": "/media/cms-a796bff4-a0e1-4448-88c9-210ff8a022bd",
+        "assetId": "a796bff4-a0e1-4448-88c9-210ff8a022bd",
         "position": "62% 22%",
         "mirrorInRtl": true,
-        "isPlaceholder": true,
+        "isPlaceholder": false,
         "positionMobile": "40% 18%"
       },
       "title": {
-        "ar": "الاورام",
-        "en": "akram"
+        "ar": "خبرة متخصصة في الجراحة العامة",
+        "en": "Specialized Expertise in General, Oncologic"
       },
       "eyebrow": {
-        "ar": "بببببب",
-        "en": "fffff"
+        "ar": "الجراحات المتقدمة",
+        "en": "Advanced Surgery"
       },
       "primaryCta": {
         "label": {
@@ -86,12 +85,12 @@
         }
       },
       "description": {
-        "ar": "شرح واضح، وتخطيط مدروس، ودعم متواصل في كل مرحلة من مراحل رحلتك العلاجية.",
-        "en": "Clear explanations, thoughtful planning and steady support at every stage of your care."
+        "ar": "نقدم رعاية طبية متخصصة في الجراحة العامة وجراحات الأورام والمناظير، بالاعتماد على دقة التشخيص والتقنيات الجراحية الحديثة، لتحقيق أفضل النتائج الممكنة ودعم التعافي الآمن.",
+        "en": "We provide specialized care in general, oncologic, and laparoscopic surgery, combining accurate diagnosis with advanced surgical techniques to achieve the best possible outcomes and support safe recovery."
       },
       "titleAccent": {
-        "ar": "تبدأ بالإصغاء إليك.",
-        "en": "that begins with listening."
+        "ar": " وجراحات الأورام والمناظير",
+        "en": ", and Laparoscopic Surgery"
       },
       "secondaryCta": {
         "label": {
@@ -178,11 +177,10 @@
           "ar": "صورة شخصية لطبيب يرتدي نظارة ومعطفًا أبيض",
           "en": "Portrait of a doctor wearing glasses and a white coat"
         },
-        "src": "/media/doctor-portrait",
-        "credit": "Unsplash — https://images.unsplash.com/photo-1612531386530-97286d97c2d2",
-        "assetId": "cfa4e5f8-8682-4070-8556-ad67ad5104d1",
+        "src": "/media/cms-7d3b7728-ad56-41c2-9f7b-1250acdf6c80",
+        "assetId": "7d3b7728-ad56-41c2-9f7b-1250acdf6c80",
         "position": "50% 18%",
-        "isPlaceholder": true
+        "isPlaceholder": false
       },
       "paragraphs": {
         "ar": [
@@ -511,11 +509,10 @@
           "ar": "طبيبة تشرح صورة أشعة مقطعية معروضة على شاشة الحاسوب",
           "en": "A doctor explaining a CT scan displayed on a computer screen"
         },
-        "src": "/media/intro-video-poster",
-        "credit": "Unsplash — https://images.unsplash.com/photo-1666214280557-f1b5022eb634",
-        "assetId": "8e45b362-0d4b-4529-868e-7ac410c441a9",
+        "src": "/media/cms-a796bff4-a0e1-4448-88c9-210ff8a022bd",
+        "assetId": "a796bff4-a0e1-4448-88c9-210ff8a022bd",
         "position": "60% 40%",
-        "isPlaceholder": true,
+        "isPlaceholder": false,
         "positionMobile": "68% 35%"
       },
       "title": {
@@ -523,8 +520,8 @@
         "en": "Short, clear answers to common questions"
       },
       "eyebrow": {
-        "ar": "الفيديوهات",
-        "en": "Videos"
+        "ar": "خبرة طبية",
+        "en": "Medical Expertise"
       },
       "description": {
         "ar": "فيديوهات توعوية تساعد المرضى وعائلاتهم على الاستعداد بثقة أكبر في كل مرحلة من مراحل الرعاية.",
@@ -1058,16 +1055,16 @@
     },
     "home.introVideo": {
       "title": {
-        "ar": "تعرّف على د. عثمان شاكر",
+        "ar": "تعرف على د. عثمان شاكر",
         "en": "Meet Dr. Othman Shaker"
       },
       "eyebrow": {
-        "ar": "تعريف",
-        "en": "Introduction"
+        "ar": "المسيرة الطبية",
+        "en": "Medical Career"
       },
       "description": {
-        "ar": "مقدمة قصيرة عن نهج د. عثمان في الرعاية، وما يمكنك توقعه عند زيارتك للعيادة.",
-        "en": "A short introduction to Dr. Othman’s approach to care, and what you can expect when you visit the clinic."
+        "ar": "نبذة عن مسيرته الطبية وخبراته في الجراحة العامة وجراحات الأورام والمناظير.",
+        "en": "An overview of his medical career and expertise in general, oncologic, and laparoscopic surgery."
       }
     },
     "home.statistics": {
@@ -1353,13 +1350,17 @@
           "ar": "طبيبة تشرح صورة أشعة مقطعية معروضة على شاشة الحاسوب",
           "en": "A doctor explaining a CT scan displayed on a computer screen"
         },
-        "src": "/media/intro-video-poster",
-        "credit": "Unsplash — https://images.unsplash.com/photo-1666214280557-f1b5022eb634",
-        "assetId": "8e45b362-0d4b-4529-868e-7ac410c441a9",
+        "src": "/media/cms-a796bff4-a0e1-4448-88c9-210ff8a022bd",
+        "assetId": "a796bff4-a0e1-4448-88c9-210ff8a022bd",
         "position": "55% 45%",
-        "isPlaceholder": true
+        "isPlaceholder": false
       },
-      "source": null,
+      "source": {
+        "src": "/media/cms-22393781-0c0a-416b-a0aa-12948222f50c.mp4",
+        "kind": "file",
+        "type": "video/mp4",
+        "assetId": "22393781-0c0a-416b-a0aa-12948222f50c"
+      },
       "duration": null,
       "isPlaceholder": true
     },
@@ -1446,8 +1447,8 @@
             "en": "Laparoscopic Hernia Surgery"
           },
           "eyebrow": {
-            "ar": "التخصصات الطبية",
-            "en": "Medical specialties"
+            "ar": "جراحات الفتق بالمنظار",
+            "en": "Laparoscopic Hernia Surgery"
           },
           "description": {
             "ar": "علاج أنواع الفتق المختلفة باستخدام تقنيات المنظار الجراحي في الحالات المناسبة، بهدف إصلاح الفتق وتدعيم جدار البطن وتقليل فترة التعافي.",
@@ -1463,8 +1464,8 @@
             "en": "Laparoscopic Gallbladder Surgery"
           },
           "eyebrow": {
-            "ar": "العلاجات",
-            "en": "Treatments"
+            "ar": "جراحات المرارة بالمنظار",
+            "en": "Laparoscopic Gallbladder Surgery"
           },
           "description": {
             "ar": "تشخيص وعلاج حصوات المرارة والتهاباتها باستخدام المنظار الجراحي في الحالات المناسبة، مع التعامل مع الحالات المعقدة بهدف إجراء تدخل جراحي آمن والمساعدة على تقليل الألم وفترة التعافي.",
@@ -1480,8 +1481,8 @@
             "en": "Colorectal Surgery"
           },
           "eyebrow": {
-            "ar": "الاستشارة والرعاية المستمرة",
-            "en": "Consultation & ongoing care"
+            "ar": "جراحات القولون والمستقيم",
+            "en": "Colorectal Surgery"
           },
           "description": {
             "ar": "تشخيص وعلاج أمراض وأورام القولون والمستقيم باستخدام التقنيات الجراحية المناسبة، بما فيها المنظار، مع التعامل مع الحالات المعقدة وفقًا لطبيعة كل حالة.",
@@ -1497,8 +1498,8 @@
             "en": "Thyroid Surgery"
           },
           "eyebrow": {
-            "ar": "جراحة الفتق",
-            "en": "Hernia surgery"
+            "ar": "جراحات الغدة الدرقية",
+            "en": "Thyroid Surgery"
           },
           "description": {
             "ar": "تشخيص وعلاج عقد وأورام الغدة الدرقية، مع تحديد التدخل الجراحي المناسب، سواء بالاستئصال الجزئي أو الكلي، وفقًا لطبيعة الحالة ونتائج الفحوصات.",
@@ -1510,16 +1511,16 @@
         "slug": "gallbladder-surgery",
         "content": {
           "title": {
-            "ar": "جراحة المرارة والقنوات المرارية",
-            "en": "Gallbladder and bile duct surgery"
+            "ar": "جراحات الشرج والمستقيم",
+            "en": "Anorectal Surgery"
           },
           "eyebrow": {
-            "ar": "المرارة",
-            "en": "Gallbladder"
+            "ar": "جراحات الشرج والمستقيم",
+            "en": "Anorectal Surgery"
           },
           "description": {
-            "ar": "رعاية حصوات المرارة ومضاعفاتها، مع اعتماد الجراحة بالمنظار عادةً عندما يُوصى بالتدخل الجراحي.",
-            "en": "Care for gallstones and their complications, with laparoscopic surgery as the usual approach when an operation is recommended."
+            "ar": "تشخيص وعلاج أمراض الشرج والمستقيم، بما يشمل البواسير والشرخ الشرجي والناسور الشرجي والناسور العصعصي، باستخدام الطرق العلاجية والجراحية المناسبة لكل حالة.",
+            "en": "Diagnosis and treatment of anorectal conditions, including hemorrhoids, anal fissures, anal fistulas, and pilonidal disease, using appropriate medical and surgical techniques tailored to each case."
           }
         }
       },
@@ -1527,16 +1528,16 @@
         "slug": "colorectal-surgery",
         "content": {
           "title": {
-            "ar": "جراحة القولون والمستقيم والشرج",
-            "en": "Colorectal and anal surgery"
+            "ar": "الجراحات المتقدمة بالمنظار",
+            "en": "Advanced Laparoscopic Surgery"
           },
           "eyebrow": {
-            "ar": "القولون والمستقيم",
-            "en": "Colon & rectum"
+            "ar": "الجراحات المتقدمة بالمنظار",
+            "en": "Advanced Laparoscopic Surgery"
           },
           "description": {
-            "ar": "من أورام القولون والمستقيم إلى المشكلات الشائعة التي قد يتحرّج البعض من الحديث عنها، مثل البواسير والشرخ والناسور، تُناقش بصراحة وتُعالج بعناية.",
-            "en": "From colon and rectal tumors to common problems that people often find hard to talk about, such as hemorrhoids, fissures and fistulas — discussed openly and treated with care."
+            "ar": "إجراء جراحات البطن والجهاز الهضمي باستخدام تقنيات المنظار المتقدمة، مع التعامل مع الحالات الجراحية المعقدة بهدف تقليل التدخل الجراحي والمساعدة على سرعة التعافي.",
+            "en": "Performing abdominal and gastrointestinal procedures using advanced laparoscopic techniques, including the management of complex surgical cases, with the aim of minimizing surgical trauma and supporting faster recovery."
           }
         }
       },
@@ -2684,21 +2685,21 @@
             "isPlaceholder": true
           },
           "title": {
-            "ar": "الفتق الجراحي",
-            "en": "Incisional hernia"
+            "ar": "استئصال الغدة الدرقية",
+            "en": "Thyroidectomy"
           },
           "details": [
             {
               "text": {
-                "ar": "ينشأ الفتق الجراحي حين لا يلتئم جدار البطن تمامًا بعد عملية سابقة، ويُصمَّم إصلاحه بحسب حجمه وطبيعة العملية السابقة والحالة الصحية العامة.",
-                "en": "An incisional hernia develops where the abdominal wall did not heal fully after surgery. Its repair is tailored to its size, the previous operation and the patient's general health."
+                "ar": "استئصال الغدة الدرقية هو إجراء جراحي يهدف إلى إزالة جزء من الغدة أو استئصالها بالكامل لعلاج بعض الحالات، مثل الأورام الحميدة كبيرة الحجم، والأورام الخبيثة، والتضخم الذي يسبب ضغطًا على الأعضاء المحيطة، وبعض حالات فرط نشاط الغدة الدرقية التي تستدعي الجراحة. ويتم تحديد نوع الاستئصال بناءً على التشخيص وحجم الغدة ونتائج الفحوصات. وتتطلب الجراحة اهتمامًا خاصًا بالتراكيب التشريحية المحيطة بالغدة، وخاصة الأعصاب المسؤولة عن حركة الأحبال الصوتية والغدد جار الدرقية المسؤولة عن تنظيم مستوى الكالسيوم في الدم. وبعد العملية، تتم متابعة وظائف الغدة ومستويات الكالسيوم عند الحاجة، وقد يحتاج المريض إلى العلاج التعويضي بهرمون الغدة الدرقية، خاصةً بعد الاستئصال الكلي.",
+                "en": "Thyroidectomy is a surgical procedure involving the partial or complete removal of the thyroid gland. It may be indicated for large benign tumors, thyroid cancer, enlargement causing compression of surrounding structures, or selected cases of hyperthyroidism requiring surgery. The extent of removal depends on the diagnosis, gland size, and diagnostic findings. Surgery requires careful attention to surrounding anatomical structures, particularly the nerves controlling vocal cord movement and the parathyroid glands responsible for calcium regulation. After surgery, thyroid function and calcium levels are monitored when necessary, and thyroid hormone replacement is required following total thyroidectomy."
               },
               "type": "paragraph"
             },
             {
               "text": {
-                "ar": "قد يشمل التخطيط",
-                "en": "Planning may include"
+                "ar": "أنواع استئصال الغدة الدرقية والحالات التي تستدعي الجراحة",
+                "en": "Types of Thyroidectomy and Surgical Indications "
               },
               "type": "heading"
             },
@@ -2706,23 +2707,87 @@
               "type": "list",
               "items": {
                 "ar": [
-                  "فحوص تصويرية مثل الأشعة المقطعية لقياس الفتحة",
-                  "التحضير للجراحة، بما في ذلك إرشادات الوزن والتدخين",
-                  "الإصلاح بالشبكة الجراحية بالجراحة المفتوحة أو بالمنظار",
-                  "المتابعة للتأكد من التئام الجرح وجدار البطن"
+                  "استئصال أحد فصي الغدة الدرقية في الحالات التي يقتصر فيها المرض على فص واحد وتسمح طبيعة الحالة بذلك.",
+                  "الاستئصال الكلي للغدة الدرقية عند الحاجة، خاصةً في بعض حالات الأورام الخبيثة أو التضخم متعدد العقد.",
+                  "التدخل الجراحي لعلاج بعض حالات فرط نشاط الغدة الدرقية التي لا يناسبها العلاج الدوائي أو الخيارات الأخرى.",
+                  "تقييم وظائف الغدة الدرقية ومستوى الكالسيوم بعد الجراحة وفقًا لنوع الاستئصال.",
+                  " تحديد الحاجة إلى العلاج الهرموني التعويضي والمتابعة الدورية بعد العملية."
                 ],
                 "en": [
-                  "Imaging such as a CT scan to measure the defect",
-                  "Preparing for surgery, including advice on weight and smoking",
-                  "Mesh repair, open or laparoscopic",
-                  "Follow-up to check the healing of the wound and the abdominal wall"
+                  "Thyroid lobectomy when the condition is limited to one lobe and partial removal is appropriate.",
+                  "Total thyroidectomy when indicated, particularly in selected cases of thyroid malignancy or multinodular goiter.",
+                  "Surgical removal of large goiters causing swallowing or breathing difficulties.",
+                  "Surgical treatment of selected hyperthyroidism cases when medication or other treatments are unsuitable.",
+                  "Postoperative monitoring of thyroid function and calcium levels according to the extent of surgery.",
+                  " Determining the need for thyroid hormone replacement and regular postoperative follow up."
                 ]
               }
             }
           ],
           "summary": {
-            "ar": "فتق يظهر مكان جرح عملية سابقة، ويُخطَّط لإصلاحه بعناية وفق حجمه وموضعه.",
-            "en": "A hernia at the scar of a previous operation, planned carefully because of its size and position."
+            "ar": "إجراء جراحات الاستئصال الجزئي أو الكلي للغدة الدرقية في الحالات التي تستدعي التدخل، مع اختيار نطاق الجراحة وفقًا للتشخيص ونتائج الفحوصات.",
+            "en": "Partial or total surgical removal of the thyroid gland when indicated, with the extent of surgery determined by the diagnosis and clinical findings."
+          },
+          "isPlaceholder": true
+        },
+        "parent": "hernia-surgery"
+      },
+      {
+        "slug": "service-36",
+        "content": {
+          "image": {
+            "alt": {
+              "ar": "طبيبان يراجعان صورًا طبية على شاشات الحاسوب",
+              "en": "Two doctors reviewing medical images on computer screens"
+            },
+            "src": "/media/page-services",
+            "assetId": "a8cbbda9-720a-48db-9ee1-0e8ad399cbb6",
+            "isPlaceholder": true
+          },
+          "title": {
+            "ar": "التقييم الجراحي بعد سحب عينة الغدة الدرقية",
+            "en": "Surgical Evaluation After Thyroid FNAC/FNAB"
+          },
+          "details": [
+            {
+              "text": {
+                "ar": "يُعد سحب عينة الغدة الدرقية بالإبرة الدقيقة، المعروف باسم FNAC أو FNAB، من الفحوصات المهمة لتقييم عقد الغدة الدرقية وتحديد احتمالية وجود تغيرات خلوية غير طبيعية. ويساعد تحليل العينة على تصنيف طبيعة العقدة وتوجيه القرار العلاجي، سواء بالمتابعة الدورية أو استكمال الفحوصات أو التدخل الجراحي. ولا تعني جميع النتائج غير الطبيعية وجود ورم خبيث أو ضرورة استئصال الغدة، حيث يعتمد القرار على تصنيف نتيجة العينة وفق نظام Bethesda، بالإضافة إلى حجم العقدة وخصائصها بالموجات فوق الصوتية والتاريخ المرضي للمريض. وفي الحالات التي تستدعي الجراحة، يتم تحديد مدى الاستئصال المناسب وفقًا لدرجة الاشتباه وطبيعة الحالة، مع شرح الخيارات العلاجية والمتابعة المطلوبة بعد التدخل.",
+                "en": "Thyroid fine-needle aspiration cytology or biopsy (FNAC/FNAB) is an important diagnostic procedure used to evaluate thyroid nodules and assess the possibility of abnormal cellular changes. Cytological findings help classify nodules and guide management decisions, including surveillance, additional investigations, or surgical intervention. Not all abnormal results indicate thyroid cancer or require thyroid removal. Surgical decisions are based on the Bethesda classification, nodule size, ultrasound characteristics, and the patient's medical history. When surgery is indicated, the extent of thyroidectomy is determined according to the level of suspicion and individual clinical findings, with appropriate discussion of treatment options and postoperative follow-up."
+              },
+              "type": "paragraph"
+            },
+            {
+              "text": {
+                "ar": "متى يكون التدخل الجراحي ضروريًا بعد FNAC/FNAB؟",
+                "en": "When Is Surgery Considered After Thyroid FNAC/FNAB? "
+              },
+              "type": "heading"
+            },
+            {
+              "type": "list",
+              "items": {
+                "ar": [
+                  "ظهور نتائج تشير إلى وجود ورم خبيث أو اشتباه مرتفع في الأورام الخبيثة.",
+                  "وجود نتائج غير حاسمة أو غير محددة تستدعي تقييمًا إضافيًا أو استئصالًا تشخيصيًا في بعض الحالات.",
+                  "اكتشاف عقد كبيرة الحجم تسبب ضغطًا على القصبة الهوائية أو صعوبة في البلع.",
+                  "وجود خصائص مقلقة بالموجات فوق الصوتية رغم عدم تأكيد الخباثة في نتيجة العينة.",
+                  "تقييم الحاجة إلى استئصال أحد فصي الغدة أو الاستئصال الكلي وفقًا لنتائج الفحوصات.",
+                  " تحديد خطة المتابعة أو الفحوصات الإضافية في الحالات التي لا تستدعي التدخل الجراحي الفوري."
+                ],
+                "en": [
+                  "Cytology results indicating malignancy or a high suspicion of thyroid cancer.",
+                  "Indeterminate or inconclusive findings requiring further evaluation or diagnostic surgery in selected cases.",
+                  "Large thyroid nodules causing tracheal compression or swallowing difficulties.",
+                  "Suspicious ultrasound features despite the absence of confirmed malignancy on cytology.",
+                  "Assessment of the need for thyroid lobectomy or total thyroidectomy based on diagnostic findings.",
+                  " Establishing an appropriate surveillance or additional testing plan when immediate surgery is not indicated."
+                ]
+              }
+            }
+          ],
+          "summary": {
+            "ar": "تقييم نتائج سحب عينات الغدة الدرقية بالإبرة الدقيقة لتحديد مدى الحاجة إلى التدخل الجراحي واختيار الخطة العلاجية المناسبة لطبيعة العقد أو الأورام.",
+            "en": "Assessment of thyroid fine-needle aspiration results to determine the need for surgical intervention and select the appropriate treatment plan for thyroid nodules or tumors."
           },
           "isPlaceholder": true
         },
@@ -2743,21 +2808,21 @@
             "isPlaceholder": true
           },
           "title": {
-            "ar": "استئصال المرارة بالمنظار",
-            "en": "Laparoscopic gallbladder removal"
+            "ar": "البواسير",
+            "en": "Hemorrhoids"
           },
           "details": [
             {
               "text": {
-                "ar": "عندما تسبب حصوات المرارة ألمًا أو مضاعفات، يُوصى عادةً باستئصال المرارة بالمنظار، ويعود معظم المرضى إلى منازلهم خلال يوم أو يومين ثم يستأنفون نشاطهم تدريجيًا.",
-                "en": "When gallstones cause pain or complications, removing the gallbladder by laparoscopy is usually recommended. Most people go home within a day or two and return to their activities gradually."
+                "ar": "البواسير هي تضخم في الأنسجة الوعائية بمنطقة الشرج والمستقيم، وقد تسبب نزيفًا أثناء التبرز أو حكة أو شعورًا بعدم الراحة. وتختلف طرق العلاج حسب نوع البواسير ودرجتها، بدءًا من تعديل العادات الغذائية والعلاج الدوائي وصولًا إلى التدخل الجراحي في الحالات التي تستدعي ذلك.",
+                "en": "Hemorrhoids are enlarged vascular cushions in the anal canal that may cause bleeding during bowel movements, itching, or discomfort. Treatment varies according to their type and severity, ranging from dietary changes and medications to surgical intervention when necessary."
               },
               "type": "paragraph"
             },
             {
               "text": {
-                "ar": "ما يمكن توقعه",
-                "en": "What to expect"
+                "ar": "أعراض البواسير وطرق علاجها",
+                "en": "Symptoms and Treatment of Hemorrhoids "
               },
               "type": "heading"
             },
@@ -2765,23 +2830,29 @@
               "type": "list",
               "items": {
                 "ar": [
-                  "أشعة بالموجات فوق الصوتية وتحاليل دم قبل العملية",
-                  "تخدير كلي وبضع فتحات صغيرة",
-                  "تسكين الألم والحركة المبكرة بعد الجراحة",
-                  "إرشادات حول الغذاء والنشاط خلال فترة التعافي"
+                  "ظهور دم أحمر فاتح أثناء التبرز أو بعده، خاصةً في حالات البواسير الداخلية.",
+                  "الشعور بالحكة أو التهيج وعدم الراحة حول فتحة الشرج.",
+                  "بروز أنسجة من فتحة الشرج أثناء التبرز، وقد تعود تلقائيًا أو تحتاج إلى إعادتها يدويًا.",
+                  "ظهور تورم مؤلم بالقرب من فتحة الشرج في بعض حالات البواسير الخارجية المتجلطة.",
+                  "علاج الحالات البسيطة بزيادة الألياف والسوائل وتجنب الإمساك والحزق المتكرر.",
+                  "استخدام بعض الإجراءات العلاجية مثل ربط البواسير الداخلية بالأشرطة المطاطية عند ملاءمتها للحالة.",
+                  " اللجوء إلى الاستئصال الجراحي في بعض الحالات المتقدمة أو المتكررة التي لا تستجيب للعلاجات الأخرى."
                 ],
                 "en": [
-                  "An ultrasound and blood tests before the operation",
-                  "General anesthesia and a few small incisions",
-                  "Pain relief and walking early after surgery",
-                  "Advice on diet and activity during recovery"
+                  "Bright red bleeding during or after bowel movements, particularly with internal hemorrhoids.",
+                  "Itching, irritation, or discomfort around the anal opening.",
+                  "Prolapse of hemorrhoidal tissue during bowel movements, which may retract spontaneously or require manual reduction.",
+                  "Painful swelling near the anus in certain cases of thrombosed external hemorrhoids.",
+                  "Conservative treatment through increased dietary fiber, adequate hydration, and avoiding constipation and excessive straining.",
+                  "Office based procedures such as rubber band ligation for suitable internal hemorrhoids.",
+                  "Surgical hemorrhoidectomy for selected advanced or recurrent cases that do not respond to other treatments."
                 ]
               }
             }
           ],
           "summary": {
-            "ar": "العملية المعتادة لحصوات المرارة المسببة للأعراض، عبر فتحات صغيرة مع إقامة قصيرة في المستشفى.",
-            "en": "The usual operation for gallstones that cause symptoms, through small incisions with a short hospital stay."
+            "ar": "تشخيص وعلاج البواسير الداخلية والخارجية بمختلف درجاتها، مع تحديد العلاج المناسب سواء بالأدوية أو التدخل الجراحي، وفقًا لشدة الأعراض وطبيعة الحالة.",
+            "en": "Diagnosis and treatment of internal and external hemorrhoids at different stages, with appropriate medical or surgical management based on symptom severity and individual clinical findings."
           },
           "isPlaceholder": true
         },
@@ -2802,21 +2873,21 @@
             "isPlaceholder": true
           },
           "title": {
-            "ar": "التهاب المرارة الحاد",
-            "en": "Acute cholecystitis"
+            "ar": "الشرخ الشرجي",
+            "en": "Anal Fissure"
           },
           "details": [
             {
               "text": {
-                "ar": "يسبب التهاب المرارة الحاد ألمًا مستمرًا في أعلى البطن من الجهة اليمنى، وكثيرًا ما يصاحبه ارتفاع في الحرارة وغثيان. يبدأ العلاج في المستشفى، ويُنصح عادةً باستئصال المرارة مبكرًا أو بعد هدوء الالتهاب.",
-                "en": "Acute cholecystitis causes persistent pain in the upper right abdomen, often with fever and nausea. Treatment starts in hospital, and removing the gallbladder is usually advised, early or once the inflammation settles."
+                "ar": "الشرخ الشرجي هو تمزق صغير في بطانة القناة الشرجية، يسبب ألمًا أثناء التبرز وقد يصاحبه نزيف بسيط. وغالبًا ما يرتبط بالإمساك أو مرور البراز الصلب، ويعتمد علاجه على شدة الأعراض ومدة استمرارها، سواء بالعلاج التحفظي أو التدخل الجراحي للحالات المزمنة.",
+                "en": "An anal fissure is a small tear in the lining of the anal canal that causes pain during bowel movements and may lead to minor bleeding. It is commonly associated with constipation or hard stools, with treatment ranging from conservative management to surgery for selected chronic cases."
               },
               "type": "paragraph"
             },
             {
               "text": {
-                "ar": "علامات تستدعي رعاية عاجلة",
-                "en": "Signs that need urgent care"
+                "ar": "أعراض الشرخ الشرجي وطرق علاجه",
+                "en": "Symptoms and Treatment of Anal Fissure "
               },
               "type": "heading"
             },
@@ -2824,23 +2895,29 @@
               "type": "list",
               "items": {
                 "ar": [
-                  "ألم شديد أسفل الضلوع اليمنى يستمر عدة ساعات",
-                  "ارتفاع الحرارة أو الرعشة",
-                  "اصفرار العينين أو الجلد",
-                  "القيء المتكرر"
+                  "الشعور بألم حاد أثناء التبرز، وقد يستمر لفترة بعد الانتهاء منه.",
+                  "ظهور كمية بسيطة من الدم الأحمر الفاتح على البراز أو ورق التنظيف.",
+                  "الإحساس بالحرقان أو التشنج في منطقة الشرج.",
+                  "الخوف من التبرز نتيجة الألم، مما قد يؤدي إلى زيادة الإمساك واستمرار المشكلة.",
+                  "علاج الحالات الحادة بتنظيم حركة الأمعاء وزيادة الألياف والسوائل واستخدام حمامات الماء الدافئ.",
+                  "استخدام أدوية موضعية تساعد على إرخاء العضلة العاصرة وتحسين التئام الشرخ في الحالات المناسبة.",
+                  " تقييم الحاجة إلى حقن البوتوكس أو إجراء جراحي مثل القطع الجزئي للعضلة العاصرة الداخلية في بعض الحالات المزمنة، مع مراعاة عوامل الخطورة المتعلقة بالتحكم في الإخراج."
                 ],
                 "en": [
-                  "Severe pain under the right ribs lasting several hours",
-                  "Fever or shivering",
-                  "Yellowing of the eyes or skin",
-                  "Repeated vomiting"
+                  "Sharp pain during bowel movements that may persist afterward.",
+                  "Small amounts of bright red blood on the stool or toilet paper.",
+                  "Burning sensations or anal sphincter spasms.",
+                  "Avoidance of bowel movements due to pain, potentially worsening constipation.",
+                  "Conservative management of acute fissures through bowel regulation, increased fiber and fluids, and warm sitz baths.",
+                  "Topical medications to relax the anal sphincter and promote healing in suitable cases.",
+                  "Assessment for botulinum toxin injection or procedures such as lateral internal sphincterotomy in selected chronic cases, while considering potential continence related risks."
                 ]
               }
             }
           ],
           "summary": {
-            "ar": "التهاب مفاجئ في المرارة يحدث غالبًا بسبب حصوة، ويحتاج إلى تقييم سريع.",
-            "en": "Sudden inflammation of the gallbladder, usually caused by a gallstone, which needs prompt assessment."
+            "ar": "تشخيص وعلاج الشرخ الشرجي الحاد والمزمن، مع اختيار العلاج الدوائي أو التدخل الجراحي المناسب لتخفيف الألم والمساعدة على التئام الأنسجة.",
+            "en": "Diagnosis and treatment of acute and chronic anal fissures, using appropriate medical or surgical approaches to relieve pain and promote tissue healing."
           },
           "isPlaceholder": true
         },
@@ -2862,21 +2939,21 @@
             "positionMobile": "75% 30%"
           },
           "title": {
-            "ar": "حصوات القناة المرارية",
-            "en": "Bile duct stones"
+            "ar": "الناسور الشرجي",
+            "en": "Anal Fistula"
           },
           "details": [
             {
               "text": {
-                "ar": "قد تنتقل حصوات المرارة إلى القناة المرارية الرئيسية فتعيق تدفق العصارة الصفراوية، مسببةً الصفراء أو الألم أو الالتهاب. وكثيرًا ما تُستخرج بالمنظار الداخلي (ERCP)، ثم تُستأصل المرارة بعد ذلك.",
-                "en": "Gallstones can pass into the common bile duct and block the flow of bile, causing jaundice, pain or infection. They are often removed by endoscopy (ERCP), and the gallbladder is removed afterwards."
+                "ar": "الناسور الشرجي هو قناة غير طبيعية تتكون بين القناة الشرجية والجلد المحيط بها، وغالبًا ما ينتج عن خراج شرجي سابق. وقد يسبب إفرازات متكررة وألمًا أو تورمًا حول فتحة الشرج. ويعتمد العلاج على تحديد مسار الناسور وعلاقته بعضلات التحكم في الإخراج لاختيار التدخل الجراحي المناسب.",
+                "en": "An anal fistula is an abnormal tract connecting the anal canal to the surrounding skin, often developing after an anal abscess. It may cause recurrent discharge, pain, or swelling. Treatment depends on the fistula's location and its relationship to the anal sphincter muscles to determine the most appropriate surgical approach."
               },
               "type": "paragraph"
             },
             {
               "text": {
-                "ar": "ما قد تشمله الرعاية",
-                "en": "What care may include"
+                "ar": "أعراض الناسور الشرجي وطرق علاجه",
+                "en": "Symptoms and Treatment of Anal Fistula "
               },
               "type": "heading"
             },
@@ -2884,23 +2961,98 @@
               "type": "list",
               "items": {
                 "ar": [
-                  "تحاليل دم وفحوص تصويرية مثل الرنين المغناطيسي للقنوات المرارية",
-                  "التنسيق مع فريق المناظير",
-                  "تحديد موعد استئصال المرارة بعد تنظيف القناة",
-                  "متابعة تحاليل وظائف الكبد"
+                  "خروج إفرازات صديدية أو دموية من فتحة صغيرة بالقرب من الشرج.",
+                  "الشعور بألم أو تورم متكرر في المنطقة المحيطة بفتحة الشرج.",
+                  "تكرار حدوث الخراج الشرجي أو الالتهابات الموضعية.",
+                  "تهيج الجلد والحكة نتيجة استمرار الإفرازات.",
+                  "إجراء الفحص السريري لتحديد الفتحات الخارجية وتقييم مسار الناسور.",
+                  "استخدام الرنين المغناطيسي للحوض في الحالات المعقدة أو المتكررة عند الحاجة.",
+                  "إجراء فتح مسار الناسور جراحيًا في الحالات البسيطة التي تسمح بذلك دون التأثير الكبير على العضلات العاصرة.",
+                  "استخدام تقنيات تحافظ على العضلات العاصرة، مثل خيط السيتون أو إجراء LIFT، في بعض الحالات الأكثر تعقيدًا."
                 ],
                 "en": [
-                  "Blood tests and imaging such as an MRCP",
-                  "Coordination with the endoscopy team",
-                  "Timing the gallbladder removal once the duct is cleared",
-                  "Follow-up of liver tests"
+                  "Recurrent pus or blood discharge from a small opening near the anus.",
+                  "Pain or repeated swelling around the anal region.",
+                  "Recurrent anal abscesses or localized infections.",
+                  "Skin irritation and itching caused by persistent discharge.",
+                  "Clinical examination to identify external openings and assess the fistula tract.",
+                  "Pelvic MRI for complex or recurrent cases when indicated.",
+                  "Fistulotomy for suitable simple fistulas when sphincter involvement is limited.",
+                  "Sphincter preserving techniques, such as seton placement or the LIFT procedure, in selected complex cases."
                 ]
               }
             }
           ],
           "summary": {
-            "ar": "حصوات تنتقل إلى القناة المرارية، وتُعالج بالتنسيق مع أطباء المناظير.",
-            "en": "Stones that move into the bile duct, treated in coordination with endoscopy specialists."
+            "ar": "تشخيص وعلاج الناسور الشرجي البسيط والمعقد، مع تحديد مسار الناسور وعلاقته بعضلات التحكم في الإخراج لاختيار التدخل الجراحي المناسب.",
+            "en": "Diagnosis and treatment of simple and complex anal fistulas, with careful assessment of the fistula tract and its relationship to the anal sphincter muscles to guide surgical management."
+          },
+          "isPlaceholder": true
+        },
+        "parent": "gallbladder-surgery"
+      },
+      {
+        "slug": "service-37",
+        "content": {
+          "image": {
+            "alt": {
+              "ar": "طبيبان يناقشان صورًا طبية على الشاشة",
+              "en": "Two doctors discussing medical images on a monitor"
+            },
+            "src": "/media/specialty-gastrointestinal",
+            "assetId": "525b44fb-2e95-4978-b369-d7f88d54b40e",
+            "isPlaceholder": true
+          },
+          "title": {
+            "ar": "الناسور العصعصي",
+            "en": "Pilonidal Sinus"
+          },
+          "details": [
+            {
+              "text": {
+                "ar": "الناسور العصعصي هو التهاب يصيب الجلد والأنسجة بالقرب من منطقة العصعص، وغالبًا ما يرتبط بدخول الشعر تحت الجلد، مما يؤدي إلى تكوّن جيوب قد تسبب ألمًا أو تورمًا أو إفرازات صديدية. ويعتمد العلاج على مدى انتشار الناسور ووجود التهاب أو خراج، وقد يتطلب التدخل الجراحي في الحالات المزمنة أو المتكررة.",
+                "en": "Pilonidal sinus is an inflammatory condition affecting the skin and underlying tissues near the tailbone, commonly associated with hair penetrating the skin. It may cause pain, swelling, or pus discharge. Treatment depends on the extent of the disease and the presence of infection or abscess formation, with surgery considered for chronic or recurrent cases."
+              },
+              "type": "paragraph"
+            },
+            {
+              "text": {
+                "ar": "أعراض الناسور العصعصي وطرق علاجه",
+                "en": "Symptoms and Treatment of Pilonidal Sinus "
+              },
+              "type": "heading"
+            },
+            {
+              "type": "list",
+              "items": {
+                "ar": [
+                  "ظهور فتحات صغيرة أو تورم في الجلد أعلى الشق بين الأرداف بالقرب من العصعص.",
+                  "الشعور بألم يزداد أثناء الجلوس أو الحركة في بعض الحالات.",
+                  "خروج إفرازات صديدية أو دموية من المنطقة المصابة.",
+                  "حدوث احمرار وتورم شديد عند تكوّن خراج عصعصي.",
+                  "تقييم مدى انتشار الجيوب والفتحات الموجودة تحت الجلد بالفحص السريري.",
+                  "فتح الخراج وتصريفه عند وجود تجمع صديدي حاد.",
+                  "إجراء استئصال للجيوب والقنوات المصابة أو استخدام تقنيات جراحية أخرى وفقًا لطبيعة الحالة.",
+                  "استخدام تقنيات إغلاق الجرح خارج الخط الأوسط في بعض الحالات المعقدة أو المتكررة.",
+                  " الاهتمام بنظافة المنطقة وتقليل تراكم الشعر والاحتكاك والمتابعة بعد العلاج لتقليل احتمالية تكرار المشكلة."
+                ],
+                "en": [
+                  "Small skin pits or swelling near the tailbone within the upper gluteal cleft.",
+                  "Pain that may worsen during sitting or movement.",
+                  "Pus or blood discharge from the affected area.",
+                  "Redness and significant swelling when a pilonidal abscess develops.",
+                  "Clinical assessment of the extent of sinus tracts and skin openings.",
+                  "Incision and drainage for acute pilonidal abscesses.",
+                  "Surgical excision of affected sinus tracts or other appropriate techniques based on the condition.",
+                  "Off midline wound closure techniques in selected complex or recurrent cases.",
+                  " Maintaining local hygiene, managing hair accumulation and friction, and attending postoperative follow up to reduce the risk of recurrence."
+                ]
+              }
+            }
+          ],
+          "summary": {
+            "ar": "تشخيص وعلاج الناسور العصعصي والحالات المتكررة، مع اختيار التدخل الجراحي المناسب للتعامل مع الجيوب والالتهابات وتقليل احتمالية عودة المشكلة.",
+            "en": "Diagnosis and treatment of pilonidal sinus disease, including recurrent cases, using appropriate surgical techniques to manage sinus tracts, control infection, and reduce the risk of recurrence."
           },
           "isPlaceholder": true
         },
@@ -2921,21 +3073,21 @@
             "isPlaceholder": true
           },
           "title": {
-            "ar": "جراحة أورام القولون والمستقيم",
-            "en": "Colorectal tumor surgery"
+            "ar": "جراحات البطن بالمنظار",
+            "en": "Laparoscopic Abdominal Surgery"
           },
           "details": [
             {
               "text": {
-                "ar": "يُعد استئصال الجزء المصاب من القولون أو المستقيم مع الغدد الليمفاوية المجاورة محورًا أساسيًا في علاج معظم أورام القولون والمستقيم، وتُتفق الخطة مع فريق الأورام، وقد تشمل علاجًا قبل العملية أو بعدها.",
-                "en": "Removing the affected part of the colon or rectum, with the nearby lymph nodes, is central to treating most colorectal tumors. The plan is agreed with the oncology team and may include treatment before or after the operation."
+                "ar": "تُستخدم جراحات البطن بالمنظار لعلاج عدد من الأمراض التي تصيب أعضاء التجويف البطني، مثل المرارة والأمعاء وبعض حالات الفتق. وتعتمد هذه التقنية على إدخال كاميرا صغيرة وأدوات جراحية متخصصة عبر فتحات محدودة في جدار البطن، مما يتيح رؤية الأعضاء الداخلية وإجراء التدخل المطلوب بدقة. ويعتمد اختيار المنظار على طبيعة المشكلة والحالة الصحية للمريض والتاريخ الجراحي السابق، وقد تكون الجراحة المفتوحة أكثر ملاءمة في بعض الحالات.",
+                "en": "Laparoscopic abdominal surgery is used to treat various conditions affecting organs within the abdominal cavity, including the gallbladder, intestines, and certain types of hernias. The technique involves inserting a small camera and specialized surgical instruments through limited abdominal incisions, allowing visualization of internal organs and precise surgical intervention. The suitability of laparoscopy depends on the underlying condition, the patient's overall health, and previous surgical history. Open surgery may be more appropriate in certain cases."
               },
               "type": "paragraph"
             },
             {
               "text": {
-                "ar": "ما قد تشمله الرعاية",
-                "en": "What care may include"
+                "ar": "الحالات التي يمكن علاجها بجراحات البطن بالمنظار",
+                "en": "Conditions Treated with Laparoscopic Abdominal Surgery "
               },
               "type": "heading"
             },
@@ -2943,23 +3095,27 @@
               "type": "list",
               "items": {
                 "ar": [
-                  "مراجعة نتائج منظار القولون والعينة والأشعة",
-                  "مناقشة العملية واحتمال الحاجة إلى فتحة مؤقتة أو دائمة في البطن",
-                  "برنامج التعافي السريع بعد الجراحة",
-                  "المتابعة مع فريق الأورام"
+                  "حصوات المرارة والتهاباتها التي تستدعي الاستئصال الجراحي.",
+                  "بعض حالات الفتق الإربي والسري والبطني.",
+                  "أمراض القولون التي تتطلب استئصال جزء من الأمعاء.",
+                  "بعض حالات أورام الجهاز الهضمي المناسبة للتدخل بالمنظار.",
+                  "فتق الحجاب الحاجز وبعض حالات ارتجاع المريء التي تستدعي الجراحة.",
+                  "بعض الحالات الجراحية داخل البطن التي تحتاج إلى تقييم أو تدخل محدود."
                 ],
                 "en": [
-                  "Reviewing colonoscopy, biopsy and scan results",
-                  "Discussing the operation and whether a stoma may be needed",
-                  "An enhanced recovery program after surgery",
-                  "Follow-up with the oncology team"
+                  "Gallstones and gallbladder inflammation requiring surgical removal.",
+                  "Selected inguinal, umbilical, and ventral hernias.",
+                  "Colon diseases requiring partial bowel resection.",
+                  "Selected gastrointestinal tumors suitable for laparoscopic surgery.",
+                  "Hiatal hernias and certain cases of gastroesophageal reflux requiring surgery.",
+                  "Selected intra-abdominal conditions requiring minimally invasive evaluation or intervention."
                 ]
               }
             }
           ],
           "summary": {
-            "ar": "الجراحة كجزء من خطة علاجية متفق عليها مع فريق الأورام، بالجراحة المفتوحة أو بالمنظار.",
-            "en": "Surgery as part of a plan agreed with the oncology team, open or laparoscopic."
+            "ar": "تشخيص وعلاج الحالات الجراحية المختلفة داخل البطن باستخدام المنظار، من خلال فتحات صغيرة تساعد على تقليل حجم الجروح ودعم التعافي بعد العملية.",
+            "en": "Diagnosis and surgical treatment of various abdominal conditions using laparoscopy through small incisions, potentially reducing wound size and supporting postoperative recovery."
           },
           "isPlaceholder": true
         },
@@ -2980,21 +3136,21 @@
             "isPlaceholder": true
           },
           "title": {
-            "ar": "البواسير",
-            "en": "Hemorrhoids"
+            "ar": "الحالات التي تتطلب خبرة متقدمة في المنظار",
+            "en": "Complex Laparoscopic Surgical Cases"
           },
           "details": [
             {
               "text": {
-                "ar": "قد تسبب البواسير نزيفًا أو تورمًا أو انزعاجًا، ويتحسن كثير منها بالألياف والسوائل والأدوية، بينما قد تحتاج الحالات المستمرة أو المتقدمة إلى إجراء بسيط أو جراحة.",
-                "en": "Hemorrhoids can cause bleeding, swelling or discomfort. Many improve with fiber, fluids and medicines; persistent or advanced cases may need a procedure or surgery."
+                "ar": "تحتاج بعض الحالات الجراحية إلى مستوى متقدم من التخطيط والدقة أثناء استخدام المنظار، خاصةً عند وجود التصاقات داخل البطن نتيجة عمليات سابقة، أو تغيرات في التشريح الطبيعي للأعضاء، أو أورام تقع بالقرب من تراكيب حيوية مهمة. وقد تتطلب هذه الحالات تقنيات متخصصة للتعامل مع الأنسجة وتقليل احتمالية إصابة الأعضاء المحيطة. ويعتمد قرار إجراء العملية بالمنظار على الفحوصات والتقييم الجراحي، مع إمكانية التحول إلى الجراحة المفتوحة إذا استدعت سلامة المريض ذلك.",
+                "en": "Some surgical conditions require advanced planning and precision during laparoscopic procedures, particularly when patients have intra abdominal adhesions from previous operations, anatomical variations, or tumors located near important structures. These cases may require specialized techniques to manage tissues and minimize the risk of injury to surrounding organs. The decision to proceed laparoscopically depends on diagnostic findings and surgical assessment, with conversion to open surgery considered when necessary for patient safety."
               },
               "type": "paragraph"
             },
             {
               "text": {
-                "ar": "معلومات مهمة",
-                "en": "Good to know"
+                "ar": "الحالات التي قد تحتاج إلى تقنيات متقدمة في المنظار",
+                "en": "Conditions Requiring Advanced Laparoscopic Techniques "
               },
               "type": "heading"
             },
@@ -3002,21 +3158,27 @@
               "type": "list",
               "items": {
                 "ar": [
-                  "ينبغي فحص أي نزيف من الشرج دائمًا، حتى عند الاشتباه في البواسير",
-                  "يعتمد العلاج على درجة البواسير والأعراض",
-                  "تجنّب الإمساك يساعد على منع تكرارها"
+                  "وجود التصاقات شديدة داخل البطن نتيجة عمليات جراحية سابقة.",
+                  "حالات الفتق المتكرر أو الفتق البطني المعقد.",
+                  "بعض جراحات القولون والمستقيم التي تتطلب استئصالًا دقيقًا.",
+                  "الحالات المصحوبة بالتهابات شديدة أو تغيرات في الأنسجة المحيطة بالأعضاء.",
+                  "بعض الأورام التي تقع بالقرب من الأوعية الدموية أو الأعضاء الحيوية.",
+                  "الحالات التي تتطلب تقييمًا خاصًا لتحديد إمكانية استكمال الجراحة بالمنظار بأمان."
                 ],
                 "en": [
-                  "Rectal bleeding should always be examined, even when hemorrhoids are suspected",
-                  "Treatment depends on the grade of the hemorrhoids and on the symptoms",
-                  "Avoiding constipation helps prevent recurrence"
+                  "Severe intra abdominal adhesions resulting from previous surgeries.",
+                  "Recurrent hernias or complex abdominal wall hernias.",
+                  "Selected colorectal procedures requiring precise surgical resection.",
+                  "Conditions involving severe inflammation or changes in surrounding tissues.",
+                  "Selected tumors located near blood vessels or vital organs.",
+                  " Cases requiring specialized assessment to determine whether laparoscopic surgery can be safely completed."
                 ]
               }
             }
           ],
           "summary": {
-            "ar": "علاج يتناسب مع درجة البواسير، من الغذاء والأدوية إلى الإجراءات البسيطة والجراحة.",
-            "en": "Treatment matched to the grade of the hemorrhoids, from diet and medicines to simple procedures and surgery."
+            "ar": "التقييم والتدخل الجراحي للحالات المعقدة التي تتطلب تقنيات متقدمة في جراحة المناظير، مع التخطيط الدقيق لتحديد الطريقة الأنسب للتعامل مع كل حالة.",
+            "en": "Surgical evaluation and management of complex cases requiring advanced laparoscopic techniques, with careful planning to determine the most appropriate approach for each patient."
           },
           "isPlaceholder": true
         },
@@ -3037,21 +3199,21 @@
             "isPlaceholder": true
           },
           "title": {
-            "ar": "الشرخ الشرجي",
-            "en": "Anal fissure"
+            "ar": "استئصال أورام الجهاز الهضمي بالمنظار",
+            "en": "Laparoscopic Gastrointestinal Tumor Resection"
           },
           "details": [
             {
               "text": {
-                "ar": "يسبب الشرخ الشرجي ألمًا حادًا وحرقانًا أثناء التبرز وبعده، وأحيانًا نزيفًا بسيطًا. يلتئم معظمه بملينات البراز والكريمات العلاجية، وقد يحتاج الشرخ المزمن إلى جراحة بسيطة.",
-                "en": "An anal fissure causes sharp, burning pain during and after bowel movements, sometimes with light bleeding. Most heal with stool softeners and prescribed creams; long-standing fissures may need a minor operation."
+                "ar": "يمكن استخدام المنظار الجراحي في استئصال بعض أورام الجهاز الهضمي، خاصةً الأورام التي تصيب القولون أو أجزاء محددة من الجهاز الهضمي وتسمح طبيعتها بإجراء الجراحة محدودة التدخل. ويعتمد اختيار هذه التقنية على نوع الورم وموقعه وحجمه ومدى انتشاره، بالإضافة إلى الحالة الصحية للمريض. وفي حالات الأورام الخبيثة، يراعى أثناء الجراحة تحقيق متطلبات الاستئصال الجراحي للأورام، بما يشمل إزالة الأنسجة المصابة والغدد الليمفاوية المرتبطة بها عند الحاجة، مع التنسيق مع فريق الأورام لتحديد الخطة العلاجية المتكاملة.",
+                "en": "Laparoscopic surgery may be used to remove selected gastrointestinal tumors, particularly tumors affecting the colon or other suitable parts of the digestive tract. The choice of this approach depends on tumor type, location, size, extent, and the patient's overall condition. In malignant cases, surgery must follow oncological principles, including appropriate removal of affected tissues and regional lymph nodes when indicated. Multidisciplinary coordination may also be required to establish a comprehensive treatment plan."
               },
               "type": "paragraph"
             },
             {
               "text": {
-                "ar": "ما قد تشمله الرعاية",
-                "en": "What care may include"
+                "ar": "التقييم والتخطيط لاستئصال أورام الجهاز الهضمي بالمنظار",
+                "en": "Evaluation and Planning for Laparoscopic Gastrointestinal Tumor Resection "
               },
               "type": "heading"
             },
@@ -3059,21 +3221,27 @@
               "type": "list",
               "items": {
                 "ar": [
-                  "فحص لتأكيد التشخيص",
-                  "إرشادات غذائية وملينات وكريمات علاجية",
-                  "حقن البوتوكس أو جراحة بسيطة للشرخ الذي لا يلتئم"
+                  "إجراء المناظير التشخيصية وأخذ عينات لتحديد طبيعة الورم عند الحاجة.",
+                  "استخدام الأشعة والفحوصات المناسبة لتقييم موقع الورم ومدى انتشاره.",
+                  "تحديد إمكانية الاستئصال بالمنظار وفقًا لنوع الورم ومرحلته.",
+                  "التخطيط لاستئصال الجزء المصاب مع مراعاة متطلبات جراحة الأورام.",
+                  "تقييم الحاجة إلى استئصال الغدد الليمفاوية المرتبطة بالورم.",
+                  "التنسيق مع فريق الأورام لتحديد الحاجة إلى العلاج الكيميائي أو العلاجات الأخرى قبل الجراحة أو بعدها."
                 ],
                 "en": [
-                  "An examination to confirm the diagnosis",
-                  "Diet advice, stool softeners and prescribed creams",
-                  "A Botox injection or a minor operation for fissures that do not heal"
+                  "Diagnostic endoscopy and biopsy to determine tumor characteristics when indicated.",
+                  "Imaging and appropriate investigations to assess tumor location and extent.",
+                  "Evaluating suitability for laparoscopic resection based on tumor type and stage.",
+                  "Planning removal of the affected segment according to oncological surgical principles.",
+                  "Assessing the need for regional lymph node removal.",
+                  "Multidisciplinary coordination to determine the need for chemotherapy or other treatments before or after surgery."
                 ]
               }
             }
           ],
           "summary": {
-            "ar": "تمزق صغير يسبب ألمًا حادًا أثناء التبرز، ويُعالج عادةً دون جراحة في البداية.",
-            "en": "A small tear that causes sharp pain with bowel movements, usually treated without surgery first."
+            "ar": "التقييم والاستئصال الجراحي لبعض أورام الجهاز الهضمي باستخدام المنظار في الحالات المناسبة، مع مراعاة موقع الورم وحجمه ومتطلبات الاستئصال الآمن.",
+            "en": "Surgical evaluation and laparoscopic removal of selected gastrointestinal tumors, based on tumor location, size, and the requirements for safe and appropriate resection."
           },
           "isPlaceholder": true
         },
@@ -3094,21 +3262,21 @@
             "isPlaceholder": true
           },
           "title": {
-            "ar": "الناسور والخراج الشرجي",
-            "en": "Anal fistula and abscess"
+            "ar": "استئصال أورام القولون بالمنظار",
+            "en": "Laparoscopic Colon Tumor Resection"
           },
           "details": [
             {
               "text": {
-                "ar": "يسبب الخراج بجوار فتحة الشرج تورمًا مؤلمًا وارتفاعًا في الحرارة، ويحتاج إلى تصريف. وقد يترك بعض الخراجات ناسورًا، وهو قناة صغيرة تفرز إفرازات، ويُعالج بإجراء يُختار للحفاظ على عضلات التحكم.",
-                "en": "An abscess near the anus causes painful swelling and fever and needs drainage. Some abscesses leave a fistula, a small tunnel that discharges, which is treated with a procedure chosen to protect the sphincter muscles."
+                "ar": "يُعد استئصال أورام القولون بالمنظار من الجراحات المتقدمة التي تُستخدم لعلاج بعض أورام القولون الحميدة والخبيثة التي تستدعي التدخل الجراحي. وتعتمد العملية على إدخال كاميرا وأدوات جراحية دقيقة عبر فتحات صغيرة في البطن لاستئصال الجزء المصاب من القولون، مع إزالة الغدد الليمفاوية المرتبطة به عند الحاجة في حالات الأورام الخبيثة. وقد يتم إعادة توصيل الأجزاء السليمة من الأمعاء لاستعادة استمرارية الجهاز الهضمي. ويعتمد اختيار الجراحة بالمنظار على حجم الورم وموقعه ومرحلته والحالة الصحية للمريض، وقد تساعد هذه التقنية على تقليل ألم الجروح وفترة التعافي مقارنة بالجراحة المفتوحة في الحالات المناسبة.",
+                "en": "Laparoscopic colon tumor resection is an advanced surgical procedure used to treat selected benign and malignant colon tumors requiring surgical intervention. The procedure involves inserting a camera and specialized surgical instruments through small abdominal incisions to remove the affected segment of the colon, along with regional lymph nodes when indicated in malignant cases. The healthy bowel segments may then be reconnected to restore intestinal continuity. The suitability of laparoscopic surgery depends on the tumor's size, location, stage, and the patient's overall health. In appropriate cases, this technique may reduce postoperative wound pain and support faster recovery compared with open surgery."
               },
               "type": "paragraph"
             },
             {
               "text": {
-                "ar": "ما قد تشمله الرعاية",
-                "en": "What care may include"
+                "ar": "الحالات التي تستدعي استئصال أورام القولون بالمنظار",
+                "en": "Conditions Requiring Laparoscopic Colon Tumor Resection "
               },
               "type": "heading"
             },
@@ -3116,23 +3284,27 @@
               "type": "list",
               "items": {
                 "ar": [
-                  "تصريف الخراج دون تأخير",
-                  "رنين مغناطيسي لتحديد مسار الناسور المعقّد عند الحاجة",
-                  "إجراء مناسب لكل حالة، وأحيانًا على مراحل",
-                  "العناية بالجرح والمتابعة حتى الالتئام"
+                  "أورام القولون الخبيثة التي يمكن استئصالها جراحيًا باستخدام المنظار.",
+                  "بعض الأورام الحميدة الكبيرة التي لا يمكن إزالتها بالكامل عن طريق منظار القولون التشخيصي والعلاجي.",
+                  "الأورام التي تسبب ضيقًا أو انسدادًا في القولون وتحتاج إلى تدخل جراحي.",
+                  "الحالات التي تستدعي استئصال جزء من القولون مع الغدد الليمفاوية المرتبطة به وفقًا لمتطلبات جراحة الأورام.",
+                  "الحالات التي تسمح بإعادة توصيل الأمعاء بعد استئصال الجزء المصاب.",
+                  "تقييم موقع الورم ومدى انتشاره باستخدام منظار القولون والأشعة والفحوصات اللازمة لتحديد إمكانية التدخل بالمنظار."
                 ],
                 "en": [
-                  "Prompt drainage of an abscess",
-                  "An MRI to map a complex fistula when needed",
-                  "A procedure tailored to each case, sometimes in stages",
-                  "Wound care and follow-up until healed"
+                  "Malignant colon tumors suitable for laparoscopic surgical resection.",
+                  "Selected large benign tumors that cannot be completely removed through therapeutic colonoscopy.",
+                  "Tumors causing colonic narrowing or obstruction and requiring surgical intervention.",
+                  "Cases requiring removal of the affected colon segment and associated lymph nodes according to oncological surgical principles.",
+                  "Cases in which bowel reconnection is feasible after removal of the affected segment.",
+                  " Evaluation of tumor location and extent through colonoscopy, imaging, and appropriate investigations to determine suitability for laparoscopic surgery."
                 ]
               }
             }
           ],
           "summary": {
-            "ar": "تصريف الخراج وعلاج الناسور مع الحفاظ على التحكم في الإخراج.",
-            "en": "Draining an abscess and treating a fistula while protecting continence."
+            "ar": "استئصال أورام القولون باستخدام تقنيات المنظار الجراحي المتقدمة في الحالات المناسبة، مع مراعاة إزالة الأنسجة المصابة والحفاظ على وظائف الأمعاء قدر الإمكان.",
+            "en": "Surgical removal of colon tumors using advanced laparoscopic techniques in suitable cases, aiming to remove affected tissues while preserving bowel function whenever possible."
           },
           "isPlaceholder": true
         },
@@ -5136,12 +5308,10 @@
     ]
   },
   "placeholders": [
-    "section home.hero",
     "section about.hero",
     "section home.about",
     "section shared.cta",
     "section about.intro",
-    "section videos.hero",
     "section contact.hero",
     "section reviews.hero",
     "section articles.hero",
@@ -5169,9 +5339,11 @@
     "services \"inguinal-hernia\"",
     "services \"umbilical-hernia\"",
     "services \"incisional-hernia\"",
+    "services \"service-36\"",
     "services \"laparoscopic-cholecystectomy\"",
     "services \"acute-cholecystitis\"",
     "services \"bile-duct-stones\"",
+    "services \"service-37\"",
     "services \"colorectal-tumors\"",
     "services \"hemorrhoids\"",
     "services \"anal-fissure\"",

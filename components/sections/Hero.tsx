@@ -18,23 +18,20 @@ export function Hero({ locale, content, site }: HeroProps) {
       <div className={styles.media}>
         <MediaImage image={content.image} sizes="100vw" priority className={styles.image} />
       </div>
-      <div className={styles.tint} aria-hidden="true" />
-      <div className={styles.grade} aria-hidden="true" />
       <div className={styles.scrim} aria-hidden="true" />
-      <div className={styles.light} aria-hidden="true" />
 
       <div className="container-wide">
-        <div className={styles.content}>
+        <div className={`${styles.content} ${styles.homeContent}`}>
           <GlassPanel as="p" blur className={styles.eyebrow}>
             <span className={styles.pulse} aria-hidden="true" />
             {content.eyebrow}
           </GlassPanel>
 
-          <h1 id="hero-title" className={styles.title}>
+          <h1 id="hero-title" className={`${styles.title} ${styles.homeTitle}`}>
             {content.title} <span className={`${styles.accent} text-gradient`}>{content.titleAccent}</span>
           </h1>
 
-          <p className={styles.description}>{content.description}</p>
+          <p className={`${styles.description} ${styles.homeDescription}`}>{content.description}</p>
 
           <div className={styles.actions}>
             <CtaButton cta={content.primaryCta} locale={locale} site={site} variant="primary" size="lg" />

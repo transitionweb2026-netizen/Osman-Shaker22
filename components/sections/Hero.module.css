@@ -24,59 +24,21 @@
   animation: settle 2600ms var(--ease-out) both;
 }
 
-/* Brand grade: pulls the photograph into the blue-amber palette */
-.grade {
-  position: absolute;
-  inset: 0;
-  z-index: -3;
-  background:
-    radial-gradient(60% 70% at 78% 30%, rgb(233 132 53 / 0.5), transparent 60%),
-    linear-gradient(115deg, rgb(12 68 132 / 0.95) 10%, rgb(20 83 153 / 0.6) 55%, rgb(233 132 53 / 0.55) 100%);
-  mix-blend-mode: soft-light;
-}
-
-/* Tints the neutral studio backdrop toward deep blue, warming to amber at the edge */
-.tint {
-  position: absolute;
-  inset: 0;
-  z-index: -3;
-  background: linear-gradient(110deg, var(--brand-blue) 0%, var(--brand-blue) 58%, #9a5422 100%);
-  mix-blend-mode: color;
-  opacity: 0.38;
-}
-
-[dir="rtl"] .tint {
-  background: linear-gradient(-110deg, var(--brand-blue) 0%, var(--brand-blue) 58%, #9a5422 100%);
-}
-
-/* Readability: deep navy behind the text, fading into the next section */
+/*
+ * The photograph is shown as it is (no colour grade or tint). Only a light
+ * shade keeps the text and the header readable on bright photos, and the
+ * bottom edge fades into the next section.
+ */
 .scrim {
   position: absolute;
   inset: 0;
   z-index: -2;
   background:
-    linear-gradient(180deg, rgb(4 13 31 / 0.65) 0%, rgb(4 13 31 / 0) 22%, rgb(4 13 31 / 0) 58%, var(--navy-950) 100%),
-    radial-gradient(90% 85% at 68% 38%, transparent 35%, rgb(4 13 31 / 0.55) 100%),
-    linear-gradient(90deg, rgb(4 13 31 / 0.94) 0%, rgb(4 13 31 / 0.82) 30%, rgb(6 21 47 / 0.35) 58%, rgb(6 21 47 / 0.12) 100%);
+    linear-gradient(180deg, rgb(4 13 31 / 0.4) 0%, rgb(4 13 31 / 0) 16%, rgb(4 13 31 / 0) 84%, var(--navy-950) 100%),
+    linear-gradient(90deg, rgb(4 13 31 / 0.55) 0%, rgb(4 13 31 / 0.3) 32%, rgb(4 13 31 / 0) 55%);
 }
 
 [dir="rtl"] .scrim {
-  transform: scaleX(-1);
-}
-
-/* Amber light field and blue haze */
-.light {
-  position: absolute;
-  inset: 0;
-  z-index: -1;
-  pointer-events: none;
-  background:
-    linear-gradient(180deg, transparent 80%, var(--navy-950) 100%),
-    radial-gradient(38rem 26rem at 70% 18%, rgb(233 132 53 / 0.2), transparent 70%),
-    radial-gradient(40rem 24rem at 6% 70%, rgb(12 68 132 / 0.5), transparent 70%);
-}
-
-[dir="rtl"] .light {
   transform: scaleX(-1);
 }
 
@@ -141,7 +103,7 @@ html[lang="ar"] .eyebrow {
 .title {
   font-size: var(--fs-display);
   line-height: var(--lh-tight);
-  text-shadow: 0 2px 30px rgb(1 6 18 / 0.45);
+  text-shadow: 0 2px 24px rgb(1 6 18 / 0.6);
 }
 
 .accent {
@@ -158,7 +120,27 @@ html[lang="ar"] .accent {
 .description {
   max-inline-size: 34rem;
   font-size: var(--fs-lead);
-  color: rgb(232 238 247 / 0.86);
+  color: rgb(232 238 247 / 0.92);
+  text-shadow: 0 1px 14px rgb(1 6 18 / 0.7);
+}
+
+/* Homepage: a smaller, narrower text column so the doctor's photo shows more */
+.homeContent {
+  max-inline-size: 32rem;
+  gap: clamp(1rem, 1.8vw, 1.4rem);
+}
+
+.homeTitle {
+  font-size: clamp(2.1rem, 1.4rem + 2.4vw, 3.6rem);
+}
+
+html[lang="ar"] .homeTitle {
+  font-size: clamp(1.95rem, 1.3rem + 2.2vw, 3.3rem);
+}
+
+.homeDescription {
+  max-inline-size: 28rem;
+  font-size: clamp(0.98rem, 0.94rem + 0.2vw, 1.08rem);
 }
 
 .actions {
@@ -205,16 +187,16 @@ html[lang="ar"] .accent {
     min-block-size: var(--hero-min-height-mobile, max(640px, 100svh));
   }
 
+  /* The text sits over the lower half of the photo: shade only that part */
   .scrim {
-    background:
-      linear-gradient(
-        180deg,
-        rgb(4 13 31 / 0.55) 0%,
-        rgb(4 13 31 / 0.05) 22%,
-        rgb(4 13 31 / 0.35) 44%,
-        rgb(4 13 31 / 0.92) 66%,
-        var(--navy-950) 100%
-      );
+    background: linear-gradient(
+      180deg,
+      rgb(4 13 31 / 0.35) 0%,
+      rgb(4 13 31 / 0) 14%,
+      rgb(4 13 31 / 0) 42%,
+      rgb(4 13 31 / 0.7) 66%,
+      var(--navy-950) 100%
+    );
   }
 
   [dir="rtl"] .scrim {

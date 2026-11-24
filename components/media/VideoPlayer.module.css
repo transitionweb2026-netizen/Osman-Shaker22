@@ -18,12 +18,11 @@
   transition: scale 1200ms var(--ease-out);
 }
 
+/* The poster shows as it is (covers carry their own text): only a soft halo behind the play control */
 .shade {
   position: absolute;
   inset: 0;
-  background:
-    radial-gradient(60% 60% at 50% 50%, rgb(4 13 31 / 0.1), rgb(4 13 31 / 0.55)),
-    linear-gradient(180deg, rgb(12 68 132 / 0.25), rgb(4 13 31 / 0.15) 40%, rgb(4 13 31 / 0.85) 100%);
+  background: radial-gradient(28% 22% at 50% 50%, rgb(4 13 31 / 0.3), transparent 100%);
   pointer-events: none;
 }
 

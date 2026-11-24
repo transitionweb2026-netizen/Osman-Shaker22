@@ -15,10 +15,14 @@ type VideoCardProps = {
 /**
  * Portrait (9:16) video card. Play controls appear only when the entry has a
  * real `source`; otherwise the poster shows a "coming soon" state.
+ *
+ * Nothing is laid over the poster: covers usually carry their own title, so the
+ * title is for screen readers only.
  */
 export function VideoCard({ video, ui, sizes }: VideoCardProps) {
   return (
     <GlassPanel as="article" ink="mixed" className={`ink-host ${styles.card}`}>
+      <h3 className="sr-only">{video.title}</h3>
       <div className={styles.screen}>
         <VideoPlayer
           source={video.source}
@@ -26,12 +30,6 @@ export function VideoCard({ video, ui, sizes }: VideoCardProps) {
           playLabel={ui.playVideo}
           comingSoonLabel={ui.videoComingSoon}
           poster={<MediaImage image={video.poster} sizes={sizes} />}
-          overlay={
-            <GlassPanel blur className={styles.meta}>
-              <h3 className={styles.title}>{video.title}</h3>
-              {video.duration && <p className={styles.duration}>{video.duration}</p>}
-            </GlassPanel>
-          }
         />
       </div>
     </GlassPanel>

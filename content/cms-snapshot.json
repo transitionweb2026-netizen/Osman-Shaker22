@@ -1,7 +1,7 @@
 {
   "enabled": true,
-  "syncedAt": "2026-11-24T09:50:12.505Z",
-  "version": "2026-11-24T09:49:27.471643+00:00",
+  "syncedAt": "2026-11-24T10:37:03.493Z",
+  "version": "2026-11-24T10:35:54.561686+00:00",
   "documents": {
     "home.faq": {
       "title": {
@@ -516,16 +516,16 @@
         "positionMobile": "68% 35%"
       },
       "title": {
-        "ar": "إجابات قصيرة وواضحة عن الأسئلة الشائعة",
-        "en": "Short, clear answers to common questions"
+        "ar": "رؤية طبية متخصصة في عالم الجراحة",
+        "en": "Specialized Medical Insights into the World of Surgery"
       },
       "eyebrow": {
         "ar": "خبرة طبية",
         "en": "Medical Expertise"
       },
       "description": {
-        "ar": "فيديوهات توعوية تساعد المرضى وعائلاتهم على الاستعداد بثقة أكبر في كل مرحلة من مراحل الرعاية.",
-        "en": "Educational videos to help patients and families feel more prepared at every stage of care."
+        "ar": "مجموعة من الفيديوهات الطبية يقدم خلالها د. عثمان شاكر معلومات متخصصة حول الحالات الجراحية وطرق التشخيص والعلاج بأسلوب واضح ومبسط.",
+        "en": "A collection of medical videos in which Dr. Osman Shaker shares specialized insights into surgical conditions, diagnostic methods, and treatment options in a clear and accessible way."
       }
     },
     "videos.list": {
@@ -3905,21 +3905,25 @@
         "slug": "first-visit",
         "content": {
           "title": {
-            "ar": "ماذا تتوقع في زيارتك الأولى لطبيب الأورام",
-            "en": "What to expect at your first oncology visit"
+            "ar": "استئصال الغده الدرقية ممكن ياثر علي الصوت؟",
+            "en": "Can Thyroidectomy Affect Your Voice?"
           },
           "poster": {
             "alt": {
               "ar": "طبيب يقيس ضغط الدم لمريضة",
               "en": "A doctor measuring a patient's blood pressure"
             },
-            "src": "/media/video-first-visit",
-            "credit": "Unsplash — https://images.unsplash.com/photo-1631815588090-d4bfec5b1ccb",
-            "assetId": "e88aadc6-d69f-4a6d-8d6d-e883c28d97f9",
+            "src": "/media/cms-01659936-03f1-43b7-bd01-dbc2e0b5558d",
+            "assetId": "01659936-03f1-43b7-bd01-dbc2e0b5558d",
             "position": "50% 40%",
-            "isPlaceholder": true
+            "isPlaceholder": false
           },
-          "source": null,
+          "source": {
+            "src": "/media/cms-1af7a7fb-7c27-47f1-9e78-fa23c3499305.mp4",
+            "kind": "file",
+            "type": "video/mp4",
+            "assetId": "1af7a7fb-7c27-47f1-9e78-fa23c3499305"
+          },
           "duration": null,
           "isPlaceholder": true
         }

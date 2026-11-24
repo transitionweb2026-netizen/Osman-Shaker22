@@ -36,34 +36,6 @@
   translate: 50% 0;
 }
 
-.meta {
-  position: absolute;
-  z-index: 3;
-  inset-inline: 10px;
-  inset-block-end: 10px;
-  display: grid;
-  gap: 0.35rem;
-  padding: 0.95rem 1rem 1.05rem;
-  border-radius: 16px;
-  --glass-tint: rgb(6 21 47 / 0.55);
-  pointer-events: none;
-}
-
-.title {
-  font-size: 1.05rem;
-  line-height: 1.35;
-}
-
-html[lang="en"] .title {
-  font-size: 1.18rem;
-}
-
-.duration {
-  font-family: var(--font-latin);
-  font-size: 0.8rem;
-  color: var(--text-muted);
-}
-
 @media (hover: hover) {
   .card:hover {
     transform: translateY(-8px);

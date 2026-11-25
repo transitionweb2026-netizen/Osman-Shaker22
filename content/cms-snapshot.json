@@ -1,12 +1,12 @@
 {
   "enabled": true,
-  "syncedAt": "2026-11-25T08:27:45.391Z",
-  "version": "2026-11-24T14:22:54.659021+00:00",
+  "syncedAt": "2026-11-25T14:11:54.022Z",
+  "version": "2026-11-25T14:07:21.954017+00:00",
   "documents": {
     "home.faq": {
       "title": {
-        "ar": "الأسئلة الشائعة",
-        "en": "Frequently asked questions"
+        "ar": "دليلك لفهم حالتك الصحية",
+        "en": "Your Guide to Understanding Your Health Condition"
       },
       "faqIds": [
         "bring",
@@ -22,7 +22,7 @@
         "en": "Questions & answers"
       },
       "description": {
-        "ar": "معلومات عامة تساعدك على الاستعداد، وللحصول على نصيحة تخص حالتك يُرجى حجز استشارة.",
+        "ar": "تعرّف على أبرز الأسئلة المتعلقة بالأمراض الجراحية وطرق التشخيص والعلاج.",
         "en": "General information to help you prepare. For advice about your own situation, please book a consultation."
       }
     },
@@ -65,7 +65,7 @@
         "position": "62% 22%",
         "mirrorInRtl": true,
         "isPlaceholder": false,
-        "positionMobile": "40% 18%"
+        "positionMobile": "50% 50%"
       },
       "title": {
         "ar": "خبرة متخصصة في الجراحة العامة",
@@ -114,7 +114,7 @@
         "position": "62% 22%",
         "mirrorInRtl": true,
         "isPlaceholder": false,
-        "positionMobile": "40% 18%"
+        "positionMobile": "50% 50%"
       },
       "title": {
         "ar": "مسيرة طبية قائمة على الخبرة ",
@@ -199,15 +199,14 @@
           "ar": "أخصائية تقيس ضغط الدم لمريضة خلال زيارتها",
           "en": "A clinician measuring a patient's blood pressure during a visit"
         },
-        "src": "/media/cta-consultation",
-        "credit": "Unsplash — https://images.unsplash.com/photo-1631815589968-fdb09a223b1e",
-        "assetId": "abcd87d6-5b17-4537-9561-a7d97d010da1",
+        "src": "/media/cms-7d3b7728-ad56-41c2-9f7b-1250acdf6c80",
+        "assetId": "7d3b7728-ad56-41c2-9f7b-1250acdf6c80",
         "position": "40% 35%",
-        "isPlaceholder": true
+        "isPlaceholder": false
       },
       "title": {
-        "ar": "خطوتك التالية، بوضوح ودعم",
-        "en": "Take the next step with clarity and support"
+        "ar": "ابدأ رحلتك نحو العلاج",
+        "en": "Take the First Step Towards Treatment"
       },
       "eyebrow": {
         "ar": "احجز استشارتك",
@@ -218,8 +217,8 @@
         "en": "Call the clinic"
       },
       "description": {
-        "ar": "تواصل معنا لترتيب موعد استشارتك، واحمل معك أسئلتك.",
-        "en": "Reach out to arrange a consultation — and bring your questions with you."
+        "ar": "احجز موعد استشارتك مع د. عثمان شاكر لتقييم حالتك وتحديد العلاج المناسب.",
+        "en": "Book your consultation with Dr. Osman Shaker to assess your condition and determine the appropriate treatment."
       },
       "whatsappLabel": {
         "ar": "راسلنا عبر واتساب",
@@ -306,22 +305,22 @@
         }
       },
       "title": {
-        "ar": "إجابات قصيرة وواضحة عن الأسئلة الشائعة",
-        "en": "Short, clear answers to common questions"
+        "ar": "الجراحة من منظور طبي متخصص",
+        "en": "Surgery from a Specialist’s Perspective"
       },
       "eyebrow": {
-        "ar": "فيديوهات مختارة",
-        "en": "Featured videos"
+        "ar": "من واقع الخبرة",
+        "en": "Insights from Experience"
       },
       "description": {
-        "ar": "فيديوهات توعوية تساعد المرضى وعائلاتهم على الاستعداد بثقة أكبر.",
-        "en": "Educational videos to help patients and families feel more prepared."
+        "ar": "شاهد فيديوهات د. عثمان شاكر للتعرف على الأمراض الجراحية وطرق التشخيص وأحدث الخيارات العلاجية.",
+        "en": "Watch Dr. Osman Shaker’s videos to learn about surgical conditions, diagnostic methods, and modern treatment options."
       }
     },
     "reviews.faq": {
       "title": {
-        "ar": "الأسئلة الشائعة",
-        "en": "Frequently asked questions"
+        "ar": "إجابات واضحة عن أكثر الأسئلة الطبية شيوعًا",
+        "en": "Clear Answers to the Most Common Medical Questions"
       },
       "contact": {
         "text": {
@@ -342,12 +341,12 @@
         }
       },
       "eyebrow": {
-        "ar": "أسئلة وأجوبة",
-        "en": "Questions & answers"
+        "ar": "الأسئلة الشائعة",
+        "en": "Frequently Asked Questions"
       },
       "description": {
-        "ar": "معلومات عامة تساعدك على الاستعداد، وللحصول على نصيحة تخص حالتك يُرجى حجز استشارة.",
-        "en": "General information to help you prepare. For advice about your own situation, please book a consultation."
+        "ar": "إجابات طبية واضحة حول الأمراض وخيارات العلاج.",
+        "en": "Clear medical answers about conditions and treatment options."
       }
     },
     "reviews.seo": {
@@ -512,7 +511,7 @@
         "assetId": "a796bff4-a0e1-4448-88c9-210ff8a022bd",
         "position": "60% 40%",
         "isPlaceholder": false,
-        "positionMobile": "68% 35%"
+        "positionMobile": "50% 50%"
       },
       "title": {
         "ar": "رؤية طبية متخصصة في عالم الجراحة",
@@ -717,7 +716,7 @@
         "assetId": "a796bff4-a0e1-4448-88c9-210ff8a022bd",
         "position": "60% 55%",
         "isPlaceholder": false,
-        "positionMobile": "65% 55%"
+        "positionMobile": "50% 50%"
       },
       "title": {
         "ar": "تواصل معنا لبدء رحلتك نحو رعاية جراحية متخصصة",
@@ -752,74 +751,74 @@
           "id": "consultation",
           "icon": "consultation",
           "title": {
-            "ar": "الاستشارة الأولى",
-            "en": "Initial consultation"
+            "ar": "الاستشارة الطبية الأولى",
+            "en": "Initial Consultation"
           },
           "description": {
-            "ar": "لقاء أول للتعرّف على تاريخك المرضي وتقاريرك ومخاوفك.",
-            "en": "A first conversation to understand your history, reports and concerns."
+            "ar": "الاستماع إلى شكوى المريض، ومراجعة التاريخ المرضي، وإجراء الفحص السريري لتقييم الحالة.",
+            "en": "Understanding the patient's concerns, reviewing medical history, and performing a clinical examination to assess the condition."
           }
         },
         {
           "id": "evaluation",
           "icon": "evaluation",
           "title": {
-            "ar": "التقييم السريري",
-            "en": "Clinical evaluation"
+            "ar": "الفحوصات والتشخيص",
+            "en": "Investigations & Diagnosis"
           },
           "description": {
-            "ar": "مراجعة دقيقة للفحوص ونتائج الأشعة والتحاليل النسيجية.",
-            "en": "A careful review of examinations, imaging and pathology results."
+            "ar": "إجراء الفحوصات والتحاليل والأشعة اللازمة للوصول إلى تشخيص دقيق وتقييم الحالة بشكل متكامل.",
+            "en": "Performing the necessary tests and imaging to establish an accurate diagnosis and comprehensive assessment."
           }
         },
         {
           "id": "discussion",
           "icon": "discussion",
           "title": {
-            "ar": "مناقشة الخطوات التالية",
-            "en": "Discussing next steps"
+            "ar": "تحديد الخطة العلاجية",
+            "en": "Treatment Planning"
           },
           "description": {
-            "ar": "نقاش صريح حول الخيارات المناسبة، بلغة واضحة وسهلة الفهم.",
-            "en": "An open discussion of suitable options, in language that is easy to follow."
+            "ar": "مناقشة الخيارات العلاجية مع المريض وتحديد الإجراء الأنسب وفقًا لطبيعة الحالة واحتياجاتها.",
+            "en": "Discussing treatment options with the patient and determining the most appropriate approach based on their condition and individual needs."
           }
         },
         {
           "id": "plan",
           "icon": "plan",
           "title": {
-            "ar": "خطة رعاية فردية",
-            "en": "Individualized care plan"
+            "ar": "تنفيذ العلاج",
+            "en": "Treatment Implementation"
           },
           "description": {
-            "ar": "خطة تُبنى حول تشخيصك وحالتك الصحية وأولوياتك الشخصية.",
-            "en": "A plan built around your diagnosis, your health and your personal priorities."
+            "ar": "تنفيذ الخطة العلاجية وإجراء التدخل الجراحي عند الحاجة، مع مراعاة معايير الدقة والسلامة.",
+            "en": "Implementing the treatment plan and performing surgery when necessary, with careful attention to precision and safety."
           }
         },
         {
           "id": "follow-up",
           "icon": "followUp",
           "title": {
-            "ar": "المتابعة والدعم المستمر",
-            "en": "Follow-up & ongoing support"
+            "ar": "المتابعة والتعافي",
+            "en": "Follow up & Recovery"
           },
           "description": {
-            "ar": "متابعة منتظمة وتواصل واضح أثناء العلاج وبعده.",
-            "en": "Regular follow-up and clear communication during and after treatment."
+            "ar": "متابعة الحالة بعد العلاج، وتقييم نتائج الجراحة، وتقديم الإرشادات اللازمة لدعم التعافي والعودة إلى الحياة اليومية.",
+            "en": "Monitoring the patient's condition after treatment, evaluating surgical outcomes, and providing guidance to support recovery and return to daily activities."
           }
         }
       ],
       "title": {
-        "ar": "ما الذي تتوقعه، خطوة بخطوة",
-        "en": "What to expect, step by step"
+        "ar": "من التشخيص إلى التعافي خطوات واضحة نحو العلاج",
+        "en": "From Diagnosis to Recovery Clear Steps Towards Treatment"
       },
       "eyebrow": {
-        "ar": "رحلتك العلاجية",
-        "en": "Your patient journey"
+        "ar": "رحلة التعافي",
+        "en": "Recovery Journey"
       },
       "description": {
-        "ar": "تصوّر عام لكيفية سير الرعاية عادةً، بينما يُصمَّم مسارك الخاص وفق تشخيصك واحتياجاتك.",
-        "en": "A general outline of how care usually unfolds. Your own pathway is shaped around your diagnosis and needs."
+        "ar": "تبدأ رحلتك بالتقييم الطبي الدقيق، مرورًا بتحديد العلاج المناسب، وصولًا إلى المتابعة بعد الجراحة ودعم التعافي.",
+        "en": "Your journey begins with a thorough medical assessment, followed by appropriate treatment planning, postoperative follow-up, and recovery support."
       }
     },
     "home.reviews": {
@@ -834,16 +833,16 @@
         }
       },
       "title": {
-        "ar": "تجارب يشاركها المرضى",
-        "en": "Experiences shared by patients"
+        "ar": "تجارب حقيقية من رحلة العلاج",
+        "en": "Real Experiences from the Treatment Journey"
       },
       "eyebrow": {
         "ar": "آراء المرضى",
         "en": "Patient reviews"
       },
       "description": {
-        "ar": "تُنشر الآراء فقط بإذن أصحابها.",
-        "en": "Reviews are published only with each patient’s permission."
+        "ar": "تعرّف على آراء المرضى وتجاربهم مع د. عثمان شاكر.",
+        "en": "Discover patients’ experiences and feedback on their care with Dr. Osman Shaker."
       }
     },
     "reviews.hero": {
@@ -855,7 +854,8 @@
         "src": "/media/cms-a796bff4-a0e1-4448-88c9-210ff8a022bd",
         "assetId": "a796bff4-a0e1-4448-88c9-210ff8a022bd",
         "position": "50% 50%",
-        "isPlaceholder": false
+        "isPlaceholder": false,
+        "positionMobile": "50% 50%"
       },
       "title": {
         "ar": "ثقة المرضى ومعرفة طبية تمنحك الاطمئنان",
@@ -890,7 +890,7 @@
         "assetId": "a796bff4-a0e1-4448-88c9-210ff8a022bd",
         "position": "60% 50%",
         "isPlaceholder": false,
-        "positionMobile": "70% 50%"
+        "positionMobile": "50% 50%"
       },
       "title": {
         "ar": "دليلك لفهم الحالات الجراحية وطرق علاجها",
@@ -907,16 +907,16 @@
     },
     "reviews.intro": {
       "title": {
-        "ar": "تجارب يشاركها المرضى وعائلاتهم",
-        "en": "Experiences shared by patients and families"
+        "ar": "لكل مريض تجربة مختلفة وقصة تستحق المشاركة",
+        "en": "Every Patient Has a Unique Experience and a Story Worth Sharing"
       },
       "eyebrow": {
-        "ar": "آراء المرضى",
-        "en": "Patient reviews"
+        "ar": "آراء مرضانا",
+        "en": "Patient Testimonials"
       },
       "description": {
-        "ar": "لا تظهر الأسماء إلا بموافقة صريحة، وكل تقييم بالنجوم يأتي من المريض نفسه.",
-        "en": "Names appear only with explicit consent, and every star rating comes from the patient."
+        "ar": "تعرّف على تجارب مرضانا وآرائهم حول رحلة العلاج والرعاية الطبية مع د. عثمان شاكر.",
+        "en": "Discover our patients’ experiences and feedback on their treatment journey and medical care with Dr. Osman Shaker."
       }
     },
     "services.hero": {
@@ -925,12 +925,11 @@
           "ar": "طبيبان يراجعان صورًا طبية على شاشات الحاسوب",
           "en": "Two doctors reviewing medical images on computer screens"
         },
-        "src": "/media/page-services",
-        "credit": "Unsplash — https://images.unsplash.com/photo-1666214280391-8ff5bd3c0bf0",
-        "assetId": "a8cbbda9-720a-48db-9ee1-0e8ad399cbb6",
+        "src": "/media/cms-a796bff4-a0e1-4448-88c9-210ff8a022bd",
+        "assetId": "a796bff4-a0e1-4448-88c9-210ff8a022bd",
         "position": "70% 35%",
-        "isPlaceholder": true,
-        "positionMobile": "75% 30%"
+        "isPlaceholder": false,
+        "positionMobile": "50% 50%"
       },
       "title": {
         "ar": "رعاية جراحية متخصصة ترتكز على دقة التشخيص",
@@ -951,19 +950,18 @@
           "ar": "أطباء يراجعون صورًا طبية معًا في مكتب عيادة مضيء",
           "en": "Doctors reviewing medical images together in a bright clinic office"
         },
-        "src": "/media/why-choose",
-        "credit": "Unsplash — https://images.unsplash.com/photo-1666214277657-e60f05c40b04",
-        "assetId": "89cbb8d2-bf85-43ca-8694-7e098022dcdd",
+        "src": "/media/cms-7d3b7728-ad56-41c2-9f7b-1250acdf6c80",
+        "assetId": "7d3b7728-ad56-41c2-9f7b-1250acdf6c80",
         "position": "72% 40%",
-        "isPlaceholder": true
+        "isPlaceholder": false
       },
       "title": {
-        "ar": "رعاية تُبقيك على اطلاع، وشريكًا في القرار، ومحاطًا بالدعم",
-        "en": "Care that keeps you informed, involved and supported"
+        "ar": "خبرة في الجراحة واهتمام بكل تفاصيل رحلتك العلاجية",
+        "en": "Surgical Expertise and Attention to Every Detail of Your Treatment Journey"
       },
       "caption": {
-        "ar": "كل سؤال يستحق إجابة يمكنك فهمها.",
-        "en": "Every question deserves an answer you can understand."
+        "ar": "خبرة جراحية وكفاءة مهنية.",
+        "en": "Surgical Expertise and Professional Excellence."
       },
       "eyebrow": {
         "ar": "لماذا د. عثمان شاكر؟",
@@ -973,51 +971,51 @@
         {
           "id": "communication",
           "title": {
-            "ar": "تواصل واضح",
-            "en": "Clear communication"
+            "ar": "خبرة جراحية متخصصة",
+            "en": "Specialized Surgical Expertise"
           },
           "description": {
-            "ar": "شرح التشخيص والنتائج والخيارات بلغة بسيطة، مع وقت كافٍ لكل سؤال.",
-            "en": "Diagnoses, results and options explained in plain language, with time for every question."
+            "ar": "خبرة في الجراحة العامة وجراحات الأورام والمناظير، والتعامل مع الحالات الجراحية المختلفة والمعقدة.",
+            "en": "Expertise in general, oncologic, and laparoscopic surgery, including complex surgical cases."
           }
         },
         {
           "id": "thoughtful",
           "title": {
-            "ar": "رعاية مدروسة",
-            "en": "Thoughtful care"
+            "ar": "تقنيات جراحية حديثة",
+            "en": "Advanced Surgical Techniques"
           },
           "description": {
-            "ar": "توصيات تُدرس بعناية، توازن بين الفوائد والآثار الجانبية وما يهمك أنت.",
-            "en": "Recommendations weighed carefully — benefits, side effects and what matters to you."
+            "ar": "استخدام تقنيات المناظير في الحالات المناسبة للمساعدة على تقليل الألم وتسريع التعافي.",
+            "en": "Using laparoscopic techniques in suitable cases to help reduce pain and promote faster recovery."
           }
         },
         {
           "id": "individual",
           "title": {
-            "ar": "اهتمام فردي",
-            "en": "Individual attention"
+            "ar": "دقة التشخيص واختيار العلاج",
+            "en": "Accurate Diagnosis & Treatment Selection"
           },
           "description": {
-            "ar": "خطتك مصممة حولك أنت: تشخيصك وصحتك وحياتك.",
-            "en": "Your plan is shaped around you: your diagnosis, your health and your life."
+            "ar": "تقييم شامل للحالة وتحديد الخطة العلاجية المناسبة وفقًا لنتائج الفحوصات والحالة الصحية للمريض.",
+            "en": "Comprehensive assessment and personalized treatment planning based on medical findings and the patient's health condition."
           }
         },
         {
           "id": "continuity",
           "title": {
-            "ar": "دعم متواصل",
-            "en": "Continuity of support"
+            "ar": "متابعة طبية متكاملة",
+            "en": "Comprehensive Medical Follow up"
           },
           "description": {
-            "ar": "متابعة منتظمة، لتعرف دائمًا خطوتك التالية.",
-            "en": "Consistent follow-up, so you always know the next step."
+            "ar": "الاهتمام بالمريض قبل الجراحة وبعدها، مع تقديم الإرشادات اللازمة لدعم التعافي والعودة إلى الحياة اليومية.",
+            "en": "Providing care before and after surgery, with guidance to support recovery and return to daily activities."
           }
         }
       ],
       "description": {
-        "ar": "مواجهة السرطان لا تقتصر على العلاج وحده، بل تشمل أن تفهم ما يحدث، وأن تثق بمن يرافقك، وأن تشعر بأن صوتك مسموع في كل زيارة.",
-        "en": "Facing cancer is about more than treatment. It is about understanding what is happening, trusting the people beside you and feeling heard at every visit."
+        "ar": "خبرة جراحية متخصصة، وتشخيص دقيق، ورعاية متكاملة في كل مراحل العلاج.",
+        "en": "Specialized surgical expertise, accurate diagnosis, and comprehensive care throughout treatment."
       },
       "isPlaceholder": true
     },
@@ -1136,8 +1134,7 @@
         "chemotherapy",
         "immunotherapy",
         "hormonal",
-        "supportive",
-        "laparoscopic-cholecystectomy"
+        "supportive"
       ],
       "description": {
         "ar": "يقدم د. عثمان شاكر مجموعة متكاملة من الخدمات في الجراحة العامة وجراحات الأورام والمناظير، مع الاعتماد على التقييم الدقيق لكل حالة واختيار الأسلوب الجراحي الأنسب لها.",
@@ -1234,14 +1231,73 @@
     },
     "settings.contact": {
       "phone": {
-        "e164": "+201000000000",
-        "display": "+20 100 000 0000",
-        "isPlaceholder": true
+        "e164": "+201558884480",
+        "display": "01558884480"
+      },
+      "clinic": {
+        "fee": {
+          "ar": "500 جنيه",
+          "en": "500 EGP"
+        },
+        "hours": {
+          "ar": "جميع أيام الأسبوع من 7 م إلى 10 م، ماعدا الجمعة",
+          "en": "Every day except Friday, 7 pm to 10 pm"
+        },
+        "title": {
+          "ar": "نورونا في العيادة",
+          "en": "Visit the clinic"
+        },
+        "mapUrl": "https://maps.app.goo.gl/oxncb71FgKVTt1fc9",
+        "phones": [
+          {
+            "e164": "+20222733017",
+            "display": "22733017"
+          },
+          {
+            "e164": "+2026708818",
+            "display": "026708818"
+          },
+          {
+            "e164": "+201092374994",
+            "display": "01092374994"
+          },
+          {
+            "e164": "+201558884480",
+            "display": "01558884480"
+          },
+          {
+            "e164": "+201555694335",
+            "display": "01555694335"
+          }
+        ],
+        "address": {
+          "ar": "86 شارع أحمد الزمر، امتداد ذاكر حسين، أمام مستشفى النهار الوفاء والأمل، أعلى سهم للأجهزة الإلكترونية، مدينة نصر، القاهرة",
+          "en": "86 Ahmed El-Zomor St., Zaker Hussein extension, opposite Al-Nahar Al-Wafaa Wal-Amal Hospital, above Sahm Electronics, Nasr City, Cairo"
+        },
+        "feeLabel": {
+          "ar": "سعر الكشف",
+          "en": "Consultation fee"
+        },
+        "mapLabel": {
+          "ar": "افتح الموقع على الخريطة",
+          "en": "Open in Google Maps"
+        },
+        "hoursLabel": {
+          "ar": "المواعيد",
+          "en": "Hours"
+        },
+        "phonesLabel": {
+          "ar": "للحجز كلمونا على",
+          "en": "To book, call"
+        },
+        "addressLabel": {
+          "ar": "العنوان",
+          "en": "Address"
+        }
       },
       "whatsapp": {
-        "e164": "+201000000000",
-        "display": "+20 100 000 0000",
-        "isPlaceholder": true
+        "e164": "+201558884480",
+        "display": "01558884480"
       },
       "whatsappMessage": {
         "ar": "مرحبًا، أودّ حجز استشارة مع د. عثمان شاكر.",
@@ -1251,31 +1307,28 @@
     "settings.socials": {
       "items": [
         {
-          "url": "https://www.facebook.com/",
+          "url": "https://www.facebook.com/osmanshaker83",
           "label": {
             "ar": "فيسبوك",
             "en": "Facebook"
           },
-          "platform": "facebook",
-          "isPlaceholder": true
+          "platform": "facebook"
         },
         {
-          "url": "https://www.instagram.com/",
+          "url": "",
           "label": {
             "ar": "إنستغرام",
             "en": "Instagram"
           },
-          "platform": "instagram",
-          "isPlaceholder": true
+          "platform": "instagram"
         },
         {
-          "url": "https://www.youtube.com/",
+          "url": "",
           "label": {
             "ar": "يوتيوب",
             "en": "YouTube"
           },
-          "platform": "youtube",
-          "isPlaceholder": true
+          "platform": "youtube"
         }
       ]
     },
@@ -1536,57 +1589,6 @@
             "en": "Performing abdominal and gastrointestinal procedures using advanced laparoscopic techniques, including the management of complex surgical cases, with the aim of minimizing surgical trauma and supporting faster recovery."
           }
         }
-      },
-      {
-        "slug": "upper-gi-surgery",
-        "content": {
-          "title": {
-            "ar": "جراحة المريء والمعدة",
-            "en": "Esophageal and stomach surgery"
-          },
-          "eyebrow": {
-            "ar": "المريء والمعدة",
-            "en": "Esophagus & stomach"
-          },
-          "description": {
-            "ar": "رعاية جراحية لحالات الارتجاع وفتق الحجاب الحاجز وأورام المعدة ومضاعفات القرحة، بعد تقييم دقيق للأعراض ونتائج الفحوص.",
-            "en": "Surgical care for reflux and hiatal hernia, stomach tumors and the complications of ulcers, after a careful assessment of symptoms and test results."
-          }
-        }
-      },
-      {
-        "slug": "endocrine-surgery",
-        "content": {
-          "title": {
-            "ar": "جراحة الغدة الدرقية والجار درقية والكظرية",
-            "en": "Thyroid, parathyroid and adrenal surgery"
-          },
-          "eyebrow": {
-            "ar": "الغدد الصماء",
-            "en": "Endocrine glands"
-          },
-          "description": {
-            "ar": "عمليات على الغدد المسؤولة عن الهرمونات، تُخطَّط مع أطباء الغدد الصماء وتسترشد بالتحاليل والأشعة والعينات عند الحاجة.",
-            "en": "Operations on the hormone glands, planned with endocrinologists and guided by blood tests, imaging and, when needed, biopsies."
-          }
-        }
-      },
-      {
-        "slug": "surgical-oncology",
-        "content": {
-          "title": {
-            "ar": "جراحة الأورام والإجراءات المصاحبة",
-            "en": "Tumor surgery and related procedures"
-          },
-          "eyebrow": {
-            "ar": "جراحة الأورام",
-            "en": "Surgical oncology"
-          },
-          "description": {
-            "ar": "عمليات وإجراءات تمثل جزءًا من رعاية الأورام، من استئصال الأورام إلى أخذ العينات وتركيب البورت، بالتنسيق مع باقي الخطة العلاجية.",
-            "en": "Operations and procedures that are part of cancer care — from removing tumors to taking biopsies and placing ports — coordinated with the rest of the treatment plan."
-          }
-        }
       }
     ],
     "services": [
@@ -1598,8 +1600,8 @@
               "ar": "مريضة برفقة أخصائية الأشعة أثناء فحص الماموجرام",
               "en": "A patient with a radiographer during a mammogram"
             },
-            "src": "/media/cms-808c995a-387f-421a-bb68-57f5cc1854c3",
-            "assetId": "808c995a-387f-421a-bb68-57f5cc1854c3",
+            "src": "/media/cms-93db95cc-7841-4fc7-bf47-85c961986728",
+            "assetId": "93db95cc-7841-4fc7-bf47-85c961986728",
             "position": "58% 40%",
             "isPlaceholder": false
           },
@@ -1684,8 +1686,8 @@
               "ar": "طبيب يفحص صور الأشعة على لوح الإضاءة",
               "en": "A doctor examining scan images on a light box"
             },
-            "src": "/media/cms-66e1389a-3c4b-4654-8cb5-9c91e5778722",
-            "assetId": "66e1389a-3c4b-4654-8cb5-9c91e5778722",
+            "src": "/media/cms-03db9234-12a4-47d1-83cc-72d896f48120",
+            "assetId": "03db9234-12a4-47d1-83cc-72d896f48120",
             "position": "60% 35%",
             "isPlaceholder": false
           },
@@ -1751,8 +1753,8 @@
               "ar": "طبيبان يناقشان صورًا طبية على الشاشة",
               "en": "Two doctors discussing medical images on a monitor"
             },
-            "src": "/media/cms-8cd73884-cb7c-444f-96be-7b6f9b8b6ae5",
-            "assetId": "8cd73884-cb7c-444f-96be-7b6f9b8b6ae5",
+            "src": "/media/cms-2b8f6b82-de66-4ee8-a202-600da609d79f",
+            "assetId": "2b8f6b82-de66-4ee8-a202-600da609d79f",
             "position": "68% 40%",
             "isPlaceholder": false
           },
@@ -1825,8 +1827,8 @@
               "ar": "طبيبة تعتني بسيدة خلال زيارة للعيادة",
               "en": "A doctor caring for an older woman during a clinic visit"
             },
-            "src": "/media/cms-b16bdbcb-7feb-408b-8c8c-9a431a71688b",
-            "assetId": "b16bdbcb-7feb-408b-8c8c-9a431a71688b",
+            "src": "/media/cms-5558c75c-43e0-44f3-897e-045c797adb2f",
+            "assetId": "5558c75c-43e0-44f3-897e-045c797adb2f",
             "position": "72% 40%",
             "isPlaceholder": false
           },
@@ -1903,8 +1905,8 @@
               "ar": "أنابيب عينات دم في حامل داخل المختبر",
               "en": "Blood sample tubes in a laboratory rack"
             },
-            "src": "/media/cms-4586a638-aacf-493d-b454-9e4892e936c2",
-            "assetId": "4586a638-aacf-493d-b454-9e4892e936c2",
+            "src": "/media/cms-0a70040c-7847-4e6d-b856-479d3d7536f1",
+            "assetId": "0a70040c-7847-4e6d-b856-479d3d7536f1",
             "position": "40% 50%",
             "isPlaceholder": false
           },
@@ -2293,11 +2295,10 @@
               "ar": "طبيب يقيس ضغط الدم لمريضة",
               "en": "A doctor measuring a patient's blood pressure"
             },
-            "src": "/media/video-first-visit",
-            "credit": "Unsplash — https://images.unsplash.com/photo-1631815588090-d4bfec5b1ccb",
-            "assetId": "e88aadc6-d69f-4a6d-8d6d-e883c28d97f9",
+            "src": "/media/cms-6d214bae-6e9e-47c5-ac29-e2f63e802715",
+            "assetId": "6d214bae-6e9e-47c5-ac29-e2f63e802715",
             "position": "50% 35%",
-            "isPlaceholder": true
+            "isPlaceholder": false
           },
           "title": {
             "ar": "أورام القولون",
@@ -2354,11 +2355,10 @@
               "ar": "طبيبة تشرح صورة أشعة مقطعية معروضة على شاشة الحاسوب",
               "en": "A doctor explaining a CT scan displayed on a computer screen"
             },
-            "src": "/media/intro-video-poster",
-            "credit": "Unsplash — https://images.unsplash.com/photo-1666214280557-f1b5022eb634",
-            "assetId": "8e45b362-0d4b-4529-868e-7ac410c441a9",
+            "src": "/media/cms-d2b81077-8107-45b2-903d-c5150489e4af",
+            "assetId": "d2b81077-8107-45b2-903d-c5150489e4af",
             "position": "45% 40%",
-            "isPlaceholder": true
+            "isPlaceholder": false
           },
           "title": {
             "ar": "أورام المستقيم",
@@ -2417,11 +2417,10 @@
               "ar": "يد تكتب قائمة مهام في دفتر",
               "en": "A hand writing a checklist in a notebook"
             },
-            "src": "/media/article-questions",
-            "credit": "Unsplash — https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b",
-            "assetId": "62932fa0-526c-46e3-8d75-934153603bc0",
+            "src": "/media/cms-86564206-500e-4c62-a4c0-a2c3351a2d97",
+            "assetId": "86564206-500e-4c62-a4c0-a2c3351a2d97",
             "position": "55% 50%",
-            "isPlaceholder": true
+            "isPlaceholder": false
           },
           "title": {
             "ar": "جراحات القولون بالمنظار",
@@ -2480,11 +2479,10 @@
               "ar": "طبيبة تمسك سماعة طبية",
               "en": "A doctor holding a stethoscope"
             },
-            "src": "/media/video-side-effects",
-            "credit": "Unsplash — https://images.unsplash.com/photo-1638202993928-7267aad84c31",
-            "assetId": "856f56ad-6b4f-4a9c-8fae-4c5522a29f74",
+            "src": "/media/cms-b03be883-88be-4b53-a92c-4a3bf9236fc8",
+            "assetId": "b03be883-88be-4b53-a92c-4a3bf9236fc8",
             "position": "45% 45%",
-            "isPlaceholder": true
+            "isPlaceholder": false
           },
           "title": {
             "ar": "الحالات الجراحية المعقدة للقولون والمستقيم",
@@ -2543,11 +2541,10 @@
               "ar": "طبيب يقيس ضغط الدم لمريضة",
               "en": "A doctor measuring a patient's blood pressure"
             },
-            "src": "/media/video-first-visit",
-            "credit": "Unsplash — https://images.unsplash.com/photo-1631815588090-d4bfec5b1ccb",
-            "assetId": "e88aadc6-d69f-4a6d-8d6d-e883c28d97f9",
+            "src": "/media/cms-59840a9a-51fa-40cf-b8fa-6f9d3679bc95",
+            "assetId": "59840a9a-51fa-40cf-b8fa-6f9d3679bc95",
             "position": "50% 40%",
-            "isPlaceholder": true
+            "isPlaceholder": false
           },
           "title": {
             "ar": "عقد الغدة الدرقية",
@@ -2606,11 +2603,10 @@
               "ar": "أخصائية تقيس ضغط الدم لمريضة خلال زيارتها",
               "en": "A clinician measuring a patient's blood pressure during a visit"
             },
-            "src": "/media/cta-consultation",
-            "credit": "Unsplash — https://images.unsplash.com/photo-1631815589968-fdb09a223b1e",
-            "assetId": "abcd87d6-5b17-4537-9561-a7d97d010da1",
+            "src": "/media/cms-f6d740f1-54b4-4f7d-9100-aa25ed43486f",
+            "assetId": "f6d740f1-54b4-4f7d-9100-aa25ed43486f",
             "position": "40% 35%",
-            "isPlaceholder": true
+            "isPlaceholder": false
           },
           "title": {
             "ar": "أورام الغدة الدرقية",
@@ -2669,11 +2665,10 @@
               "ar": "أطباء يراجعون صورًا طبية معًا في مكتب عيادة مضيء",
               "en": "Doctors reviewing medical images together in a bright clinic office"
             },
-            "src": "/media/why-choose",
-            "credit": "Unsplash — https://images.unsplash.com/photo-1666214277657-e60f05c40b04",
-            "assetId": "89cbb8d2-bf85-43ca-8694-7e098022dcdd",
+            "src": "/media/cms-f9067a84-9ba4-4813-ae15-dd9f73e87319",
+            "assetId": "f9067a84-9ba4-4813-ae15-dd9f73e87319",
             "position": "72% 40%",
-            "isPlaceholder": true
+            "isPlaceholder": false
           },
           "title": {
             "ar": "استئصال الغدة الدرقية",
@@ -3300,595 +3295,6 @@
           "isPlaceholder": true
         },
         "parent": "colorectal-surgery"
-      },
-      {
-        "slug": "hiatal-hernia-reflux",
-        "content": {
-          "image": {
-            "alt": {
-              "ar": "طبيبان يناقشان صورًا طبية على الشاشة",
-              "en": "Two doctors discussing medical images on a monitor"
-            },
-            "src": "/media/specialty-gastrointestinal",
-            "credit": "Unsplash — https://images.unsplash.com/photo-1666214280391-8ff5bd3c0bf0",
-            "assetId": "525b44fb-2e95-4978-b369-d7f88d54b40e",
-            "position": "68% 40%",
-            "isPlaceholder": true
-          },
-          "title": {
-            "ar": "فتق الحجاب الحاجز والارتجاع",
-            "en": "Hiatal hernia and reflux"
-          },
-          "details": [
-            {
-              "text": {
-                "ar": "يسمح فتق الحجاب الحاجز بانزلاق جزء من المعدة إلى التجويف الصدري، وقد يزيد الارتجاع الحمضي سوءًا. يُعالج معظم المرضى بالأدوية وتغيير نمط الحياة، وتُدرس الجراحة عند استمرار الأعراض أو حدوث مضاعفات أو كِبر حجم الفتق.",
-                "en": "A hiatal hernia lets part of the stomach slide up into the chest and can make acid reflux worse. Most people are treated with medicines and lifestyle changes; surgery is considered for persistent symptoms, complications or large hernias."
-              },
-              "type": "paragraph"
-            },
-            {
-              "text": {
-                "ar": "قبل اتخاذ قرار الجراحة",
-                "en": "Before deciding on surgery"
-              },
-              "type": "heading"
-            },
-            {
-              "type": "list",
-              "items": {
-                "ar": [
-                  "منظار علوي لفحص المريء والمعدة",
-                  "فحوص البلع والحموضة عند الحاجة",
-                  "إصلاح الفتق بالمنظار مع عملية لفّ أعلى المعدة",
-                  "إرشادات غذائية للأسابيع الأولى بعد العملية"
-                ],
-                "en": [
-                  "An upper endoscopy to examine the esophagus and stomach",
-                  "Swallowing and acid tests when needed",
-                  "Laparoscopic repair of the hernia with a fundoplication",
-                  "Diet advice for the first weeks after the operation"
-                ]
-              }
-            }
-          ],
-          "summary": {
-            "ar": "إصلاح بالمنظار للارتجاع وفتق الحجاب الحاجز عندما لا تكفي الأدوية وتغيير نمط الحياة.",
-            "en": "Laparoscopic repair for reflux and hiatal hernia when medicines and lifestyle changes are not enough."
-          },
-          "isPlaceholder": true
-        },
-        "parent": "upper-gi-surgery"
-      },
-      {
-        "slug": "stomach-tumors",
-        "content": {
-          "image": {
-            "alt": {
-              "ar": "أطباء يراجعون صورًا طبية معًا في مكتب عيادة مضيء",
-              "en": "Doctors reviewing medical images together in a bright clinic office"
-            },
-            "src": "/media/why-choose",
-            "credit": "Unsplash — https://images.unsplash.com/photo-1666214277657-e60f05c40b04",
-            "assetId": "89cbb8d2-bf85-43ca-8694-7e098022dcdd",
-            "position": "72% 40%",
-            "isPlaceholder": true
-          },
-          "title": {
-            "ar": "جراحة أورام المعدة",
-            "en": "Stomach tumor surgery"
-          },
-          "details": [
-            {
-              "text": {
-                "ar": "تُشخَّص أورام المعدة بالمنظار وأخذ العينة، ثم تُحدَّد مرحلتها بالأشعة. وعندما يُوصى بالجراحة يُستأصل جزء من المعدة أو المعدة كلها مع الغدد الليمفاوية المجاورة، وغالبًا ما يصاحب ذلك علاج كيميائي.",
-                "en": "Stomach tumors are diagnosed by endoscopy and biopsy, then staged with scans. When surgery is recommended, part or all of the stomach is removed with the nearby lymph nodes, usually alongside chemotherapy."
-              },
-              "type": "paragraph"
-            },
-            {
-              "text": {
-                "ar": "ما قد تشمله الرعاية",
-                "en": "What care may include"
-              },
-              "type": "heading"
-            },
-            {
-              "type": "list",
-              "items": {
-                "ar": [
-                  "مراجعة نتائج المنظار والعينة وأشعة تحديد المرحلة",
-                  "مناقشة الحالة في اجتماع متعدد التخصصات",
-                  "دعم غذائي قبل الجراحة وبعدها",
-                  "متابعة طويلة المدى وإرشادات حول الأكل"
-                ],
-                "en": [
-                  "Reviewing endoscopy, pathology and staging scans",
-                  "Discussion at a multidisciplinary meeting",
-                  "Nutritional support before and after surgery",
-                  "Long-term follow-up and advice on eating"
-                ]
-              }
-            }
-          ],
-          "summary": {
-            "ar": "جراحة تُخطَّط مع فريق الأورام، وكثيرًا ما تُدمج مع علاج قبل العملية وبعدها.",
-            "en": "Surgery planned with the oncology team, often combined with treatment before and after the operation."
-          },
-          "isPlaceholder": true
-        },
-        "parent": "upper-gi-surgery"
-      },
-      {
-        "slug": "peptic-ulcer-complications",
-        "content": {
-          "image": {
-            "alt": {
-              "ar": "طبيب يقيس ضغط الدم لمريضة",
-              "en": "A doctor measuring a patient's blood pressure"
-            },
-            "src": "/media/video-first-visit",
-            "credit": "Unsplash — https://images.unsplash.com/photo-1631815588090-d4bfec5b1ccb",
-            "assetId": "e88aadc6-d69f-4a6d-8d6d-e883c28d97f9",
-            "position": "50% 40%",
-            "isPlaceholder": true
-          },
-          "title": {
-            "ar": "مضاعفات قرحة المعدة والاثني عشر",
-            "en": "Ulcer complications"
-          },
-          "details": [
-            {
-              "text": {
-                "ar": "تلتئم معظم القرح بالأدوية، وتصبح الجراحة ضرورية عندما يحدث ثقب في القرحة، أو نزيف شديد رغم العلاج بالمنظار، أو ضيق في مخرج المعدة.",
-                "en": "Most ulcers heal with medicines. Surgery is needed when an ulcer perforates, bleeds heavily despite endoscopic treatment, or narrows the outlet of the stomach."
-              },
-              "type": "paragraph"
-            },
-            {
-              "text": {
-                "ar": "علامات تستدعي رعاية عاجلة",
-                "en": "Signs that need urgent care"
-              },
-              "type": "heading"
-            },
-            {
-              "type": "list",
-              "items": {
-                "ar": [
-                  "ألم مفاجئ وشديد في البطن",
-                  "قيء دموي أو براز أسود",
-                  "دوخة أو إغماء",
-                  "قيء متكرر بعد الوجبات"
-                ],
-                "en": [
-                  "Sudden, severe abdominal pain",
-                  "Vomiting blood or passing black stools",
-                  "Dizziness or fainting",
-                  "Repeated vomiting after meals"
-                ]
-              }
-            }
-          ],
-          "summary": {
-            "ar": "رعاية جراحية عاجلة لثقب القرحة أو نزيفها عندما لا تكفي العلاجات الأخرى.",
-            "en": "Urgent surgical care for a perforated or bleeding ulcer when other treatments are not enough."
-          },
-          "isPlaceholder": true
-        },
-        "parent": "upper-gi-surgery"
-      },
-      {
-        "slug": "thyroid-surgery",
-        "content": {
-          "image": {
-            "alt": {
-              "ar": "طبيب يفحص صور الأشعة على لوح الإضاءة",
-              "en": "A doctor examining scan images on a light box"
-            },
-            "src": "/media/specialty-thoracic",
-            "credit": "Unsplash — https://images.unsplash.com/photo-1581595219315-a187dd40c322",
-            "assetId": "6882b810-4069-487b-b2ab-3c4d4aee3756",
-            "position": "60% 35%",
-            "isPlaceholder": true
-          },
-          "title": {
-            "ar": "جراحة الغدة الدرقية",
-            "en": "Thyroid surgery"
-          },
-          "details": [
-            {
-              "text": {
-                "ar": "تنتشر عقد الغدة الدرقية، ومعظمها حميد. وقد يُنصح بالجراحة للعقد المشتبه بها أو الخبيثة، أو للتضخم الكبير الذي يضغط على الرقبة، أو لفرط النشاط الذي لا يُسيطر عليه بوسائل أخرى.",
-                "en": "Thyroid nodules are common and most are benign. Surgery may be advised for suspicious or cancerous nodules, a large goiter that presses on the neck, or overactivity that is not controlled otherwise."
-              },
-              "type": "paragraph"
-            },
-            {
-              "text": {
-                "ar": "ما قد تشمله الرعاية",
-                "en": "What care may include"
-              },
-              "type": "heading"
-            },
-            {
-              "type": "list",
-              "items": {
-                "ar": [
-                  "أشعة بالموجات فوق الصوتية وعينة بالإبرة الدقيقة عند الحاجة",
-                  "فحص الأحبال الصوتية ومستوى الكالسيوم",
-                  "استئصال فص من الغدة أو الغدة كاملة",
-                  "أقراص هرمون الغدة الدرقية بعد الجراحة عند الحاجة"
-                ],
-                "en": [
-                  "An ultrasound and a fine-needle biopsy when needed",
-                  "Checking the vocal cords and calcium levels",
-                  "Removal of one lobe or of the whole gland",
-                  "Thyroid hormone tablets after surgery when needed"
-                ]
-              }
-            }
-          ],
-          "summary": {
-            "ar": "استئصال جزء من الغدة الدرقية أو كلها في حالات العقد أو التضخم أو فرط النشاط أو الأورام.",
-            "en": "Removal of part or all of the thyroid for nodules, goiter, overactivity or cancer."
-          },
-          "isPlaceholder": true
-        },
-        "parent": "endocrine-surgery"
-      },
-      {
-        "slug": "parathyroid-surgery",
-        "content": {
-          "image": {
-            "alt": {
-              "ar": "أنابيب عينات دم في حامل داخل المختبر",
-              "en": "Blood sample tubes in a laboratory rack"
-            },
-            "src": "/media/specialty-hematologic",
-            "credit": "Unsplash — https://images.unsplash.com/photo-1581594693702-fbdc51b2763b",
-            "assetId": "16f41fde-34c5-49ce-92b0-e3d31fd3cec4",
-            "position": "40% 50%",
-            "isPlaceholder": true
-          },
-          "title": {
-            "ar": "جراحة الغدد الجار درقية",
-            "en": "Parathyroid surgery"
-          },
-          "details": [
-            {
-              "text": {
-                "ar": "يؤدي فرط نشاط الغدة الجار درقية إلى ارتفاع الكالسيوم في الدم، مما قد يسبب حصوات الكلى أو هشاشة العظام أو الإرهاق أو تقلب المزاج، ويُعد استئصال الغدة المصابة العلاج المعتاد.",
-                "en": "An overactive parathyroid gland raises the calcium in the blood, which can cause kidney stones, thinning of the bones, fatigue or low mood. Removing the affected gland is the usual cure."
-              },
-              "type": "paragraph"
-            },
-            {
-              "text": {
-                "ar": "ما قد تشمله الرعاية",
-                "en": "What care may include"
-              },
-              "type": "heading"
-            },
-            {
-              "type": "list",
-              "items": {
-                "ar": [
-                  "تحاليل دم للكالسيوم وهرمون الغدة الجار درقية",
-                  "أشعة لتحديد مكان الغدة زائدة النشاط",
-                  "جراحة موضعية عبر فتحة صغيرة في الرقبة متى أمكن",
-                  "متابعة مستوى الكالسيوم بعد الجراحة"
-                ],
-                "en": [
-                  "Blood tests for calcium and parathyroid hormone",
-                  "Scans to locate the overactive gland",
-                  "A focused operation through a small neck incision when possible",
-                  "Calcium checks after surgery"
-                ]
-              }
-            }
-          ],
-          "summary": {
-            "ar": "استئصال غدة جار درقية زائدة النشاط ترفع نسبة الكالسيوم في الدم.",
-            "en": "Removing an overactive parathyroid gland that raises the calcium in the blood."
-          },
-          "isPlaceholder": true
-        },
-        "parent": "endocrine-surgery"
-      },
-      {
-        "slug": "adrenal-surgery",
-        "content": {
-          "image": {
-            "alt": {
-              "ar": "طبيبان يراجعان صورًا طبية على شاشات الحاسوب",
-              "en": "Two doctors reviewing medical images on computer screens"
-            },
-            "src": "/media/page-services",
-            "credit": "Unsplash — https://images.unsplash.com/photo-1666214280391-8ff5bd3c0bf0",
-            "assetId": "a8cbbda9-720a-48db-9ee1-0e8ad399cbb6",
-            "position": "70% 35%",
-            "isPlaceholder": true,
-            "positionMobile": "75% 30%"
-          },
-          "title": {
-            "ar": "استئصال الغدة الكظرية بالمنظار",
-            "en": "Laparoscopic adrenal surgery"
-          },
-          "details": [
-            {
-              "text": {
-                "ar": "تُكتشف كثير من أورام الغدة الكظرية بالصدفة ولا تحتاج إلى جراحة، ويُنصح بالاستئصال، بالمنظار غالبًا، للأورام التي تفرز هرمونات أو تكبر مع الوقت أو تبدو مشتبهًا بها.",
-                "en": "Many adrenal masses are found by chance and need no surgery. Removal, usually by laparoscopy, is advised for tumors that produce hormones, grow over time or look suspicious."
-              },
-              "type": "paragraph"
-            },
-            {
-              "text": {
-                "ar": "ما قد تشمله الرعاية",
-                "en": "What care may include"
-              },
-              "type": "heading"
-            },
-            {
-              "type": "list",
-              "items": {
-                "ar": [
-                  "تحاليل دم وبول للهرمونات",
-                  "أشعة مقطعية أو رنين مغناطيسي لتقييم الورم",
-                  "التحضير بالأدوية إذا كان الورم يفرز هرمونات",
-                  "متابعة مستوى الهرمونات بعد الجراحة"
-                ],
-                "en": [
-                  "Hormone tests on blood and urine",
-                  "A CT scan or MRI to assess the mass",
-                  "Preparation with medicines when the tumor produces hormones",
-                  "Hormone checks during follow-up"
-                ]
-              }
-            }
-          ],
-          "summary": {
-            "ar": "استئصال أورام الغدة الكظرية التي تفرز هرمونات زائدة أو تبدو مشتبهًا بها في الأشعة.",
-            "en": "Removal of adrenal tumors that produce excess hormones or look suspicious on scans."
-          },
-          "isPlaceholder": true
-        },
-        "parent": "endocrine-surgery"
-      },
-      {
-        "slug": "breast-tumor-surgery",
-        "content": {
-          "image": {
-            "alt": {
-              "ar": "مريضة برفقة أخصائية الأشعة أثناء فحص الماموجرام",
-              "en": "A patient with a radiographer during a mammogram"
-            },
-            "src": "/media/specialty-breast",
-            "credit": "Unsplash — https://images.unsplash.com/photo-1579154341098-e4e158cc7f55",
-            "assetId": "34413557-e377-4f13-a469-4bad94f418ff",
-            "position": "58% 40%",
-            "isPlaceholder": true
-          },
-          "title": {
-            "ar": "جراحة أورام ",
-            "en": "Breast tumor surgery"
-          },
-          "details": [
-            {
-              "text": {
-                "ar": "تتراوح جراحة أورام الثدي بين استئصال الورم مع هامش من الأنسجة السليمة واستئصال الثدي بالكامل، ويعتمد الاختيار على طبيعة الورم والثدي وتفضيلات المريضة، ويُتخذ القرار بالتعاون مع فريق الأورام.",
-                "en": "Surgery for breast tumors ranges from removing the lump with a margin of healthy tissue to removing the whole breast. The choice depends on the tumor, the breast and the patient's preferences, and is made together with the oncology team."
-              },
-              "type": "paragraph"
-            },
-            {
-              "text": {
-                "ar": "ما قد تشمله الرعاية",
-                "en": "What care may include"
-              },
-              "type": "heading"
-            },
-            {
-              "type": "list",
-              "items": {
-                "ar": [
-                  "مراجعة نتائج الماموجرام والموجات فوق الصوتية والعينة",
-                  "أخذ عينة من الغدة الليمفاوية الحارسة عند الحاجة",
-                  "مناقشة خيارات إعادة بناء الثدي",
-                  "التنسيق للعلاج الإشعاعي والدوائي بعد الجراحة"
-                ],
-                "en": [
-                  "Reviewing mammogram, ultrasound and biopsy results",
-                  "A sentinel lymph node biopsy when appropriate",
-                  "Discussing reconstruction options",
-                  "Coordinating radiotherapy and medical treatment after surgery"
-                ]
-              }
-            }
-          ],
-          "summary": {
-            "ar": "جراحة تحفظ الثدي أو استئصاله، مع جراحة الغدد الليمفاوية، ضمن خطة علاجية مشتركة.",
-            "en": "Breast-conserving surgery or mastectomy, with lymph node surgery, as part of a shared plan."
-          },
-          "isPlaceholder": true
-        },
-        "parent": "surgical-oncology"
-      },
-      {
-        "slug": "soft-tissue-tumors",
-        "content": {
-          "image": {
-            "alt": {
-              "ar": "باحثة تعمل على المجهر في المختبر",
-              "en": "A scientist working at a microscope in a laboratory"
-            },
-            "src": "/media/video-pathology",
-            "credit": "Unsplash — https://images.unsplash.com/photo-1582719471384-894fbb16e074",
-            "assetId": "ca65debe-3141-44ea-a923-69b44a5e1c4f",
-            "position": "55% 50%",
-            "isPlaceholder": true
-          },
-          "title": {
-            "ar": "أورام الأنسجة الرخوة والكتل الدهنية",
-            "en": "Soft tissue lumps"
-          },
-          "details": [
-            {
-              "text": {
-                "ar": "معظم الكتل تحت الجلد، مثل الأورام الدهنية والأكياس، حميدة ويمكن استئصالها بالتخدير الموضعي، أما الكتل الكبيرة أو العميقة أو المؤلمة أو التي تكبر فتحتاج إلى أشعة، وأحيانًا إلى عينة، قبل الجراحة.",
-                "en": "Most lumps under the skin, such as lipomas and cysts, are benign and can be removed under local anesthesia. Lumps that are large, deep, painful or growing need imaging, and sometimes a biopsy, before surgery."
-              },
-              "type": "paragraph"
-            },
-            {
-              "text": {
-                "ar": "علامات تستحق الفحص",
-                "en": "Signs worth checking"
-              },
-              "type": "heading"
-            },
-            {
-              "type": "list",
-              "items": {
-                "ar": [
-                  "كتلة يزيد حجمها على 5 سم تقريبًا",
-                  "كتلة يزداد حجمها",
-                  "كتلة عميقة تحت العضلة",
-                  "كتلة تعود بعد استئصالها"
-                ],
-                "en": [
-                  "A lump larger than about 5 cm",
-                  "A lump that is growing",
-                  "A lump deep under the muscle",
-                  "A lump that comes back after removal"
-                ]
-              }
-            }
-          ],
-          "summary": {
-            "ar": "تقييم واستئصال الكتل تحت الجلد، من الأورام الدهنية البسيطة إلى الأورام التي تحتاج إلى رعاية متخصصة.",
-            "en": "Assessment and removal of lumps under the skin, from simple lipomas to tumors that need specialist care."
-          },
-          "isPlaceholder": true
-        },
-        "parent": "surgical-oncology"
-      },
-      {
-        "slug": "lymph-node-biopsy",
-        "content": {
-          "image": {
-            "alt": {
-              "ar": "صورة مجهرية لخلايا ملوّنة بالأزرق والأرجواني",
-              "en": "Microscope image of cells stained blue and magenta"
-            },
-            "src": "/media/treatment-immunotherapy",
-            "credit": "Unsplash — https://images.unsplash.com/photo-1576086213369-97a306d36557",
-            "assetId": "7a76c5c8-c098-4bd5-94e0-534275fdc813",
-            "position": "50% 50%",
-            "isPlaceholder": true
-          },
-          "title": {
-            "ar": "عينة الغدد الليمفاوية",
-            "en": "Lymph node biopsy"
-          },
-          "details": [
-            {
-              "text": {
-                "ar": "عندما تظل الغدة الليمفاوية متضخمة أو لا تكون نتيجة العينة بالإبرة حاسمة، يتيح استئصال الغدة لطبيب الأنسجة كمية كافية من النسيج لتشخيص حالات مثل الأورام الليمفاوية أو انتشار الأورام.",
-                "en": "When a lymph node stays enlarged or a needle biopsy is not conclusive, removing the node gives the pathologist enough tissue to diagnose conditions such as lymphoma or the spread of a tumor."
-              },
-              "type": "paragraph"
-            },
-            {
-              "text": {
-                "ar": "ما يمكن توقعه",
-                "en": "What to expect"
-              },
-              "type": "heading"
-            },
-            {
-              "type": "list",
-              "items": {
-                "ar": [
-                  "إجراء قصير غالبًا، وكثيرًا ما يكون دون مبيت",
-                  "تخدير موضعي أو كلي حسب موضع الغدة",
-                  "مناقشة النتائج معك فور صدور تقرير التحليل النسيجي"
-                ],
-                "en": [
-                  "Usually a short procedure, often without an overnight stay",
-                  "Local or general anesthesia, depending on where the node is",
-                  "Results discussed with you once the pathology report is ready"
-                ]
-              }
-            }
-          ],
-          "summary": {
-            "ar": "استئصال غدة ليمفاوية أو جزء منها ليتمكن طبيب الأنسجة من وضع تشخيص دقيق.",
-            "en": "Removing a lymph node, or part of it, so the pathologist can make an accurate diagnosis."
-          },
-          "isPlaceholder": true
-        },
-        "parent": "surgical-oncology"
-      },
-      {
-        "slug": "chemotherapy-port",
-        "content": {
-          "image": {
-            "alt": {
-              "ar": "حامل محاليل وريدية يحمل كيس العلاج",
-              "en": "An infusion stand holding an intravenous bag"
-            },
-            "src": "/media/treatment-chemotherapy",
-            "credit": "Unsplash — https://images.unsplash.com/photo-1516574187841-cb9cc2ca948b",
-            "assetId": "6b3f4dff-dc1d-4eb5-90cf-a76234da6c4c",
-            "position": "50% 50%",
-            "isPlaceholder": true
-          },
-          "title": {
-            "ar": "تركيب بورت للعلاج الكيميائي",
-            "en": "Chemotherapy port insertion"
-          },
-          "details": [
-            {
-              "text": {
-                "ar": "البورت خزان صغير يوضع تحت جلد الصدر ويتصل بوريد كبير، ويتيح إعطاء العلاج الكيميائي والمحاليل وسحب التحاليل دون وخز متكرر في أوردة الذراع.",
-                "en": "A port is a small reservoir placed under the skin of the chest and connected to a large vein. It allows chemotherapy, fluids and blood tests without repeated needles in the veins of the arm."
-              },
-              "type": "paragraph"
-            },
-            {
-              "text": {
-                "ar": "معلومات مهمة",
-                "en": "Good to know"
-              },
-              "type": "heading"
-            },
-            {
-              "type": "list",
-              "items": {
-                "ar": [
-                  "يُركَّب في إجراء قصير، غالبًا بالتخدير الموضعي",
-                  "يُغسل بانتظام للحفاظ على عمله",
-                  "ينبغي الإبلاغ فورًا عن الحرارة أو الاحمرار أو التورم حوله",
-                  "يُزال بسهولة بعد انتهاء العلاج"
-                ],
-                "en": [
-                  "Placed in a short procedure, usually under local anesthesia",
-                  "Flushed regularly to keep it working",
-                  "Fever, redness or swelling around it should be reported promptly",
-                  "Removed easily once treatment is complete"
-                ]
-              }
-            }
-          ],
-          "summary": {
-            "ar": "جهاز صغير تحت الجلد يسهّل إعطاء العلاج الكيميائي وسحب التحاليل ويحافظ على الأوردة.",
-            "en": "A small device under the skin that makes chemotherapy and blood tests easier and spares the veins."
-          },
-          "isPlaceholder": true
-        },
-        "parent": "surgical-oncology"
       }
     ],
     "videos": [
@@ -4303,12 +3709,12 @@
         "slug": "booking",
         "content": {
           "answer": {
-            "ar": "يمكنك التواصل مع العيادة عبر واتساب أو الاتصال الهاتفي من خلال الوسائل الموجودة في هذه الصفحة.",
-            "en": "You can contact the clinic by WhatsApp or by phone using the options on this page."
+            "ar": "الفتق لدى البالغين لا يختفي من تلقاء نفسه، وقد يزداد حجمه مع مرور الوقت. ويعتمد قرار التدخل الجراحي على نوع الفتق وحجمه والأعراض المصاحبة له.",
+            "en": "In adults, a hernia does not heal on its own and may increase in size over time. The decision to perform surgery depends on the type, size, and associated symptoms of the hernia."
           },
           "question": {
-            "ar": "كيف يمكنني حجز موعد؟",
-            "en": "How can I book an appointment?"
+            "ar": "هل يمكن أن يختفي الفتق دون تدخل جراحي؟",
+            "en": "Can a hernia disappear without surgery?"
           }
         },
         "parent": "before-visit"
@@ -4317,12 +3723,12 @@
         "slug": "bring",
         "content": {
           "answer": {
-            "ar": "يُفضّل إحضار ما لديك من تقارير طبية، مثل نتائج التحليل النسيجي، وصور الأشعة وتقاريرها، وأحدث تحاليل الدم، إضافة إلى قائمة بالأدوية التي تتناولها. كما يساعد تدوين أسئلتك مسبقًا على جعل الزيارة أيسر.",
-            "en": "It helps to bring any medical reports you have — such as pathology results, imaging scans and their reports, recent blood tests — and a list of the medicines you take. Writing your questions down beforehand can also make the visit easier."
+            "ar": "قد يعود الفتق نتيجة ضعف عضلات جدار البطن، أو زيادة الوزن، أو التدخين، أو وجود عوامل تؤثر على التئام الأنسجة. ويساعد تقييم أسباب الارتجاع على تحديد الطريقة المناسبة للإصلاح.",
+            "en": "Hernia recurrence may occur due to abdominal wall weakness, obesity, smoking, or factors affecting tissue healing. Evaluating the underlying causes helps determine the appropriate repair approach."
           },
           "question": {
-            "ar": "ماذا أُحضر معي في الاستشارة الأولى؟",
-            "en": "What should I bring to my first consultation?"
+            "ar": "لماذا يعود الفتق مرة أخرى بعد الجراحة؟",
+            "en": "Why can a hernia recur after surgery?"
           }
         },
         "parent": "before-visit"
@@ -4331,12 +3737,12 @@
         "slug": "companion",
         "content": {
           "answer": {
-            "ar": "يجد كثير من المرضى أن اصطحاب شخص يثقون به أمر مفيد؛ إذ يمكنه المساعدة في الإصغاء وتدوين الملاحظات وتذكّر الأسئلة التي تودّ طرحها.",
-            "en": "Many patients find it helpful to bring someone they trust. A companion can help you listen, take notes and remember the questions you want to ask."
+            "ar": "لا تحتاج جميع حصوات المرارة إلى الجراحة، خاصة إذا لم تسبب أعراضًا. ولكن عند تكرار الألم أو حدوث التهاب أو مضاعفات، قد يكون استئصال المرارة هو الخيار العلاجي المناسب.",
+            "en": "Not all gallstones require surgery, especially when they cause no symptoms. However, recurrent pain, inflammation, or complications may make gallbladder removal the appropriate treatment option."
           },
           "question": {
-            "ar": "هل يمكن أن يرافقني أحد أفراد عائلتي؟",
-            "en": "Can a family member come with me?"
+            "ar": "هل كل حصوات المرارة تحتاج إلى استئصال المرارة؟",
+            "en": "Do all gallstones require gallbladder removal?"
           }
         },
         "parent": "before-visit"
@@ -4345,12 +3751,12 @@
         "slug": "prepare-questions",
         "content": {
           "answer": {
-            "ar": "دوّن أسئلتك مسبقًا وابدأ بأكثرها أهمية بالنسبة إليك. ويمكنك دائمًا طلب إعادة شرح أي أمر بكلمات أبسط، فكل سؤال يستحق أن يُطرح.",
-            "en": "Write your questions down beforehand and start with the ones that matter most to you. You can always ask for something to be explained again, in simpler words — every question is worth asking."
+            "ar": "قد تشمل الأعراض تغيرًا مستمرًا في عادات الإخراج، ووجود دم في البراز، وآلام البطن، وفقدان الوزن غير المبرر، والأنيميا. وقد لا تظهر أعراض واضحة في المراحل المبكرة، لذلك يُعد الكشف المبكر مهمًا.",
+            "en": "Symptoms may include persistent changes in bowel habits, blood in the stool, abdominal pain, unexplained weight loss, and anemia. Early stages may have no noticeable symptoms, making early detection important."
           },
           "question": {
-            "ar": "كيف أستفيد من الاستشارة على أفضل وجه؟",
-            "en": "How can I make the most of my consultation?"
+            "ar": "ما الأعراض التي قد تشير إلى وجود ورم في القولون؟",
+            "en": "What symptoms may indicate a colon tumor?"
           }
         },
         "parent": "before-visit"
@@ -4359,12 +3765,12 @@
         "slug": "reports-in-advance",
         "content": {
           "answer": {
-            "ar": "يُرجى السؤال عن ذلك عند الحجز؛ فإن أمكن الاطلاع على التقارير مسبقًا، ستوضح لك العيادة طريقة إرسالها. ولا ينبغي إرسال السجلات الطبية المفصلة عبر نموذج التواصل في الموقع.",
-            "en": "Please ask when you book. If reports can be reviewed in advance, the clinic will explain how to share them. Detailed medical records should not be sent through the website’s contact form."
+            "ar": "معظم عقد الغدة الدرقية حميدة، ولا تعني بالضرورة وجود ورم سرطاني. ويساعد الفحص بالموجات فوق الصوتية وأخذ عينة بالإبرة الدقيقة عند الحاجة على تقييم طبيعة العقدة.",
+            "en": "Most thyroid nodules are benign and do not necessarily indicate cancer. Ultrasound examination and fine-needle aspiration, when indicated, help evaluate the nature of the nodule."
           },
           "question": {
-            "ar": "هل يمكنني إرسال تقاريري قبل الزيارة؟",
-            "en": "Can I send my reports before the visit?"
+            "ar": "هل جميع عقد الغدة الدرقية سرطانية؟",
+            "en": "Are all thyroid nodules cancerous?"
           }
         },
         "parent": "before-visit"
@@ -4373,54 +3779,12 @@
         "slug": "second-opinion",
         "content": {
           "answer": {
-            "ar": "نعم، فطلب رأي طبي ثانٍ خطوة شائعة ومعقولة، خاصةً قبل اتخاذ قرار مهم يتعلق بالعلاج.",
-            "en": "Yes. Seeking a second opinion is a common and reasonable step, especially before an important decision about treatment."
+            "ar": "البواسير هي تضخم في الأنسجة الوعائية بمنطقة الشرج، وقد تسبب النزيف أو التورم، بينما الشرخ الشرجي هو تمزق صغير في بطانة القناة الشرجية يسبب ألمًا حادًا، خاصة أثناء التبرز.",
+            "en": "Hemorrhoids are enlarged vascular tissues in the anal area that may cause bleeding or swelling, while an anal fissure is a small tear in the anal canal lining that causes sharp pain, particularly during bowel movements."
           },
           "question": {
-            "ar": "هل من المناسب طلب رأي طبي ثانٍ؟",
-            "en": "Is it reasonable to ask for a second opinion?"
-          }
-        },
-        "parent": "diagnosis"
-      },
-      {
-        "slug": "second-opinion-records",
-        "content": {
-          "answer": {
-            "ar": "عادةً ما يلزم تقرير التحليل النسيجي، وصور الأشعة وتقاريرها، وأحدث نتائج الفحوص، وملخص لأي علاج تلقيته من قبل. ويمكن لطبيبك المعالج أو المستشفى مساعدتك في الحصول على نسخ منها.",
-            "en": "Usually the pathology report, imaging scans with their reports, recent test results and a summary of any treatment you have already received. Your treating doctor or hospital can help you obtain copies."
-          },
-          "question": {
-            "ar": "ما الذي أحتاجه للحصول على رأي طبي ثانٍ؟",
-            "en": "What is needed for a second opinion?"
-          }
-        },
-        "parent": "diagnosis"
-      },
-      {
-        "slug": "staging",
-        "content": {
-          "answer": {
-            "ar": "تصف المرحلة حجم الورم، وما إذا كان قد انتشر ومدى انتشاره. وتساعد، مع نتائج الفحوص الأخرى، في توجيه اختيار العلاج. وتختلف أنظمة تحديد المراحل بين أنواع الأورام، لذا اسأل الطبيب عمّا تعنيه مرحلتك بالنسبة إليك.",
-            "en": "The stage describes how large a tumor is and whether — and how far — it has spread. Together with other test results, it helps guide treatment choices. Staging systems differ between cancer types, so ask the doctor what your stage means for you."
-          },
-          "question": {
-            "ar": "ماذا تعني مرحلة الورم؟",
-            "en": "What does the stage of a cancer mean?"
-          }
-        },
-        "parent": "diagnosis"
-      },
-      {
-        "slug": "more-tests",
-        "content": {
-          "answer": {
-            "ar": "قد تُظهر الفحوص الإضافية ما إذا كان الورم قد انتشر، وتكشف خصائص فيه — مثل مستقبلات الهرمونات أو التغيرات الجينية — تساعد في تحديد العلاجات الأنسب.",
-            "en": "Further tests can show whether the cancer has spread and reveal features of the tumor — such as hormone receptors or genetic changes — that help decide which treatments are most suitable."
-          },
-          "question": {
-            "ar": "لماذا قد أحتاج إلى فحوص إضافية بعد التشخيص؟",
-            "en": "Why might more tests be needed after a diagnosis?"
+            "ar": "ما الفرق بين البواسير والشرخ الشرجي؟",
+            "en": "What is the difference between hemorrhoids and anal fissures?"
           }
         },
         "parent": "diagnosis"
@@ -4429,26 +3793,12 @@
         "slug": "plan",
         "content": {
           "answer": {
-            "ar": "تعتمد خطة العلاج على عوامل عديدة، منها نوع الورم ومرحلته، ونتائج الفحوص، وحالتك الصحية العامة، وتفضيلاتك الشخصية. وتُناقش الخيارات معك حتى تُتخذ القرارات بشكل مشترك.",
-            "en": "Treatment plans depend on many factors, including the type and stage of cancer, test results, your overall health and your personal preferences. Options are discussed with you so that decisions are made together."
+            "ar": "في معظم الحالات، لا تكفي الأدوية وحدها لعلاج الناسور الشرجي بشكل نهائي، وقد يتطلب الأمر تدخلًا جراحيًا يتم اختياره وفقًا لمسار الناسور وعلاقته بعضلات التحكم في الإخراج.",
+            "en": "In most cases, medication alone is insufficient to permanently treat an anal fistula. Surgical intervention may be required, depending on the fistula's pathway and its relationship to the anal sphincter muscles."
           },
           "question": {
-            "ar": "كيف تُحدَّد خطة العلاج؟",
-            "en": "How is a treatment plan decided?"
-          }
-        },
-        "parent": "treatment"
-      },
-      {
-        "slug": "same-treatment",
-        "content": {
-          "answer": {
-            "ar": "ليس بالضرورة؛ فقد يحتاج شخصان مصابان بالنوع نفسه من الأورام إلى علاجين مختلفين، تبعًا للمرحلة وخصائص الورم والحالة الصحية العامة وتفضيلات كلٍّ منهما.",
-            "en": "Not necessarily. Two people with the same type of cancer may need different treatments, depending on the stage, the tumor’s features, their overall health and their own preferences."
-          },
-          "question": {
-            "ar": "هل يتلقى كل المصابين بالنوع نفسه من الأورام العلاج ذاته؟",
-            "en": "Does everyone with the same type of cancer receive the same treatment?"
+            "ar": "هل يمكن علاج الناسور الشرجي بالأدوية فقط؟",
+            "en": "Can an anal fistula be treated with medication alone?"
           }
         },
         "parent": "treatment"
@@ -4457,138 +3807,26 @@
         "slug": "side-effects",
         "content": {
           "answer": {
-            "ar": "تختلف الآثار الجانبية المحتملة باختلاف العلاج ومن شخص لآخر. وقبل بدء العلاج تُشرح الآثار الشائعة وطرق التعامل معها، ومتى ينبغي طلب المساعدة الطبية.",
-            "en": "Possible side effects vary between treatments and from person to person. Before treatment begins, common side effects and ways to manage them are explained, along with when to seek medical help."
+            "ar": "غالبًا ما يحدث الناسور العصعصي نتيجة اختراق الشعر للجلد في المنطقة أسفل الظهر، وقد تزداد احتمالية الإصابة مع الجلوس لفترات طويلة والاحتكاك وكثافة الشعر في هذه المنطقة.",
+            "en": "Pilonidal sinus commonly develops when hair penetrates the skin near the tailbone. Prolonged sitting, friction, and excessive hair growth in the area may increase the risk."
           },
           "question": {
-            "ar": "هل سأعرف الآثار الجانبية المتوقعة؟",
-            "en": "Will I know which side effects to expect?"
+            "ar": "ما أسباب الإصابة بالناسور العصعصي؟",
+            "en": "What causes pilonidal sinus?"
           }
         },
         "parent": "treatment"
-      },
-      {
-        "slug": "supplements",
-        "content": {
-          "answer": {
-            "ar": "نعم، فبعض الفيتامينات والمكملات والمنتجات العشبية قد تتداخل مع علاجات الأورام أو تؤثر في نتائج الفحوص؛ لذا أخبر فريق الرعاية بكل ما تتناوله، حتى لو بدا غير ضار.",
-            "en": "Yes. Some vitamins, supplements and herbal products can interact with cancer treatments or affect test results, so tell your care team about everything you take — even if it seems harmless."
-          },
-          "question": {
-            "ar": "هل ينبغي أن أذكر المكملات أو المنتجات العشبية التي أتناولها؟",
-            "en": "Should I mention supplements or herbal products I take?"
-          }
-        },
-        "parent": "treatment"
-      },
-      {
-        "slug": "daily-life",
-        "content": {
-          "answer": {
-            "ar": "يواصل كثيرون بعض أنشطتهم المعتادة أثناء العلاج، لكن ذلك يعتمد على نوع العلاج وعلى ما تشعر به. ناقش خططك مع فريق الرعاية ليساعدك على الاستعداد.",
-            "en": "Many people continue some of their usual activities during treatment, but it depends on the treatment and on how you feel. Discuss your plans with your care team so they can help you prepare."
-          },
-          "question": {
-            "ar": "هل يمكنني مواصلة العمل أو الدراسة أثناء العلاج؟",
-            "en": "Can I keep working or studying during treatment?"
-          }
-        },
-        "parent": "treatment"
-      },
-      {
-        "slug": "after-treatment",
-        "content": {
-          "answer": {
-            "ar": "تستمر زيارات المتابعة بعد انتهاء العلاج للاطمئنان على تعافيك، ورصد أي علامات لعودة الورم، والمساعدة في التعامل مع الآثار الجانبية طويلة المدى. ويعتمد تواترها على حالتك.",
-            "en": "Follow-up visits continue after treatment to check your recovery, look for any signs of the cancer returning and help with longer-term side effects. How often they take place depends on your situation."
-          },
-          "question": {
-            "ar": "ماذا يحدث بعد انتهاء العلاج؟",
-            "en": "What happens after treatment ends?"
-          }
-        },
-        "parent": "follow-up"
-      },
-      {
-        "slug": "between-visits",
-        "content": {
-          "answer": {
-            "ar": "اتبع التعليمات التي يقدمها لك فريق الرعاية بشأن علاجك. وفي الحالات الطارئة — مثل صعوبة التنفس أو ألم الصدر أو ارتفاع الحرارة أثناء العلاج — توجّه فورًا إلى أقرب قسم للطوارئ. أما الأسئلة غير العاجلة فيمكنك طرحها بالتواصل مع العيادة.",
-            "en": "Follow the instructions your care team gives you for your treatment. In an emergency — for example, difficulty breathing, chest pain or a high fever during treatment — go to the nearest emergency department straight away. For questions that are not urgent, contact the clinic."
-          },
-          "question": {
-            "ar": "ماذا أفعل إذا شعرت بتوعك بين الزيارات؟",
-            "en": "What should I do if I feel unwell between visits?"
-          }
-        },
-        "parent": "follow-up"
-      },
-      {
-        "slug": "emotional-support",
-        "content": {
-          "answer": {
-            "ar": "نعم، فالمشاعر القوية شائعة بعد تشخيص الورم وأثناء العلاج. ولست مضطرًا إلى مواجهتها وحدك؛ أخبر فريق الرعاية بما تشعر به ليتحدث معك عن مصادر الدعم المتاحة.",
-            "en": "Yes. Strong emotions are common after a cancer diagnosis and during treatment. You do not have to face them alone — tell your care team how you feel, so they can talk with you about sources of support."
-          },
-          "question": {
-            "ar": "هل من الطبيعي أن أشعر بالقلق أو الحزن؟",
-            "en": "Is it normal to feel anxious or low?"
-          }
-        },
-        "parent": "follow-up"
-      },
-      {
-        "slug": "family-questions",
-        "content": {
-          "answer": {
-            "ar": "نعم، يمكن لأفراد عائلتك المشاركة في النقاش وطرح أسئلتهم بإذنك، وأنت من يقرر ما يُشارَك من معلومات ومع من.",
-            "en": "Yes. With your permission, family members can join the discussion and ask their own questions. You decide how much is shared, and with whom."
-          },
-          "question": {
-            "ar": "هل يمكن لعائلتي طرح الأسئلة أيضًا؟",
-            "en": "Can my family ask questions too?"
-          }
-        },
-        "parent": "follow-up"
       },
       {
         "slug": "advice",
         "content": {
           "answer": {
-            "ar": "لا، فالمحتوى هنا عام وتثقيفي، ولكل حالة ظروفها الخاصة؛ لذا يُرجى استشارة الطبيب للحصول على نصيحة تخص حالتك الصحية.",
-            "en": "No. The content here is general and educational. Every situation is different, so please consult a doctor for advice about your own health."
+            "ar": "عند الشعور بألم شديد ومفاجئ، أو عدم القدرة على إرجاع الفتق إلى الداخل، أو تغير لون الجلد فوقه، أو حدوث قيء وانتفاخ بالبطن، يجب التوجه إلى الطوارئ فورًا، فقد تشير هذه الأعراض إلى انحشار الفتق أو اختناقه.",
+            "en": "Sudden severe pain, inability to push the hernia back in, skin discoloration, vomiting, or abdominal swelling requires immediate emergency medical attention, as these symptoms may indicate an incarcerated or strangulated hernia."
           },
           "question": {
-            "ar": "هل تُغني المعلومات في هذا الموقع عن الاستشارة الطبية؟",
-            "en": "Does the information on this website replace a consultation?"
-          }
-        },
-        "parent": "website"
-      },
-      {
-        "slug": "reviews-policy",
-        "content": {
-          "answer": {
-            "ar": "تُنشر الآراء فقط بإذن أصحابها، ولا تظهر الأسماء إلا بموافقة صريحة، والتقييم بالنجوم المعروض هو الذي منحه المريض نفسه.",
-            "en": "Reviews are published only with each patient’s permission. Names appear only with explicit consent, and the star rating shown is the one the patient gave."
-          },
-          "question": {
-            "ar": "كيف تُنشر آراء المرضى؟",
-            "en": "How are patient reviews published?"
-          }
-        },
-        "parent": "website"
-      },
-      {
-        "slug": "contact-form",
-        "content": {
-          "answer": {
-            "ar": "يكفي وصف موجز لاستفسارك وأفضل طريقة للتواصل معك. ويُرجى الإيجاز في التفاصيل الطبية، فالأفضل مناقشتها خلال الاستشارة.",
-            "en": "A short description of your enquiry and the best way to reach you is enough. Please keep medical details brief — they are best discussed during your consultation."
-          },
-          "question": {
-            "ar": "ماذا أكتب في نموذج التواصل؟",
-            "en": "What should I write in the contact form?"
+            "ar": "متى يصبح الفتق حالة طارئة؟",
+            "en": "When does a hernia become a medical emergency?"
           }
         },
         "parent": "website"
@@ -5153,20 +4391,20 @@
         "slug": "medical-degree",
         "content": {
           "title": {
-            "ar": "الدرجة الجامعية في الطب",
-            "en": "Medical degree"
+            "ar": "حاصل علي درجة البكالوريوس في الطب الجراحة",
+            "en": "Holds a Bachelor’s Degree in Medicine and Surgery (MBBS)."
           },
           "period": {
-            "ar": "قيد التأكيد",
-            "en": "To be confirmed"
+            "ar": "2007",
+            "en": "2007"
           },
           "description": {
-            "ar": "التعليم الطبي الأساسي والتدريب السريري في مختلف التخصصات.",
-            "en": "Foundational medical education and clinical rotations across specialties."
+            "ar": "",
+            "en": ""
           },
           "organization": {
-            "ar": "كلية الطب — قيد التأكيد",
-            "en": "Faculty of medicine — to be confirmed"
+            "ar": "جامعة المنصورة كلية الطب والجراحة",
+            "en": "Faculty of Medicine, Mansoura University."
           },
           "isPlaceholder": true
         }
@@ -5175,20 +4413,20 @@
         "slug": "specialty-training",
         "content": {
           "title": {
-            "ar": "التدريب التخصصي في علاج الأورام",
-            "en": "Specialty training in oncology"
+            "ar": "حاصل علي درجة الماجستير في الجراحة ",
+            "en": "Holds a Master’s Degree in Surgery."
           },
           "period": {
-            "ar": "قيد التأكيد",
-            "en": "To be confirmed"
+            "ar": "2012",
+            "en": "2012"
           },
           "description": {
-            "ar": "تدريب منهجي في تشخيص الأورام وعلاجها.",
-            "en": "Structured training in the diagnosis and treatment of cancer."
+            "ar": "",
+            "en": ""
           },
           "organization": {
-            "ar": "مستشفى التدريب — قيد التأكيد",
-            "en": "Training hospital — to be confirmed"
+            "ar": "جامعة الازهر كلية الطب ",
+            "en": "Faculty of Medicine, Al Azhar University."
           },
           "isPlaceholder": true
         }
@@ -5309,14 +4547,10 @@
   },
   "placeholders": [
     "section home.about",
-    "section shared.cta",
     "section about.intro",
-    "section services.hero",
     "section home.whyChoose",
     "section home.statistics",
     "section about.philosophy",
-    "section settings.contact",
-    "section settings.socials",
     "section shared.introVideo",
     "services \"breast\"",
     "services \"thoracic\"",
@@ -5344,16 +4578,6 @@
     "services \"hemorrhoids\"",
     "services \"anal-fissure\"",
     "services \"anal-fistula\"",
-    "services \"hiatal-hernia-reflux\"",
-    "services \"stomach-tumors\"",
-    "services \"peptic-ulcer-complications\"",
-    "services \"thyroid-surgery\"",
-    "services \"parathyroid-surgery\"",
-    "services \"adrenal-surgery\"",
-    "services \"breast-tumor-surgery\"",
-    "services \"soft-tissue-tumors\"",
-    "services \"lymph-node-biopsy\"",
-    "services \"chemotherapy-port\"",
     "videos \"first-visit\"",
     "videos \"medications\"",
     "videos \"pathology\"",

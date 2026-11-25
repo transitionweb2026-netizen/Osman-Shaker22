@@ -1,7 +1,6 @@
 /* Shorter variant of the homepage hero (variables read by Hero.module.css) */
 .page {
   --hero-min-height: clamp(560px, 74svh, 760px);
-  --hero-min-height-mobile: max(560px, 82svh);
   --hero-pad-end: clamp(48px, 7vh, 88px);
 }
 

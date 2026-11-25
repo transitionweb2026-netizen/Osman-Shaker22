@@ -181,26 +181,47 @@ html[lang="ar"] .homeTitle {
   }
 }
 
-/* Portrait screens: the subject sits above, text at the bottom */
+/*
+ * Phones: the whole photo is shown under the header (no crop), and the text
+ * sits below it instead of over the doctor. A very tall upload is capped and
+ * cropped around its phone focal point (CMS "position on phones").
+ */
 @media (max-width: 767px) {
   .hero {
-    min-block-size: var(--hero-min-height-mobile, max(640px, 100svh));
+    display: block;
+    min-block-size: 0;
+    padding-block-start: var(--header-height);
   }
 
-  /* The text sits over the lower half of the photo: shade only that part */
-  .scrim {
+  .media {
+    position: relative;
+    inset: auto;
+    margin-block-end: clamp(20px, 6vw, 32px);
+    overflow: hidden;
+  }
+
+  /* Soft edges only, so the photo blends into the page */
+  .media::after {
+    content: "";
+    position: absolute;
+    inset: 0;
     background: linear-gradient(
       180deg,
-      rgb(4 13 31 / 0.35) 0%,
-      rgb(4 13 31 / 0) 14%,
-      rgb(4 13 31 / 0) 42%,
-      rgb(4 13 31 / 0.7) 66%,
+      rgb(4 13 31 / 0.3) 0%,
+      rgb(4 13 31 / 0) 10%,
+      rgb(4 13 31 / 0) 80%,
       var(--navy-950) 100%
     );
+    pointer-events: none;
   }
 
-  [dir="rtl"] .scrim {
-    transform: none;
+  .image {
+    block-size: auto;
+    max-block-size: 70svh;
+  }
+
+  .scrim {
+    display: none;
   }
 
   .actions {

@@ -5,7 +5,7 @@ import { SectionHeading } from "@/components/ui/SectionHeading";
 import type { ReviewsPage, Site } from "@/lib/content";
 import { whatsappHref } from "@/lib/contact";
 import { cx } from "@/lib/cx";
-import { formatIndex, type Locale } from "@/lib/i18n";
+import type { Locale } from "@/lib/i18n";
 import styles from "./FaqSection.module.css";
 
 type FaqSectionProps = {
@@ -15,12 +15,13 @@ type FaqSectionProps = {
 };
 
 /**
- * The full FAQ, grouped by topic. On large screens a sticky sidebar holds the
- * topic index and a contact card; on smaller screens the topics become a row
- * of chips and the contact card follows the questions.
+ * The full FAQ as one list of questions, in the CMS order (topics first, then
+ * the questions inside each). On large screens a sticky sidebar holds a
+ * contact card; on smaller screens it follows the questions.
  */
 export function FaqSection({ locale, faq, site }: FaqSectionProps) {
   const { ui, contact } = site;
+  const questions = faq.categories.flatMap((category) => category.items);
 
   return (
     <section id="faq" className={cx("section", styles.section)} aria-labelledby="faq-title">
@@ -29,24 +30,6 @@ export function FaqSection({ locale, faq, site }: FaqSectionProps) {
 
         <div className={styles.layout}>
           <div className={styles.sidebar}>
-            <nav aria-label={ui.faqTopics} className={styles.topics} data-reveal>
-              <p className={styles.topicsTitle} aria-hidden="true">
-                {ui.faqTopics}
-              </p>
-              <ol className={styles.topicList}>
-                {faq.categories.map((category, index) => (
-                  <li key={category.id}>
-                    <a href={`#faq-${category.id}`} className={styles.topic}>
-                      <span className={styles.topicIndex} aria-hidden="true">
-                        {formatIndex(index + 1, locale)}
-                      </span>
-                      {category.title}
-                    </a>
-                  </li>
-                ))}
-              </ol>
-            </nav>
-
             <GlassPanel ink="amber" inkSubtle className={styles.contact} data-reveal>
               <h3 className={styles.contactTitle}>{faq.contact.title}</h3>
               <p className={styles.contactText}>{faq.contact.text}</p>
@@ -68,17 +51,9 @@ export function FaqSection({ locale, faq, site }: FaqSectionProps) {
           </div>
 
           <div className={styles.groups}>
-            {faq.categories.map((category, index) => (
-              <div key={category.id} id={`faq-${category.id}`} className={styles.group} data-reveal>
-                <h3 className={styles.groupTitle}>
-                  <span className={styles.groupIndex} aria-hidden="true">
-                    {formatIndex(index + 1, locale)}
-                  </span>
-                  {category.title}
-                </h3>
-                <FaqAccordion items={category.items} level={4} openFirst={index === 0} />
-              </div>
-            ))}
+            <div className={styles.group} data-reveal>
+              <FaqAccordion items={questions} level={3} openFirst />
+            </div>
           </div>
         </div>
       </div>

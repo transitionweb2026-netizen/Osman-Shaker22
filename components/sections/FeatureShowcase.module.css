@@ -18,10 +18,14 @@
 }
 
 .track {
+  --gap: clamp(14px, 1.6vw, 22px);
   display: grid;
   grid-auto-flow: column;
   grid-auto-columns: min(78vw, 300px);
-  gap: clamp(14px, 1.6vw, 22px);
+  gap: var(--gap);
+  /* Centred while the cards fit; scrolls from the start when they do not */
+  inline-size: max-content;
+  margin-inline: auto;
 }
 
 .track > li {
@@ -47,9 +51,12 @@
     overflow: visible;
   }
 
+  /* Cards keep the width of a five-card row; fewer cards are centred */
   .track {
     grid-auto-flow: row;
-    grid-template-columns: repeat(5, minmax(0, 1fr));
+    grid-template-columns: repeat(var(--cards, 5), minmax(0, 1fr));
+    inline-size: calc((100% + var(--gap)) * var(--cards, 5) / 5 - var(--gap));
+    margin-inline: auto;
   }
 
   /* Staggered rhythm; `translate` keeps card heights equal and leaves `transform` to the reveal */

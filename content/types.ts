@@ -159,6 +159,22 @@ export type PhoneNumber = Placeholder & {
   display: string;
 };
 
+/** The clinic's visiting details, each with the label shown above it. */
+export type ClinicDetails = {
+  title: Localized;
+  addressLabel: Localized;
+  address: Localized;
+  /** Map link (e.g. Google Maps), https. Empty: no map button. */
+  mapUrl: string;
+  mapLabel: Localized;
+  phonesLabel: Localized;
+  phones: PhoneNumber[];
+  hoursLabel: Localized;
+  hours: Localized;
+  feeLabel: Localized;
+  fee: Localized;
+};
+
 export type NavItem = {
   route: RouteKey;
   label: Localized;
@@ -217,6 +233,8 @@ export type SiteContent = {
     whatsapp: PhoneNumber | null;
     /** Pre-filled WhatsApp message. */
     whatsappMessage: Localized;
+    /** Address, booking numbers, hours and fee: contact page and footer. Absent until set in the CMS. */
+    clinic?: ClinicDetails;
   };
   socials: SocialLink[];
   navigation: NavItem[];
@@ -246,7 +264,6 @@ export type SiteContent = {
   ui: UiStrings;
 };
 
-type Five<T> = [T, T, T, T, T];
 
 /** Long-form content (service details, articles). Stored as a JSON array in a CMS. */
 export type ContentBlock =
@@ -277,7 +294,7 @@ export type ServiceGroup = {
 };
 
 /** A featured selection of catalog services (homepage, About page). */
-export type FeaturedServices = SectionIntro & { serviceIds: Five<string>; cta: Cta };
+export type FeaturedServices = SectionIntro & { serviceIds: string[]; cta: Cta };
 
 export type HeroContent = {
   eyebrow: Localized;

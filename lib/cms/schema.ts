@@ -25,7 +25,8 @@ export type TextField = Base & {
   multiline?: boolean;
   required?: boolean;
   max?: number;
-  format?: "url" | "anchor";
+  /** `e164`: international phone number such as +201234567890. */
+  format?: "url" | "anchor" | "e164";
 };
 
 export type Field =
@@ -231,6 +232,9 @@ export function validateField(field: Field, value: unknown, path: string, ctx: V
         if (v.trim() && field.format === "url" && !safeExternalUrl(v)) out.push({ path, severity: "invalid", message: msg.url });
         if (v.trim() && field.format === "anchor" && !SECTION_ANCHOR.test(v)) {
           out.push({ path, severity: "invalid", message: msg.anchor });
+        }
+        if (v.trim() && field.format === "e164" && !/^\+[1-9]\d{7,14}$/.test(v.trim())) {
+          out.push({ path, severity: "invalid", message: msg.phone });
         }
         if (field.max && v.length > field.max) out.push({ path, severity: "invalid", message: msg.tooLong(field.max) });
       } else {

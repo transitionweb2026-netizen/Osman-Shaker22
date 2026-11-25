@@ -72,6 +72,77 @@
   }
 }
 
+/* Clinic details: address (full width), booking numbers, hours, fee */
+.clinic {
+  display: grid;
+  gap: 1.5rem;
+  padding: clamp(22px, 3.4vw, 44px);
+  border-radius: var(--radius-xl);
+  --glass-tint: rgb(8 29 64 / 0.66);
+  box-shadow:
+    inset 0 1px 0 rgb(255 255 255 / 0.24),
+    inset 0 -1px 0 rgb(233 132 53 / 0.2),
+    var(--shadow-lg);
+}
+
+.clinicTitle {
+  font-size: clamp(1.6rem, 1.3rem + 1.1vw, 2.2rem);
+}
+
+.clinicGrid {
+  display: grid;
+  gap: 1.25rem 2rem;
+}
+
+.clinicItem {
+  display: grid;
+  gap: 0.5rem;
+  align-content: start;
+}
+
+.clinicLabel {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--amber-300);
+}
+
+.clinicValue {
+  display: grid;
+  justify-items: start;
+  gap: 0.85rem;
+  margin: 0;
+  font-size: 1.05rem;
+  color: var(--text-strong);
+}
+
+.phones {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem 1.1rem;
+}
+
+.phoneLink {
+  font-weight: 700;
+  transition: color var(--dur) var(--ease-out);
+}
+
+.phoneLink:hover {
+  color: var(--amber-300);
+}
+
+@media (min-width: 760px) {
+  .clinicGrid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .clinicWide {
+    grid-column: 1 / -1;
+  }
+}
+
 @media (max-width: 639px) {
   .buttons,
   .buttons > * {

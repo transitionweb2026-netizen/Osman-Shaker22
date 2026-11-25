@@ -17,23 +17,28 @@ type ReviewCardProps = {
 };
 
 /**
- * Patient review with its star rating. A real review shows the rating its
- * author gave; placeholder entries are plain statements (not quotations) with
- * empty stars marked "rating pending".
+ * Patient review. A review with a rating shows the stars its author gave;
+ * without a rating no stars are shown. Placeholder entries are plain
+ * statements (not quotations).
  */
 export function ReviewCard({ review, locale, ui, compact = false }: ReviewCardProps) {
   const placeholder = Boolean(review.isPlaceholder);
-  const ratingLabel =
-    review.rating === null
-      ? ui.ratingPending
-      : ui.ratingLabel.replace("{rating}", formatNumber(review.rating, locale));
+  const rated = review.rating !== null;
 
   return (
     <GlassPanel as="article" ink="blue" className={cx(styles.review, compact && styles.compact)}>
-      <div className={styles.top}>
-        <StarRating rating={review.rating} label={ratingLabel} pendingLabel={ui.ratingPending} />
-        {!placeholder && <Icon name="quote" size={28} className={styles.mark} />}
-      </div>
+      {(rated || !placeholder) && (
+        <div className={styles.top}>
+          {rated && (
+            <StarRating
+              rating={review.rating}
+              label={ui.ratingLabel.replace("{rating}", formatNumber(review.rating ?? 0, locale))}
+              pendingLabel={ui.ratingPending}
+            />
+          )}
+          {!placeholder && <Icon name="quote" size={28} className={styles.mark} />}
+        </div>
+      )}
       {placeholder ? (
         <p className={cx(styles.text, styles.placeholderText)}>{review.text}</p>
       ) : (

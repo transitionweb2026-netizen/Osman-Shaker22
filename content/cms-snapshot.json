@@ -1,7 +1,7 @@
 {
   "enabled": true,
-  "syncedAt": "2026-11-24T10:37:03.493Z",
-  "version": "2026-11-24T10:35:54.561686+00:00",
+  "syncedAt": "2026-11-25T08:27:45.391Z",
+  "version": "2026-11-24T14:22:54.659021+00:00",
   "documents": {
     "home.faq": {
       "title": {
@@ -109,17 +109,16 @@
           "ar": "طبيب يرتدي معطفًا أبيض وسماعة طبية، يقف عاقدًا ذراعيه",
           "en": "Doctor in a white coat with a stethoscope, standing with arms crossed"
         },
-        "src": "/media/hero-doctor",
-        "credit": "Unsplash — https://images.unsplash.com/photo-1612349317150-e413f6a5b16d",
-        "assetId": "9e9f30f2-db2f-4f5f-8e92-96438f821932",
+        "src": "/media/cms-a796bff4-a0e1-4448-88c9-210ff8a022bd",
+        "assetId": "a796bff4-a0e1-4448-88c9-210ff8a022bd",
         "position": "62% 22%",
         "mirrorInRtl": true,
-        "isPlaceholder": true,
+        "isPlaceholder": false,
         "positionMobile": "40% 18%"
       },
       "title": {
-        "ar": "فبرححححححححححححححححححح",
-        "en": "ddd"
+        "ar": "مسيرة طبية قائمة على الخبرة ",
+        "en": "A Medical Career Built on Surgical "
       },
       "eyebrow": {
         "ar": "عن د. عثمان شاكر",
@@ -135,12 +134,12 @@
         }
       },
       "description": {
-        "ar": "تعرّف على نهج د. عثمان شاكر في الرعاية، ومجالات اهتمامه، ومسيرته المهنية.",
-        "en": "Learn about Dr. Othman Shaker's approach to care, his areas of focus and his professional journey."
+        "ar": "تعرّف على المسيرة المهنية لد. عثمان شاكر، ومؤهلاته العلمية وخبراته في الجراحة العامة وجراحات الأورام والمناظير، ورؤيته في تقديم رعاية جراحية متخصصة.",
+        "en": "Discover Dr. Osman Shaker’s professional journey, academic qualifications, expertise in general, oncologic, and laparoscopic surgery, and his approach to specialized surgical care."
       },
       "titleAccent": {
-        "ar": "الاورام ",
-        "en": "at every step of cancer care."
+        "ar": "والتخصص الجراحي",
+        "en": "Expertise and Specialization"
       },
       "secondaryCta": {
         "label": {
@@ -165,12 +164,12 @@
         }
       },
       "title": {
-        "ar": "نهج هادئ ومدروس في رعاية مرضى الأورام",
-        "en": "A calm, considered approach to cancer care"
+        "ar": " رعاية طبية تجمع بين الخبرة والاهتمام بالمريض",
+        "en": "Medical Care Combining Expertise and Patient Dedication"
       },
       "eyebrow": {
-        "ar": "عن الطبيب",
-        "en": "About the doctor"
+        "ar": "رحلة من الخبرة والتميز",
+        "en": "A Journey of Expertise and Excellence"
       },
       "portrait": {
         "alt": {
@@ -184,12 +183,12 @@
       },
       "paragraphs": {
         "ar": [
-          "يحمل تشخيص السرطان معه أسئلة صعبة، ويؤمن د. عثمان شاكر بأن كل مريض يستحق الوقت الكافي، وإجابات واضحة، وخطة علاجية يفهمها جيدًا.",
-          "تركّز كل استشارة على حالتك وأولوياتك وأسئلتك، لتُتخذ القرارات المتعلقة برعايتك معك ومع عائلتك، خطوة بخطوة."
+          "أدرك أن اتخاذ قرار الخضوع للجراحة قد يصاحبه الكثير من القلق والتساؤلات، ولذلك أحرص دائمًا على توضيح طبيعة الحالة والخيارات العلاجية المتاحة، ومشاركة المريض في اتخاذ القرار الطبي المناسب لحالته.",
+          "رسالتي هي تقديم رعاية جراحية متخصصة تجمع بين الخبرة الطبية، ودقة التشخيص، والتقنيات الجراحية الحديثة، مع الاهتمام بالجانب الإنساني لكل مريض."
         ],
         "en": [
-          "A cancer diagnosis brings difficult questions. Dr. Othman Shaker believes every patient deserves time, clear answers and a plan they truly understand.",
-          "Each consultation focuses on your diagnosis, your priorities and your questions — so that decisions about your care are made together, with you and your family."
+          "I understand that undergoing surgery can bring concerns and uncertainty. That is why I am committed to clearly explaining each condition and the available treatment options, involving patients in making informed decisions about their care.",
+          "My mission is to provide specialized surgical care that combines medical expertise, diagnostic precision, and advanced surgical techniques while prioritizing the human aspect of every patient's care."
         ]
       },
       "isPlaceholder": true
@@ -240,15 +239,15 @@
     "about.intro": {
       "quote": {
         "text": {
-          "ar": "تبدأ رعاية الأورام الجيدة بالفهم: فهم التشخيص، وفهم الخيارات، وفهم الإنسان الذي يواجهها.",
-          "en": "Good cancer care begins with understanding — of the diagnosis, of the options, and of the person facing them."
+          "ar": "نؤمن بأن الرعاية الجراحية تبدأ بالتشخيص الدقيق، واختيار العلاج المناسب لكل حالة، والاهتمام بالمريض في جميع مراحل رحلته العلاجية.",
+          "en": "We believe that surgical care begins with accurate diagnosis, selecting the appropriate treatment for each case, and supporting patients throughout every stage of their treatment journey."
         },
         "attribution": null,
         "isPlaceholder": true
       },
       "eyebrow": {
-        "ar": "نهج الرعاية",
-        "en": "Approach to care"
+        "ar": "رؤيتنا الطبية",
+        "en": "Our Medical Vision"
       }
     },
     "contact.seo": {
@@ -714,24 +713,23 @@
           "ar": "منطقة انتظار مضيئة وحديثة في عيادة تزينها النباتات",
           "en": "A bright, modern clinic waiting area with plants"
         },
-        "src": "/media/page-contact",
-        "credit": "Unsplash — https://images.unsplash.com/photo-1631248055158-edec7a3c072b",
-        "assetId": "319572cb-cbd9-4cd3-9ebc-1af57bbe09ce",
+        "src": "/media/cms-a796bff4-a0e1-4448-88c9-210ff8a022bd",
+        "assetId": "a796bff4-a0e1-4448-88c9-210ff8a022bd",
         "position": "60% 55%",
-        "isPlaceholder": true,
+        "isPlaceholder": false,
         "positionMobile": "65% 55%"
       },
       "title": {
-        "ar": "تواصل مع العيادة",
-        "en": "Get in touch with the clinic"
+        "ar": "تواصل معنا لبدء رحلتك نحو رعاية جراحية متخصصة",
+        "en": "Get in Touch to Begin Your Journey Toward Specialized Surgical Care"
       },
       "eyebrow": {
         "ar": "تواصل معنا",
         "en": "Contact"
       },
       "description": {
-        "ar": "أرسل رسالة، أو تواصل عبر واتساب، أو اتصل بنا لترتيب استشارة أو طرح سؤال.",
-        "en": "Send a message, chat on WhatsApp or call to arrange a consultation or ask a question."
+        "ar": "يسعدنا تواصلك معنا لحجز موعد مع د. عثمان شاكر أو الاستفسار عن الخدمات الطبية والمواعيد المتاحة.",
+        "en": "We are happy to assist you in booking an appointment with Dr. Osman Shaker or answering your inquiries about medical services and available appointments."
       }
     },
     "home.journey": {
@@ -854,23 +852,22 @@
           "ar": "يدان تمتدان نحو بعضهما",
           "en": "Two hands reaching toward each other"
         },
-        "src": "/media/page-reviews",
-        "credit": "Unsplash — https://images.unsplash.com/photo-1544027993-37dbfe43562a",
-        "assetId": "1577dd17-c35a-4778-9029-d860e2b313a6",
+        "src": "/media/cms-a796bff4-a0e1-4448-88c9-210ff8a022bd",
+        "assetId": "a796bff4-a0e1-4448-88c9-210ff8a022bd",
         "position": "50% 50%",
-        "isPlaceholder": true
+        "isPlaceholder": false
       },
       "title": {
-        "ar": "تجارب المرضى وإجابات عن أسئلتكم",
-        "en": "Patient experiences and answers to your questions"
+        "ar": "ثقة المرضى ومعرفة طبية تمنحك الاطمئنان",
+        "en": "Patient Trust and Medical Knowledge for Your Peace of Mind"
       },
       "eyebrow": {
-        "ar": "الآراء والأسئلة الشائعة",
-        "en": "Reviews & FAQs"
+        "ar": "ثقة ومعرفة",
+        "en": "Trust & Knowledge"
       },
       "description": {
-        "ar": "تُنشر الآراء فقط بإذن أصحابها، وتجد أسفلها إجابات عن أكثر الأسئلة التي يطرحها المرضى وعائلاتهم.",
-        "en": "Reviews are published only with each patient’s permission. Below them, you will find answers to the questions patients and families ask most often."
+        "ar": "اطّلع على تجارب المرضى مع د. عثمان شاكر، وتعرّف على إجابات الأسئلة الشائعة حول الجراحات المتخصصة وطرق العلاج والتعافي.",
+        "en": "Explore patients’ experiences with Dr. Osman Shaker and find answers to frequently asked questions about specialized surgery, treatment options, and recovery."
       }
     },
     "services.seo": {
@@ -889,11 +886,10 @@
           "ar": "يدان تكتبان على حاسوب محمول بجوار سماعة طبية",
           "en": "Hands typing on a laptop beside a stethoscope"
         },
-        "src": "/media/page-articles",
-        "credit": "Unsplash — https://images.unsplash.com/photo-1576091160550-2173dba999ef",
-        "assetId": "28b54b3b-80e0-42e0-b350-b77526f91404",
+        "src": "/media/cms-a796bff4-a0e1-4448-88c9-210ff8a022bd",
+        "assetId": "a796bff4-a0e1-4448-88c9-210ff8a022bd",
         "position": "60% 50%",
-        "isPlaceholder": true,
+        "isPlaceholder": false,
         "positionMobile": "70% 50%"
       },
       "title": {
@@ -1129,23 +1125,23 @@
         }
       },
       "title": {
-        "ar": "خيارات علاجية حديثة، بشرح واضح",
-        "en": "Modern treatment options, explained clearly"
+        "ar": "خبرة متخصصة في الجراحة العامة وجراحات الأورام والمناظير",
+        "en": "Specialized Expertise in General, Oncologic, and Laparoscopic Surgery"
       },
       "eyebrow": {
-        "ar": "العلاجات",
-        "en": "Treatments"
+        "ar": "الخدمات الجراحية",
+        "en": "Surgical Services"
       },
       "serviceIds": [
         "chemotherapy",
         "immunotherapy",
-        "targeted",
         "hormonal",
-        "supportive"
+        "supportive",
+        "laparoscopic-cholecystectomy"
       ],
       "description": {
-        "ar": "تعتمد أي توصية علاجية على نوع الورم ومرحلته وحالتك الصحية العامة وتفضيلاتك، وتُناقش معك دائمًا قبل البدء.",
-        "en": "Any recommendation depends on the type and stage of cancer, your overall health and your preferences — and is always discussed with you first."
+        "ar": "يقدم د. عثمان شاكر مجموعة متكاملة من الخدمات في الجراحة العامة وجراحات الأورام والمناظير، مع الاعتماد على التقييم الدقيق لكل حالة واختيار الأسلوب الجراحي الأنسب لها.",
+        "en": "Dr. Osman Shaker provides a comprehensive range of services in general, oncologic, and laparoscopic surgery, focusing on accurate assessment and selecting the most appropriate surgical approach for each patient."
       }
     },
     "services.layout": {
@@ -1602,11 +1598,10 @@
               "ar": "مريضة برفقة أخصائية الأشعة أثناء فحص الماموجرام",
               "en": "A patient with a radiographer during a mammogram"
             },
-            "src": "/media/specialty-breast",
-            "credit": "Unsplash — https://images.unsplash.com/photo-1579154341098-e4e158cc7f55",
-            "assetId": "34413557-e377-4f13-a469-4bad94f418ff",
+            "src": "/media/cms-808c995a-387f-421a-bb68-57f5cc1854c3",
+            "assetId": "808c995a-387f-421a-bb68-57f5cc1854c3",
             "position": "58% 40%",
-            "isPlaceholder": true
+            "isPlaceholder": false
           },
           "title": {
             "ar": "الفتق الإربي",
@@ -1689,11 +1684,10 @@
               "ar": "طبيب يفحص صور الأشعة على لوح الإضاءة",
               "en": "A doctor examining scan images on a light box"
             },
-            "src": "/media/specialty-thoracic",
-            "credit": "Unsplash — https://images.unsplash.com/photo-1581595219315-a187dd40c322",
-            "assetId": "6882b810-4069-487b-b2ab-3c4d4aee3756",
+            "src": "/media/cms-66e1389a-3c4b-4654-8cb5-9c91e5778722",
+            "assetId": "66e1389a-3c4b-4654-8cb5-9c91e5778722",
             "position": "60% 35%",
-            "isPlaceholder": true
+            "isPlaceholder": false
           },
           "title": {
             "ar": "الفتق السري",
@@ -1757,11 +1751,10 @@
               "ar": "طبيبان يناقشان صورًا طبية على الشاشة",
               "en": "Two doctors discussing medical images on a monitor"
             },
-            "src": "/media/specialty-gastrointestinal",
-            "credit": "Unsplash — https://images.unsplash.com/photo-1666214280391-8ff5bd3c0bf0",
-            "assetId": "525b44fb-2e95-4978-b369-d7f88d54b40e",
+            "src": "/media/cms-8cd73884-cb7c-444f-96be-7b6f9b8b6ae5",
+            "assetId": "8cd73884-cb7c-444f-96be-7b6f9b8b6ae5",
             "position": "68% 40%",
-            "isPlaceholder": true
+            "isPlaceholder": false
           },
           "title": {
             "ar": "الفتق الجراحي",
@@ -1832,11 +1825,10 @@
               "ar": "طبيبة تعتني بسيدة خلال زيارة للعيادة",
               "en": "A doctor caring for an older woman during a clinic visit"
             },
-            "src": "/media/specialty-gynecologic",
-            "credit": "Unsplash — https://images.unsplash.com/photo-1576765608535-5f04d1e3f289",
-            "assetId": "3085586b-fc00-4125-88b2-50849ffe16ea",
+            "src": "/media/cms-b16bdbcb-7feb-408b-8c8c-9a431a71688b",
+            "assetId": "b16bdbcb-7feb-408b-8c8c-9a431a71688b",
             "position": "72% 40%",
-            "isPlaceholder": true
+            "isPlaceholder": false
           },
           "title": {
             "ar": "الفتق البطني",
@@ -1911,11 +1903,10 @@
               "ar": "أنابيب عينات دم في حامل داخل المختبر",
               "en": "Blood sample tubes in a laboratory rack"
             },
-            "src": "/media/specialty-hematologic",
-            "credit": "Unsplash — https://images.unsplash.com/photo-1581594693702-fbdc51b2763b",
-            "assetId": "16f41fde-34c5-49ce-92b0-e3d31fd3cec4",
+            "src": "/media/cms-4586a638-aacf-493d-b454-9e4892e936c2",
+            "assetId": "4586a638-aacf-493d-b454-9e4892e936c2",
             "position": "40% 50%",
-            "isPlaceholder": true
+            "isPlaceholder": false
           },
           "title": {
             "ar": "الفتق المتكرر",
@@ -1979,9 +1970,9 @@
               "ar": "طبيبان يراجعان صورًا طبية على شاشات الحاسوب",
               "en": "Two doctors reviewing medical images on computer screens"
             },
-            "src": "/media/page-services",
-            "assetId": "a8cbbda9-720a-48db-9ee1-0e8ad399cbb6",
-            "isPlaceholder": true
+            "src": "/media/cms-15146c3b-71d9-4500-953f-3c2af5f84812",
+            "assetId": "15146c3b-71d9-4500-953f-3c2af5f84812",
+            "isPlaceholder": false
           },
           "title": {
             "ar": "جراحات الفتق المعقدة وإعادة إصلاح الفتق",
@@ -3940,13 +3931,17 @@
               "ar": "صيدلي يراجع عبوة دواء",
               "en": "A pharmacist reviewing a medicine bottle"
             },
-            "src": "/media/video-medications",
-            "credit": "Unsplash — https://images.unsplash.com/photo-1580281658626-ee379f3cce93",
-            "assetId": "fd6ed902-819b-415b-a2ac-0ff28de0872c",
+            "src": "/media/cms-89f813e0-dc61-4b4f-ae7f-bcfd99ac0755",
+            "assetId": "89f813e0-dc61-4b4f-ae7f-bcfd99ac0755",
             "position": "50% 30%",
-            "isPlaceholder": true
+            "isPlaceholder": false
           },
-          "source": null,
+          "source": {
+            "src": "/media/cms-a31b0a6c-37e6-4313-a784-ba01e917f399.mp4",
+            "kind": "file",
+            "type": "video/mp4",
+            "assetId": "a31b0a6c-37e6-4313-a784-ba01e917f399"
+          },
           "duration": null,
           "isPlaceholder": true
         }
@@ -3963,13 +3958,17 @@
               "ar": "باحثة تعمل على المجهر في المختبر",
               "en": "A scientist working at a microscope in a laboratory"
             },
-            "src": "/media/video-pathology",
-            "credit": "Unsplash — https://images.unsplash.com/photo-1582719471384-894fbb16e074",
-            "assetId": "ca65debe-3141-44ea-a923-69b44a5e1c4f",
+            "src": "/media/cms-da6ce6f7-7781-4c68-8445-235bf8d65039",
+            "assetId": "da6ce6f7-7781-4c68-8445-235bf8d65039",
             "position": "55% 50%",
-            "isPlaceholder": true
+            "isPlaceholder": false
           },
-          "source": null,
+          "source": {
+            "src": "/media/cms-f81f702a-b1af-4444-a12b-037c3e93e54b.mp4",
+            "kind": "file",
+            "type": "video/mp4",
+            "assetId": "f81f702a-b1af-4444-a12b-037c3e93e54b"
+          },
           "duration": null,
           "isPlaceholder": true
         }
@@ -3986,13 +3985,17 @@
               "ar": "حامل محاليل وريدية يحمل كيس العلاج",
               "en": "An infusion stand holding an intravenous bag"
             },
-            "src": "/media/treatment-chemotherapy",
-            "credit": "Unsplash — https://images.unsplash.com/photo-1516574187841-cb9cc2ca948b",
-            "assetId": "6b3f4dff-dc1d-4eb5-90cf-a76234da6c4c",
+            "src": "/media/cms-b0efa39a-1584-4d82-bd7c-48317978d605",
+            "assetId": "b0efa39a-1584-4d82-bd7c-48317978d605",
             "position": "42% 50%",
-            "isPlaceholder": true
+            "isPlaceholder": false
           },
-          "source": null,
+          "source": {
+            "src": "/media/cms-055bd191-c161-476f-a2d2-d2e4dd9171a7.mp4",
+            "kind": "file",
+            "type": "video/mp4",
+            "assetId": "055bd191-c161-476f-a2d2-d2e4dd9171a7"
+          },
           "duration": null,
           "isPlaceholder": true
         }
@@ -4009,13 +4012,17 @@
               "ar": "صورة مجهرية لخلايا ملوّنة بالأزرق والأرجواني",
               "en": "Microscope image of cells stained blue and magenta"
             },
-            "src": "/media/treatment-immunotherapy",
-            "credit": "Unsplash — https://images.unsplash.com/photo-1576086213369-97a306d36557",
-            "assetId": "7a76c5c8-c098-4bd5-94e0-534275fdc813",
+            "src": "/media/cms-46182111-61da-4414-947b-66549b727218",
+            "assetId": "46182111-61da-4414-947b-66549b727218",
             "position": "50% 50%",
-            "isPlaceholder": true
+            "isPlaceholder": false
           },
-          "source": null,
+          "source": {
+            "src": "/media/cms-5dfc640a-da49-410b-8671-fa3997dc9aed.mp4",
+            "kind": "file",
+            "type": "video/mp4",
+            "assetId": "5dfc640a-da49-410b-8671-fa3997dc9aed"
+          },
           "duration": null,
           "isPlaceholder": true
         }
@@ -4032,13 +4039,17 @@
               "ar": "طبيبة تمسك سماعة طبية",
               "en": "A doctor holding a stethoscope"
             },
-            "src": "/media/video-side-effects",
-            "credit": "Unsplash — https://images.unsplash.com/photo-1638202993928-7267aad84c31",
-            "assetId": "856f56ad-6b4f-4a9c-8fae-4c5522a29f74",
+            "src": "/media/cms-6389b682-708b-40f6-a28e-22d39c31582b",
+            "assetId": "6389b682-708b-40f6-a28e-22d39c31582b",
             "position": "50% 35%",
-            "isPlaceholder": true
+            "isPlaceholder": false
           },
-          "source": null,
+          "source": {
+            "src": "/media/cms-261884d9-ff6d-4625-8ab2-67871d034429.mp4",
+            "kind": "file",
+            "type": "video/mp4",
+            "assetId": "261884d9-ff6d-4625-8ab2-67871d034429"
+          },
           "duration": null,
           "isPlaceholder": true
         }
@@ -4055,13 +4066,17 @@
               "ar": "طبق من الخضروات والبيض والتوفو المشوي",
               "en": "A bowl of vegetables, eggs and grilled tofu"
             },
-            "src": "/media/video-nutrition",
-            "credit": "Unsplash — https://images.unsplash.com/photo-1546069901-ba9599a7e63c",
-            "assetId": "319d5dec-e502-4fd7-8d3c-25e737c55874",
+            "src": "/media/cms-3c016802-5236-4ba4-938d-651ada31a011",
+            "assetId": "3c016802-5236-4ba4-938d-651ada31a011",
             "position": "50% 50%",
-            "isPlaceholder": true
+            "isPlaceholder": false
           },
-          "source": null,
+          "source": {
+            "src": "/media/cms-60451e32-dbd7-4f1d-9eb3-51b76982763e.mp4",
+            "kind": "file",
+            "type": "video/mp4",
+            "assetId": "60451e32-dbd7-4f1d-9eb3-51b76982763e"
+          },
           "duration": null,
           "isPlaceholder": true
         }
@@ -4078,13 +4093,17 @@
               "ar": "طبيب عاقد ذراعيه يمسك سماعة طبية حمراء",
               "en": "A doctor with arms crossed holding a red stethoscope"
             },
-            "src": "/media/video-second-opinion",
-            "credit": "Unsplash — https://images.unsplash.com/photo-1532938911079-1b06ac7ceec7",
-            "assetId": "39c8e1fa-88e4-46a9-b726-5f6acb5d0220",
+            "src": "/media/cms-e1f5fca2-057f-4244-b400-4f83ed781385",
+            "assetId": "e1f5fca2-057f-4244-b400-4f83ed781385",
             "position": "55% 50%",
-            "isPlaceholder": true
+            "isPlaceholder": false
           },
-          "source": null,
+          "source": {
+            "src": "/media/cms-55c4d2f5-64c7-43f0-9674-559dd0c84d49.mp4",
+            "kind": "file",
+            "type": "video/mp4",
+            "assetId": "55c4d2f5-64c7-43f0-9674-559dd0c84d49"
+          },
           "duration": null,
           "isPlaceholder": true
         }
@@ -4101,13 +4120,17 @@
               "ar": "مجموعة من الأشخاص يجلسون معًا متشابكي الأذرع",
               "en": "A group of people sitting together, arms around each other"
             },
-            "src": "/media/video-family",
-            "credit": "Unsplash — https://images.unsplash.com/photo-1529156069898-49953e39b3ac",
-            "assetId": "45f2586a-0781-4d90-8f33-63d97eea5c59",
+            "src": "/media/cms-085108a2-1a58-48b3-a9ca-6a4304f65506",
+            "assetId": "085108a2-1a58-48b3-a9ca-6a4304f65506",
             "position": "45% 50%",
-            "isPlaceholder": true
+            "isPlaceholder": false
           },
-          "source": null,
+          "source": {
+            "src": "/media/cms-30b00bbe-c817-4719-971c-549b7c919a0f.mp4",
+            "kind": "file",
+            "type": "video/mp4",
+            "assetId": "30b00bbe-c817-4719-971c-549b7c919a0f"
+          },
           "duration": null,
           "isPlaceholder": true
         }
@@ -4118,14 +4141,11 @@
         "slug": "review-1",
         "content": {
           "text": {
-            "ar": "هذه المساحة مخصصة لرأي موثّق من أحد المرضى، يُنشر بإذنه.",
-            "en": "This space is reserved for a verified patient review, shared with the patient’s permission."
+            "ar": "ربنا يحفظك ويزيدك من فضله الدكتور عثمان شاكر احسن دكتور جراحة عامة في مصر",
+            "en": "May God protect you and bless you abundantly. Dr. Osman Shaker is the best general surgeon in Egypt."
           },
-          "rating": null,
-          "reviewer": {
-            "ar": "رأي مريض · قريبًا",
-            "en": "Patient review · coming soon"
-          },
+          "rating": 5,
+          "reviewer": null,
           "isPlaceholder": true
         }
       },
@@ -4133,14 +4153,11 @@
         "slug": "review-2",
         "content": {
           "text": {
-            "ar": "ستظهر هنا تجارب حقيقية لمرضى وعائلاتهم بعد اعتمادها للنشر.",
-            "en": "Real experiences from patients and families will appear here once they are approved for publication."
+            "ar": "ربنا يبارك في عمر حضرتك وشكرا لذوقك  ووقت حضرتك قيمة وقامة ومتواضع شكرا لحضرتك يا دكتور",
+            "en": "May God bless you with a long life. Thank you for your kindness and valuable time. You are a truly distinguished and humble doctor. Thank you so much, Doctor."
           },
-          "rating": null,
-          "reviewer": {
-            "ar": "رأي مريض · قريبًا",
-            "en": "Patient review · coming soon"
-          },
+          "rating": 4,
+          "reviewer": null,
           "isPlaceholder": true
         }
       },
@@ -4148,14 +4165,11 @@
         "slug": "review-3",
         "content": {
           "text": {
-            "ar": "كل رأي في هذه الصفحة سيكون من مريض أو أحد أفراد عائلته مباشرة.",
-            "en": "Every review on this page will come directly from a patient or a family member."
+            "ar": "فعلا انا بتعالج عنده فوق الممتاز ويفهمك وعنده صبر  وكفاية اخلاقة ذادكم الله من علمه دكتوري الخلوق والممتاز",
+            "en": "I am actually receiving treatment from him, and he is beyond excellent. He explains everything clearly, is very patient, and has exceptional morals. May God bless him with even more knowledge. My kind and outstanding doctor."
           },
-          "rating": null,
-          "reviewer": {
-            "ar": "رأي مريض · قريبًا",
-            "en": "Patient review · coming soon"
-          },
+          "rating": 4,
+          "reviewer": null,
           "isPlaceholder": true
         }
       },
@@ -4163,14 +4177,11 @@
         "slug": "review-4",
         "content": {
           "text": {
-            "ar": "خصوصية المرضى أولًا؛ فلا تُعرض الأسماء إلا بموافقة صريحة.",
-            "en": "Patient privacy comes first — names are shown only with explicit consent."
+            "ar": "دكتور ممتاز جدا مشاءالله علية ربنا يزيده من فضله احسن دكتور جراحة في مصر  ",
+            "en": "An excellent doctor, Mashallah. May God continue to bless him with His grace. The best surgeon in Egypt."
           },
-          "rating": null,
-          "reviewer": {
-            "ar": "رأي مريض · قريبًا",
-            "en": "Patient review · coming soon"
-          },
+          "rating": 3,
+          "reviewer": null,
           "isPlaceholder": true
         }
       },
@@ -4178,14 +4189,11 @@
         "slug": "review-5",
         "content": {
           "text": {
-            "ar": "كل تجربة تُنشر هنا شخصية، فلكل مريض مسار رعاية مختلف.",
-            "en": "Each experience shared here is personal — every patient’s care is different."
+            "ar": "اشكر ك علي مساعدتي في الشعور بتحسن انت انسان خلوق ربنا يكرمك ويجعل عملك في ميزان حسناتك انا راضيه جدا بنتائج دكتور مستمع  وباله طويل وبيراعي الخوف اللي حاسين بيه وبيرد علي كل سوال شكرا جدا دكتور عثمان",
+            "en": "Thank you for helping me feel better. You are a truly kind and compassionate person. May God bless you and reward you for all your good deeds. I am very satisfied with the results. You are a doctor who listens carefully, is incredibly patient, understands our fears, and answers every question. Thank you so much, Dr. Osman."
           },
-          "rating": null,
-          "reviewer": {
-            "ar": "رأي مريض · قريبًا",
-            "en": "Patient review · coming soon"
-          },
+          "rating": 4,
+          "reviewer": null,
           "isPlaceholder": true
         }
       },
@@ -4193,14 +4201,11 @@
         "slug": "review-6",
         "content": {
           "text": {
-            "ar": "هل تودّ مشاركة تجربتك؟ يسعدنا تواصلك مع العيادة في أي وقت.",
-            "en": "Would you like to share your experience? You are welcome to contact the clinic at any time."
+            "ar": "بجد الف شكر لحضرتك دكتور ماشاءالله عليك بنتي هتفضل شايله جميلك طول العمر ربنا يكمل شفاها علي خير علي ايد حضرتك ربنا يبارك بصحتك وعلمك يارب ",
+            "en": "Thank you so much, Doctor. Mashallah, my daughter will always be grateful to you for everything you have done for her. May God grant her a full recovery through your care and bless you with good health and knowledge."
           },
-          "rating": null,
-          "reviewer": {
-            "ar": "رأي مريض · قريبًا",
-            "en": "Patient review · coming soon"
-          },
+          "rating": 4,
+          "reviewer": null,
           "isPlaceholder": true
         }
       },
@@ -4208,14 +4213,11 @@
         "slug": "review-7",
         "content": {
           "text": {
-            "ar": "ستعرض هذه البطاقة كلمات أحد المرضى بعد اعتماد رأيه للنشر.",
-            "en": "This card will show a patient’s own words once a review is approved for publication."
+            "ar": "دكتور فوق الممتاز وبيفهمك وعنده صبر وكفاية اخلاقة ذادكم الله من علمه دكتوري الخلوق اشطر وانجح دكتور ربنا يحفظ حضرتك",
+            "en": "An exceptional doctor who explains everything clearly, is very patient, and has outstanding morals. May God bless you with even more knowledge. My kind hearted doctor, the most skilled and successful doctor. May God always protect you."
           },
-          "rating": null,
-          "reviewer": {
-            "ar": "رأي مريض · قريبًا",
-            "en": "Patient review · coming soon"
-          },
+          "rating": 5,
+          "reviewer": null,
           "isPlaceholder": true
         }
       },
@@ -4223,14 +4225,11 @@
         "slug": "review-8",
         "content": {
           "text": {
-            "ar": "تجارب أفراد العائلة مرحّب بها أيضًا، وتُنشر بإذن أصحابها.",
-            "en": "Experiences shared by family members are welcome too, published with their permission."
+            "ar": "دكتور عثمان ممتاز جدا جدا ربنا يبارك فيه احسن دكتور جراحة عامة ربنا يزيدك من علمه يارب",
+            "en": "Dr. Osman is truly an outstanding doctor. May God bless him. He is the best general surgeon. May God continue to bless you with even more knowledge."
           },
-          "rating": null,
-          "reviewer": {
-            "ar": "رأي مريض · قريبًا",
-            "en": "Patient review · coming soon"
-          },
+          "rating": 4,
+          "reviewer": null,
           "isPlaceholder": true
         }
       },
@@ -4238,14 +4237,11 @@
         "slug": "review-9",
         "content": {
           "text": {
-            "ar": "ستظهر التقييمات بالنجوم كما يمنحها كل مريض تمامًا.",
-            "en": "Star ratings will appear exactly as each patient gives them."
+            "ar": "دكتورنا الماهر في عمله الخلوق ربنا يبارك في عملك وعلمك ويزيدك من فضله اشطر دكتور جراحه في مصر",
+            "en": "Our highly skilled and kind-hearted doctor. May God bless your work and knowledge and continue to shower you with His grace. The best surgeon in Egypt."
           },
-          "rating": null,
-          "reviewer": {
-            "ar": "رأي مريض · قريبًا",
-            "en": "Patient review · coming soon"
-          },
+          "rating": 5,
+          "reviewer": null,
           "isPlaceholder": true
         }
       }
@@ -5312,13 +5308,9 @@
     ]
   },
   "placeholders": [
-    "section about.hero",
     "section home.about",
     "section shared.cta",
     "section about.intro",
-    "section contact.hero",
-    "section reviews.hero",
-    "section articles.hero",
     "section services.hero",
     "section home.whyChoose",
     "section home.statistics",

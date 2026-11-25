@@ -98,6 +98,30 @@ export function SiteFooter({ locale, site }: SiteFooterProps) {
                     </a>
                   </li>
                 )}
+                {contact.clinic?.address && (
+                  <li>
+                    {contact.clinic.mapUrl ? (
+                      <a href={contact.clinic.mapUrl} className={styles.link} target="_blank" rel="noopener noreferrer">
+                        <Icon name="pin" size={18} />
+                        {contact.clinic.address}
+                        <span className="sr-only">{ui.opensInNewTab}</span>
+                      </a>
+                    ) : (
+                      <span className={styles.link}>
+                        <Icon name="pin" size={18} />
+                        {contact.clinic.address}
+                      </span>
+                    )}
+                  </li>
+                )}
+                {contact.clinic?.hours && (
+                  <li>
+                    <span className={styles.link}>
+                      <Icon name="clock" size={18} />
+                      {contact.clinic.hours}
+                    </span>
+                  </li>
+                )}
               </ul>
             </div>
           )}

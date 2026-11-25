@@ -19,7 +19,7 @@ type FeatureShowcaseProps = {
   variant: "framed" | "immersive";
 };
 
-/** Heading, five featured services and a link onward — homepage and About page. */
+/** Heading, one to five featured services (centred) and a link onward — homepage and About page. */
 export function FeatureShowcase({ id, locale, content, site, variant }: FeatureShowcaseProps) {
   const titleId = `${id}-title`;
 
@@ -29,7 +29,10 @@ export function FeatureShowcase({ id, locale, content, site, variant }: FeatureS
         <SectionHeading id={titleId} eyebrow={content.eyebrow} title={content.title} description={content.description} />
 
         <div className={styles.rail} role="region" aria-label={`${content.title} — ${site.ui.scrollHint}`} tabIndex={0}>
-          <ul className={cx(styles.track, variant === "immersive" && styles.immersiveTrack)}>
+          <ul
+            className={cx(styles.track, variant === "immersive" && styles.immersiveTrack)}
+            style={{ "--cards": Math.max(content.items.length, 1) } as CSSProperties}
+          >
             {content.items.map((card, index) => (
               <li key={card.id} data-reveal style={{ "--reveal-delay": index * 90 } as CSSProperties}>
                 <ServiceCard card={card} index={index} locale={locale} variant={variant} />

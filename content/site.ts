@@ -18,34 +18,52 @@ export const siteContent: SiteContent = {
   },
 
   contact: {
-    // PLACEHOLDER — an all-zero number that must be replaced with the clinic's verified number.
-    phone: { e164: "+201000000000", display: "+20 100 000 0000", isPlaceholder: true },
-    whatsapp: { e164: "+201000000000", display: "+20 100 000 0000", isPlaceholder: true },
+    phone: { e164: "+201558884480", display: "01558884480" },
+    whatsapp: { e164: "+201558884480", display: "01558884480" },
     whatsappMessage: {
       en: "Hello, I would like to book a consultation with Dr. Othman Shaker.",
       ar: "مرحبًا، أودّ حجز استشارة مع د. عثمان شاكر.",
     },
+    clinic: {
+      title: { en: "Visit the clinic", ar: "نورونا في العيادة" },
+      addressLabel: { en: "Address", ar: "العنوان" },
+      address: {
+        en: "86 Ahmed El-Zomor St., Zaker Hussein extension, opposite Al-Nahar Al-Wafaa Wal-Amal Hospital, above Sahm Electronics, Nasr City, Cairo",
+        ar: "86 شارع أحمد الزمر، امتداد ذاكر حسين، أمام مستشفى النهار الوفاء والأمل، أعلى سهم للأجهزة الإلكترونية، مدينة نصر، القاهرة",
+      },
+      mapUrl: "https://maps.app.goo.gl/oxncb71FgKVTt1fc9",
+      mapLabel: { en: "Open in Google Maps", ar: "افتح الموقع على الخريطة" },
+      phonesLabel: { en: "To book, call", ar: "للحجز كلمونا على" },
+      phones: [
+        { e164: "+20222733017", display: "22733017" },
+        { e164: "+2026708818", display: "026708818" },
+        { e164: "+201092374994", display: "01092374994" },
+        { e164: "+201558884480", display: "01558884480" },
+        { e164: "+201555694335", display: "01555694335" },
+      ],
+      hoursLabel: { en: "Hours", ar: "المواعيد" },
+      hours: { en: "Every day except Friday, 7 pm to 10 pm", ar: "جميع أيام الأسبوع من 7 م إلى 10 م، ماعدا الجمعة" },
+      feeLabel: { en: "Consultation fee", ar: "سعر الكشف" },
+      fee: { en: "500 EGP", ar: "500 جنيه" },
+    },
   },
 
-  // PLACEHOLDERS — platform home pages until the doctor's verified profiles are provided.
+  // Instagram and YouTube stay hidden (empty address) until the doctor's profiles are provided.
   socials: [
     {
       platform: "facebook",
       label: { en: "Facebook", ar: "فيسبوك" },
-      url: "https://www.facebook.com/",
-      isPlaceholder: true,
+      url: "https://www.facebook.com/osmanshaker83",
     },
     {
       platform: "instagram",
       label: { en: "Instagram", ar: "إنستغرام" },
-      url: "https://www.instagram.com/",
-      isPlaceholder: true,
+      url: "",
     },
     {
       platform: "youtube",
       label: { en: "YouTube", ar: "يوتيوب" },
-      url: "https://www.youtube.com/",
-      isPlaceholder: true,
+      url: "",
     },
   ],
 

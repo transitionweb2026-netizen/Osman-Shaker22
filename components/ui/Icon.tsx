@@ -17,7 +17,9 @@ export type IconName =
   | "quote"
   | "certificate"
   | "expand"
-  | "clock";
+  | "clock"
+  | "pin"
+  | "wallet";
 
 /** Icons that point along the reading direction and must mirror in Arabic. */
 const directional = new Set<IconName>(["arrow", "chevron", "menu", "quote"]);
@@ -83,6 +85,19 @@ const paths: Record<IconName, ReactNode> = {
     <>
       <circle cx="12" cy="12" r="8.5" />
       <path d="M12 7.5V12l3 2" />
+    </>
+  ),
+  pin: (
+    <>
+      <path d="M12 21s-6.5-5.6-6.5-11a6.5 6.5 0 0 1 13 0c0 5.4-6.5 11-6.5 11z" />
+      <circle cx="12" cy="10" r="2.4" />
+    </>
+  ),
+  wallet: (
+    <>
+      <rect x="3.5" y="6.5" width="17" height="12" rx="2.5" />
+      <path d="M3.5 10h17" />
+      <path d="M15.5 14.5h2" />
     </>
   ),
   consultation: (

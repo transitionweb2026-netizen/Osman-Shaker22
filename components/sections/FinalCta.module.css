@@ -84,6 +84,30 @@
   }
 }
 
+/*
+ * Phones and tablets, photo above the text: show the whole photo instead of a
+ * wide crop (which cut the head off portrait photos). Very tall uploads are
+ * capped; only the bottom edge fades into the card.
+ */
+@media (max-width: 1023px) {
+  .visual {
+    aspect-ratio: auto;
+    overflow: hidden;
+  }
+
+  .visual img {
+    display: block;
+    block-size: auto;
+    max-block-size: 80svh;
+  }
+
+  .visual::after {
+    background:
+      linear-gradient(180deg, transparent 72%, rgb(8 29 64 / 0.9)),
+      linear-gradient(130deg, rgb(12 68 132 / 0.25), transparent 55%, rgb(233 132 53 / 0.18));
+  }
+}
+
 @media (min-width: 1024px) {
   .card {
     grid-template-columns: minmax(0, 1.1fr) minmax(0, 0.9fr);

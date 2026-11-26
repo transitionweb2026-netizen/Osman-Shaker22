@@ -39,6 +39,15 @@ html[lang="ar"] .text {
   font-size: clamp(1.6rem, 1.1rem + 1.9vw, 2.65rem);
 }
 
+/* Longer feature quotations (over 110 / 200 characters) are set smaller */
+.feature.medium .text {
+  font-size: clamp(1.35rem, 1.05rem + 1.1vw, 2rem);
+}
+
+.feature.long .text {
+  font-size: clamp(1.15rem, 0.95rem + 0.8vw, 1.65rem);
+}
+
 /* Bare: no panel, so no inner padding or shadow */
 .bare {
   padding: 0;

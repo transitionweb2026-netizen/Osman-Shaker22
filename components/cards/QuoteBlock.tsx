@@ -20,7 +20,11 @@ type QuoteBlockProps = {
  * the wording has been approved (`attribution` is set in the content).
  */
 export function QuoteBlock({ eyebrow, quote, size = "default", bare = false, className }: QuoteBlockProps) {
-  const classes = cx(styles.quote, styles[size], bare && styles.bare, className);
+  // Feature quotations get smaller as they get longer, so the panel stays
+  // about as tall as the portrait beside it whatever the CMS text is.
+  const length = quote.text.trim().length;
+  const fit = size === "feature" && length > 200 ? styles.long : size === "feature" && length > 110 ? styles.medium : null;
+  const classes = cx(styles.quote, styles[size], fit, bare && styles.bare, className);
   const content = (
     <>
       <span className={styles.mark} aria-hidden="true">

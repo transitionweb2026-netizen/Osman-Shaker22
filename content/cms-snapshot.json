@@ -1,7 +1,7 @@
 {
   "enabled": true,
-  "syncedAt": "2026-11-25T14:11:54.022Z",
-  "version": "2026-11-25T14:07:21.954017+00:00",
+  "syncedAt": "2026-11-26T09:50:41.681Z",
+  "version": "2026-11-26T09:35:53.311088+00:00",
   "documents": {
     "home.faq": {
       "title": {
@@ -534,16 +534,16 @@
     },
     "about.career": {
       "title": {
-        "ar": "التأهيل والخبرة السريرية",
-        "en": "Training and clinical experience"
+        "ar": "التأهيل الأكاديمي والتخصص الجراحي",
+        "en": "Academic Training and Surgical Specialization"
       },
       "eyebrow": {
-        "ar": "المسيرة المهنية",
-        "en": "Professional journey"
+        "ar": "الخبرات المهنية",
+        "en": "Professional Experience"
       },
       "description": {
-        "ar": "أبرز محطات التعليم والمسيرة السريرية للدكتور عثمان شاكر.",
-        "en": "Key stages of Dr. Othman Shaker's education and clinical career."
+        "ar": "مؤهلات أكاديمية وخبرات جراحية تعكس مسيرة د. عثمان شاكر المهنية وتخصصه الطبي.",
+        "en": "Academic qualifications and surgical expertise reflecting Dr. Osman Shaker’s professional journey and medical specialization."
       }
     },
     "about.layout": {
@@ -1176,26 +1176,25 @@
     "about.philosophy": {
       "quote": {
         "text": {
-          "ar": "يستحق كل مريض أن يفهم مرضه، وأن يكون شريكًا في كل قرار، وأن يشعر بالدعم لا بالعلاج وحده.",
-          "en": "Every patient deserves to understand their illness, to take part in every decision, and to feel supported — not only treated."
+          "ar": "نؤمن بأن الرعاية الطبية تبدأ بفهم الإنسان قبل علاج المرض، وأن لكل مريض قصة تستحق الاستماع ومخاوف تستحق الاهتمام. لذلك، نحرص على تقديم رعاية جراحية تجمع بين الخبرة الطبية والاهتمام الإنساني، مع توضيح الخيارات العلاجية وتقديم الدعم والطمأنينة للمريض وأسرته طوال رحلته، منذ التشخيص وحتى التعافي.",
+          "en": "We believe medical care begins with understanding the person before treating the disease. Every story deserves to be heard, and every concern deserves attention. We combine surgical expertise with compassionate care, providing clear treatment guidance, support, and reassurance to patients and their families, from diagnosis to recovery."
         },
         "attribution": null,
         "isPlaceholder": true
       },
       "eyebrow": {
-        "ar": "فلسفة الرعاية",
-        "en": "Philosophy of care"
+        "ar": "رؤيتنا للرعاية الطبية",
+        "en": "Our Approach to Patient Care"
       },
       "portrait": {
         "alt": {
           "ar": "صورة شخصية لطبيب يرتدي نظارة ومعطفًا أبيض",
           "en": "Portrait of a doctor wearing glasses and a white coat"
         },
-        "src": "/media/doctor-portrait",
-        "credit": "Unsplash — https://images.unsplash.com/photo-1612531386530-97286d97c2d2",
-        "assetId": "cfa4e5f8-8682-4070-8556-ad67ad5104d1",
+        "src": "/media/cms-7d3b7728-ad56-41c2-9f7b-1250acdf6c80",
+        "assetId": "7d3b7728-ad56-41c2-9f7b-1250acdf6c80",
         "position": "50% 18%",
-        "isPlaceholder": true
+        "isPlaceholder": false
       }
     },
     "home.specialties": {
@@ -1415,16 +1414,16 @@
     },
     "about.certificates": {
       "title": {
-        "ar": "الشهادات",
-        "en": "Certificates"
+        "ar": "المؤهلات والشهادات العلمية",
+        "en": "Academic Qualifications & Certifications"
       },
       "eyebrow": {
-        "ar": "الشهادات والمؤهلات",
-        "en": "Certificates & qualifications"
+        "ar": "المسيرة الأكاديمية",
+        "en": "Academic Journey"
       },
       "description": {
-        "ar": "مختارات من الشهادات والمؤهلات المهنية.",
-        "en": "Selected certificates and professional qualifications."
+        "ar": "مسيرة علمية ترتكز على التخصص والخبرة والتطوير المستمر.",
+        "en": "An academic journey built on specialization, expertise, and continuous development."
       }
     },
     "settings.navigation": {
@@ -4435,20 +4434,20 @@
         "slug": "advanced-qualifications",
         "content": {
           "title": {
-            "ar": "المؤهلات المتقدمة",
-            "en": "Advanced qualifications"
+            "ar": "الدكتوراه في الجراحة العامة",
+            "en": "Doctorate in General Surgery (M.D.)"
           },
           "period": {
-            "ar": "قيد التأكيد",
-            "en": "To be confirmed"
+            "ar": "2019",
+            "en": "2019"
           },
           "description": {
-            "ar": "الدرجات العليا أو الزمالات أو شهادات البورد، حسب الحال.",
-            "en": "Postgraduate degrees, fellowships or board certifications, where applicable."
+            "ar": "",
+            "en": ""
           },
           "organization": {
-            "ar": "التفاصيل قيد التأكيد",
-            "en": "Details to be confirmed"
+            "ar": "كلية الطب البشري جامعة بنها",
+            "en": "Faculty of Medicine, Benha University"
           },
           "isPlaceholder": true
         }
@@ -4457,20 +4456,20 @@
         "slug": "current-practice",
         "content": {
           "title": {
-            "ar": "الممارسة السريرية الحالية",
-            "en": "Current clinical practice"
+            "ar": "التخصص في الجراحة العامة وجراحات الأورام والمناظير",
+            "en": "Specialization in General, Oncologic, and Laparoscopic Surgery"
           },
           "period": {
-            "ar": "قيد التأكيد",
-            "en": "To be confirmed"
+            "ar": "حاليًا",
+            "en": "Present"
           },
           "description": {
-            "ar": "استشارات الأورام وتخطيط العلاج والمتابعة.",
-            "en": "Oncology consultations, treatment planning and follow-up care."
+            "ar": "مسيرة مهنية تجمع بين التأهيل الأكاديمي والخبرة الجراحية في تشخيص وعلاج الحالات الجراحية المختلفة.",
+            "en": "A professional career combining academic qualifications and surgical expertise in diagnosing and treating various surgical conditions."
           },
           "organization": {
-            "ar": "العيادة أو المستشفى — قيد التأكيد",
-            "en": "Clinic or hospital — to be confirmed"
+            "ar": "دكتوراة في الجراحة العامة",
+            "en": "Doctorate in General Surgery (M.D.)"
           },
           "isPlaceholder": true
         }

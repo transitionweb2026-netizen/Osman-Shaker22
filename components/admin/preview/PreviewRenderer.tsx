@@ -19,7 +19,6 @@ import { FaqSection } from "@/components/sections/reviews/FaqSection";
 import { ReviewGrid } from "@/components/sections/reviews/ReviewGrid";
 import { ReviewsFaq } from "@/components/sections/ReviewsFaq";
 import { ServiceGroups } from "@/components/sections/services/ServiceGroups";
-import { Statistics } from "@/components/sections/Statistics";
 import { VideoGrid } from "@/components/sections/videos/VideoGrid";
 import { WhyChoose } from "@/components/sections/WhyChoose";
 import type { CatalogKey, ContentTree, DocumentKey } from "@/lib/cms/model";
@@ -62,7 +61,6 @@ function render(tree: ContentTree, message: PreviewMessage): ReactNode {
     "home.hero": () => <Hero locale={locale} content={home().hero} site={site} />,
     "home.introVideo": () => <IntroVideo content={home().introVideo} ui={site.ui} />,
     "home.about": () => <About locale={locale} content={home().about} site={site} />,
-    "home.statistics": () => <Statistics locale={locale} content={home().statistics} />,
     "home.specialties": () => (
       <FeatureShowcase id="specialties" variant="immersive" locale={locale} content={home().specialties} site={site} />
     ),

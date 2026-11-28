@@ -31,7 +31,6 @@ const previewDocuments = new Set<DocumentKey>([
   "home.hero",
   "home.introVideo",
   "home.about",
-  "home.statistics",
   "home.specialties",
   "home.treatments",
   "home.journey",

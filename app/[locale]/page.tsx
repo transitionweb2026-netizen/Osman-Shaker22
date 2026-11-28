@@ -10,7 +10,6 @@ import { Hero } from "@/components/sections/Hero";
 import { IntroVideo } from "@/components/sections/IntroVideo";
 import { PatientJourney } from "@/components/sections/PatientJourney";
 import { ReviewsFaq } from "@/components/sections/ReviewsFaq";
-import { Statistics } from "@/components/sections/Statistics";
 import { WhyChoose } from "@/components/sections/WhyChoose";
 import { getHome, getSite } from "@/lib/content";
 import { isLocale } from "@/lib/i18n";
@@ -43,7 +42,6 @@ export default async function HomePage({ params }: PageProps<"/[locale]">) {
   const sections: Record<HomeSectionId, ReactNode> = {
     introVideo: <IntroVideo content={home.introVideo} ui={site.ui} />,
     about: <About locale={locale} content={home.about} site={site} />,
-    statistics: <Statistics locale={locale} content={home.statistics} />,
     specialties: (
       <FeatureShowcase id="specialties" variant="immersive" locale={locale} content={home.specialties} site={site} />
     ),

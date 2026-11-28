@@ -190,7 +190,7 @@ is no longer used: delete those two Vault secrets and revoke the GitHub token.
 
 ## Limits and notes
 
-- The homepage structure (5 featured specialties, 5 treatments, the statistics) follows the approved design. The editors validate these counts.
+- The homepage structure (featured specialties and treatments) follows the approved design. The editors validate these counts.
 - Photos uploaded in the CMS are resized on request (WebP, 320–1920 px, never enlarged) and then cached by browsers and the CDN. The CMS itself shows the original file or its thumbnail.
 - Order changes and every other published change appear on the next visit after publishing.
 - The revision history keeps the 30 most recent versions of each record.

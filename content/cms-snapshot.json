@@ -1,7 +1,7 @@
 {
   "enabled": true,
-  "syncedAt": "2026-11-26T09:50:41.681Z",
-  "version": "2026-11-26T09:35:53.311088+00:00",
+  "syncedAt": "2026-11-27T18:06:20.560Z",
+  "version": "2026-11-26T16:36:47.120966+00:00",
   "documents": {
     "home.faq": {
       "title": {
@@ -2037,11 +2037,10 @@
               "ar": "حامل محاليل وريدية يحمل كيس العلاج",
               "en": "An infusion stand holding an intravenous bag"
             },
-            "src": "/media/treatment-chemotherapy",
-            "credit": "Unsplash — https://images.unsplash.com/photo-1516574187841-cb9cc2ca948b",
-            "assetId": "6b3f4dff-dc1d-4eb5-90cf-a76234da6c4c",
+            "src": "/media/cms-3bb9dd49-95b1-45f6-85e2-afac5a176672",
+            "assetId": "3bb9dd49-95b1-45f6-85e2-afac5a176672",
             "position": "50% 50%",
-            "isPlaceholder": true
+            "isPlaceholder": false
           },
           "title": {
             "ar": "العلاج حصوات المرارة",
@@ -2107,11 +2106,10 @@
               "ar": "صورة مجهرية لخلايا ملوّنة بالأزرق والأرجواني",
               "en": "Microscope image of cells stained blue and magenta"
             },
-            "src": "/media/treatment-immunotherapy",
-            "credit": "Unsplash — https://images.unsplash.com/photo-1576086213369-97a306d36557",
-            "assetId": "7a76c5c8-c098-4bd5-94e0-534275fdc813",
+            "src": "/media/cms-fb93b43d-1bfd-4a4b-b779-90a5bb7d2dd4",
+            "assetId": "fb93b43d-1bfd-4a4b-b779-90a5bb7d2dd4",
             "position": "50% 50%",
-            "isPlaceholder": true
+            "isPlaceholder": false
           },
           "title": {
             "ar": "التهاب المرارة",
@@ -2170,11 +2168,10 @@
               "ar": "كبسولات دوائية بجوار عبوة دواء على خلفية برتقالية",
               "en": "Capsules beside a medicine bottle on an orange background"
             },
-            "src": "/media/treatment-hormonal",
-            "credit": "Unsplash — https://images.unsplash.com/photo-1587854692152-cbe660dbde88",
-            "assetId": "bd46c518-4e71-45d9-beab-845fba0338eb",
+            "src": "/media/cms-bd3bc6d9-d2e8-4975-9180-34fe34b997f9",
+            "assetId": "bd3bc6d9-d2e8-4975-9180-34fe34b997f9",
             "position": "62% 50%",
-            "isPlaceholder": true
+            "isPlaceholder": false
           },
           "title": {
             "ar": "استئصال المرارة بالمنظار",
@@ -2231,11 +2228,10 @@
               "ar": "شخصان يمسكان بأيدي بعضهما في لفتة دعم ومساندة",
               "en": "Two people holding hands in support"
             },
-            "src": "/media/treatment-supportive",
-            "credit": "Unsplash — https://images.unsplash.com/photo-1584515933487-779824d29309",
-            "assetId": "ecaf7f62-4452-472e-b4ed-9666b38bee58",
+            "src": "/media/cms-17917b9b-06d6-4781-8df8-cb2552d5aeac",
+            "assetId": "17917b9b-06d6-4781-8df8-cb2552d5aeac",
             "position": "45% 50%",
-            "isPlaceholder": true
+            "isPlaceholder": false
           },
           "title": {
             "ar": "الحالات الصعبة من استئصال المرارة",
@@ -2725,9 +2721,9 @@
               "ar": "طبيبان يراجعان صورًا طبية على شاشات الحاسوب",
               "en": "Two doctors reviewing medical images on computer screens"
             },
-            "src": "/media/page-services",
-            "assetId": "a8cbbda9-720a-48db-9ee1-0e8ad399cbb6",
-            "isPlaceholder": true
+            "src": "/media/cms-cac116d2-3c09-46f9-a90b-1d03523a2bdc",
+            "assetId": "cac116d2-3c09-46f9-a90b-1d03523a2bdc",
+            "isPlaceholder": false
           },
           "title": {
             "ar": "التقييم الجراحي بعد سحب عينة الغدة الدرقية",
@@ -2786,11 +2782,10 @@
               "ar": "طبيبة تشرح صورة أشعة مقطعية معروضة على شاشة الحاسوب",
               "en": "A doctor explaining a CT scan displayed on a computer screen"
             },
-            "src": "/media/intro-video-poster",
-            "credit": "Unsplash — https://images.unsplash.com/photo-1666214280557-f1b5022eb634",
-            "assetId": "8e45b362-0d4b-4529-868e-7ac410c441a9",
+            "src": "/media/cms-b8d8d28a-41fd-4b11-be05-36670765efca",
+            "assetId": "b8d8d28a-41fd-4b11-be05-36670765efca",
             "position": "55% 45%",
-            "isPlaceholder": true
+            "isPlaceholder": false
           },
           "title": {
             "ar": "البواسير",
@@ -2851,11 +2846,10 @@
               "ar": "طبيب يفحص صور الأشعة على لوح الإضاءة",
               "en": "A doctor examining scan images on a light box"
             },
-            "src": "/media/specialty-thoracic",
-            "credit": "Unsplash — https://images.unsplash.com/photo-1581595219315-a187dd40c322",
-            "assetId": "6882b810-4069-487b-b2ab-3c4d4aee3756",
+            "src": "/media/cms-c33c90e1-66aa-4f19-b54e-09fd9aff6114",
+            "assetId": "c33c90e1-66aa-4f19-b54e-09fd9aff6114",
             "position": "60% 35%",
-            "isPlaceholder": true
+            "isPlaceholder": false
           },
           "title": {
             "ar": "الشرخ الشرجي",
@@ -2916,11 +2910,10 @@
               "ar": "طبيبان يراجعان صورًا طبية على شاشات الحاسوب",
               "en": "Two doctors reviewing medical images on computer screens"
             },
-            "src": "/media/page-services",
-            "credit": "Unsplash — https://images.unsplash.com/photo-1666214280391-8ff5bd3c0bf0",
-            "assetId": "a8cbbda9-720a-48db-9ee1-0e8ad399cbb6",
+            "src": "/media/cms-930b36be-58b6-459d-8d5c-8851c8fe6694",
+            "assetId": "930b36be-58b6-459d-8d5c-8851c8fe6694",
             "position": "70% 35%",
-            "isPlaceholder": true,
+            "isPlaceholder": false,
             "positionMobile": "75% 30%"
           },
           "title": {
@@ -2984,9 +2977,9 @@
               "ar": "طبيبان يناقشان صورًا طبية على الشاشة",
               "en": "Two doctors discussing medical images on a monitor"
             },
-            "src": "/media/specialty-gastrointestinal",
-            "assetId": "525b44fb-2e95-4978-b369-d7f88d54b40e",
-            "isPlaceholder": true
+            "src": "/media/cms-11e05bb1-ad91-4c1f-bf6f-eb2089d4fecb",
+            "assetId": "11e05bb1-ad91-4c1f-bf6f-eb2089d4fecb",
+            "isPlaceholder": false
           },
           "title": {
             "ar": "الناسور العصعصي",
@@ -3051,11 +3044,10 @@
               "ar": "طبيبان يناقشان صورًا طبية على الشاشة",
               "en": "Two doctors discussing medical images on a monitor"
             },
-            "src": "/media/specialty-gastrointestinal",
-            "credit": "Unsplash — https://images.unsplash.com/photo-1666214280391-8ff5bd3c0bf0",
-            "assetId": "525b44fb-2e95-4978-b369-d7f88d54b40e",
+            "src": "/media/cms-6b67172f-6941-4c00-af03-90ba6b504a33",
+            "assetId": "6b67172f-6941-4c00-af03-90ba6b504a33",
             "position": "68% 40%",
-            "isPlaceholder": true
+            "isPlaceholder": false
           },
           "title": {
             "ar": "جراحات البطن بالمنظار",
@@ -3114,11 +3106,10 @@
               "ar": "كبسولات دوائية بجوار عبوة دواء على خلفية برتقالية",
               "en": "Capsules beside a medicine bottle on an orange background"
             },
-            "src": "/media/treatment-hormonal",
-            "credit": "Unsplash — https://images.unsplash.com/photo-1587854692152-cbe660dbde88",
-            "assetId": "bd46c518-4e71-45d9-beab-845fba0338eb",
+            "src": "/media/cms-501d68db-1160-4bb4-b74c-2428a4bce8a4",
+            "assetId": "501d68db-1160-4bb4-b74c-2428a4bce8a4",
             "position": "62% 50%",
-            "isPlaceholder": true
+            "isPlaceholder": false
           },
           "title": {
             "ar": "الحالات التي تتطلب خبرة متقدمة في المنظار",
@@ -3177,11 +3168,10 @@
               "ar": "صيدلي يراجع عبوة دواء",
               "en": "A pharmacist reviewing a medicine bottle"
             },
-            "src": "/media/video-medications",
-            "credit": "Unsplash — https://images.unsplash.com/photo-1580281658626-ee379f3cce93",
-            "assetId": "fd6ed902-819b-415b-a2ac-0ff28de0872c",
+            "src": "/media/cms-1603f93b-ffdc-4301-8ae5-cbba9b40340e",
+            "assetId": "1603f93b-ffdc-4301-8ae5-cbba9b40340e",
             "position": "50% 30%",
-            "isPlaceholder": true
+            "isPlaceholder": false
           },
           "title": {
             "ar": "استئصال أورام الجهاز الهضمي بالمنظار",
@@ -3240,11 +3230,10 @@
               "ar": "أخصائية تقيس ضغط الدم لمريضة خلال زيارتها",
               "en": "A clinician measuring a patient's blood pressure during a visit"
             },
-            "src": "/media/cta-consultation",
-            "credit": "Unsplash — https://images.unsplash.com/photo-1631815589968-fdb09a223b1e",
-            "assetId": "abcd87d6-5b17-4537-9561-a7d97d010da1",
+            "src": "/media/cms-b220d18d-8385-44a9-9c59-4732dcb248b6",
+            "assetId": "b220d18d-8385-44a9-9c59-4732dcb248b6",
             "position": "40% 35%",
-            "isPlaceholder": true
+            "isPlaceholder": false
           },
           "title": {
             "ar": "استئصال أورام القولون بالمنظار",
@@ -4479,10 +4468,18 @@
       {
         "slug": "certificate-1",
         "content": {
-          "image": null,
+          "image": {
+            "alt": {
+              "ar": "Master’s Degree in Surgery",
+              "en": "ماجستير في الجراحة"
+            },
+            "src": "/media/cms-4b905d65-a949-4bc4-af4d-143c203acee5",
+            "assetId": "4b905d65-a949-4bc4-af4d-143c203acee5",
+            "isPlaceholder": false
+          },
           "title": {
-            "ar": "الشهادة 1 (بانتظار التزويد)",
-            "en": "Certificate 1 (to be provided)"
+            "ar": "ماجستير في الجراحة",
+            "en": "Master’s Degree in Surgery"
           },
           "isPlaceholder": true
         }
@@ -4490,10 +4487,18 @@
       {
         "slug": "certificate-2",
         "content": {
-          "image": null,
+          "image": {
+            "alt": {
+              "ar": "دكتوراه في الجراحة العامة",
+              "en": "M.D. in General Surgery"
+            },
+            "src": "/media/cms-c3728345-f96b-4865-9438-fed9b0e501f7",
+            "assetId": "c3728345-f96b-4865-9438-fed9b0e501f7",
+            "isPlaceholder": false
+          },
           "title": {
-            "ar": "الشهادة 2 (بانتظار التزويد)",
-            "en": "Certificate 2 (to be provided)"
+            "ar": "دكتوراه في الجراحة العامة",
+            "en": "M.D. in General Surgery"
           },
           "isPlaceholder": true
         }
@@ -4501,10 +4506,18 @@
       {
         "slug": "certificate-3",
         "content": {
-          "image": null,
+          "image": {
+            "alt": {
+              "ar": "شهادة إتمام الامتياز الطبي",
+              "en": "Medical Internship Completion Certificate"
+            },
+            "src": "/media/cms-cae037e8-5fc7-4fa7-8e8b-da0ba1cae8d5",
+            "assetId": "cae037e8-5fc7-4fa7-8e8b-da0ba1cae8d5",
+            "isPlaceholder": false
+          },
           "title": {
-            "ar": "الشهادة 3 (بانتظار التزويد)",
-            "en": "Certificate 3 (to be provided)"
+            "ar": "شهادة إتمام الامتياز الطبي",
+            "en": "Medical Internship Completion Certificate"
           },
           "isPlaceholder": true
         }
@@ -4512,32 +4525,18 @@
       {
         "slug": "certificate-4",
         "content": {
-          "image": null,
-          "title": {
-            "ar": "الشهادة 4 (بانتظار التزويد)",
-            "en": "Certificate 4 (to be provided)"
+          "image": {
+            "alt": {
+              "ar": "بكالوريوس الطب والجراحة",
+              "en": "Bachelor of Medicine and Surgery (MBBCh)"
+            },
+            "src": "/media/cms-8c9557c5-a78c-4618-8a35-ec0343762508",
+            "assetId": "8c9557c5-a78c-4618-8a35-ec0343762508",
+            "isPlaceholder": false
           },
-          "isPlaceholder": true
-        }
-      },
-      {
-        "slug": "certificate-5",
-        "content": {
-          "image": null,
           "title": {
-            "ar": "الشهادة 5 (بانتظار التزويد)",
-            "en": "Certificate 5 (to be provided)"
-          },
-          "isPlaceholder": true
-        }
-      },
-      {
-        "slug": "certificate-6",
-        "content": {
-          "image": null,
-          "title": {
-            "ar": "الشهادة 6 (بانتظار التزويد)",
-            "en": "Certificate 6 (to be provided)"
+            "ar": "بكالوريوس الطب والجراحة",
+            "en": "Bachelor of Medicine and Surgery (MBBCh)"
           },
           "isPlaceholder": true
         }
@@ -4614,8 +4613,6 @@
     "certificates \"certificate-1\"",
     "certificates \"certificate-2\"",
     "certificates \"certificate-3\"",
-    "certificates \"certificate-4\"",
-    "certificates \"certificate-5\"",
-    "certificates \"certificate-6\""
+    "certificates \"certificate-4\""
   ]
 }

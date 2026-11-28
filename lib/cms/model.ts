@@ -123,7 +123,6 @@ export const documentBindings = {
   "home.hero": whole("home", "hero"),
   "home.introVideo": some((t) => t.home.introVideo, ["eyebrow", "title", "description"]),
   "home.about": whole("home", "about"),
-  "home.statistics": whole("home", "statistics"),
   "home.specialties": whole("home", "specialties"),
   "home.treatments": whole("home", "treatments"),
   "home.journey": whole("home", "journey"),

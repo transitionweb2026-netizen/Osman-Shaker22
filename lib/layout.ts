@@ -10,7 +10,6 @@ import type {
 export const HOME_SECTIONS: readonly HomeSectionId[] = [
   "introVideo",
   "about",
-  "statistics",
   "specialties",
   "treatments",
   "journey",

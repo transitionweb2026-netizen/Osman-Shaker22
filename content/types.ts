@@ -91,7 +91,6 @@ export type PageLayout<Id extends string = string> = { sections: { id: Id; hidde
 export type HomeSectionId =
   | "introVideo"
   | "about"
-  | "statistics"
   | "specialties"
   | "treatments"
   | "journey"
@@ -105,14 +104,6 @@ export type AboutSectionId = "intro" | "specialties" | "career" | "certificates"
 export type ServicesSectionId = "groups" | "cta";
 
 export type ReviewsSectionId = "reviews" | "faq";
-
-export type Statistic = Placeholder & {
-  id: string;
-  value: number;
-  /** Appended to the number, e.g. `"+"`. */
-  suffix?: string;
-  label: Localized;
-};
 
 export type JourneyIcon = "consultation" | "evaluation" | "discussion" | "plan" | "followUp";
 
@@ -368,7 +359,6 @@ export type HomePageContent = {
       cta: Cta;
       portrait: MediaAsset;
     };
-  statistics: SectionIntro & { items: Statistic[] };
   specialties: FeaturedServices;
   treatments: FeaturedServices;
   journey: SectionIntro & { steps: JourneyStep[]; note: Localized; cta: Cta };

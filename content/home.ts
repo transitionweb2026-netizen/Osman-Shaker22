@@ -35,7 +35,6 @@ export const homeContent: HomePageContent = {
     sections: [
       { id: "introVideo" },
       { id: "about" },
-      { id: "statistics" },
       { id: "specialties" },
       { id: "treatments" },
       { id: "journey" },
@@ -88,40 +87,6 @@ export const homeContent: HomePageContent = {
     cta: { label: { en: "More about Dr. Othman", ar: "المزيد عن د. عثمان" }, action: { kind: "page", route: "about" } },
     portrait: doctorPortrait,
     isPlaceholder: true,
-  },
-
-  statistics: {
-    eyebrow: { en: "At a glance", ar: "لمحة سريعة" },
-    title: { en: "Care built on experience and attention", ar: "رعاية قوامها الخبرة والاهتمام" },
-    // PLACEHOLDER figures — replace with verified numbers (or remove) before publication.
-    items: [
-      {
-        id: "experience",
-        value: 15,
-        suffix: "+",
-        label: { en: "Years of clinical experience", ar: "عامًا من الخبرة السريرية" },
-        isPlaceholder: true,
-      },
-      {
-        id: "consultations",
-        value: 5000,
-        suffix: "+",
-        label: { en: "Patient consultations", ar: "استشارة طبية" },
-        isPlaceholder: true,
-      },
-      {
-        id: "specialties",
-        value: 5,
-        label: { en: "Specialty areas", ar: "مجالات تخصص" },
-        isPlaceholder: true,
-      },
-      {
-        id: "treatments",
-        value: 5,
-        label: { en: "Treatment approaches", ar: "أساليب علاجية" },
-        isPlaceholder: true,
-      },
-    ],
   },
 
   specialties: {

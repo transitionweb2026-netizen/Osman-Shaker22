@@ -374,7 +374,6 @@ export const documents: Record<DocumentKey, DocumentDef> = {
         sections: [
           { id: "introVideo", label: L("Introduction video", "فيديو التعريف") },
           { id: "about", label: L("About the doctor", "عن الطبيب") },
-          { id: "statistics", label: L("Statistics", "الأرقام") },
           { id: "specialties", label: L("Featured specialties", "التخصصات المختارة") },
           { id: "treatments", label: L("Featured treatments", "العلاجات المختارة") },
           { id: "journey", label: L("Patient journey", "رحلة المريض") },
@@ -403,31 +402,6 @@ export const documents: Record<DocumentKey, DocumentDef> = {
       cta(),
       image("portrait", L("Portrait", "الصورة الشخصية")),
       placeholder,
-    ],
-  },
-  "home.statistics": {
-    label: L("Statistics", "الأرقام"),
-    description: L("Only publish verified figures.", "انشر الأرقام الموثّقة فقط."),
-    preview: true,
-    fields: [
-      eyebrow,
-      title,
-      {
-        type: "list",
-        key: "items",
-        label: L("Figures", "الأرقام"),
-        min: 1,
-        max: 4,
-        addLabel: L("Add a figure", "إضافة رقم"),
-        itemTitle: (item) => labelOf(item, "label"),
-        newItem: () => ({ id: newId(), value: 0, label: { en: "", ar: "" }, isPlaceholder: true }),
-        fields: [
-          { type: "number", key: "value", label: L("Number", "الرقم"), min: 0, integer: true },
-          plain("suffix", L("After the number (e.g. +)", "بعد الرقم (مثل +)"), { max: 3 }),
-          text("label", L("Label", "التسمية"), { required: true, max: 60 }),
-          placeholder,
-        ],
-      },
     ],
   },
   "home.specialties": {
@@ -973,7 +947,6 @@ export const pages: PageDef[] = [
       { label: L("Hero", "الواجهة"), documents: ["home.hero"] },
       { id: "introVideo", label: L("Introduction video", "فيديو التعريف"), documents: ["home.introVideo", "shared.introVideo"] },
       { id: "about", label: L("About the doctor", "عن الطبيب"), documents: ["home.about"] },
-      { id: "statistics", label: L("Statistics", "الأرقام"), documents: ["home.statistics"] },
       { id: "specialties", label: L("Featured specialties", "التخصصات المختارة"), documents: ["home.specialties"], catalogs: ["services"] },
       { id: "treatments", label: L("Featured treatments", "العلاجات المختارة"), documents: ["home.treatments"], catalogs: ["services"] },
       { id: "journey", label: L("Patient journey", "رحلة المريض"), documents: ["home.journey"] },
